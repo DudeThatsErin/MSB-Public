@@ -1,0 +1,9 @@
+{
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false,
+  "propertiesInDocument": "hidden",
+  "readableLineLength": false,
+  "attachmentFolderPath": "./00-assets",
+  "showUnsupportedFiles": true,
+  "newFileLocation": "current"
+}
