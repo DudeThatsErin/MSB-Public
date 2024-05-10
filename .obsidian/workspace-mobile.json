@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "657e2c32a6174106",
+    "id": "e690eae888bf4e13",
     "type": "split",
     "children": [
       {
-        "id": "cd14b77ad505f949",
+        "id": "1e2cb6353a79fd42",
         "type": "tabs",
         "children": [
           {
-            "id": "a70acc10afbf55a9",
+            "id": "4629a401d7f75cb2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SCRATCHPAD.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,7 +65,7 @@
         }
       },
       {
-        "id": "71ccf295b29b167e",
+        "id": "0d819770bd2752a0",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "SCRATCHPAD.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -92,11 +97,12 @@
         }
       },
       {
-        "id": "1a68a809d3335fc2",
+        "id": "0cb99a5e2be59b9f",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "SCRATCHPAD.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "SCRATCHPAD.md"
+          }
         }
       }
     ],
@@ -124,5 +132,52 @@
     }
   },
   "active": "4629a401d7f75cb2",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Daily Notes/2024/03-March/00-assets/2024-03-14-Thursday_1.png",
+    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311154346.png",
+    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311155225.png",
+    "Daily Notes/2024/03-March/00-assets/2024-03-06-got-job.png",
+    "Daily Notes/2024/01-Jan/00-assets/updated-dark-mode.png",
+    "Daily Notes/2024/01-Jan/00-assets/Things3Areas.png",
+    "Daily Notes/2024/01-Jan/00-assets/current-light-mode.png",
+    "Daily Notes/2024/01-Jan/00-assets/Countdown-Deadlines.png",
+    "Daily Notes/2024/01-Jan/00-assets/Reminders-Lists.png",
+    "Daily Notes/2024/01-Jan/00-assets/current-dark-with-right-sidebar.png",
+    "Daily Notes/2024/01-Jan/00-assets/convo-28-2024.png",
+    "Daily Notes/2018/12-Dec/2018-12-18.md",
+    "Daily Notes/2020/02-Feb/2020-02-04.md",
+    "Daily Notes/2020/08-Aug/2020-08-11.md",
+    "Daily Notes/2021/10-Oct/2021-10-26.md",
+    "Daily Notes/2021/10-Oct/2021-10-07.md",
+    "Daily Notes/2021/10-Oct/2021-10-05.md",
+    "Daily Notes/2021/09-Sept/2021-09-21.md",
+    "Daily Notes/2021/11-Nov/2021-11-10.md",
+    "Daily Notes/2019/09-Sept/2019-09-02.md",
+    "Daily Notes/2019/04-April/2019-04-10.md",
+    "Daily Notes/2017/10-Oct/2017-10-30.md",
+    "Daily Notes/2017/11-Nov/2017-11-02.md",
+    "Daily Notes/2017/11-Nov/2017-11-09.md",
+    "Daily Notes/2017/12-Dec/2017-12-23.md",
+    "Daily Notes/2015/03-March/2015-03-28.md",
+    "Daily Notes/2015/04-April/2015-04-02.md",
+    "Daily Notes/2023/03-March/2023-03-01.md",
+    "Daily Notes/2023/03-March/2023-03-14.md",
+    "Daily Notes/2023/01-Jan/2023-01-17.md",
+    "Daily Notes/2023/01-Jan/Week of 25-01-2023.md",
+    "Daily Notes/2023/01-Jan/2023-01-31.md",
+    "Daily Notes/2023/01-Jan/2023-01-05.md",
+    "Daily Notes/2023/01-Jan/2023-01-11.md",
+    "Daily Notes/2023/09-Sept/2023-09-30.md",
+    "Daily Notes/2023/09-Sept/2023-09-28.md",
+    "Daily Notes/2023/12-Dec/12-10-2023.pdf",
+    "Daily Notes/2024/03-March/Bills _ Subscriptions.pdf",
+    "Daily Notes/2024/03-March/00-assets",
+    "Daily Notes/2024/01-Jan/2024-01-24.md-2",
+    "Daily Notes/2024/01-Jan/2024-01-29.md-2",
+    "Daily Notes/2024/01-Jan/00-assets",
+    "Daily Notes/2024/02-Feb/2024-02-14",
+    "Daily Notes/2024/02-Feb/00-assets",
+    "Daily Notes/2013/08-Aug/00-assets",
+    "Daily Notes/2018/12-Dec"
+  ]
 }
