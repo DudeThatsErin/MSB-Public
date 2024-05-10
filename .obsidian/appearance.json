@@ -1,3 +1,14 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "custom-rainbow-folders",
+    "custom-callouts",
+    "custom-checkboxes",
+    "custom-film-callouts",
+    "custom-vault-icon-annu",
+    "extended-colors-annu",
+    "sync-icon-always-visible-mobile",
+    "update-lp-footnotes"
+  ]
 }
