@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "657e2c32a6174106",
+    "id": "e690eae888bf4e13",
     "type": "split",
     "children": [
       {
-        "id": "cd14b77ad505f949",
+        "id": "1e2cb6353a79fd42",
         "type": "tabs",
         "children": [
           {
-            "id": "a70acc10afbf55a9",
+            "id": "4629a401d7f75cb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,7 +65,7 @@
         }
       },
       {
-        "id": "71ccf295b29b167e",
+        "id": "0d819770bd2752a0",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -97,7 +97,7 @@
         }
       },
       {
-        "id": "1a68a809d3335fc2",
+        "id": "0cb99a5e2be59b9f",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
@@ -116,14 +116,6 @@
           "state": {
             "file": "SCRATCHPAD.md"
           }
-        }
-      },
-      {
-        "id": "5d1e0f12f4d821d8",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
         }
       }
     ],
