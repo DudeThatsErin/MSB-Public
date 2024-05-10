@@ -1,0 +1,22 @@
+{
+  "accentColor": "",
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "custom-rainbow-folders",
+    "custom-callouts",
+    "custom-checkboxes",
+    "custom-film-callouts",
+    "custom-rainbow-folders-bg-only",
+    "custom-vault-icon-annu",
+    "extended-colors-annu",
+    "sync-icon-always-visible-mobile",
+    "update-lp-footnotes"
+  ],
+  "showViewHeader": true,
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "Courier New",
+  "textFontFamily": "Adelle Sans Devanagari",
+  "baseFontSizeAction": true,
+  "baseFontSize": 12
+}
