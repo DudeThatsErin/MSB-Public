@@ -365,7 +365,8 @@
   },
   "debugSettings": {
     "ignoreSortInstructions": false,
-    "showTaskHiddenData": false
+    "showTaskHiddenData": false,
+    "recordTimings": false
   },
   "loggingOptions": {
     "minLevels": {

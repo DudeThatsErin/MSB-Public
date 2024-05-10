@@ -11,8 +11,12 @@
             "id": "a70acc10afbf55a9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SCRATCHPAD.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,11 +25,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0b18c5a8a91b4f6a",
+    "id": "67b46f191352c1ae",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "a802b1b352dc379b",
+        "id": "fb4ff61aa7ec3b57",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -35,7 +39,7 @@
         }
       },
       {
-        "id": "fd45c844c7fcaafd",
+        "id": "c9b5303c9e2a9e88",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -50,7 +54,7 @@
         }
       },
       {
-        "id": "9bd58262f5f990e3",
+        "id": "1a0b27c6b803f837",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -72,15 +76,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "3bc2c883eeb8f72a",
+    "id": "ee35ac6f6142f05c",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "108df1815a2bdfc6",
+        "id": "050d553d9bbbbba7",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
+            "file": "SCRATCHPAD.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,16 +102,27 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "SCRATCHPAD.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "8273ac751aee0c5d",
+        "id": "610fb276c87a5357",
         "type": "leaf",
         "state": {
           "type": "outline",
+          "state": {
+            "file": "SCRATCHPAD.md"
+          }
+        }
+      },
+      {
+        "id": "5d1e0f12f4d821d8",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
           "state": {}
         }
       }
@@ -120,9 +136,61 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-omnivore:Omnivore": false,
+      "templater-obsidian:Templater": false,
+      "handwritten-notes:Create empty handwritten note": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "4629a401d7f75cb2",
-  "lastOpenFiles": []
+  "active": "a70acc10afbf55a9",
+  "lastOpenFiles": [
+    "Daily Notes/2024/03-March/00-assets/2024-03-14-Thursday_1.png",
+    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311154346.png",
+    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311155225.png",
+    "Daily Notes/2024/03-March/00-assets/2024-03-06-got-job.png",
+    "Daily Notes/2024/01-Jan/00-assets/updated-dark-mode.png",
+    "Daily Notes/2024/01-Jan/00-assets/Things3Areas.png",
+    "Daily Notes/2024/01-Jan/00-assets/current-light-mode.png",
+    "Daily Notes/2024/01-Jan/00-assets/Countdown-Deadlines.png",
+    "Daily Notes/2024/01-Jan/00-assets/Reminders-Lists.png",
+    "Daily Notes/2024/01-Jan/00-assets/current-dark-with-right-sidebar.png",
+    "Daily Notes/2024/01-Jan/00-assets/convo-28-2024.png",
+    "Daily Notes/2018/12-Dec/2018-12-18.md",
+    "Daily Notes/2020/02-Feb/2020-02-04.md",
+    "Daily Notes/2020/08-Aug/2020-08-11.md",
+    "Daily Notes/2021/10-Oct/2021-10-26.md",
+    "Daily Notes/2021/10-Oct/2021-10-07.md",
+    "Daily Notes/2021/10-Oct/2021-10-05.md",
+    "Daily Notes/2021/09-Sept/2021-09-21.md",
+    "Daily Notes/2021/11-Nov/2021-11-10.md",
+    "Daily Notes/2019/09-Sept/2019-09-02.md",
+    "Daily Notes/2019/04-April/2019-04-10.md",
+    "Daily Notes/2017/10-Oct/2017-10-30.md",
+    "Daily Notes/2017/11-Nov/2017-11-02.md",
+    "Daily Notes/2017/11-Nov/2017-11-09.md",
+    "Daily Notes/2017/12-Dec/2017-12-23.md",
+    "Daily Notes/2015/03-March/2015-03-28.md",
+    "Daily Notes/2015/04-April/2015-04-02.md",
+    "Daily Notes/2023/03-March/2023-03-01.md",
+    "Daily Notes/2023/03-March/2023-03-14.md",
+    "Daily Notes/2023/01-Jan/2023-01-17.md",
+    "Daily Notes/2023/01-Jan/Week of 25-01-2023.md",
+    "Daily Notes/2023/01-Jan/2023-01-31.md",
+    "Daily Notes/2023/01-Jan/2023-01-05.md",
+    "Daily Notes/2023/01-Jan/2023-01-11.md",
+    "Daily Notes/2023/09-Sept/2023-09-30.md",
+    "Daily Notes/2023/09-Sept/2023-09-28.md",
+    "Daily Notes/2023/12-Dec/12-10-2023.pdf",
+    "Daily Notes/2024/03-March/Bills _ Subscriptions.pdf",
+    "Daily Notes/2024/03-March/00-assets",
+    "Daily Notes/2024/01-Jan/2024-01-24.md-2",
+    "Daily Notes/2024/01-Jan/2024-01-29.md-2",
+    "Daily Notes/2024/01-Jan/00-assets",
+    "Daily Notes/2024/02-Feb/2024-02-14",
+    "Daily Notes/2024/02-Feb/00-assets",
+    "Daily Notes/2013/08-Aug/00-assets",
+    "Daily Notes/2018/12-Dec"
+  ]
 }
