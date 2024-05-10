@@ -1,0 +1,9 @@
+body.minimal-theme .obsidian-banner-wrapper.with-banner:not(.in-internal-embed) {
+	width: calc(100% + 2 * var(--size-4-12)); 
+	margin: calc(-1 * var(--size-4-2)) calc(-1 * var(--size-4-12));
+	margin-bottom: var(--size-4-2);
+}
+
+body.minimal-theme .banner-header.with-banner {
+    padding: 0 var(--size-4-12);
+}

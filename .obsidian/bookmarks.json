@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1710189590546,
+      "path": "Tasks/Finances/Bills/Bills.loom",
+      "title": "Bills"
+    },
+    {
+      "type": "file",
+      "ctime": 1710189605398,
+      "path": "Tasks/Finances/Subscriptions/Subscriptions.loom",
+      "title": "Subscriptions"
+    },
+    {
+      "type": "file",
+      "ctime": 1711058333012,
+      "path": "Projects/Projects.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1711058344768,
+      "path": "Tasks/Chores/Chores Kanban.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1711142803543,
+      "path": "Tasks/Finances/Finances.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1711143761173,
+      "path": "Tasks/Finances.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1711329825906,
+      "path": "Obsidian Setup/Moonstone.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1711329828655,
+      "path": "Obsidian Setup/Notes.md"
+    }
+  ]
+}

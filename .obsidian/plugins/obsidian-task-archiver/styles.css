@@ -1,0 +1,108 @@
+.archiver-settings textarea {
+    resize: none;
+}
+
+.archiver-settings .wide-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+    align-items: stretch;
+}
+
+.archiver-setting-group > * {
+    padding-right: 0.75em;
+    padding-left: 0.75em;
+}
+
+.archiver-setting-group > *:first-child {
+    padding-top: 0.75em;
+}
+
+.archiver-settings .wide-input .setting-item-control > * {
+    flex-grow: 1;
+}
+
+.archiver-settings .setting-item:only-child {
+    padding: 0;
+}
+
+.archiver-setting-sub-item {
+    padding: 0.75em 0 0.75em 2em;
+}
+
+.archiver-placeholders-description {
+    vertical-align: top;
+}
+
+.archiver-rule-container {
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid var(--interactive-accent);
+    border-radius: 10px;
+}
+
+.archiver-status-examples {
+    list-style: none;
+}
+
+.archiver-accordion {
+    width: 100%;
+    border: 2px solid var(--background-modifier-border);
+}
+
+.archiver-accordion:last-child {
+    margin-bottom: 0;
+}
+
+.archiver-panel {
+    display: none;
+    padding-top: 0.75em;
+    transition: max-height 0.2s ease-out;
+}
+
+.archiver-active {
+    display: block;
+}
+
+.archiver-rule-paths {
+    height: calc(var(--input-height) * 2);
+}
+
+.archiver-setting-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+
+    margin-bottom: 1em;
+    padding-bottom: 0.75em;
+
+    border: 1px solid var(--background-modifier-border);
+    border-left-color: var(--color-base-50);
+    border-left-width: 4px;
+    border-radius: var(--radius-s);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 2.8%), 0 2px 5px rgb(0 0 0 / 3.6%);
+}
+
+.archiver-setting-group:has(> button:only-child) {
+    padding-bottom: 0;
+}
+
+.archiver-setting-group > .header {
+    all: unset;
+
+    display: flex;
+    gap: 0.25em;
+    align-items: center;
+
+    padding: 0.75em;
+}
+
+.archiver-setting-group > .header:hover {
+    background-color: var(--background-modifier-hover);
+    transition: background-color 0.15s ease-in-out;
+}
+
+.archiver-setting-group > .header .callout-fold {
+    display: flex;
+    align-items: center;
+}

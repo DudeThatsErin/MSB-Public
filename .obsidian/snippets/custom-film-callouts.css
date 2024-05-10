@@ -1,0 +1,710 @@
+/* New Default colored callouts
+/* Only icons have changed on these.
+*/
+.callout[data-callout="film"] {
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="note"] {
+  --callout-icon: lucide-chevrons-right;
+}
+
+.callout[data-callout="quote"],
+.callout[data-callout="cite"] {
+  --callout-icon: lucide-quote;
+}
+
+.callout[data-callout="archive"] {
+  --callout-icon: lucide-archive;
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"],
+.callout[data-callout="attention"] {
+  --callout-icon: lucide-alert-triangle;
+}
+
+.callout[data-callout="bookmark"] {
+  --callout-icon: lucide-album;
+}
+
+.callout[data-callout="award"] {
+  --callout-icon: lucide-award;
+}
+
+.callout[data-callout="frame"] {
+  --callout-icon: lucide-frame;
+}
+
+.callout[data-callout="plus"] {
+  --callout-icon: lucide-plus;
+}
+
+/* ----------------------------------------------------------------------
+Different colors on callouts
+------------------------------------------------------------------------- */
+.callout[data-callout="frame"] {
+  --callout-color: 182, 172, 153;
+}
+
+.callout[data-callout="award"] {
+  --callout-color: 102, 190, 148;
+}
+
+.callout[data-callout="warning"] {
+  --callout-color: 173, 61, 61;
+}
+
+.callout[data-callout="caution"] {
+  --callout-color: 202, 77, 61;
+}
+
+.callout[data-callout="attention"] {
+  --callout-color: 232, 190, 60;
+}
+
+.callout[data-callout="note"],
+.callout[data-callout="quote"],
+.callout[data-callout="cite"] {
+  --callout-color: 99, 149, 156;
+}
+
+.callout[data-callout="abstract"],
+.callout[data-callout="summary"],
+.callout[data-callout="tldr"],
+.callout[data-callout="seealso"] {
+  --callout-color: 69, 112, 118;
+}
+
+.callout[data-callout="info"],
+.callout[data-callout="todo"],
+.callout[data-callout="tip"],
+.callout[data-callout="hint"],
+.callout[data-callout="important"] {
+  --callout-color: 189, 174, 147;
+}
+
+.callout[data-callout="success"],
+.callout[data-callout="check"],
+.callout[data-callout="done"],
+.callout[data-callout="question"],
+.callout[data-callout="help"],
+.callout[data-callout="faq"] {
+  --callout-color: 168, 195, 115;
+}
+
+.callout[data-callout="failure"],
+.callout[data-callout="fail"],
+.callout[data-callout="missing"] {
+  --callout-color: 213, 118, 52;
+}
+
+.callout[data-callout="danger"],
+.callout[data-callout="error"],
+.callout[data-callout="bug"] {
+  --callout-color: 208, 66, 85;
+}
+
+.callout[data-callout="example"] {
+  --callout-color: 147, 134, 200;
+}
+.callout[data-callout="up"] {
+  --callout-color: 191, 231, 122;
+  --callout-icon: lucide-arrow-up;
+}
+
+.callout[data-callout="down"] {
+  --callout-color: 236, 158, 158;
+  --callout-icon: lucide-arrow-down;
+}
+
+.callout[data-callout="dog"] {
+  --callout-color: 229, 192, 154;
+  --callout-icon: lucide-dog;
+}
+
+.callout[data-callout="cat"] {
+  --callout-color: 235, 168, 102;
+  --callout-icon: lucide-cat;
+}
+
+.callout[data-callout="code"] {
+  --callout-color: 36, 185, 240;
+  --callout-icon: lucide-file-json;
+}
+
+.callout[data-callout="code-1"] {
+  --callout-color: 243, 165, 226;
+  --callout-icon: lucide-code;
+}
+
+.callout[data-callout="code-2"] {
+  --callout-color: 230, 230, 100;
+  --callout-icon: lucide-code-2;
+}
+
+.callout[data-callout="binary"] {
+  --callout-color: 55, 217, 238;
+  --callout-icon: lucide-binary;
+}
+
+.callout[data-callout="terminal"] {
+  --callout-color: 251, 248, 245;
+  --callout-icon: lucide-terminal;
+}
+
+.callout[data-callout="git"] {
+  --callout-color: 191, 199, 251;
+  --callout-icon: lucide-git-branch;
+}
+
+.callout[data-callout="key"] {
+  --callout-color: 191, 251, 251;
+  --callout-icon: lucide-key;
+}
+
+.callout[data-callout="check"] {
+  --callout-color: 125, 190, 60;
+  --callout-icon: lucide-check-check;
+}
+
+.callout[data-callout="camera"] {
+  --callout-color: 191, 251, 231;
+  --callout-icon: lucide-camera;
+}
+
+.callout[data-callout="calendar"] {
+  --callout-color: 212, 214, 213;
+  --callout-icon: lucide-calendar;
+}
+*/
+
+/* ---------------------------------------------------------------------
+Info Callout Colors & icons
+------------------------------------------------------------------------ */
+.callout[data-callout="info-darkr"] {
+  /*
+  #c44949
+  */
+  --callout-color: 196, 73, 73;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkrp"] {
+  /*
+  #c4497e
+  */
+  --callout-color: 196, 73, 126;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkpi"] {
+  /*
+  #c449c2
+  */
+  --callout-color: 196, 73, 194;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkpip"] {
+  /*
+  #a049c4
+  */
+  --callout-color: 160, 73, 196;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkp"] {
+  /*
+  #7449c4
+  */
+  --callout-color: 116, 73, 196;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkb"] {
+  /*
+  #4991c4
+  */
+  --callout-color: 73, 145, 196;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkbg"] {
+  /*
+  #49c4b8
+  */
+  --callout-color: 73, 196, 184;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkg"] {
+  /*
+  #49c46f
+  */
+  --callout-color: 73, 196, 111;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkyg"] {
+  /*
+  #b9c449
+  */
+  --callout-color: 185, 196, 73;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darko"] {
+  /*
+  #c48249
+  */
+  --callout-color: 196, 130, 73;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-lightr"] {
+  /*
+  #fbc8c8
+  */
+  --callout-color: 251, 200, 200;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-lighto"] {
+  /*
+  #fbe4c8
+  */
+  --callout-color: 251, 228, 200;
+  --callout-icon: lucide-info;
+}
+.callout[data-callout="info-lighty"] {
+  /*
+  #fbfbc8
+  */
+  --callout-color: 251, 251, 200;
+  --callout-icon: lucide-info;
+}
+.callout[data-callout="info-lightg"] {
+  /*
+  #defbc8
+  */
+  --callout-color: 222, 251, 200;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-lightbg"] {
+  /*
+  #c8fbee
+  */
+  --callout-color: 200, 251, 238;
+  --callout-icon: lucide-info;
+}
+.callout[data-callout="info-lightb"] {
+  /*
+  #c8f1fb
+  */
+  --callout-color: 200, 241, 251;
+  --callout-icon: lucide-info;
+}
+.callout[data-callout="info-lightdb"] {
+  /*
+  #c8cafb
+  */
+  --callout-color: 200, 202, 251;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-lightpp"] {
+  /*
+  #dfc8fb
+  */
+  --callout-color: 223, 200, 251;
+  --callout-icon: lucide-info;
+}
+.callout[data-callout="info-lightpi"] {
+  /*
+  #f9c8fb
+  */
+  --callout-color: 249, 200, 251;
+  --callout-icon: lucide-info;
+}
+.callout[data-callout="info-lightrp"] {
+  /*
+  #fbc8e6
+  */
+  --callout-color: 251, 200, 230;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-lightbr"] {
+  /*
+  #E5C09A
+  */
+  --callout-color: 229, 192, 154;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="infinity"] {
+  /*
+  #90C89A
+  */
+  --callout-color: 144, 200, 238;
+  --callout-icon: lucide-infinity;
+}
+
+/* -----------------------------------------------------------------------
+Film Callout Colors and Icons
+-------------------------------------------------------------------------- */
+.callout[data-callout="film-lightpurple"] {
+  /*
+  #d4d6d5
+  */
+  background-color: rgb(212, 214, 213);
+  --callout-color: 212, 214, 213;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-red"] {
+  /*
+  #d04255
+  */
+  --callout-color: 208, 66, 85;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-orange"] {
+  /*
+  #d57634
+  */
+  --callout-color: 213, 118, 52;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-purple"] {
+  /*
+  #9386c8
+  */
+  --callout-color: 147, 134, 200;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-lighto1"] {
+  /*
+  #e5b567
+  */
+  --callout-color: 229, 181, 103;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-lightb1"] {
+  /*
+  #E5C09A
+  */
+  --callout-color: 229, 192, 154;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-pale-brown"] {
+  /*
+  #faf2d6
+  */
+  --callout-color: 250, 242, 214;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-blue"] {
+  /*
+  #6c99bb
+  */
+  --callout-color: 108, 153, 187;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-darkteal"] {
+  /*
+  #457076
+  */
+  --callout-color: 69, 112, 118;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-gteal"] {
+  /*
+  #83a598
+  */
+  --callout-color: 131, 165, 152;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-paleteal"] {
+  /*
+  #9dcad09a
+  */
+  --callout-color: 157, 202, 208;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-gteal"] {
+  /*
+  #83a598
+  */
+  --callout-color: 131, 165, 152;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-yellow"] {
+  /*
+  #a8c373
+  */
+  --callout-color: 168, 195, 115;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-pink"] {
+  /*
+  #EA6FCD
+  */
+  --callout-color: 234, 111, 205;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-darkb1"] {
+  /*
+  #0d6efd
+  */
+  --callout-color: 13, 110, 253;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-lightr1"] {
+  --callout-color: 235, 141, 141;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-lightpink"] {
+  --callout-color: 226, 167, 227;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-lightblue"] {
+  --callout-color: 28, 176, 209;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-teal"] {
+  /*
+  #63959C
+  */
+  --callout-color: 99, 149, 156;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-darkteal"] {
+  /*
+  #457076
+  */
+  --callout-color: 69, 112, 118;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-tan"] {
+  /*
+  #bdae93
+  */
+  --callout-color: 189, 174, 147;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-greenish"] {
+  /*
+  #a8c373
+  */
+  --callout-color: 168, 195, 115;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-yellow"] {
+  /*
+  #ded262
+  */
+  --callout-color: 222, 210, 98;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-darko"] {
+  /*
+  #d57634
+  */
+  --callout-color: 213, 118, 52;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-darkred"] {
+  /*
+  #d04255
+  */
+  --callout-color: 208, 66, 85;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-purple1"] {
+  /*
+  #9386c8
+  */
+  --callout-color: 147, 134, 200;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="info-darkr"] {
+  /*
+  #c44949
+  */
+  --callout-color: 196, 73, 73;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkrp"] {
+  /*
+  #c4497e
+  */
+  --callout-color: 196, 73, 126;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkpi"] {
+  /*
+  #c449c2
+  */
+  --callout-color: 196, 73, 194;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkpip"] {
+  /*
+  #a049c4
+  */
+  --callout-color: 160, 73, 196;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-darkp"] {
+  /*
+  #7449c4
+  */
+  --callout-color: 116, 73, 196;
+  --callout-icon: lucide-info;
+}
+
+.callout[data-callout="film-darkb"] {
+  /*
+  #4991c4
+  */
+  --callout-color: 73, 145, 196;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-darkbg"] {
+  /*
+  #49c4b8
+  */
+  --callout-color: 73, 196, 184;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-darkg"] {
+  /*
+  #49c46f
+  */
+  --callout-color: 73, 196, 111;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-darkyg"] {
+  /*
+  #b9c449
+  */
+  --callout-color: 185, 196, 73;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-darko"] {
+  /*
+  #c48249
+  */
+  --callout-color: 196, 130, 73;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-lightr"] {
+  /*
+  #fbc8c8
+  */
+  --callout-color: 251, 200, 200;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-lighto"] {
+  /*
+  #fbe4c8
+  */
+  --callout-color: 251, 228, 200;
+  --callout-icon: lucide-film;
+}
+.callout[data-callout="film-lighty"] {
+  /*
+  #fbfbc8
+  */
+  --callout-color: 251, 251, 200;
+  --callout-icon: lucide-film;
+}
+.callout[data-callout="film-lightg"] {
+  /*
+  #defbc8
+  */
+  --callout-color: 222, 251, 200;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-lightbg"] {
+  /*
+  #c8fbee
+  */
+  --callout-color: 200, 251, 238;
+  --callout-icon: lucide-film;
+}
+.callout[data-callout="film-lightb"] {
+  /*
+  #c8f1fb
+  */
+  --callout-color: 200, 241, 251;
+  --callout-icon: lucide-film;
+}
+.callout[data-callout="film-lightdb"] {
+  /*
+  #c8cafb
+  */
+  --callout-color: 200, 202, 251;
+  --callout-icon: lucide-film;
+}
+
+.callout[data-callout="film-lightpp"] {
+  /*
+  #dfc8fb
+  */
+  --callout-color: 223, 200, 251;
+  --callout-icon: lucide-film;
+}
+.callout[data-callout="film-lightpi"] {
+  /*
+  #f9c8fb
+  */
+  --callout-color: 249, 200, 251;
+  --callout-icon: lucide-film;
+}
+.callout[data-callout="film-lightrp"] {
+  /*
+  #fbc8e6
+  */
+  --callout-color: 251, 200, 230;
+  --callout-icon: lucide-film;
+}

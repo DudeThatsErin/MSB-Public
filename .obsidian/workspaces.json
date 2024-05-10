@@ -1,0 +1,192 @@
+{
+  "workspaces": {
+    "main": {
+      "main": {
+        "id": "14a3656685833601",
+        "type": "split",
+        "children": [
+          {
+            "id": "c9992befb16fa538",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "08a3198e1a93830c",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "VS/Task Managers.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "57baffc32d503211",
+        "type": "split",
+        "children": [
+          {
+            "id": "01332453020ae70f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9c5e42ddf0ff2a98",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "69fe4f8d2e9a9307",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1ebc9c86dd0b739c",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "ecd7f4aa8c88b9fd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8366cce4602759d6",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "284f41804ec6bf23",
+        "type": "split",
+        "children": [
+          {
+            "id": "f9ac30f254ff58f1",
+            "type": "tabs",
+            "dimension": 37.98611111111111,
+            "children": [
+              {
+                "id": "7caf9e5a7a9caece",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "7d19e7b939bfb195",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              },
+              {
+                "id": "994b8521e7e933a9",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "VS/Task Managers.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "240b527968bb8006",
+            "type": "tabs",
+            "dimension": 37.98611111111111,
+            "children": [
+              {
+                "id": "d3d21e47b16cf1ca",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "VS/Task Managers.md"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "88e1ce71ca8a9cdd",
+            "type": "tabs",
+            "dimension": 24.02777777777778,
+            "children": [
+              {
+                "id": "125a515144f7e96b",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian42-brat:BRAT": false,
+          "notion-like-tables:Create loom": false,
+          "obsidian-omnivore:Omnivore": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-projects:Open projects": false,
+          "omnisearch:Omnisearch": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
+          "card-board:CardBoard": false,
+          "handwritten-notes:Create empty handwritten note": false
+        }
+      },
+      "active": "994b8521e7e933a9"
+    }
+  },
+  "active": "main"
+}

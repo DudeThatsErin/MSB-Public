@@ -1,0 +1,41 @@
+{
+  "addNewlinesAroundHeadings": true,
+  "additionalMetadataBeforeArchiving": {
+    "addMetadata": false,
+    "dateFormat": "YYYY-MM-DD",
+    "metadata": "🔒 [[{{date}}]] 🕸️ {{headingChain}}"
+  },
+  "additionalTaskPattern": "",
+  "archiveAllCheckedTaskTypes": false,
+  "archiveHeadingDepth": 1,
+  "archiveToSeparateFile": false,
+  "separateFileType": "Custom note",
+  "obsidianTasksCompletedDateFormat": "YYYY-MM-DD",
+  "archiveUnderHeading": true,
+  "dateFormat": "YYYY-MM-DD",
+  "defaultArchiveFileName": "{{sourceFileName}} (archive)",
+  "headings": [
+    {
+      "text": "Completed",
+      "obsidianTasksCompletedDateFormat": "MM-DD-YYYY",
+      "dateFormat": "MM-DD-YYYY"
+    }
+  ],
+  "listItems": [],
+  "indentationSettings": {
+    "useTab": true,
+    "tabSize": 4
+  },
+  "rules": [],
+  "sortAlphabetically": false,
+  "taskSortOrder": "Newest first",
+  "textReplacement": {
+    "applyReplacement": false,
+    "regex": "#([A-Za-z-]+)",
+    "replacement": "@$1",
+    "replacementTest": "task #some-tag"
+  },
+  "useAdditionalTaskPattern": false,
+  "archiveUnderListItems": false,
+  "archiveOnlyIfSubtasksAreDone": true
+}

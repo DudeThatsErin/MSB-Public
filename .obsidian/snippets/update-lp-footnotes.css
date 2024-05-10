@@ -1,0 +1,11 @@
+/* footnotes keep brackets in Live Preview maybe */
+.cm-line .cm-footref.cm-hmd-barelink:has(+ .cm-widgetBuffer):is(.cm-widgetBuffer + *) {
+    &::before {
+        content: "[";
+        display: inline-block;
+    }
+    &::after {
+        content:"]";
+        display: inline-block;
+    }
+}
