@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "e690eae888bf4e13",
+    "id": "657e2c32a6174106",
     "type": "split",
     "children": [
       {
-        "id": "1e2cb6353a79fd42",
+        "id": "cd14b77ad505f949",
         "type": "tabs",
         "children": [
           {
-            "id": "4629a401d7f75cb2",
+            "id": "a70acc10afbf55a9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -61,7 +61,7 @@
         }
       },
       {
-        "id": "0d819770bd2752a0",
+        "id": "71ccf295b29b167e",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -92,7 +92,7 @@
         }
       },
       {
-        "id": "0cb99a5e2be59b9f",
+        "id": "1a68a809d3335fc2",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
