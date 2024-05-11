@@ -53,7 +53,7 @@ due date: 2025-03-01
 - [ ] 2024-03-15 15:08 [[Josh's School/Math/01-active/Pre-Calculus/Unit Test|Unit Test]]<br>- [ ] Take it a few times to make sure I know it.
 - [ ] 2024-03-15 15:08 [[Unit 1]]<br>- [ ] Learn Section
 - [ ] 2024-03-15 15:08 [[Unit 2]]<br>- [ ] Learn Section
-- [ ] 2024-03-15 15:08 [[Unit 3]]<br>- [ ] Learn Section
+- [ ] 2024-03-15 15:08 [[Josh's School/Math/01-active/College Algebra/Unit 3]]<br>- [ ] Learn Section
 - [ ] 2024-03-15 15:08 [[Josh's School/Math/01-active/Algebra 2/Unit 4|Unit 4]]<br>- [ ] Learn Section
 - [ ] 2024-03-15 15:08 [[Josh's School/Math/01-active/Algebra 2/Unit 5|Unit 5]]<br>- [ ] Learn Section
 - [ ] 2024-03-15 15:08 [[Josh's School/Math/01-active/Algebra 2/Unit 6|Unit 6]]<br>- [ ] Learn Section
