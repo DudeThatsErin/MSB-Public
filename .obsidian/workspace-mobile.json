@@ -1,21 +1,19 @@
 {
   "main": {
-    "id": "e690eae888bf4e13",
+    "id": "657e2c32a6174106",
     "type": "split",
     "children": [
       {
-        "id": "1e2cb6353a79fd42",
+        "id": "cd14b77ad505f949",
         "type": "tabs",
         "children": [
           {
-            "id": "4629a401d7f75cb2",
+            "id": "a70acc10afbf55a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "SCRATCHPAD.md",
-                "mode": "source",
-                "source": false
+                "file": "Josh's School/Math/01-active/Unit 3.md"
               }
             }
           }
@@ -65,7 +63,7 @@
         }
       },
       {
-        "id": "0d819770bd2752a0",
+        "id": "71ccf295b29b167e",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -85,7 +83,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "SCRATCHPAD.md",
+            "file": "Josh's School/Math/01-active/Unit 3.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,12 +95,12 @@
         }
       },
       {
-        "id": "0cb99a5e2be59b9f",
+        "id": "1a68a809d3335fc2",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "SCRATCHPAD.md",
+            "file": "Josh's School/Math/01-active/Unit 3.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,8 +112,16 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "SCRATCHPAD.md"
+            "file": "Josh's School/Math/01-active/Unit 3.md"
           }
+        }
+      },
+      {
+        "id": "5d1e0f12f4d821d8",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
         }
       }
     ],
@@ -133,11 +139,20 @@
       "obsidian-omnivore:Omnivore": false,
       "templater-obsidian:Templater": false,
       "handwritten-notes:Create empty handwritten note": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-wordpress:WordPress Publish": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "4629a401d7f75cb2",
+  "active": "a70acc10afbf55a9",
   "lastOpenFiles": [
+    "Josh's School/Math/01-active/College Algebra/Unit 3.md",
+    "Josh's School/Math/01-active/Unit 3.md",
+    "Pasted Image 20240510194125_853.jpg",
+    "SCRATCHPAD.md",
+    "Pasted Image 20240510194643_831.jpg",
     "Daily Notes/2024/03-March/00-assets/2024-03-14-Thursday_1.png",
     "Daily Notes/2024/03-March/00-assets/Pasted image 20240311154346.png",
     "Daily Notes/2024/03-March/00-assets/Pasted image 20240311155225.png",
@@ -146,9 +161,6 @@
     "Daily Notes/2024/01-Jan/00-assets/Things3Areas.png",
     "Daily Notes/2024/01-Jan/00-assets/current-light-mode.png",
     "Daily Notes/2024/01-Jan/00-assets/Countdown-Deadlines.png",
-    "Daily Notes/2024/01-Jan/00-assets/Reminders-Lists.png",
-    "Daily Notes/2024/01-Jan/00-assets/current-dark-with-right-sidebar.png",
-    "Daily Notes/2024/01-Jan/00-assets/convo-28-2024.png",
     "Daily Notes/2018/12-Dec/2018-12-18.md",
     "Daily Notes/2020/02-Feb/2020-02-04.md",
     "Daily Notes/2020/08-Aug/2020-08-11.md",
@@ -172,8 +184,6 @@
     "Daily Notes/2023/01-Jan/2023-01-31.md",
     "Daily Notes/2023/01-Jan/2023-01-05.md",
     "Daily Notes/2023/01-Jan/2023-01-11.md",
-    "Daily Notes/2023/09-Sept/2023-09-30.md",
-    "Daily Notes/2023/09-Sept/2023-09-28.md",
     "Daily Notes/2023/12-Dec/12-10-2023.pdf",
     "Daily Notes/2024/03-March/Bills _ Subscriptions.pdf",
     "Daily Notes/2024/03-March/00-assets",
