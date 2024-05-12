@@ -13,7 +13,7 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "VS/BW vs 1P.md",
+                "file": "Projects/02-active/Blog.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": []
@@ -56,7 +56,14 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "2faeaf332d72e784",
+        "type": "tabs",
+        "children": [
           {
             "id": "279321981656934c",
             "type": "leaf",
@@ -67,8 +74,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -81,7 +87,7 @@
       {
         "id": "a6252966ebfb19fa",
         "type": "tabs",
-        "dimension": 44.646758922068464,
+        "dimension": 28.68217054263566,
         "children": [
           {
             "id": "4c55bbdd0d5f8fcf",
@@ -112,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "VS/BW vs 1P.md"
+                "file": "Projects/02-active/Blog.md"
               }
             }
           },
@@ -122,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VS/BW vs 1P.md",
+                "file": "Projects/02-active/Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VS/BW vs 1P.md",
+                "file": "Projects/02-active/Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +157,7 @@
       {
         "id": "1ef56d7f7e9e60fd",
         "type": "tabs",
-        "dimension": 27.16678805535324,
+        "dimension": 33.33333333333333,
         "children": [
           {
             "id": "4b2387ba831d0e5f",
@@ -159,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VS/BW vs 1P.md"
+                "file": "Projects/02-active/Blog.md"
               }
             }
           }
@@ -168,7 +174,7 @@
       {
         "id": "69e68a59f8aecd46",
         "type": "tabs",
-        "dimension": 28.186453022578295,
+        "dimension": 37.98449612403101,
         "children": [
           {
             "id": "78902090c547ded9",
@@ -192,20 +198,25 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "handwritten-notes:Create empty handwritten note": false,
       "obsidian-wordpress:WordPress Publish": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian42-brat:BRAT": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-omnivore:Omnivore": false
+      "obsidian-omnivore:Omnivore": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
   "active": "33327c17f27b0b0a",
   "lastOpenFiles": [
+    "Projects/Projects.md",
+    "0-archives/Palworld Database.md",
+    "Projects/02-active/Blog.md",
     "VS/BW vs 1P.md",
+    "Pasted Image 20240510194643_831.jpg",
+    "Pasted Image 20240510194125_853.jpg",
+    "Josh's School/Math/01-active/Unit 3.md",
     "Work/App.md",
     "Work/Commands.md",
     "Work/Hosting Plan.md",
@@ -235,14 +246,8 @@
     "Daily Notes/2024/04-April",
     "Work/00-assets/Screenshot 2024-03-31 at 3.16.06 PM.png",
     "Work/00-assets/Screenshot 2024-03-31 at 3.36.17 PM.png",
-    "Daily Notes/2024/03-March/2024-03-24.md",
-    "Obsidian Setup/Misc Files/Callouts.md",
     "Work/00-assets/Screenshot 2024-03-31 at 3.15.38 PM.png",
     "Work/00-assets/Screenshot 2024-03-31 at 3.12.33 PM.png",
-    "Work/00-assets/Screenshot 2024-03-31 at 3.11.01 PM.png",
-    "Projects/02-active/00-assets/IMG_0225.jpeg",
-    "Projects/02-active/00-assets/AI/How Do I Make an AI with Python in Eight Steps_ _ Sunscrapers.md",
-    "Projects/02-active/00-assets/AS/Why I choose Apple Notes & Reminders over other apps..md",
     "Projects/02-active/00-assets/AI",
     "Projects/02-active/00-assets/AS",
     "Projects/02-active/00-assets",
