@@ -22,7 +22,9 @@ kanban-plugin: board
 
 ## In Progress
 
-- [ ] Create a Model
+- [ ] # Create a Model
+	
+	https://www.pecan.ai/blog/3-ways-build-your-own-ai-model/
 
 
 ## QA
@@ -32,7 +34,7 @@ kanban-plugin: board
 ## Done
 
 **Complete**
-- [x] Define the Problem
+- [x] # Define the Problem
 	
 	Problem: NLP with Pizzas. Identify pizzas and explain how to make pizzas.
 
