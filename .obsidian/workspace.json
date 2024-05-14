@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cf005f5fa954c963",
+        "id": "56287ecd8955f503",
         "type": "tabs",
         "children": [
           {
-            "id": "33327c17f27b0b0a",
+            "id": "88464522c969bfad",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "Projects/02-active/AI Chatbot.md",
+                "file": "Projects/Projects.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": []
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projects/02-active/AI Chatbot.md"
+                "file": "Projects/Projects.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/02-active/AI Chatbot.md",
+                "file": "Projects/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/02-active/AI Chatbot.md",
+                "file": "Projects/Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/02-active/AI Chatbot.md"
+                "file": "Projects/Projects.md"
               }
             }
           }
@@ -208,9 +208,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "33327c17f27b0b0a",
+  "active": "88464522c969bfad",
   "lastOpenFiles": [
     "Projects/Projects.md",
+    "Projects/02-active/Moonstone.md",
+    "Projects/02-active/AI Chatbot.md",
     "Obsidian Setup/Notes.md",
     "Obsidian Setup/Moonstone.md",
     "Projects/02-active/Blog.md",
@@ -239,9 +241,6 @@
     "Daily Notes/2024/03-March/2024-03-11.md",
     "Daily Notes/2024/03-March/2024-03-07.md",
     "Daily Notes/2024/02-Feb/2024-02-20.md",
-    "Daily Notes/2024/02-Feb/2024-02-19.md",
-    "Daily Notes/2024/01-Jan/2024-01-04.md",
-    "Daily Notes/2024/03-March/2024-03-06.md",
     "Daily Notes/2024/04-April/00-assets",
     "Daily Notes/2024/04-April",
     "Work/00-assets/Screenshot 2024-03-31 at 3.16.06 PM.png",

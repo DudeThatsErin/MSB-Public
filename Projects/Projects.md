@@ -13,12 +13,14 @@ sticker: lucide//file-code
 
 ## On Deck/Next
 
+- [ ] Recreate Ryan's Website in React or at least a basic version and see if he wants to pay me for it.
 
 
 ## In Progress
 
 - [ ] [[Blog]]
 - [ ] [[AI Chatbot]]
+- [ ] [[Projects/02-active/Moonstone]]
 
 
 ## QA
