@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c7fbf27e3b9662ae",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,7 +214,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "db7dfd88cb558b31",
+  "active": "c7fbf27e3b9662ae",
   "lastOpenFiles": [
     "00-assets/banners/GGRBsdNW0AAr2B_.png",
     "Games/ACNH/Animal Crossing New Horizons 86bd3a148331454e9f7bce3372f5435a.md",

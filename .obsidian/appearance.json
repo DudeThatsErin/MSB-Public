@@ -3,6 +3,8 @@
   "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
     "custom-rainbow-folders",
-    "extended-colors-annu"
+    "extended-colors-annu",
+    "custom-rainbow-folders-text-only",
+    "custom-rainbow-folders-bg-only"
   ]
 }
