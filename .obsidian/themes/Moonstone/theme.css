@@ -5,7 +5,6 @@
 
 name: Moonstone Theme Settings
 id: moonstone-settings
-collapsed: false
 settings:
   -
     id: heading-fonts
@@ -320,33 +319,11 @@ settings:
     default-light: '#00000033'
     default-dark: '#ffffff33'
   -
-    id: calendar-colors
-    title: Calendar Plugin Colors
-    type: heading
-    level: 1
-    collapsed: false
-  -
-    id: erin-calendar-grey-border
-    title: 'Border Between Columns'
-    type: variable-themed-color
-    format: rgb
-    opacity: false
-    default-light: 'rgb(165, 165, 165)'
-    default-dark: 'rgb(165, 165, 165)'
-  -
-    id: erin-second
-    title: 'Light Grey'
-    type: variable-themed-color
-    format: rgb
-    opacity: false
-    default-light: 'rgb(170, 170, 170)'
-    default-dark: 'rgb(170, 170, 170)'
-  -
     id: callout-colors
     title: Callout Colors
     type: heading
     level: 1
-    collapsed: false
+    collapsed: true
   -
     id: erin-lightred-format
     title: 'Light Red #1'
@@ -357,40 +334,118 @@ settings:
         id: erin-lightred
         format: rgb-values
     opacity: false
-    default-light: 'rgb(247, 152, 152)'
-    default-dark: 'rgb(247, 152, 152)'
-  -
-    id: film-callouts
-    title: Film Callout Colors
-    type: heading
-    level: 2
-    collapsed: true
-  -
-    id: info-callouts
-    title: Info. Callout Colors
-    type: heading
-    level: 2
-    collapsed: true
-  -
-    id: rainbow-files
-    title: Rainbow File Explorer
-    type: heading
-    level: 1
-    collapsed: false
-
+    default-light: '247, 152, 152'
+    default-dark: '247, 152, 152'
 */
 
 /* custom colors */
 :root, .theme-dark {
-    /* calendar colors */
-  --erin-calendar-grey-border: rgb(165, 165, 165);
-  --erin-second: rgb(170, 170, 170);
-
-  --erin-calendar-light-grey-two: 161, 161, 160;
-  --erin-calendar-light-grey-three: 159, 159, 159;
-  --erin-calendar-darker-grey: 132, 131, 131;
-  --erin-calendar-grey-two: 141, 140, 142;
-  --erin-calendar-grey-three: 154, 152, 154;
+  /* --erin-lightred: 247, 152, 152; */
+  --erin-light-red: 251, 200, 200;
+  --erin-light-red-two: 235, 160, 172;
+  --erin-red: 202, 77, 61;
+  --erin-red-two: 243, 139, 168;
+  --erin-lightredpink: 251, 200, 230;
+  --erin-dark-red: 196, 73, 73;
+  --erin-white: 251, 248, 245;
+  --erin-tanwhite: 212, 214, 213;
+  --erin-light-yellow: 249, 226, 175;
+  --erin-red-two: 208, 66, 85;
+  --erin-darkred: 78, 21, 21;
+  --erin-lightorange: 250, 179, 135;
+  --erin-light-orange: 251, 228, 200;
+  --erin-lightblue-three: 144, 200, 238;
+  --erin-lightbluered: 229, 192, 154;
+  --erin-lightorange: 229, 181, 103;
+  --erin-orange: 234, 153, 2;
+  --erin-orange-two: 213, 118, 52;
+  --erin-orange-three: 250, 179, 135;
+  --erin-darkorange: 196, 130, 73;
+  --erin-orange-bright: 213, 118, 52;
+  --erin-lightyellow: 236, 236, 177;
+  --erin-light-yellow: 251, 251, 200;
+  --erin-yellow: 232, 190, 60;
+  --erin-bright-yellow: 230, 230, 100;
+  --erin-tan: 249, 179, 135;
+  --erin-tan-two: 182, 172, 153;
+  --erin-lime: 85, 200, 85;
+  --erin-lightgreen: 166, 227, 161;
+  --erin-lightgreen-two: 168, 195, 115;
+  --erin-lightgreen-three: 222, 251, 200;
+  --erin-lightgreen-four: 166, 227, 161;
+  --erin-green: 2, 122, 2;
+  --erin-darkgreen: 0, 40, 0;
+  --erin-dark-green: 73, 196, 111;
+  --erin-dark-yellowgreen: 185, 196, 73;
+  --erin-bright-blue: 55, 217, 238;
+  --erin-dark-blue: 73, 145, 196;
+  --erin-dark-bluegreen: 73, 196, 184;
+  --erin-light-bluegreen: 200, 251, 238;
+  --erin-lightblue-two: 200, 241, 251;
+  --erin-teal: 1, 124, 124;
+  --erin-light-blue: 36, 185, 240;
+  --erin-light-darkblue: 200, 202, 251;
+  --erin-lightteal: 123, 215, 215;
+  --erin-darkteal: 99, 149, 156;
+  --erin-teal-two: 69, 112, 118;
+  --erin-lightblue: 148, 226, 213;
+  --erin-blue: 100, 100, 211;
+  --erin-darkblue: 40, 80, 200;
+  --erin-blue-two: 73, 73, 127;
+  --erin-blue-three: 172, 218, 234;
+  --erin-violet: 238, 130, 238;
+  --erin-pink: 245, 182, 192;
+  --erin-lightpinkpurple: 223, 200, 251;
+  --erin-lightpink-two: 240, 200, 251;
+  --erin-lightpink: 248, 202, 208;
+  --erin-darkpink: 158, 108, 116;
+  --erin-red-two: 208, 66, 85;
+  --erin-lightpurple: 226, 156, 226;
+  --erin-lightpurple-two: 212, 214, 213;
+  --erin-purple: 118, 3, 118;
+  --erin-purple-two: 147, 134, 200;
+  --erin-darkpurple: 50, 0, 50;
+  --erin-dark-purple: 160, 73, 196;
+  --erin-dark-purple-two: 116, 73, 196;
+  --erin-hotpink: 244, 100, 172;
+  --erin-bright-pink: 243, 165, 226;
+  --erin-dark-pink-two: 196, 73, 126;
+  --erin-dark-pink: 196, 73, 194;
+  --erin-magenta: 172, 1, 172;
+  --erin-light-purple: 191, 199, 251;
+  --erin-palepurple: 203, 166, 247;
+  --erin-grey: 112, 107, 107;
+  --erin-lightgrey: 216, 216, 216;
+  --erin-brown: 100, 72, 72;
+  --erin-gold: 216, 184, 1;
+  --erin-tan-two: 189, 174, 147;
+  --color-accent: #88aedd !important;
+  --color-base-30: #000 !important; /* border colors */
+  --color-base-00: #121212 !important; /* main tab color */
+  --color-base-10: #090909 !important; /* body in callouts */
+  --color-base-20: #171717 !important; /* both sidebars */
+  --color-base-25: rgb(82, 82, 82) !important; /* search box */
+  --color-base-35: rgb(82, 81, 81) !important; /* border between tabs */
+  --color-base-40: #070404 !important; /* border color */
+  --color-base-50: rgb(156, 156, 156) !important;
+  --color-base-70: rgb(90, 90, 90) !important; /* description text */
+  --color-base-100: rgb(216, 216, 216) !important; /* font color */
+  --checkbox-color: rgb(174, 212, 234) !important;
+  --bold-color: rgb(64, 116, 200) !important;
+  --italic-color: #88aedd !important;
+  --text-normal: #e6ebf8 !important;
+  --h1-color: #88aedd;
+  --h2-color: rgb(64, 116, 200);
+  --h3-color: #4484c4;
+  --h4-color: #869eda;
+  --h5-color: #6c89a0;
+  --h6-color: rgb(174, 212, 234);
+  --tag-color: rgb(64, 116, 200);
+  --link-color: rgb(174, 212, 234);
+  --link-internal-color: #4484c4 !important;
+  --text-highlight-bg: #406a8d;
+  --background-modifier-error: rgb(34, 91, 101);
+  --background-modifier-error-hover: var(--h4-color);
 }
 
 /*
@@ -399,42 +454,38 @@ author: sailKite
 source: https://discord.com/channels/686053708261228577/702656734631821413/1168178314318458980
 */
 
-.container .calendar .day {
-    color: inherit;
-}
-
-.container#calendar-container .calendar {
+.container#calendar-container .calendar {  
   & > :is(thead, tbody) > tr {
     & > :is(th, td) {
-      border-right: 1px solid var(--erin-calendar-grey-border);
+      border-right: 1px solid rgb(165, 165, 165);
 
       &:nth-child(1) {
-          color: var(--erin-second);
+          color: rgb(165, 165, 165);
       }
       &:nth-child(2) {
-          color: rgb(var(--erin-calendar-light-grey));
-      }
+          color: rgb(170, 170, 170);
+        }
       &:nth-child(3) {
-          color: rgb(var(--erin-calendar-light-grey-two));
+          color: rgb(161, 161, 160);
       }
       &:nth-child(4) {
-          color: rgb(var(--erin-calendar-light-grey-three));
+          color: rgb(159, 159, 159);
       }
       &:nth-child(5) {
-          color: rgb(var(--erin-calendar-darker-grey));
+          color: rgb(132, 131, 131);
       }
       &:nth-child(6) {
-          color: rgb(var(--erin-calendar-grey-two));
+          color: rgb(141, 140, 142);
       }
-      &:nth-child(7) {
-          color: rgb(var(--erin-calendar-grey-three));
+      &:nth-child(7), &:nth-child(8) {
+          color: rgb(154, 152, 154);
       }
       &:last-child {
         border-right: none;
       }
     }
   
-    & > :is(th, td):is(:first-child, :last-child) {
+    & > :is(th, td):is(:nth-child(2), :last-child) {
       background-color: #272727;
     }
   }
@@ -444,10 +495,14 @@ source: https://discord.com/channels/686053708261228577/702656734631821413/11681
     background-color: #3e3e3e;
   }
 
-  /* & > tbody > tr > :is(th, td):is(:first-child, :first-of-type, :last-of-type) {
-    background-color: #272727 !important;
-    color: rgb(165, 165, 165) !important;
-  } */
+  & > tbody > tr > :is(th, td):is(:nth-child(2), :last-of-type) {
+    background-color: #272727;
+    color: rgb(165, 165, 165);
+  }
+}
+
+.week-num.svelte-egt0yd {
+  color: rgb(170, 170, 170) !important;
 }
 
 .filled.svelte-1widvzq {

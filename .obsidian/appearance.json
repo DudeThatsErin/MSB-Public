@@ -1,14 +1,12 @@
 {
   "accentColor": "",
-  "cssTheme": "Moonstone",
+  "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "custom-rainbow-folders",
+    "minimal-cards",
+    "fix-banners-for-minimal",
     "custom-callouts",
     "custom-checkboxes",
-    "custom-film-callouts",
-    "custom-vault-icon-annu",
-    "extended-colors-annu",
-    "sync-icon-always-visible-mobile",
-    "update-lp-footnotes"
+    "custom-film-callouts"
   ]
 }

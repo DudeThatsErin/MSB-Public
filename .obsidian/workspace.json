@@ -13,7 +13,7 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "Projects/02-active/Blog.md",
+                "file": "Projects/02-active/AI Chatbot.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": []
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b991b121d94c5427",
@@ -118,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projects/02-active/Blog.md"
+                "file": "Projects/02-active/AI Chatbot.md"
               }
             }
           },
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/02-active/Blog.md",
+                "file": "Projects/02-active/AI Chatbot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,14 +146,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/02-active/Blog.md",
+                "file": "Projects/02-active/AI Chatbot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "1ef56d7f7e9e60fd",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/02-active/Blog.md"
+                "file": "Projects/02-active/AI Chatbot.md"
               }
             }
           }
@@ -188,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,8 +212,10 @@
   "active": "33327c17f27b0b0a",
   "lastOpenFiles": [
     "Projects/Projects.md",
-    "0-archives/Palworld Database.md",
+    "Obsidian Setup/Notes.md",
+    "Obsidian Setup/Moonstone.md",
     "Projects/02-active/Blog.md",
+    "0-archives/Palworld Database.md",
     "VS/BW vs 1P.md",
     "Pasted Image 20240510194643_831.jpg",
     "Pasted Image 20240510194125_853.jpg",
@@ -240,8 +243,6 @@
     "Daily Notes/2024/02-Feb/2024-02-19.md",
     "Daily Notes/2024/01-Jan/2024-01-04.md",
     "Daily Notes/2024/03-March/2024-03-06.md",
-    "VS/Task Managers.md",
-    "Tasks/Chores/Fish.md",
     "Daily Notes/2024/04-April/00-assets",
     "Daily Notes/2024/04-April",
     "Work/00-assets/Screenshot 2024-03-31 at 3.16.06 PM.png",

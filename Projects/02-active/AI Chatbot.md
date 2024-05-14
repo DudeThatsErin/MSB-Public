@@ -1,24 +1,28 @@
 ---
 
-kanban-plugin: basic
+kanban-plugin: board
 
 ---
 
 ## Misc
 
-- [ ] # Useful Notes<br>[[How Do I Make an AI with Python in Eight Steps_ _ Sunscrapers]]
+- [ ] # Useful Notes
+	[[How Do I Make an AI with Python in Eight Steps_ _ Sunscrapers]]
 
 
 ## Backlog
 
+- [ ] Improve the model with more data
 
 
 ## Up Next
 
+- [ ] Train the Model
 
 
 ## In Progress
 
+- [ ] Create a Model
 
 
 ## QA
@@ -28,12 +32,15 @@ kanban-plugin: basic
 ## Done
 
 **Complete**
+- [x] Define the Problem
+	
+	Problem: NLP with Pizzas. Identify pizzas and explain how to make pizzas.
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","show-checkboxes":false}
+{"kanban-plugin":"board","show-checkboxes":false}
 ```
 %%
