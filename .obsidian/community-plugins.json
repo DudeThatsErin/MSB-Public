@@ -16,11 +16,11 @@
   "text-extractor",
   "obsidian-style-settings",
   "obsidian-hider",
-  "obsidian-excalidraw-plugin",
   "obsidian-task-archiver",
   "obsidian-icon-folder",
   "obsidian-wordpress",
   "obsidian-kanban",
   "obsidian-things3-sync",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-excalidraw-plugin"
 ]
