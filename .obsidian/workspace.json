@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f9b07e69d733ef4b",
+        "id": "2fbba1bcf71ef049",
         "type": "tabs",
         "children": [
           {
-            "id": "349ab94e781d9c38",
+            "id": "f39c60ecde111a01",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2024/03-March/2024-05-14.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -106,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daily Notes/2024/03-March/2024-05-14.md"
+              }
             }
           },
           {
@@ -160,8 +166,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "349ab94e781d9c38",
+  "active": "f39c60ecde111a01",
   "lastOpenFiles": [
+    "Tasks/Misc.md",
+    "Daily Notes/2024/03-March/2024-05-14.md",
+    "Projects/Projects.md",
+    "Math/01-active/College Algebra/Drawing 2024-05-14 01.17.39.excalidraw.md",
+    "Math/01-active/College Algebra/Drawing.2024-05-14.01.28.14.excalidraw.md",
+    "Math/01-active/College Algebra/Drawing 2024-05-14 01.19.00.excalidraw.md",
+    "Math/Math/01-active/College Algebra/Unit 3.md",
+    "Math/01-active/College Algebra/Unconfirmed 115164.crdownload",
     "SCRATCHPAD.md",
     "00-assets/banners/GGRBsdNW0AAr2B_.png",
     "Games/ACNH/Animal Crossing New Horizons 86bd3a148331454e9f7bce3372f5435a.md",
@@ -171,7 +185,6 @@
     "Math/01-active/College Algebra/00-assets",
     "Math/01-active/College Algebra/Unit 1.pdf",
     "Math/01-active/College Algebra/Unit 3.md",
-    "Math/Math/01-active/College Algebra/Unit 3.md",
     "Math/Math.md",
     "Math/Math/01-active/College Algebra",
     "Math/Math/01-active",
@@ -190,17 +203,10 @@
     "Math/01-active/College Algebra/Unit 12.md",
     "Math/01-active/College Algebra/Unit 9.md",
     "Math/01-active/College Algebra/Unit 8.md",
-    "Math/01-active/College Algebra/Drawing 2024-05-14 01.17.39.excalidraw.md",
-    "Math/01-active/College Algebra/Drawing 2024-05-14 01.19.00.excalidraw.md",
     "Math/01-active/College Algebra/Unit 3.md",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
     "Math/01-active/College Algebra",
-    "Math/01-active",
-    "Math/Math/01-active/Drawing 2024-05-14 01.17.39.excalidraw.md",
-    "Math/Math/01-active/Drawing 2024-05-14 01.19.00.excalidraw.md",
-    "Math/Math/Math.md",
-    "Math/Math/01-active/Unit 3.md",
     "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",
     "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184513_494.jpg",
     "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184152_370.jpg",

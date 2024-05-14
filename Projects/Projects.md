@@ -20,7 +20,7 @@ sticker: lucide//file-code
 
 - [ ] [[Blog]]
 - [ ] [[AI Chatbot]]
-- [ ] [[Projects/02-active/Moonstone]]
+- [ ] [[Obsidian Setup/Moonstone|Moonstone]]
 
 
 ## QA

@@ -1,4 +1,5 @@
 {
   "showInlineTitle": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "propertiesInDocument": "hidden"
 }
