@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a27cd5857881b39a",
+        "id": "4f20524dde7e189c",
         "type": "tabs",
         "children": [
           {
-            "id": "0e1e4ff6c680af06",
+            "id": "642defd69ee05fc5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Math/Math/01-active/Unit 3.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -111,7 +115,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Math/Math/01-active/Unit 3.md"
+              }
             }
           },
           {
@@ -120,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Math/Math/01-active/Unit 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Math/Math/01-active/Unit 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Math/Math/01-active/Unit 3.md"
+              }
             }
           }
         ]
@@ -196,7 +206,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0e1e4ff6c680af06",
+  "active": "642defd69ee05fc5",
   "lastOpenFiles": [
     "Math/Math/01-active/Unit 3.md",
     "Math/Math/Math.md",
