@@ -1,5 +1,8 @@
 {
   "accentColor": "",
-  "cssTheme": "Minimal",
-  "enabledCssSnippets": []
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "custom-rainbow-folders",
+    "extended-colors-annu"
+  ]
 }

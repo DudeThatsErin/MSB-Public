@@ -1,6 +1,6 @@
 ---
 
-kanban-plugin: basic
+kanban-plugin: board
 sticker: lucide//file-code
 
 ---
@@ -13,13 +13,14 @@ sticker: lucide//file-code
 
 ## On Deck/Next
 
+- [ ] Recreate Ryan's Website in React or at least a basic version and see if he wants to pay me for it.
 
 
 ## In Progress
 
-- [ ] [[Palworld Database]]
 - [ ] [[Blog]]
 - [ ] [[AI Chatbot]]
+- [ ] [[Projects/02-active/Moonstone]]
 
 
 ## QA
@@ -29,18 +30,23 @@ sticker: lucide//file-code
 ## Completed
 
 **Complete**
-- [x] ##### Dude, That's Me!<br>Check for New Members<br>https://dudethats.me/fansOfStuffadmin<br>📅[[2024-02-17]] 🔄️ every 2 weeks
+- [x] [[Palworld Database]]
+- [x] ##### Dude, That's Me!
+	Check for New Members
+	https://dudethats.me/fansOfStuffadmin
+	📅[[2024-02-17]] 🔄️ every 2 weeks
 - [x] Blog about my Obsidian Setup on my Notion Blog
 - [x] Finish [[Money/Bills.loom|Bills]]
 - [x] Finish [[Money/Subscriptions.loom|Subscriptions]]
 - [x] Add Hangman Game to Portfolio 📅[[2024-02-03]]
-- [x] [[Hangman Game]]<br>📅[[2024-02-03]]
+- [x] [[Hangman Game]]
+	📅[[2024-02-03]]
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","new-note-template":"00-Templates/Projects Template.md","new-note-folder":"Projects/02-active","date-trigger":"📅","show-relative-date":true,"link-date-to-daily-note":true,"append-archive-date":true,"archive-with-date":true,"date-picker-week-start":0,"show-checkboxes":false}
+{"kanban-plugin":"board","new-note-template":"00-Templates/Projects Template.md","new-note-folder":"Projects/02-active","date-trigger":"📅","show-relative-date":true,"link-date-to-daily-note":true,"append-archive-date":true,"archive-with-date":true,"date-picker-week-start":0,"show-checkboxes":false}
 ```
 %%

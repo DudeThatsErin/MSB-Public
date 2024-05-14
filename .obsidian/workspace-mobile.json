@@ -1,18 +1,20 @@
 {
   "main": {
-    "id": "e690eae888bf4e13",
+    "id": "657e2c32a6174106",
     "type": "split",
     "children": [
       {
-        "id": "892d41fec1151953",
+        "id": "cd14b77ad505f949",
         "type": "tabs",
         "children": [
           {
-            "id": "21b71ae83d4d47a4",
+            "id": "a70acc10afbf55a9",
             "type": "leaf",
             "state": {
-              "type": "style-settings",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Josh's School/Math/01-active/Unit 3.md"
+              }
             }
           }
         ]
@@ -21,11 +23,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0b18c5a8a91b4f6a",
+    "id": "67b46f191352c1ae",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "a802b1b352dc379b",
+        "id": "fb4ff61aa7ec3b57",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -35,7 +37,7 @@
         }
       },
       {
-        "id": "fd45c844c7fcaafd",
+        "id": "c9b5303c9e2a9e88",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -50,7 +52,7 @@
         }
       },
       {
-        "id": "9bd58262f5f990e3",
+        "id": "1a0b27c6b803f837",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -61,7 +63,7 @@
         }
       },
       {
-        "id": "0d819770bd2752a0",
+        "id": "71ccf295b29b167e",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -73,11 +75,11 @@
     "pinned": true
   },
   "right": {
-    "id": "3bc2c883eeb8f72a",
+    "id": "ee35ac6f6142f05c",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "108df1815a2bdfc6",
+        "id": "050d553d9bbbbba7",
         "type": "leaf",
         "state": {
           "type": "backlink",
@@ -93,7 +95,7 @@
         }
       },
       {
-        "id": "0cb99a5e2be59b9f",
+        "id": "1a68a809d3335fc2",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
@@ -104,7 +106,7 @@
         }
       },
       {
-        "id": "8273ac751aee0c5d",
+        "id": "610fb276c87a5357",
         "type": "leaf",
         "state": {
           "type": "outline",
@@ -112,7 +114,7 @@
         }
       },
       {
-        "id": "a0689779d5c1023f",
+        "id": "5d1e0f12f4d821d8",
         "type": "leaf",
         "state": {
           "type": "calendar",
@@ -124,6 +126,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian42-brat:BRAT": false,
       "obsidian-omnivore:Omnivore": false,
       "templater-obsidian:Templater": false,
@@ -132,31 +140,24 @@
       "obsidian-projects:Open projects": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-wordpress:WordPress Publish": false,
-      "obsidian-kanban:Create new board": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "21b71ae83d4d47a4",
+  "active": "a70acc10afbf55a9",
   "lastOpenFiles": [
+    "Josh's School/Math/01-active/College Algebra/Unit 3.md",
     "Josh's School/Math/01-active/Unit 3.md",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184513_494.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184152_370.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512183448_738.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182817_705.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182629_488.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182436_792.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182331_897.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182158_767.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512181902_640.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512181701_540.jpg",
-    "Josh's School/Math/01-active/00-assets",
-    "Josh's School/Math/Math.md",
+    "Pasted Image 20240510194125_853.jpg",
     "SCRATCHPAD.md",
+    "Pasted Image 20240510194643_831.jpg",
+    "Daily Notes/2024/03-March/00-assets/2024-03-14-Thursday_1.png",
+    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311154346.png",
+    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311155225.png",
+    "Daily Notes/2024/03-March/00-assets/2024-03-06-got-job.png",
+    "Daily Notes/2024/01-Jan/00-assets/updated-dark-mode.png",
+    "Daily Notes/2024/01-Jan/00-assets/Things3Areas.png",
+    "Daily Notes/2024/01-Jan/00-assets/current-light-mode.png",
+    "Daily Notes/2024/01-Jan/00-assets/Countdown-Deadlines.png",
     "Daily Notes/2018/12-Dec/2018-12-18.md",
     "Daily Notes/2020/02-Feb/2020-02-04.md",
     "Daily Notes/2020/08-Aug/2020-08-11.md",

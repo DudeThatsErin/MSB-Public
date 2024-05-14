@@ -4,20 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cf005f5fa954c963",
+        "id": "56287ecd8955f503",
         "type": "tabs",
         "children": [
           {
-            "id": "33327c17f27b0b0a",
+            "id": "88464522c969bfad",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "excalidraw",
               "state": {
-                "file": "VS/BW vs 1P.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": []
-                }
+                "file": "Math/Math/01-active/Unit 3.md"
               }
             }
           }
@@ -56,7 +52,14 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "2faeaf332d72e784",
+        "type": "tabs",
+        "children": [
           {
             "id": "279321981656934c",
             "type": "leaf",
@@ -67,8 +70,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -81,7 +83,7 @@
       {
         "id": "a6252966ebfb19fa",
         "type": "tabs",
-        "dimension": 44.646758922068464,
+        "dimension": 28.68217054263566,
         "children": [
           {
             "id": "4c55bbdd0d5f8fcf",
@@ -112,17 +114,45 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "VS/BW vs 1P.md"
+                "file": "Math/Math/01-active/Unit 3.md"
+              }
+            }
+          },
+          {
+            "id": "04603ceb965549fa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Math/Math/01-active/Unit 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b7e06dceffaf62d0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Math/Math/01-active/Unit 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "1ef56d7f7e9e60fd",
         "type": "tabs",
-        "dimension": 27.16678805535324,
+        "dimension": 33.33333333333333,
         "children": [
           {
             "id": "4b2387ba831d0e5f",
@@ -130,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VS/BW vs 1P.md"
+                "file": "Math/Math/01-active/Unit 3.md"
               }
             }
           }
@@ -139,7 +169,7 @@
       {
         "id": "69e68a59f8aecd46",
         "type": "tabs",
-        "dimension": 28.186453022578295,
+        "dimension": 37.98449612403101,
         "children": [
           {
             "id": "78902090c547ded9",
@@ -153,31 +183,41 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "handwritten-notes:Create empty handwritten note": false,
       "obsidian-wordpress:WordPress Publish": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian42-brat:BRAT": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-omnivore:Omnivore": false
+      "obsidian-omnivore:Omnivore": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "33327c17f27b0b0a",
+  "active": "88464522c969bfad",
   "lastOpenFiles": [
+    "Math/Math/Math.md",
+    "Math/Math/01-active/Unit 3.md",
+    "Math/Math/01-active/Pasted Image 20240510194125_853.jpg",
+    "Projects/02-active/Moonstone.md",
+    "Projects/Projects.md",
+    "Projects/02-active/AI Chatbot.md",
+    "Obsidian Setup/Notes.md",
+    "Obsidian Setup/Moonstone.md",
+    "Projects/02-active/Blog.md",
+    "0-archives/Palworld Database.md",
     "VS/BW vs 1P.md",
+    "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",
     "Work/App.md",
     "Work/Commands.md",
     "Work/Hosting Plan.md",
@@ -198,23 +238,12 @@
     "Daily Notes/2024/03-March/2024-03-11.md",
     "Daily Notes/2024/03-March/2024-03-07.md",
     "Daily Notes/2024/02-Feb/2024-02-20.md",
-    "Daily Notes/2024/02-Feb/2024-02-19.md",
-    "Daily Notes/2024/01-Jan/2024-01-04.md",
-    "Daily Notes/2024/03-March/2024-03-06.md",
-    "VS/Task Managers.md",
-    "Tasks/Chores/Fish.md",
     "Daily Notes/2024/04-April/00-assets",
     "Daily Notes/2024/04-April",
     "Work/00-assets/Screenshot 2024-03-31 at 3.16.06 PM.png",
     "Work/00-assets/Screenshot 2024-03-31 at 3.36.17 PM.png",
-    "Daily Notes/2024/03-March/2024-03-24.md",
-    "Obsidian Setup/Misc Files/Callouts.md",
     "Work/00-assets/Screenshot 2024-03-31 at 3.15.38 PM.png",
     "Work/00-assets/Screenshot 2024-03-31 at 3.12.33 PM.png",
-    "Work/00-assets/Screenshot 2024-03-31 at 3.11.01 PM.png",
-    "Projects/02-active/00-assets/IMG_0225.jpeg",
-    "Projects/02-active/00-assets/AI/How Do I Make an AI with Python in Eight Steps_ _ Sunscrapers.md",
-    "Projects/02-active/00-assets/AS/Why I choose Apple Notes & Reminders over other apps..md",
     "Projects/02-active/00-assets/AI",
     "Projects/02-active/00-assets/AS",
     "Projects/02-active/00-assets",

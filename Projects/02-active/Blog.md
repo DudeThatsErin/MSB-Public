@@ -1,6 +1,6 @@
 ---
 
-kanban-plugin: basic
+kanban-plugin: board
 
 ---
 
@@ -11,9 +11,27 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] # What is on my...<br>- [ ] iPhone<br>- [ ] iPad<br>- [ ] MacBook Pro<br>- [ ] Windows PC
-- [ ] # What are my ...<br>On any device<br>- [ ] Productivity Apps<br>	- Obsidian + Reminders, Raycast, Rectangle, Itsycal, Shortcuts, Notion<br>- [ ] Runner Up Productivity Apps<br>	- OneNote, Todoist, Things 3, Alfred, Freeform, Apple Notes<br>- [ ] Entertainment Apps<br>	- YouTube, Hulu, Netflix, Steam/Palworld, Reddit, Discord<br>- [ ] Teaching Apps<br>	- OneNote, Apple Notes<br>- [ ] Learning App - Khan Academy<br>- [ ] Programming Apps<br>	- GIMP, VSC, VS, NotePad++
-- [ ] Do I handwrite notes in Obsidian? (handwritten notes plugin)
+- [ ] # What is on my...
+	
+	- [ ] iPhone
+	- [ ] iPad
+	- [ ] MacBook Pro
+	- [ ] Windows PC
+- [ ] # What are my ...
+	
+	On any device
+	- [ ] Productivity Apps
+	- Obsidian + Reminders, Raycast, Rectangle, Itsycal, Shortcuts, Notion
+	- [ ] Runner Up Productivity Apps
+	- OneNote, Todoist, Things 3, Alfred, Freeform, Apple Notes
+	- [ ] Entertainment Apps
+	- YouTube, Hulu, Netflix, Steam/Palworld, Reddit, Discord
+	- [ ] Teaching Apps
+	- OneNote, Apple Notes
+	- [ ] Learning App - Khan Academy
+	- [ ] Programming Apps
+	- GIMP, VSC, VS, NotePad++
+- [ ] Do I handwrite notes in Obsidian? Excalidraw
 - [ ] Palworld Review
 - [ ] The Sims 4 in Early 2024 (end of Q1)
 - [ ] Apple Watch Series 5 in 2024 (5 years old)
@@ -26,7 +44,8 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] Move blog to WordPress from Notion 🛫[[2024-11-01]]<br>- [ ] Import Blogs to WP
+- [ ] Move blog to WordPress from Notion 🛫[[2024-11-01]]
+	- [ ] Import Blogs to WP
 - [ ] [How do I sync Obsidian to all of my devices? / Problems with Sync](https://www.notion.so/dudethatserin/How-do-I-sync-Obsidian-to-all-of-my-devices-7660a31920b44e8bbb0793fe1669c72a?pvs=4)
 
 
@@ -40,6 +59,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","show-checkboxes":false}
+{"kanban-plugin":"board","show-checkboxes":false}
 ```
 %%
