@@ -1,3 +1,0 @@
-# PDFs
-
-# Other Stuff

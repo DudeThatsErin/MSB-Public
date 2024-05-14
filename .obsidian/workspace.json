@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4f20524dde7e189c",
+        "id": "993cb6fd0e684a0f",
         "type": "tabs",
         "children": [
           {
-            "id": "642defd69ee05fc5",
+            "id": "db7dfd88cb558b31",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math/Math/01-active/Drawing 2024-05-14 01.17.39.excalidraw.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -115,9 +111,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Math/Math/01-active/Drawing 2024-05-14 01.17.39.excalidraw.md"
-              }
+              "state": {}
             }
           },
           {
@@ -126,7 +120,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Math/01-active/Drawing 2024-05-14 01.17.39.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +136,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Math/01-active/Drawing 2024-05-14 01.17.39.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +153,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Math/Math/01-active/Drawing 2024-05-14 01.17.39.excalidraw.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -205,53 +195,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "642defd69ee05fc5",
+  "active": "279321981656934c",
   "lastOpenFiles": [
-    "Math/Math/01-active/Unit 3.md",
+    "00-assets/banners/GGRBsdNW0AAr2B_.png",
+    "Games/ACNH/Animal Crossing New Horizons 86bd3a148331454e9f7bce3372f5435a.md",
+    "Math/01-active/Calc 2",
+    "Math/01-active/Calc 1",
+    "Math/01-active/Pre-Cal - Trig",
+    "Math/01-active/College Algebra/00-assets",
+    "Math/01-active/College Algebra/Unit 1.pdf",
+    "Math/01-active/College Algebra/Unit 3.md",
+    "Math/Math/01-active/College Algebra/Unit 3.md",
+    "Math/Math.md",
+    "Math/Math/01-active/College Algebra",
+    "Math/Math/01-active",
+    "Math/Math",
+    "Math/01-active/College Algebra/Unit 2.md",
+    "Math/01-active/College Algebra/Unit 5.md",
+    "Math/01-active/College Algebra/Unit 1.md",
+    "Math/01-active/College Algebra/Unit 11.md",
+    "Math/01-active/College Algebra/Unit 10.md",
+    "Math/01-active/College Algebra/Unit 4.md",
+    "Math/01-active/College Algebra/Unit 14.md",
+    "Math/01-active/College Algebra/Unit Test.md",
+    "Math/01-active/College Algebra/Unit 7.md",
+    "Math/01-active/College Algebra/Unit 13.md",
+    "Math/01-active/College Algebra/Unit 6.md",
+    "Math/01-active/College Algebra/Unit 12.md",
+    "Math/01-active/College Algebra/Unit 9.md",
+    "Math/01-active/College Algebra/Unit 8.md",
+    "Math/01-active/College Algebra/Drawing 2024-05-14 01.17.39.excalidraw.md",
+    "Math/01-active/College Algebra/Drawing 2024-05-14 01.19.00.excalidraw.md",
+    "Math/01-active/College Algebra/Unit 3.md",
+    "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
+    "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
+    "Math/01-active/College Algebra",
+    "Math/01-active",
     "Math/Math/01-active/Drawing 2024-05-14 01.17.39.excalidraw.md",
     "Math/Math/01-active/Drawing 2024-05-14 01.19.00.excalidraw.md",
-    "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",
     "Math/Math/Math.md",
+    "Math/Math/01-active/Unit 3.md",
+    "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",
     "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184513_494.jpg",
     "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184152_370.jpg",
     "Josh's School/Math/01-active/00-assets/Pasted Image 20240512183448_738.jpg",
     "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182817_705.jpg",
     "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182629_488.jpg",
     "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182436_792.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182331_897.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182158_767.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512181902_640.jpg",
-    "Josh's School/Math/01-active/00-assets",
-    "Josh's School/Math/01-active",
-    "Josh's School/Math",
-    "Josh's School",
-    "Projects/02-active/Moonstone.md",
-    "Projects/Projects.md",
-    "Projects/02-active/AI Chatbot.md",
-    "Obsidian Setup/Notes.md",
-    "Obsidian Setup/Moonstone.md",
-    "Projects/02-active/Blog.md",
-    "0-archives/Palworld Database.md",
-    "VS/BW vs 1P.md",
-    "Work/App.md",
-    "Work/Commands.md",
-    "Work/Hosting Plan.md",
-    "SCRATCHPAD.md",
-    "Coding Cheat Sheets/databases/mysql.md",
-    "Coding Cheat Sheets/databases/sqlite.md",
-    "Coding Cheat Sheets/macos/macos-shortcuts.md",
-    "Coding Cheat Sheets/macos/vscode-macos-shortcuts.md",
-    "Daily Notes/2024/04-April/2024-04-02.md",
-    "Daily Notes/2024/04-April/2024-W10.md",
-    "Daily Notes/2024/03-March/2024-03-15 Friday.md",
-    "Daily Notes/2024/03-March/2024-03-14 - Thursday.md",
-    "Daily Notes/2024/03-March/2024-03-14.md",
-    "Daily Notes/2024/03-March/2024-03-11.md",
-    "Daily Notes/2024/04-April/00-assets",
-    "Daily Notes/2024/04-April",
-    "Projects/02-active/00-assets/AI",
-    "Projects/02-active/00-assets/AS",
-    "Projects/02-active/00-assets",
-    "Projects/02-active"
+    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182331_897.jpg"
   ]
 }
