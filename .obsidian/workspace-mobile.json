@@ -11,10 +11,8 @@
             "id": "a70acc10afbf55a9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Josh's School/Math/01-active/Unit 3.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -68,6 +66,18 @@
         "state": {
           "type": "bookmarks",
           "state": {}
+        }
+      },
+      {
+        "id": "bfd8a10213eb113b",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
         }
       }
     ],
@@ -126,6 +136,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -135,9 +146,7 @@
       "obsidian42-brat:BRAT": false,
       "obsidian-omnivore:Omnivore": false,
       "templater-obsidian:Templater": false,
-      "handwritten-notes:Create empty handwritten note": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-projects:Open projects": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-wordpress:WordPress Publish": false,
       "obsidian-kanban:Create new board": false
