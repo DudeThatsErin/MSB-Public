@@ -11,13 +11,9 @@
             "id": "88464522c969bfad",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "excalidraw",
               "state": {
-                "file": "Projects/Projects.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": []
-                }
+                "file": "Math/Math/01-active/Unit 3.md"
               }
             }
           }
@@ -118,7 +114,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projects/Projects.md"
+                "file": "Math/Math/01-active/Unit 3.md"
               }
             }
           },
@@ -128,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "Math/Math/01-active/Unit 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "Math/Math/01-active/Unit 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Projects.md"
+                "file": "Math/Math/01-active/Unit 3.md"
               }
             }
           }
@@ -210,17 +206,18 @@
   },
   "active": "88464522c969bfad",
   "lastOpenFiles": [
-    "Projects/Projects.md",
+    "Math/Math/Math.md",
+    "Math/Math/01-active/Unit 3.md",
+    "Math/Math/01-active/Pasted Image 20240510194125_853.jpg",
     "Projects/02-active/Moonstone.md",
+    "Projects/Projects.md",
     "Projects/02-active/AI Chatbot.md",
     "Obsidian Setup/Notes.md",
     "Obsidian Setup/Moonstone.md",
     "Projects/02-active/Blog.md",
     "0-archives/Palworld Database.md",
     "VS/BW vs 1P.md",
-    "Pasted Image 20240510194643_831.jpg",
-    "Pasted Image 20240510194125_853.jpg",
-    "Josh's School/Math/01-active/Unit 3.md",
+    "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",
     "Work/App.md",
     "Work/Commands.md",
     "Work/Hosting Plan.md",
