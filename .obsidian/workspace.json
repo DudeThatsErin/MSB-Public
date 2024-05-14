@@ -11,8 +11,12 @@
             "id": "db7dfd88cb558b31",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SCRATCHPAD.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -111,7 +115,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "SCRATCHPAD.md"
+              }
             }
           },
           {
@@ -120,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SCRATCHPAD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SCRATCHPAD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SCRATCHPAD.md"
+              }
             }
           }
         ]
@@ -195,7 +205,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "279321981656934c",
+  "active": "db7dfd88cb558b31",
   "lastOpenFiles": [
     "00-assets/banners/GGRBsdNW0AAr2B_.png",
     "Games/ACNH/Animal Crossing New Horizons 86bd3a148331454e9f7bce3372f5435a.md",
