@@ -47,11 +47,13 @@
                 "id": "2bda5de654bbf623",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "kanban",
                   "state": {
-                    "file": "0-archives/Misc Files/Callouts.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "Projects/Projects.md",
+                    "kanbanViewState": {
+                      "kanban-plugin": "board",
+                      "list-collapse": []
+                    }
                   }
                 }
               }
@@ -60,20 +62,6 @@
           }
         ],
         "direction": "horizontal"
-      },
-      {
-        "id": "75f92bcae58d07ff",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7fc214049c66ef40",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -141,7 +129,7 @@
       {
         "id": "a6252966ebfb19fa",
         "type": "tabs",
-        "dimension": 28.670634920634917,
+        "dimension": 42.18978102189781,
         "children": [
           {
             "id": "4c55bbdd0d5f8fcf",
@@ -160,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-archives/Misc Files/Callouts.md",
+                "file": "Projects/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-archives/Misc Files/Callouts.md",
+                "file": "Projects/Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,6 +182,14 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "de68942cf156abaa",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
@@ -201,7 +197,7 @@
       {
         "id": "1ef56d7f7e9e60fd",
         "type": "tabs",
-        "dimension": 39.285714285714285,
+        "dimension": 57.81021897810219,
         "children": [
           {
             "id": "4b2387ba831d0e5f",
@@ -209,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-archives/Misc Files/Callouts.md"
+                "file": "Projects/Projects.md"
               }
             }
           },
@@ -227,21 +223,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "69e68a59f8aecd46",
-        "type": "tabs",
-        "dimension": 32.0436507936508,
-        "children": [
-          {
-            "id": "78902090c547ded9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -258,16 +239,17 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian42-brat:BRAT": false,
       "obsidian-omnivore:Omnivore": false,
-      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-kanban:Create new board": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "279321981656934c",
+  "active": "2bda5de654bbf623",
   "lastOpenFiles": [
-    "0-archives/Misc Files/Test Note.md",
     "0-archives/Misc Files/Callouts.md",
     "Projects/Projects.md",
+    "0-archives/Misc Files/Test Note.md",
     "Daily Notes/2023/12-Dec/2023-12-10.md",
     "SCRATCHPAD.md",
     "00-Templates/Daily Note Template.md",
