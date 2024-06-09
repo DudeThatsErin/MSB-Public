@@ -13,12 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Templates/Daily Note Template.md",
+                "file": "Daily Notes/2023/12-Dec/2023-12-10.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "37c27fe3d94b4753",
+        "type": "tabs",
+        "children": [
           {
             "id": "4c87492df552eed8",
             "type": "leaf",
@@ -27,8 +33,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -47,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🩻",
+                "query": "tag:#task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "2faeaf332d72e784",
@@ -94,7 +98,7 @@
       {
         "id": "a6252966ebfb19fa",
         "type": "tabs",
-        "dimension": 28.68217054263566,
+        "dimension": 28.670634920634917,
         "children": [
           {
             "id": "4c55bbdd0d5f8fcf",
@@ -113,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Templates/Daily Note Template.md",
+                "file": "Daily Notes/2023/12-Dec/2023-12-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Templates/Daily Note Template.md",
+                "file": "Daily Notes/2023/12-Dec/2023-12-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +157,7 @@
       {
         "id": "1ef56d7f7e9e60fd",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 39.285714285714285,
         "children": [
           {
             "id": "4b2387ba831d0e5f",
@@ -161,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Templates/Daily Note Template.md"
+                "file": "Daily Notes/2023/12-Dec/2023-12-10.md"
               }
             }
           },
@@ -183,7 +187,7 @@
       {
         "id": "69e68a59f8aecd46",
         "type": "tabs",
-        "dimension": 37.98449612403101,
+        "dimension": 32.0436507936508,
         "children": [
           {
             "id": "78902090c547ded9",
@@ -216,10 +220,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4c87492df552eed8",
+  "active": "80284e4654ed5163",
   "lastOpenFiles": [
-    "00-Templates/Journal Template.md",
+    "Obsidian Setup/Misc Files/Test Note.md",
+    "SCRATCHPAD.md",
     "00-Templates/Daily Note Template.md",
+    "00-Templates/Journal Template.md",
     "Daily Notes/2024/05-May/2024-06-09.md",
     "Daily Notes/2024/05-May/2024-05-14.md",
     "Daily Notes/2024/05-May",
@@ -230,7 +236,6 @@
     "Math/01-active/College Algebra/Drawing 2024-05-14 01.19.00.excalidraw.md",
     "Math/Math/01-active/College Algebra/Unit 3.md",
     "Math/01-active/College Algebra/Unconfirmed 115164.crdownload",
-    "SCRATCHPAD.md",
     "00-assets/banners/GGRBsdNW0AAr2B_.png",
     "Games/ACNH/Animal Crossing New Horizons 86bd3a148331454e9f7bce3372f5435a.md",
     "Math/01-active/Calc 2",
@@ -254,7 +259,6 @@
     "Math/01-active/College Algebra/Unit 7.md",
     "Math/01-active/College Algebra/Unit 13.md",
     "Math/01-active/College Algebra/Unit 6.md",
-    "Math/01-active/College Algebra/Unit 12.md",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
     "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",
