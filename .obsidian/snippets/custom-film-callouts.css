@@ -1,6 +1,10 @@
 /* -----------------------------------------------------------------------
 Film Callout Colors and Icons
 -------------------------------------------------------------------------- */
+.callout[data-callout="film"] {
+  --callout-icon: lucide-film;
+}
+
 .callout[data-callout="film-lightpurple"] {
   /*
   #d4d6d5

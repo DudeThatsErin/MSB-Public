@@ -152,5 +152,7 @@
   "Editor@@embed-border-radius": "10px",
   "Mobile@@card-layout-pad-open": false,
   "Mobile@@drawer-phone-full-width": false,
-  "Plugin@@colorful-checkbox": false
+  "Plugin@@colorful-checkbox": false,
+  "anuppuccin-theme-settings@@anp-active-line": "anp-no-highlight",
+  "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-sleek"
 }
