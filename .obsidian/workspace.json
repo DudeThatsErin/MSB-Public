@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "d78e45e6fa5aebab",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "80284e4654ed5163",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2023/12-Dec/2023-12-10.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "37c27fe3d94b4753",
         "type": "tabs",
         "children": [
@@ -31,6 +13,18 @@
             "state": {
               "type": "style-settings",
               "state": {}
+            }
+          },
+          {
+            "id": "44fc1ad80eb0d4ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Setup/Misc Files/Test Note.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -52,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#task",
+                "query": "tag:#all",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +101,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -117,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2023/12-Dec/2023-12-10.md",
+                "file": "Obsidian Setup/Misc Files/Test Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2023/12-Dec/2023-12-10.md",
+                "file": "Obsidian Setup/Misc Files/Test Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2023/12-Dec/2023-12-10.md"
+                "file": "Obsidian Setup/Misc Files/Test Note.md"
               }
             }
           },
@@ -220,10 +214,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "80284e4654ed5163",
+  "active": "4c87492df552eed8",
   "lastOpenFiles": [
-    "Obsidian Setup/Misc Files/Test Note.md",
+    "Daily Notes/2023/12-Dec/2023-12-10.md",
     "SCRATCHPAD.md",
+    "Obsidian Setup/Misc Files/Test Note.md",
     "00-Templates/Daily Note Template.md",
     "00-Templates/Journal Template.md",
     "Daily Notes/2024/05-May/2024-06-09.md",
@@ -258,7 +253,6 @@
     "Math/01-active/College Algebra/Unit Test.md",
     "Math/01-active/College Algebra/Unit 7.md",
     "Math/01-active/College Algebra/Unit 13.md",
-    "Math/01-active/College Algebra/Unit 6.md",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
     "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",
