@@ -78,5 +78,10 @@
   "anuppuccin-theme-settings@@anp-kanban-hide-lane-border": true,
   "anuppuccin-theme-settings@@anp-kanban-lane-radius": 10,
   "anuppuccin-theme-settings@@anp-kanban-lane-spacing": 10,
-  "moonstone-settings@@erin-lightred-format@@dark": "#681010"
+  "moonstone-settings@@erin-lightred-format@@dark": "#681010",
+  "Components@@tab-autohide": true,
+  "Components@@Ribbon-autohide": true,
+  "Components@@nav-header-autohide": true,
+  "Components@@status-bar-autohide": true,
+  "Components@@tab-title-bar-autohide": false
 }
