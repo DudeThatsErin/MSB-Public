@@ -4,33 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "827cee7a6f7b3df2",
+        "id": "580dd5c26e2de124",
         "type": "tabs",
         "children": [
           {
-            "id": "3aa2e59615202a88",
+            "id": "1614261453840f09",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Obsidian Setup/Misc Files/Test Note.md",
-                "mode": "source",
-                "source": false
+                "file": "Projects/Projects.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "d28e371eb1a8a046",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "42405a5213cd8f36",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
             }
           }
         ]
@@ -45,6 +33,7 @@
       {
         "id": "8ed04d52562d44ce",
         "type": "tabs",
+        "dimension": 37.00396825396825,
         "children": [
           {
             "id": "35094f7bf4323342",
@@ -69,11 +58,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "2faeaf332d72e784",
         "type": "tabs",
+        "dimension": 62.99603174603175,
         "children": [
           {
             "id": "279321981656934c",
@@ -117,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Setup/Misc Files/Test Note.md",
+                "file": "Projects/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Setup/Misc Files/Test Note.md",
+                "file": "Projects/Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +143,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "1ef56d7f7e9e60fd",
@@ -165,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Setup/Misc Files/Test Note.md"
+                "file": "Projects/Projects.md"
               }
             }
           },
@@ -220,10 +212,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3aa2e59615202a88",
+  "active": "1614261453840f09",
   "lastOpenFiles": [
-    "Obsidian Setup/Misc Files/Callouts.md",
-    "Obsidian Setup/Misc Files/Test Note.md",
+    "0-archives/Misc Files/Test Note.md",
+    "0-archives/Misc Files/Callouts.md",
     "Daily Notes/2023/12-Dec/2023-12-10.md",
     "SCRATCHPAD.md",
     "00-Templates/Daily Note Template.md",

@@ -20,7 +20,6 @@ sticker: lucide//file-code
 
 - [ ] [[Blog]]
 - [ ] [[AI Chatbot]]
-- [ ] [[Obsidian Setup/Moonstone|Moonstone]]
 
 
 ## QA
@@ -30,6 +29,7 @@ sticker: lucide//file-code
 ## Completed
 
 **Complete**
+- [x] [[Obsidian Setup/Moonstone|Moonstone]] ✅ 2024-06-09
 - [x] [[Palworld Database]]
 - [x] ##### Dude, That's Me!
 	Check for New Members

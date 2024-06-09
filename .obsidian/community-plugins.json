@@ -15,9 +15,9 @@
   "actions-uri",
   "text-extractor",
   "obsidian-style-settings",
-  "obsidian-hider",
   "obsidian-task-archiver",
   "obsidian-kanban",
   "obsidian-git",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-icon-folder"
 ]

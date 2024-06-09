@@ -151,5 +151,6 @@
   "Editor@@seamless-embeds": true,
   "Editor@@embed-border-radius": "10px",
   "Mobile@@card-layout-pad-open": false,
-  "Mobile@@drawer-phone-full-width": false
+  "Mobile@@drawer-phone-full-width": false,
+  "Plugin@@colorful-checkbox": false
 }
