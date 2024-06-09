@@ -140,5 +140,16 @@
   "Editor@@img-darken": true,
   "Editor@@zoom-off": false,
   "Editor@@codeblock-style-select": "codeblock-style-one-dark",
-  "Editor@@callout-style-select": "callout-style-4"
+  "Editor@@callout-style-select": "callout-style-customize",
+  "Editor@@callout-border-width": "2px",
+  "Editor@@callout-border-opacity": 0.4,
+  "Editor@@callout-padding": "5px",
+  "Editor@@callout-radius": "10px",
+  "Editor@@callout-title-padding": "2px",
+  "Editor@@callout-content-padding": "5px",
+  "Editor@@callout-content-radius": "10px",
+  "Editor@@seamless-embeds": true,
+  "Editor@@embed-border-radius": "10px",
+  "Mobile@@card-layout-pad-open": false,
+  "Mobile@@drawer-phone-full-width": false
 }

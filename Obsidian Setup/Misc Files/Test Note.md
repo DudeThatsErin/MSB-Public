@@ -151,3 +151,5 @@ Random Image: (if it doesn't work replace it with one that does)
 | sass | ss  | ss  |
 | ---- | --- | --- |
 |     yo | I    | am    |
+## Embeds
+![[Large Number of Tables]]
