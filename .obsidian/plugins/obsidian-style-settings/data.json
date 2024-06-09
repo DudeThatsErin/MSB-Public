@@ -133,5 +133,12 @@
   "Editor@@ul-marker-restore": false,
   "Editor@@tag-color@@dark": "#81C7D5",
   "Editor@@tag-background@@dark": "#0B696D",
-  "Editor@@tag-background-hover@@dark": "#0A4364"
+  "Editor@@tag-background-hover@@dark": "#0A4364",
+  "Editor@@table-header-color@@dark": "#37AFC5",
+  "Editor@@table-width-select": "table-width-default",
+  "Editor@@img-center-align": true,
+  "Editor@@img-darken": true,
+  "Editor@@zoom-off": false,
+  "Editor@@codeblock-style-select": "codeblock-style-one-dark",
+  "Editor@@callout-style-select": "callout-style-4"
 }
