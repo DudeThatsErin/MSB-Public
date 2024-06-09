@@ -1,0 +1,4 @@
+/* Tab fix for Desktop */
+.is-focused .workspace-tab-header {
+    color: #fff !important;
+}

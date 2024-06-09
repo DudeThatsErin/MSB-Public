@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/02-active/Blog.md",
+                "file": "SCRATCHPAD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/02-active/Blog.md",
+                "file": "SCRATCHPAD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/02-active/Blog.md"
+                "file": "SCRATCHPAD.md"
               }
             }
           },
@@ -270,8 +270,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "002e9bda8d54cf2e",
+  "active": "dacb1c4589607191",
   "lastOpenFiles": [
+    "Projects/02-active/Blog.md",
     "0-archives/GitHub Student Developer Pack.md",
     "Projects/Projects.md",
     "0-archives/Misc Files/Test Note.md",
@@ -308,7 +309,6 @@
     "Math/01-active/College Algebra/Unit 10.md",
     "Math/01-active/College Algebra/Unit 4.md",
     "Math/01-active/College Algebra/Unit 14.md",
-    "Math/01-active/College Algebra/Unit Test.md",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
     "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",
