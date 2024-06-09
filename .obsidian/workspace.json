@@ -17,15 +17,34 @@
                 "state": {
                   "type": "kanban",
                   "state": {
-                    "file": "Projects/Projects.md",
+                    "file": "Projects/02-active/Blog.md",
                     "kanbanViewState": {
                       "kanban-plugin": "board",
                       "list-collapse": []
                     }
                   }
                 }
+              },
+              {
+                "id": "002e9bda8d54cf2e",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "Projects/02-active/Blog.md",
+                    "kanbanViewState": {
+                      "kanban-plugin": "board",
+                      "list-collapse": [
+                        null,
+                        true,
+                        true
+                      ]
+                    }
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "c0dfe5388000a861",
@@ -44,21 +63,27 @@
                 }
               },
               {
-                "id": "2bda5de654bbf623",
+                "id": "6e483af3db14b004",
                 "type": "leaf",
                 "state": {
-                  "type": "kanban",
+                  "type": "markdown",
                   "state": {
-                    "file": "Projects/Projects.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": []
-                    }
+                    "file": "0-archives/GitHub Student Developer Pack.md",
+                    "mode": "source",
+                    "source": false
                   }
+                }
+              },
+              {
+                "id": "5c45b0ae4be0e657",
+                "type": "leaf",
+                "state": {
+                  "type": "style-settings",
+                  "state": {}
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -148,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "Projects/02-active/Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "Projects/02-active/Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Projects.md"
+                "file": "Projects/02-active/Blog.md"
               }
             }
           },
@@ -245,11 +270,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2bda5de654bbf623",
+  "active": "002e9bda8d54cf2e",
   "lastOpenFiles": [
-    "0-archives/Misc Files/Callouts.md",
+    "0-archives/GitHub Student Developer Pack.md",
     "Projects/Projects.md",
     "0-archives/Misc Files/Test Note.md",
+    "0-archives/Misc Files/Callouts.md",
     "Daily Notes/2023/12-Dec/2023-12-10.md",
     "SCRATCHPAD.md",
     "00-Templates/Daily Note Template.md",
@@ -283,7 +309,6 @@
     "Math/01-active/College Algebra/Unit 4.md",
     "Math/01-active/College Algebra/Unit 14.md",
     "Math/01-active/College Algebra/Unit Test.md",
-    "Math/01-active/College Algebra/Unit 7.md",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
     "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",

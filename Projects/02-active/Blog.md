@@ -7,6 +7,7 @@ kanban-plugin: board
 ## Misc
 
 - [ ] Register `techbyerin.com` when I get my new hosting
+	Maybe??? Idk
 
 
 ## Backlog
@@ -44,21 +45,22 @@ kanban-plugin: board
 
 ## In Progress
 
-- [ ] Move blog to WordPress from Notion 🛫[[2024-11-01]]
-	- [ ] Import Blogs to WP
-- [ ] [How do I sync Obsidian to all of my devices? / Problems with Sync](https://www.notion.so/dudethatserin/How-do-I-sync-Obsidian-to-all-of-my-devices-7660a31920b44e8bbb0793fe1669c72a?pvs=4)
+- [ ] REWRITE: My Obsidian Setup
 
 
 ## Written/Published
 
 **Complete**
-- [ ] My Obsidian Setup
+- [x] [How do I sync Obsidian to all of my devices? / Problems with Sync](https://www.notion.so/dudethatserin/How-do-I-sync-Obsidian-to-all-of-my-devices-7660a31920b44e8bbb0793fe1669c72a?pvs=4) ✅ 2024-06-09
+- [x] Move blog to WordPress from Notion 🛫[[2024-11-01]] ✅ 2024-06-09
+	- [x] Import Blogs to WP ✅ 2024-06-09
+- [x] Job Application Process parts 1 & 2
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","show-checkboxes":false}
+{"kanban-plugin":"board","show-checkboxes":false,"list-collapse":[null,true,true]}
 ```
 %%
