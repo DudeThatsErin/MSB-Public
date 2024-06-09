@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "657e2c32a6174106",
+    "id": "01f8c6127ee0a927",
     "type": "split",
     "children": [
       {
-        "id": "cd14b77ad505f949",
+        "id": "b0350f4fba2afe05",
         "type": "tabs",
         "children": [
           {
-            "id": "a70acc10afbf55a9",
+            "id": "4262b2e57ffa2019",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,11 +21,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "67b46f191352c1ae",
+    "id": "18940ef625d4ecc1",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "fb4ff61aa7ec3b57",
+        "id": "61237e9c0d3fcde4",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -35,7 +35,7 @@
         }
       },
       {
-        "id": "c9b5303c9e2a9e88",
+        "id": "c45ac44577ff0d69",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -50,7 +50,7 @@
         }
       },
       {
-        "id": "1a0b27c6b803f837",
+        "id": "62425dd444305fa3",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -61,23 +61,11 @@
         }
       },
       {
-        "id": "71ccf295b29b167e",
+        "id": "7db011e1573ec3cb",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
           "state": {}
-        }
-      },
-      {
-        "id": "bfd8a10213eb113b",
-        "type": "leaf",
-        "state": {
-          "type": "all-properties",
-          "state": {
-            "sortOrder": "frequency",
-            "showSearch": false,
-            "searchQuery": ""
-          }
         }
       }
     ],
@@ -85,11 +73,11 @@
     "pinned": true
   },
   "right": {
-    "id": "ee35ac6f6142f05c",
+    "id": "a094384101e8a756",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "050d553d9bbbbba7",
+        "id": "ab7961c2b21ad717",
         "type": "leaf",
         "state": {
           "type": "backlink",
@@ -105,7 +93,7 @@
         }
       },
       {
-        "id": "1a68a809d3335fc2",
+        "id": "5ca3aa3af9c7cc03",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
@@ -116,18 +104,10 @@
         }
       },
       {
-        "id": "610fb276c87a5357",
+        "id": "b00e667861483033",
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
-        }
-      },
-      {
-        "id": "5d1e0f12f4d821d8",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
           "state": {}
         }
       }
@@ -136,67 +116,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-omnivore:Omnivore": false,
-      "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-wordpress:WordPress Publish": false,
-      "obsidian-kanban:Create new board": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "a70acc10afbf55a9",
-  "lastOpenFiles": [
-    "Josh's School/Math/01-active/College Algebra/Unit 3.md",
-    "Josh's School/Math/01-active/Unit 3.md",
-    "Pasted Image 20240510194125_853.jpg",
-    "SCRATCHPAD.md",
-    "Pasted Image 20240510194643_831.jpg",
-    "Daily Notes/2024/03-March/00-assets/2024-03-14-Thursday_1.png",
-    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311154346.png",
-    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311155225.png",
-    "Daily Notes/2024/03-March/00-assets/2024-03-06-got-job.png",
-    "Daily Notes/2024/01-Jan/00-assets/updated-dark-mode.png",
-    "Daily Notes/2024/01-Jan/00-assets/Things3Areas.png",
-    "Daily Notes/2024/01-Jan/00-assets/current-light-mode.png",
-    "Daily Notes/2024/01-Jan/00-assets/Countdown-Deadlines.png",
-    "Daily Notes/2018/12-Dec/2018-12-18.md",
-    "Daily Notes/2020/02-Feb/2020-02-04.md",
-    "Daily Notes/2020/08-Aug/2020-08-11.md",
-    "Daily Notes/2021/10-Oct/2021-10-26.md",
-    "Daily Notes/2021/10-Oct/2021-10-07.md",
-    "Daily Notes/2021/10-Oct/2021-10-05.md",
-    "Daily Notes/2021/09-Sept/2021-09-21.md",
-    "Daily Notes/2021/11-Nov/2021-11-10.md",
-    "Daily Notes/2019/09-Sept/2019-09-02.md",
-    "Daily Notes/2019/04-April/2019-04-10.md",
-    "Daily Notes/2017/10-Oct/2017-10-30.md",
-    "Daily Notes/2017/11-Nov/2017-11-02.md",
-    "Daily Notes/2017/11-Nov/2017-11-09.md",
-    "Daily Notes/2017/12-Dec/2017-12-23.md",
-    "Daily Notes/2015/03-March/2015-03-28.md",
-    "Daily Notes/2015/04-April/2015-04-02.md",
-    "Daily Notes/2023/03-March/2023-03-01.md",
-    "Daily Notes/2023/03-March/2023-03-14.md",
-    "Daily Notes/2023/01-Jan/2023-01-17.md",
-    "Daily Notes/2023/01-Jan/Week of 25-01-2023.md",
-    "Daily Notes/2023/01-Jan/2023-01-31.md",
-    "Daily Notes/2023/01-Jan/2023-01-05.md",
-    "Daily Notes/2023/12-Dec/12-10-2023.pdf",
-    "Daily Notes/2024/03-March/Bills _ Subscriptions.pdf",
-    "Daily Notes/2024/03-March/00-assets",
-    "Daily Notes/2024/01-Jan/2024-01-24.md-2",
-    "Daily Notes/2024/01-Jan/2024-01-29.md-2",
-    "Daily Notes/2024/01-Jan/00-assets",
-    "Daily Notes/2024/02-Feb/2024-02-14",
-    "Daily Notes/2024/02-Feb/00-assets",
-    "Daily Notes/2013/08-Aug/00-assets"
-  ]
+  "active": "4262b2e57ffa2019",
+  "lastOpenFiles": []
 }
