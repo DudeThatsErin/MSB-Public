@@ -1,10 +1,11 @@
 {
   "accentColor": "",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Border",
   "enabledCssSnippets": [
     "custom-rainbow-folders",
-    "extended-colors-annu",
     "custom-rainbow-folders-text-only",
-    "custom-rainbow-folders-bg-only"
+    "custom-rainbow-folders-bg-only",
+    "custom-callouts",
+    "custom-checkboxes"
   ]
 }
