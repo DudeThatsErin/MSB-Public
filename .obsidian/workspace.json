@@ -4,89 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7b0344bb64e4cc92",
-        "type": "split",
+        "id": "53129c34cecffd8d",
+        "type": "tabs",
         "children": [
           {
-            "id": "580dd5c26e2de124",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1614261453840f09",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "Projects/02-active/Blog.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": []
-                    }
-                  }
-                }
-              },
-              {
-                "id": "002e9bda8d54cf2e",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "Projects/02-active/Blog.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        null,
-                        true,
-                        true
-                      ]
-                    }
-                  }
-                }
+            "id": "8f801615f83c7267",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2024/05-May/2024-06-10.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "c0dfe5388000a861",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "49415ab1de7ab534",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "0-archives/Misc Files/Test Note.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6e483af3db14b004",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "0-archives/GitHub Student Developer Pack.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "5c45b0ae4be0e657",
-                "type": "leaf",
-                "state": {
-                  "type": "style-settings",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 2
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +31,6 @@
       {
         "id": "8ed04d52562d44ce",
         "type": "tabs",
-        "dimension": 37.00396825396825,
         "children": [
           {
             "id": "35094f7bf4323342",
@@ -122,15 +54,7 @@
               "type": "bookmarks",
               "state": {}
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "2faeaf332d72e784",
-        "type": "tabs",
-        "dimension": 62.99603174603175,
-        "children": [
+          },
           {
             "id": "279321981656934c",
             "type": "leaf",
@@ -140,12 +64,25 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "d94a380fa1db854a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 283.5
   },
   "right": {
     "id": "b991b121d94c5427",
@@ -154,7 +91,7 @@
       {
         "id": "a6252966ebfb19fa",
         "type": "tabs",
-        "dimension": 42.18978102189781,
+        "dimension": 54.9636803874092,
         "children": [
           {
             "id": "4c55bbdd0d5f8fcf",
@@ -164,73 +101,6 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              }
-            }
-          },
-          {
-            "id": "0dfb46a6f0ff9a3a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "SCRATCHPAD.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "2e794b541711addf",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "SCRATCHPAD.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "0e87e4d70d95c5b0",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "de68942cf156abaa",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "1ef56d7f7e9e60fd",
-        "type": "tabs",
-        "dimension": 57.81021897810219,
-        "children": [
-          {
-            "id": "4b2387ba831d0e5f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "SCRATCHPAD.md"
               }
             }
           },
@@ -245,9 +115,34 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4b2387ba831d0e5f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily Notes/2024/05-May/2024-06-10.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "60495eaadf659f4f",
+        "type": "tabs",
+        "dimension": 45.036319612590795,
+        "children": [
+          {
+            "id": "de68942cf156abaa",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -266,49 +161,49 @@
       "obsidian-omnivore:Omnivore": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-kanban:Create new board": false,
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "dacb1c4589607191",
+  "active": "8f801615f83c7267",
   "lastOpenFiles": [
-    "Projects/02-active/Blog.md",
-    "0-archives/GitHub Student Developer Pack.md",
-    "Projects/Projects.md",
-    "0-archives/Misc Files/Test Note.md",
-    "0-archives/Misc Files/Callouts.md",
-    "Daily Notes/2023/12-Dec/2023-12-10.md",
+    "Untitled Kanban.md",
+    "Daily Notes/2024/05-May/2024-06-10.md",
     "SCRATCHPAD.md",
+    "Tasks/Chores.md",
+    "Tasks.md",
+    "Tasks/Finances.md",
     "00-Templates/Daily Note Template.md",
-    "00-Templates/Journal Template.md",
     "Daily Notes/2024/05-May/2024-06-09.md",
-    "Daily Notes/2024/05-May/2024-05-14.md",
-    "Daily Notes/2024/05-May",
     "Tasks/Misc.md",
-    "Math/01-active/College Algebra/Drawing 2024-05-14 01.17.39.excalidraw.md",
-    "Math/01-active/College Algebra/Drawing.2024-05-14.01.28.14.excalidraw.md",
-    "Math/01-active/College Algebra/Drawing 2024-05-14 01.19.00.excalidraw.md",
-    "Math/Math/01-active/College Algebra/Unit 3.md",
+    "Tasks/Someday.md",
+    "Tasks/Chores/Trash.md",
+    "Tasks/Chores/Cats.md",
+    "Tasks/Chores/Fish.md",
+    "Tasks/Chores/Wellness.md",
+    "Tasks/Finances/Bills.md",
+    "Tasks/Finances/Subscriptions.md",
+    "Math/Math.md",
+    "Tasks/Finances/Untitled 1.md",
+    "00-Templates/Blog Template.md",
+    "00-Templates/Bills Template.md",
+    "00-Templates/Callout Template.md",
+    "00-Templates/Projects Template.md",
+    "00-Templates/Template.md",
+    "00-Templates/Task Template.md",
+    "00-Templates/Subscription Template.md",
+    "0-archives/Tasks.md",
+    "Daily Notes/2024/05-May",
     "Math/01-active/College Algebra/Unconfirmed 115164.crdownload",
     "00-assets/banners/GGRBsdNW0AAr2B_.png",
-    "Games/ACNH/Animal Crossing New Horizons 86bd3a148331454e9f7bce3372f5435a.md",
     "Math/01-active/Calc 2",
     "Math/01-active/Calc 1",
     "Math/01-active/Pre-Cal - Trig",
     "Math/01-active/College Algebra/00-assets",
     "Math/01-active/College Algebra/Unit 1.pdf",
-    "Math/01-active/College Algebra/Unit 3.md",
-    "Math/Math.md",
     "Math/Math/01-active/College Algebra",
     "Math/Math/01-active",
     "Math/Math",
-    "Math/01-active/College Algebra/Unit 2.md",
-    "Math/01-active/College Algebra/Unit 5.md",
-    "Math/01-active/College Algebra/Unit 1.md",
-    "Math/01-active/College Algebra/Unit 11.md",
-    "Math/01-active/College Algebra/Unit 10.md",
-    "Math/01-active/College Algebra/Unit 4.md",
-    "Math/01-active/College Algebra/Unit 14.md",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
     "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",

@@ -40,7 +40,7 @@ kanban-plugin: board
 
 ## Up Next
 
-- [ ] How do I have my TLDs pointing to Notion
+- [ ] How do I have my TLDs pointing to Notion (NoteHost)
 
 
 ## In Progress
@@ -61,6 +61,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","show-checkboxes":false,"list-collapse":[null,true,true]}
+{"kanban-plugin":"board","show-checkboxes":false,"list-collapse":[null,false,false]}
 ```
 %%

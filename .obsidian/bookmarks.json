@@ -14,11 +14,6 @@
     },
     {
       "type": "file",
-      "ctime": 1711058333012,
-      "path": "Projects/Projects.md"
-    },
-    {
-      "type": "file",
       "ctime": 1711058344768,
       "path": "Tasks/Chores/Chores Kanban.md"
     },
@@ -29,8 +24,18 @@
     },
     {
       "type": "file",
-      "ctime": 1711143761173,
-      "path": "Tasks/Finances.md"
+      "ctime": 1717998022032,
+      "path": "SCRATCHPAD.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1717998154180,
+      "path": "Math/Math.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1718000800363,
+      "path": "Tasks.md"
     }
   ]
 }

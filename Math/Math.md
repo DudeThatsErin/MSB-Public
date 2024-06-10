@@ -12,16 +12,11 @@ due date: 2025-03-01
 - [ ] # Total Units to Learn
 	(Including Unit Tests)
 	==56== as of @{2024-01-20}
+- [ ] Finish Updating This with All Math I have to Learn📅 2024-06-11 ⏫
 
 
 ## College Algebra
 
-- [x] [[Unit 1|Unit 1]]
-	- [ ] Learn Section ^rjifv3
-- [x] [[Unit 2|Unit 2]]
-	- [ ] Learn Section
-- [ ] [[Math/Math/01-active/College Algebra/Unit 3|Unit 3]]
-	- [ ] Learn Section
 - [ ] [[Unit 4|Unit 4]]
 	- [ ] Learn Section
 - [ ] [[Unit 5|Unit 5]]
@@ -42,11 +37,38 @@ due date: 2025-03-01
 	- [ ] Learn Section
 - [ ] [[Unit 13|Unit 13]]
 	- [ ] Learn Section
-- [ ] 
 - [ ] [[Unit 14|Unit 14]]
 	- [ ] Learn Section
 - [ ] [[Unit Test|Unit Test]]
 	- [ ] Take a few times to make sure I know it.
+
+
+## Stats
+
+
+
+## Pre-Cal / Trig
+
+
+
+## 1
+
+
+
+## 2
+
+
+
+## 3
+
+
+
+## 4
+
+
+
+## 5
+
 
 
 ***
@@ -107,8 +129,6 @@ due date: 2025-03-01
 	- [ ] Learn Section
 - [ ] 2024-03-15 15:08 [[Josh's School/Math/01-active/Algebra 2/Unit Test|Unit Test]]
 	- [ ] Take it a few times to make sure I know it.
-- [x] 2024-03-15 15:08 [[Josh's School/Math/01-active/Algebra 1/Unit 4|Unit 4]]
-	 #NeedToLearn 🛫 2024-01-31 📅 2024-01-31 ✅ 2024-02-13
 - [ ] 2024-03-15 15:08 [[Unit 5]]
 	- [ ] Learn Section
 - [ ] 2024-03-15 15:08 [[Unit 6]]
@@ -138,6 +158,6 @@ due date: 2025-03-01
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","new-note-folder":"Josh's School/Math/01-active/Pre-Calculus","new-note-template":"00-Templates/Math Template.md","date-trigger":"📅","show-relative-date":true,"link-date-to-daily-note":true,"archive-with-date":true,"date-picker-week-start":0}
+{"kanban-plugin":"board","new-note-folder":"Josh's School/Math/01-active/Pre-Calculus","new-note-template":"00-Templates/Math Template.md","date-trigger":"📅","show-relative-date":true,"link-date-to-daily-note":true,"archive-with-date":true,"date-picker-week-start":0,"list-collapse":[false,false,false,false,false,false,false,false]}
 ```
 %%
