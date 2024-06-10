@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dfa73f1e29a473b1",
+        "id": "53129c34cecffd8d",
         "type": "tabs",
         "children": [
           {
-            "id": "99a454dbec64c84b",
+            "id": "8f801615f83c7267",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SCRATCHPAD.md",
+                "file": "Daily Notes/2024/05-May/2024-06-10.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,6 @@
       {
         "id": "8ed04d52562d44ce",
         "type": "tabs",
-        "dimension": 37.00396825396825,
         "children": [
           {
             "id": "35094f7bf4323342",
@@ -55,15 +54,7 @@
               "type": "bookmarks",
               "state": {}
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "2faeaf332d72e784",
-        "type": "tabs",
-        "dimension": 62.99603174603175,
-        "children": [
+          },
           {
             "id": "279321981656934c",
             "type": "leaf",
@@ -73,12 +64,25 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "d94a380fa1db854a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 283.5
   },
   "right": {
     "id": "b991b121d94c5427",
@@ -87,7 +91,7 @@
       {
         "id": "a6252966ebfb19fa",
         "type": "tabs",
-        "dimension": 42.18978102189781,
+        "dimension": 54.9636803874092,
         "children": [
           {
             "id": "4c55bbdd0d5f8fcf",
@@ -97,73 +101,6 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              }
-            }
-          },
-          {
-            "id": "0dfb46a6f0ff9a3a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "SCRATCHPAD.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "2e794b541711addf",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "SCRATCHPAD.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "0e87e4d70d95c5b0",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "de68942cf156abaa",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "1ef56d7f7e9e60fd",
-        "type": "tabs",
-        "dimension": 57.81021897810219,
-        "children": [
-          {
-            "id": "4b2387ba831d0e5f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "SCRATCHPAD.md"
               }
             }
           },
@@ -178,9 +115,34 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4b2387ba831d0e5f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SCRATCHPAD.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "60495eaadf659f4f",
+        "type": "tabs",
+        "dimension": 45.036319612590795,
+        "children": [
+          {
+            "id": "de68942cf156abaa",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,35 +165,35 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "279321981656934c",
+  "active": "4b2387ba831d0e5f",
   "lastOpenFiles": [
+    "Tasks/Chores.md",
+    "Daily Notes/2024/05-May/2024-06-10.md",
+    "Tasks.md",
+    "Tasks/Finances.md",
     "00-Templates/Daily Note Template.md",
+    "Daily Notes/2024/05-May/2024-06-09.md",
+    "Tasks/Misc.md",
+    "Tasks/Someday.md",
+    "Tasks/Chores/Trash.md",
+    "Tasks/Chores/Cats.md",
+    "Tasks/Chores/Fish.md",
+    "Tasks/Chores/Wellness.md",
+    "SCRATCHPAD.md",
+    "Tasks/Finances/Bills.md",
+    "Tasks/Finances/Subscriptions.md",
+    "Math/Math.md",
+    "Tasks/Finances/Untitled 1.md",
     "00-Templates/Blog Template.md",
     "00-Templates/Bills Template.md",
     "00-Templates/Callout Template.md",
     "00-Templates/Projects Template.md",
     "00-Templates/Template.md",
-    "Tasks/Chores/Cats.md",
     "00-Templates/Task Template.md",
     "00-Templates/Subscription Template.md",
     "0-archives/Tasks.md",
-    "Tasks/Chores/Fish.md",
-    "Tasks/Chores/Trash.md",
-    "Tasks/Misc.md",
-    "Tasks/Someday.md",
-    "Tasks/Finances.md",
     "Projects/02-active/Blog.md",
-    "SCRATCHPAD.md",
-    "0-archives/GitHub Student Developer Pack.md",
-    "Projects/Projects.md",
-    "0-archives/Misc Files/Test Note.md",
-    "0-archives/Misc Files/Callouts.md",
-    "Daily Notes/2023/12-Dec/2023-12-10.md",
-    "00-Templates/Journal Template.md",
-    "Daily Notes/2024/05-May/2024-06-09.md",
-    "Daily Notes/2024/05-May/2024-05-14.md",
     "Daily Notes/2024/05-May",
-    "Math/01-active/College Algebra/Drawing 2024-05-14 01.17.39.excalidraw.md",
     "Math/01-active/College Algebra/Unconfirmed 115164.crdownload",
     "00-assets/banners/GGRBsdNW0AAr2B_.png",
     "Math/01-active/Calc 2",

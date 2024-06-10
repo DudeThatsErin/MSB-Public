@@ -1,3 +1,18 @@
+
+- [x] Chase Card 🔁 every month ➕ 2024-06-10 📅 2024-06-28 ✅ 2024-06-10
+- [x] Disney+/Hulu/ESPN+ 🔁 every month ➕ 2024-06-10 📅 2024-03-01 ✅ 2024-06-10
+- [x] Disney+/Hulu/ESPN+ 🔁 every month ➕ 2024-06-10 📅 2024-04-01 ✅ 2024-06-10
+- [x] Disney+/Hulu/ESPN+ 🔁 every month ➕ 2024-06-10 📅 2024-05-01 ✅ 2024-06-10
+- [x] Disney+/Hulu/ESPN+ 🔁 every month ➕ 2024-06-10 📅 2024-06-01 ✅ 2024-06-10
+- [x] JRNY 📅 [[2024-03-01]]
+- [x] 2024-03-15 15:08 [[Josh's School/Math/01-active/Algebra 1/Unit 4|Unit 4]]
+	 #NeedToLearn 🛫 2024-01-31 📅 2024-01-31 ✅ 2024-02-13
+- [x] [[Math/Math/01-active/College Algebra/Unit 3|Unit 3]] ✅ 2024-06-10
+	- [x] Learn Section ✅ 2024-06-10
+- [x] [[Unit 2|Unit 2]] ✅ 2024-06-10
+	- [x] Learn Section ✅ 2024-06-10
+- [x] [[Unit 1|Unit 1]] ✅ 2024-06-10 ^rjifv3
+	- [x] Learn Section ✅ 2024-06-10 ^rjifv3
 - [x] Get More $ From Kaitlyn for Hulu ✅ 2024-06-10
 	🛫[[2024-04-01]]
 - [x] Chase Card 🔁 every month 📅 2024-05-28 ✅ 2024-06-10

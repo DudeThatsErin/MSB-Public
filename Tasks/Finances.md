@@ -11,22 +11,15 @@ kanban-plugin: board
 - [ ] USAA 🔁 every month ➕ 2024-06-10 📅 2024-07-10
 - [ ] AAA
 	🛫[[2024-08-30]] 🔁 Every Year
-- [ ] Chase Card 🔁 every month ➕ 2024-06-10 📅 2024-06-28
+- [ ] Chase Card 🔁 every month ➕ 2024-06-10 📅 2024-07-28
 
 
 ## Subscriptions
 
-- [ ] Disney+/Hulu/ESPN+
-	🛫[[2024-03-01]] 🔁 Every Month
-- [ ] Amazon Prime
-	🛫[[2024-12-26]] 🔁 Every Year
-- [ ] 1Password Renews 📅 2025-06-08
-	- [x] Convert to individual plan 🗓️ [[2024-07-08]] ✅ 2024-06-10
-	- [x] Convert to GH Account 🗓️[[2024-07-10]] ✅ 2024-06-10
-- [ ] JRNY
-	📅 [[2024-03-01]]
-- [ ] Todoist Expires
-	📅 [[2024-09-26]]
+- [ ] Disney+/Hulu/ESPN+ 🔁 every month ➕ 2024-06-10 📅 2024-07-01
+- [ ] Amazon Prime 📅 2024-12-26 🛫[[2024-12-26]] 🔁 Every Year
+- [ ] 1Password Renews 📅 2025-06-08 🔁 every year 
+- [ ] Todoist Expires 📅 [[2024-09-26]]
 
 
 ## Websites
@@ -46,6 +39,7 @@ kanban-plugin: board
 	🛫[[2025-02-01]]
 - [ ] ## [erinskidds.com](https://erinskidds.com)
 	🛫[[2026-10-13]]
+- [ ] Add other domains📅 2024-06-10
 
 
 ## Paid for by Fam
@@ -62,6 +56,13 @@ kanban-plugin: board
 
 
 
+## 2025 Taxes for 2024 Year
+
+- [ ] Add Taxes 🔺 📅 2024-06-10
+- [ ] # Erin's Taxes
+- [ ] # Josh's Taxes
+
+
 ***
 
 ## Archive
@@ -71,6 +72,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","new-note-folder":"Tasks","list-collapse":[null,null,null,true,true]}
+{"kanban-plugin":"board","new-note-folder":"Tasks","list-collapse":[null,null,null,true,true,false]}
 ```
 %%

@@ -6,6 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasShower",
+      "TiMath",
+      "TiVs",
+      "LiBot",
+      "TiRun",
+      "BoBxTask",
+      "IbMoneyNote",
+      "SiNetflix",
+      "RiBillFill",
+      "TiMoneybag",
       "TiTrash",
       "LiFish",
       "FasCat",
@@ -20,8 +30,7 @@
       "IbCalendar",
       "TiWriting",
       "LiPaperclip",
-      "IbTrash",
-      "LiSmile"
+      "IbTrash"
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -53,8 +62,15 @@
   "Projects": "OcProject24",
   "Tasks": "OcTasklist16",
   "SCRATCHPAD.md": "FasNoteSticky",
-  "Tasks/Chores": "TiHome",
-  "Tasks/Chores/Cats.md": "FasCat",
-  "Tasks/Chores/Fish.md": "LiFish",
-  "Tasks/Chores/Trash.md": "TiTrash"
+  "Tasks/Finances.md": "IbMoneyNote",
+  "Tasks/Someday.md": "IbCalendar",
+  "Projects/Projects.md": "OcProject16",
+  "Projects/02-active": "TiRun",
+  "Projects/02-active/AI Chatbot.md": "LiBot",
+  "Projects/02-active/App Seeker.md": "TiVs",
+  "Projects/02-active/Blog.md": "TiWriting",
+  "Math/01-active": "TiRun",
+  "Math/Math.md": "TiMath",
+  "Tasks/Chores.md": "TiHome",
+  "Tasks.md": "OcTasklist16"
 }
