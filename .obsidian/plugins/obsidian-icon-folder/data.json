@@ -6,6 +6,21 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiTrash",
+      "LiFish",
+      "FasCat",
+      "TiHome",
+      "FasNoteSticky",
+      "LiStickyNote",
+      "OcTasklist16",
+      "OcProject24",
+      "OcProject16",
+      "TiMathXy",
+      "LiKeyboard",
+      "IbCalendar",
+      "TiWriting",
+      "LiPaperclip",
+      "IbTrash",
       "LiSmile"
     ],
     "recentlyUsedIconsSize": 25,
@@ -17,8 +32,8 @@
       "left": 0
     },
     "iconInTabsEnabled": true,
-    "iconInTitleEnabled": true,
-    "iconInFrontmatterEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": true,
     "iconsBackgroundCheckEnabled": true,
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":",
@@ -28,5 +43,18 @@
     "iconColorInFrontmatterFieldName": "iconColor",
     "debugMode": false
   },
-  "Daily Notes/2024/03-March/2024-03-24.md": "LiSmile"
+  "Daily Notes/2024/03-March/2024-03-24.md": "LiSmile",
+  "0-archives": "IbTrash",
+  "00-assets": "LiPaperclip",
+  "00-Templates": "TiWriting",
+  "Daily Notes": "IbCalendar",
+  "KB Shortcuts": "LiKeyboard",
+  "Math": "TiMathXy",
+  "Projects": "OcProject24",
+  "Tasks": "OcTasklist16",
+  "SCRATCHPAD.md": "FasNoteSticky",
+  "Tasks/Chores": "TiHome",
+  "Tasks/Chores/Cats.md": "FasCat",
+  "Tasks/Chores/Fish.md": "LiFish",
+  "Tasks/Chores/Trash.md": "TiTrash"
 }

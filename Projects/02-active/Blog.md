@@ -40,7 +40,7 @@ kanban-plugin: board
 
 ## Up Next
 
-- [ ] How do I have my TLDs pointing to Notion
+- [ ] How do I have my TLDs pointing to Notion (NoteHost)
 
 
 ## In Progress

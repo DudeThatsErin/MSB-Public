@@ -6,14 +6,14 @@
     "metadata": "🔒 [[{{date}}]] 🕸️ {{headingChain}}"
   },
   "additionalTaskPattern": "",
-  "archiveAllCheckedTaskTypes": false,
+  "archiveAllCheckedTaskTypes": true,
   "archiveHeadingDepth": 1,
-  "archiveToSeparateFile": false,
+  "archiveToSeparateFile": true,
   "separateFileType": "Custom note",
   "obsidianTasksCompletedDateFormat": "YYYY-MM-DD",
-  "archiveUnderHeading": true,
+  "archiveUnderHeading": false,
   "dateFormat": "YYYY-MM-DD",
-  "defaultArchiveFileName": "{{sourceFileName}} (archive)",
+  "defaultArchiveFileName": "0-archives/Tasks",
   "headings": [
     {
       "text": "Completed",
