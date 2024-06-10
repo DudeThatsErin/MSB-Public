@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SCRATCHPAD.md",
+                "file": "Projects/02-active/Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SCRATCHPAD.md",
+                "file": "Projects/02-active/Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SCRATCHPAD.md"
+                "file": "Projects/02-active/Blog.md"
               }
             }
           },
@@ -266,19 +266,19 @@
       "obsidian-omnivore:Omnivore": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-kanban:Create new board": false,
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "dacb1c4589607191",
+  "active": "5c45b0ae4be0e657",
   "lastOpenFiles": [
+    "SCRATCHPAD.md",
     "Projects/02-active/Blog.md",
     "0-archives/GitHub Student Developer Pack.md",
     "Projects/Projects.md",
     "0-archives/Misc Files/Test Note.md",
     "0-archives/Misc Files/Callouts.md",
     "Daily Notes/2023/12-Dec/2023-12-10.md",
-    "SCRATCHPAD.md",
     "00-Templates/Daily Note Template.md",
     "00-Templates/Journal Template.md",
     "Daily Notes/2024/05-May/2024-06-09.md",
