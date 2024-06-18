@@ -1,6 +1,6 @@
 ---
 
-kanban-plugin: board
+kanban-plugin: list
 
 ---
 
@@ -34,13 +34,13 @@ kanban-plugin: board
 ## Misc
 
 - [ ] Run Archiver on all files in **Tasks** folder. 📅 2024-06-10 🛫 2024-06-10 ⏳ 2024-06-10 ⏬ 🔁 every day ➕ 2024-03-24
-- [ ] Import Notes from UpNote📅 2024-06-10 ⏫
+- [x] Import Notes from UpNote ⏫ 📅 2024-06-10 ✅ 2024-06-10
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false]}
+{"kanban-plugin":"list","list-collapse":[false,false,false,false,false],"full-list-lane-width":true}
 ```
 %%

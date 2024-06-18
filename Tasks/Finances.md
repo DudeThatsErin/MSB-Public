@@ -1,6 +1,6 @@
 ---
 
-kanban-plugin: board
+kanban-plugin: list
 
 ---
 
@@ -18,7 +18,7 @@ kanban-plugin: board
 
 - [ ] Disney+/Hulu/ESPN+ 🔁 every month ➕ 2024-06-10 📅 2024-07-01
 - [ ] Amazon Prime 📅 2024-12-26 🛫[[2024-12-26]] 🔁 Every Year
-- [ ] 1Password Renews 📅 2025-06-08 🔁 every year 
+- [ ] 1Password Renews 📅 2025-06-08 🔁 every year
 - [ ] Todoist Expires 📅 [[2024-09-26]]
 
 
@@ -72,6 +72,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","new-note-folder":"Tasks","list-collapse":[null,null,null,true,true,false]}
+{"kanban-plugin":"list","new-note-folder":"Tasks","list-collapse":[null,null,null,false,true,false],"full-list-lane-width":true}
 ```
 %%
