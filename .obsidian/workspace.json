@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "Daily Notes/2024/05-May/2024-06-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks.md",
+                "file": "Daily Notes/2024/05-May/2024-06-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "Daily Notes/2024/05-May/2024-06-18.md"
               }
             }
           },
@@ -212,6 +212,7 @@
   },
   "active": "19fef1a6cfe709de",
   "lastOpenFiles": [
+    "Tasks.md",
     "Math/Math.md",
     "Daily Notes/2024/05-May/2024-06-18.md",
     "00-assets/Resident Parking - Lakeline Crossing.png",
@@ -219,7 +220,6 @@
     "Tasks/Someday.md",
     "Tasks/Finances.md",
     "Tasks/Chores.md",
-    "Tasks.md",
     "Daily Notes/2024/05-May/2024-05-14.md",
     "Daily Notes/2024/05-May/2024-06-10.md",
     "Daily Notes/2024/05-May/2024-06-09.md",
