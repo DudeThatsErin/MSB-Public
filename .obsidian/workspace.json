@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "580dd5c26e2de124",
+        "id": "edcacd81acbe5a8e",
         "type": "tabs",
         "children": [
           {
-            "id": "1614261453840f09",
+            "id": "19fef1a6cfe709de",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "00-assets/Resident Parking - Lakeline Crossing.png"
+                "file": "Daily Notes/2024/05-May/2024-06-18.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-assets/Resident Parking - Lakeline Crossing.png",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-assets/Resident Parking - Lakeline Crossing.png",
+                "file": "Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-assets/Resident Parking - Lakeline Crossing.png"
+                "file": "Tasks.md"
               }
             }
           },
@@ -208,8 +210,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1614261453840f09",
+  "active": "19fef1a6cfe709de",
   "lastOpenFiles": [
+    "Math/Math.md",
+    "Daily Notes/2024/05-May/2024-06-18.md",
+    "00-assets/Resident Parking - Lakeline Crossing.png",
     "00-assets/Pasted image 20230403232051.png",
     "Tasks/Someday.md",
     "Tasks/Finances.md",
@@ -243,7 +248,6 @@
     "Math/01-active/College Algebra/00-assets",
     "Math/01-active/College Algebra/Unit 1.pdf",
     "Math/01-active/College Algebra/Unit 3.md",
-    "Math/Math.md",
     "Math/Math/01-active/College Algebra",
     "Math/Math/01-active",
     "Math/Math",
@@ -253,8 +257,6 @@
     "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184513_494.jpg",
     "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184152_370.jpg",
     "Josh's School/Math/01-active/00-assets/Pasted Image 20240512183448_738.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182817_705.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182629_488.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182436_792.jpg"
+    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182817_705.jpg"
   ]
 }
