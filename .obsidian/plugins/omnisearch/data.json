@@ -1,5 +1,5 @@
 {
-  "useCache": true,
+  "useCache": false,
   "hideExcluded": false,
   "downrankedFoldersFilters": [],
   "ignoreDiacritics": true,
@@ -44,4 +44,3 @@
   "welcomeMessage": "1.21.0",
   "verboseLogging": false,
   "DANGER_httpHost": null
-}
