@@ -14,9 +14,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBs/Games/Palworld.md",
+                "file": "Daily Notes/2024/05-May/2024-06-19.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBs/Games/Palworld.md",
+                "file": "Daily Notes/2024/05-May/2024-06-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DBs/Games/Palworld.md",
+                "file": "Daily Notes/2024/05-May/2024-06-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DBs/Games/Palworld.md"
+                "file": "Daily Notes/2024/05-May/2024-06-19.md"
               }
             }
           },
@@ -239,6 +239,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -246,17 +250,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian42-brat:BRAT": false,
-      "obsidian-omnivore:Omnivore": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-kanban:Create new board": false,
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false
+      "obsidian-omnivore:Omnivore": false
     }
   },
   "active": "33de5e0342064e83",
   "lastOpenFiles": [
-    "DBs/Games/Animal Crossing New Horizons.md",
     "DBs/Games/Palworld.md",
+    "Daily Notes/2024/05-May/2024-06-19.md",
+    "DBs/Games/Animal Crossing New Horizons.md",
     "DBs/Games/The Sims 4.md",
     "DBs/Games/The Sims 3.md",
     "DBs/Games/The Legend of Zelda Tears of The Kingdom.md",
@@ -291,7 +292,6 @@
     "DBs/Currents.md",
     "DBs/Books/00-assets/The_Innocent_(Coben_novel).jpg.crdownload",
     "00-Templates/Projects Template.md",
-    "00-Templates/Daily Note Template.md",
     "DBs/Movies/00-assets",
     "DBs/Games/00-assets",
     "DBs/Books/00-assets",
