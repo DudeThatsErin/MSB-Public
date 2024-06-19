@@ -3,7 +3,8 @@ tags:
 studio: 
 location: 
 icon: 
-totalPlaytime: 
+leftOff: 
+seasons: 
 lastWatched: 
 completed: 
 recommend:

@@ -1,10 +1,10 @@
 ---
 tags: 
-studio: 
+author: 
 location: 
 icon: 
-totalPlaytime: 
-lastWatched: 
+hoursPlayed: 
+lastPlayed: 
 completed: 
 recommend:
 ---

@@ -33,6 +33,7 @@
     "lastRead": "datetime",
     "seasons": "number",
     "lastWatched": "datetime",
-    "recommend": "checkbox"
+    "recommend": "checkbox",
+    "icon": "text"
   }
 }

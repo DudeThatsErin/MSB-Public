@@ -36,6 +36,12 @@
       "type": "file",
       "ctime": 1718000800363,
       "path": "Tasks.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1718759290216,
+      "path": "DBs/Currents.canvas",
+      "title": "Currents"
     }
   ]
 }

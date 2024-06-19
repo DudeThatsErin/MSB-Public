@@ -2,8 +2,7 @@
 tags:
   - LawNCrime
 author: Harlan Coben
-status: Current
-icon: obsidian://open?vault=My%20Second%20Brain&file=DBs%2FBooks%2F00-assets%2FThe_Innocent_(Coben_novel).jpg
+icon: "![[DBs/Books/00-assets/The_Innocent.jpg|50]]"
 pages: 517
 currentPage: 184
 location: Physical

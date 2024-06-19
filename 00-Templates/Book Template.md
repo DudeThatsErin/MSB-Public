@@ -1,7 +1,6 @@
 ---
 tags: 
 author: 
-status: 
 icon: 
 pages: 
 currentPage: 

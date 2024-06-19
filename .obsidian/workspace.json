@@ -6,19 +6,72 @@
       {
         "id": "8e8457d2edb5df4a",
         "type": "tabs",
+        "dimension": 61.53846153846154,
         "children": [
           {
             "id": "33de5e0342064e83",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DBs/Currents.canvas",
-                "viewState": {
-                  "x": -444.52580411379495,
-                  "y": -89.20406540343077,
-                  "zoom": -1.3333333333333333
-                }
+                "file": "DBs/Games/Palworld.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ba64418c454d61c1",
+        "type": "tabs",
+        "dimension": 38.46153846153847,
+        "children": [
+          {
+            "id": "5fbf4295aa3048b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Templates/Movie Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "361b13d368ad4c6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Templates/Game Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1a1ac3be98af5c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Templates/TV Show Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "454ace426aa4cce5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBs/Books/The Innocent.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -81,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5
   },
   "right": {
     "id": "b991b121d94c5427",
@@ -109,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBs/Currents.canvas",
+                "file": "DBs/Games/Palworld.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DBs/Currents.canvas",
+                "file": "DBs/Games/Palworld.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DBs/Currents.canvas"
+                "file": "DBs/Games/Palworld.md"
               }
             }
           },
@@ -202,51 +255,52 @@
   },
   "active": "33de5e0342064e83",
   "lastOpenFiles": [
-    "DBs/Currents.md",
+    "DBs/Games/Animal Crossing New Horizons.md",
+    "DBs/Games/Palworld.md",
+    "DBs/Games/The Sims 4.md",
+    "DBs/Games/The Sims 3.md",
+    "DBs/Games/The Legend of Zelda Tears of The Kingdom.md",
+    "DBs/Games/The Legend of Zelda Breath of the Wild.md",
+    "DBs/Movies/Monster's Inc.md",
+    "DBs/Movies/The Princess Diaries 2.md",
+    "DBs/Movies/The Princess Diaries 1.md",
+    "DBs/Movies/The Parent Trap (2009).md",
+    "DBs/TV Shows/South Park.md",
+    "DBs/TV Shows/Family Guy.md",
+    "DBs/TV Shows/The Simpsons.md",
+    "DBs/TV Shows/How I Met Your Mother.md",
+    "DBs/TV Shows/Friends.md",
+    "DBs/Books/The Girl with the Dragonfruit Tattoo.md",
+    "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
+    "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
+    "DBs/Books/Kiss The Girls and Make Them Cry.md",
+    "DBs/Books/00-assets/kiss_girls_cry.jpg",
+    "DBs/Books/00-assets/kiss_girls_cry.jpg.crdownload",
     "DBs/Currents.canvas",
+    "DBs/Books/All By Myself, Alone.md",
+    "DBs/Books/00-assets/all_alone.jpg",
+    "DBs/Books/00-assets/all_alone.jpg.crdownload",
     "DBs/Books/The Innocent.md",
-    "DBs/Books/00-assets/The_Innocent_(Coben_novel).jpg",
-    "DBs/Books/00-assets/The_Innocent_(Coben_novel).jpg.crdownload",
-    "00-Templates/Movie Template.md",
-    "00-Templates/Projects Template.md",
-    "00-Templates/Game Template.md",
     "00-Templates/Book Template.md",
+    "00-Templates/TV Show Template.md",
+    "00-Templates/Game Template.md",
+    "00-Templates/Movie Template.md",
+    "DBs/TV Shows/00-assets",
+    "DBs/TV Shows",
+    "DBs/Books/00-assets/The_Innocent.jpg",
+    "DBs/Currents.md",
+    "DBs/Books/00-assets/The_Innocent_(Coben_novel).jpg.crdownload",
+    "00-Templates/Projects Template.md",
     "00-Templates/Daily Note Template.md",
-    "SCRATCHPAD.md",
-    "Daily Notes/2024/05-May/2024-06-18.md",
     "DBs/Movies/00-assets",
     "DBs/Games/00-assets",
     "DBs/Books/00-assets",
     "DBs/Movies",
-    "DBs/Games",
-    "DBs/Books",
-    "DBs",
-    "Tasks.md",
-    "Math/Math.md",
     "00-assets/Resident Parking - Lakeline Crossing.png",
     "00-assets/Pasted image 20230403232051.png",
-    "Tasks/Someday.md",
-    "Tasks/Finances.md",
-    "Tasks/Chores.md",
-    "Daily Notes/2024/05-May/2024-05-14.md",
-    "Daily Notes/2024/05-May/2024-06-10.md",
-    "Daily Notes/2024/05-May/2024-06-09.md",
-    "0-archives/Tasks.md",
-    "Projects/02-active/Blog.md",
-    "0-archives/GitHub Student Developer Pack.md",
-    "Projects/Projects.md",
-    "0-archives/Misc Files/Test Note.md",
-    "0-archives/Misc Files/Callouts.md",
-    "Daily Notes/2023/12-Dec/2023-12-10.md",
-    "00-Templates/Journal Template.md",
-    "Daily Notes/2024/05-May",
-    "Math/01-active/College Algebra/Unconfirmed 115164.crdownload",
     "00-assets/banners/GGRBsdNW0AAr2B_.png",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
-    "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184513_494.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184152_370.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512183448_738.jpg"
+    "Math/Math/01-active/Pasted Image 20240510194643_831.jpg"
   ]
 }

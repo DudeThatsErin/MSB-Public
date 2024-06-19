@@ -6,6 +6,10 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiAdafruit",
+      "💄",
+      "LiSailboat",
+      "FiTv",
       "RiPoliceBadgeLine",
       "FiBox",
       "TiMovie",
@@ -26,11 +30,7 @@
       "LiFish",
       "FasCat",
       "TiHome",
-      "FasNoteSticky",
-      "LiStickyNote",
-      "OcTasklist16",
-      "OcProject24",
-      "OcProject16"
+      "FasNoteSticky"
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -48,7 +48,7 @@
     "iconIdentifier": ":",
     "iconsInLinksEnabled": true,
     "iconInTitlePosition": "above",
-    "iconInFrontmatterFieldName": "icon",
+    "iconInFrontmatterFieldName": "iconize",
     "iconColorInFrontmatterFieldName": "iconColor",
     "debugMode": false
   },
@@ -80,5 +80,10 @@
   "DBs/Books/00-assets": "FiBox",
   "DBs/Games/00-assets": "FiBox",
   "DBs/Movies/00-assets": "FiBox",
-  "DBs/Books/The Innocent.md": "RiPoliceBadgeLine"
+  "DBs/Books/The Innocent.md": "RiPoliceBadgeLine",
+  "DBs/TV Shows/00-assets": "FiBox",
+  "DBs/TV Shows": "FiTv",
+  "DBs/Books/All By Myself, Alone.md": "LiSailboat",
+  "DBs/Books/Kiss The Girls and Make Them Cry.md": "💄",
+  "DBs/Books/The Girl with the Dragonfruit Tattoo.md": "SiAdafruit"
 }
