@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024/05-May/2024-06-19.md",
+                "file": "0-archives/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2024/05-May/2024-06-19.md",
+                "file": "0-archives/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2024/05-May/2024-06-19.md",
+                "file": "0-archives/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2024/05-May/2024-06-19.md"
+                "file": "0-archives/Untitled.md"
               }
             }
           },
@@ -255,8 +255,9 @@
   },
   "active": "33de5e0342064e83",
   "lastOpenFiles": [
-    "DBs/Games/Palworld.md",
     "Daily Notes/2024/05-May/2024-06-19.md",
+    "0-archives/Untitled.md",
+    "DBs/Games/Palworld.md",
     "DBs/Games/Animal Crossing New Horizons.md",
     "DBs/Games/The Sims 4.md",
     "DBs/Games/The Sims 3.md",
@@ -291,7 +292,6 @@
     "DBs/Books/00-assets/The_Innocent.jpg",
     "DBs/Currents.md",
     "DBs/Books/00-assets/The_Innocent_(Coben_novel).jpg.crdownload",
-    "00-Templates/Projects Template.md",
     "DBs/Movies/00-assets",
     "DBs/Games/00-assets",
     "DBs/Books/00-assets",
