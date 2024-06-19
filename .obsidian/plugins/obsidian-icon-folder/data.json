@@ -6,6 +6,12 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiPoliceBadgeLine",
+      "FiBox",
+      "TiMovie",
+      "RiGameLine",
+      "TiBooks",
+      "RiDatabaseLine",
       "FasShower",
       "TiMath",
       "TiVs",
@@ -24,13 +30,7 @@
       "LiStickyNote",
       "OcTasklist16",
       "OcProject24",
-      "OcProject16",
-      "TiMathXy",
-      "LiKeyboard",
-      "IbCalendar",
-      "TiWriting",
-      "LiPaperclip",
-      "IbTrash"
+      "OcProject16"
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -72,5 +72,13 @@
   "Math/01-active": "TiRun",
   "Math/Math.md": "TiMath",
   "Tasks/Chores.md": "TiHome",
-  "Tasks.md": "OcTasklist16"
+  "Tasks.md": "OcTasklist16",
+  "DBs": "RiDatabaseLine",
+  "DBs/Books": "TiBooks",
+  "DBs/Games": "RiGameLine",
+  "DBs/Movies": "TiMovie",
+  "DBs/Books/00-assets": "FiBox",
+  "DBs/Games/00-assets": "FiBox",
+  "DBs/Movies/00-assets": "FiBox",
+  "DBs/Books/The Innocent.md": "RiPoliceBadgeLine"
 }
