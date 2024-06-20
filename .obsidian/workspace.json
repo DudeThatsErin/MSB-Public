@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024/05-May/2024-06-19.md",
+                "file": "00-Templates/Daily Note Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2024/05-May/2024-06-19.md",
+                "file": "00-Templates/Daily Note Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2024/05-May/2024-06-19.md",
+                "file": "00-Templates/Daily Note Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2024/05-May/2024-06-19.md"
+                "file": "00-Templates/Daily Note Template.md"
               }
             }
           },
@@ -235,9 +235,9 @@
   },
   "active": "5fbf4295aa3048b2",
   "lastOpenFiles": [
+    "Daily Notes/2024/05-May/2024-06-19.md",
     "00-Templates/Movie Template.md",
     "0-archives/Untitled.md",
-    "Daily Notes/2024/05-May/2024-06-19.md",
     "DBs/Games/Palworld.md",
     "DBs/Games/Animal Crossing New Horizons.md",
     "DBs/Games/The Sims 4.md",

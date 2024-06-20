@@ -7,5 +7,3 @@ tags:
 
 # Other Notes
 << [[<% tp.date.yesterday() %>|yesterday's note]] | [[<% tp.date.tomorrow() %>|tomorrow's note]] >>
-## Task Links
-<< [[Chores]] | [[Finances]] | [[Projects]] | [[Someday]] | [[Math]] >>
