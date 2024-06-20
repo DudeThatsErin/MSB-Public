@@ -1,5 +1,5 @@
 {
-  "showInlineTitle": false,
-  "readableLineLength": false,
-  "propertiesInDocument": "hidden"
+  "promptDelete": false,
+  "propertiesInDocument": "hidden",
+  "alwaysUpdateLinks": true
 }
