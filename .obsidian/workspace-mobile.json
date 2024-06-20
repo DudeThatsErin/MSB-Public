@@ -11,8 +11,12 @@
             "id": "5258ac410b9e5220",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Daily Notes/2024/06-June/2024-06-20.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Daily Notes/2024/06-June/2024-06-20.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,11 +113,21 @@
         "type": "leaf",
         "state": {
           "type": "outline",
+          "state": {
+            "file": "Daily Notes/2024/06-June/2024-06-20.md"
+          }
+        }
+      },
+      {
+        "id": "6c1953013a9097c4",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
           "state": {}
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -120,9 +136,63 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-omnivore:Omnivore": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "5258ac410b9e5220",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Daily Notes/2024/05-May/2024-06-20.md",
+    "Daily Notes/2024/06-June/2024-06-09.md",
+    "Daily Notes/2024/06-June/2024-06-20.md",
+    "Daily Notes/2024/06-June/2024-06-10.md",
+    "Daily Notes/2024/06-June",
+    "VS/Untitled Kanban.md",
+    "VS",
+    "Daily Notes/2024/03-March/00-assets/2024-03-14-Thursday_1.png",
+    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311154346.png",
+    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311155225.png",
+    "Daily Notes/2024/03-March/00-assets/2024-03-06-got-job.png",
+    "Daily Notes/2024/01-Jan/00-assets/updated-dark-mode.png",
+    "Daily Notes/2024/01-Jan/00-assets/Things3Areas.png",
+    "Daily Notes/2024/01-Jan/00-assets/current-light-mode.png",
+    "Daily Notes/2024/01-Jan/00-assets/Countdown-Deadlines.png",
+    "Daily Notes/2024/01-Jan/00-assets/Reminders-Lists.png",
+    "Daily Notes/2024/01-Jan/00-assets/current-dark-with-right-sidebar.png",
+    "Daily Notes/2018/12-Dec/2018-12-18.md",
+    "Daily Notes/2020/02-Feb/2020-02-04.md",
+    "Daily Notes/2020/08-Aug/2020-08-11.md",
+    "Daily Notes/2021/10-Oct/2021-10-26.md",
+    "Daily Notes/2021/10-Oct/2021-10-07.md",
+    "Daily Notes/2021/10-Oct/2021-10-05.md",
+    "Daily Notes/2021/09-Sept/2021-09-21.md",
+    "Daily Notes/2021/11-Nov/2021-11-10.md",
+    "Daily Notes/2019/09-Sept/2019-09-02.md",
+    "Daily Notes/2019/04-April/2019-04-10.md",
+    "Daily Notes/2017/10-Oct/2017-10-30.md",
+    "Daily Notes/2017/11-Nov/2017-11-02.md",
+    "Daily Notes/2017/11-Nov/2017-11-09.md",
+    "Daily Notes/2017/12-Dec/2017-12-23.md",
+    "Daily Notes/2015/03-March/2015-03-28.md",
+    "Daily Notes/2015/04-April/2015-04-02.md",
+    "Daily Notes/2023/03-March/2023-03-01.md",
+    "Daily Notes/2023/03-March/2023-03-14.md",
+    "Daily Notes/2023/01-Jan/2023-01-17.md",
+    "Daily Notes/2023/01-Jan/Week of 25-01-2023.md",
+    "Daily Notes/2023/01-Jan/2023-01-31.md",
+    "Daily Notes/2023/12-Dec/12-10-2023.pdf",
+    "Daily Notes/2024/03-March/Bills _ Subscriptions.pdf",
+    "Daily Notes/2024/03-March/00-assets",
+    "Daily Notes/2024/01-Jan/2024-01-24.md-2",
+    "Daily Notes/2024/01-Jan/2024-01-29.md-2",
+    "Daily Notes/2024/01-Jan/00-assets",
+    "Daily Notes/2024/02-Feb/2024-02-14",
+    "Daily Notes/2024/02-Feb/00-assets",
+    "DBs/Currents.canvas"
+  ]
 }
