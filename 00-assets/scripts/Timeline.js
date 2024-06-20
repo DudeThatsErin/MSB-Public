@@ -18,79 +18,29 @@ async function generateTimelineSvg() {
   // Follow this pattern - as few or as many as you like. Text can be what you want - like the day number or name
   // The variable verticalPosition is an adjustment on where you want the icon and text to show
   // The size variable is the font size for that event
+  // Dates are in MONTH-DAY format, so 03-10 is March 10
   const userDates = [
+    { date: "02-02", symbol: "🎂", text: "", verticalPosition: -106, size: 80 },
+    { date: "03-22", symbol: "🌸", text: "", verticalPosition: -106, size: 80 },
+    { date: "03-29", symbol: "💍", text: "", verticalPosition: -106, size: 80 },
+    { date: "06-08", symbol: "🎂", text: "", verticalPosition: -106, size: 80 },
     {
-      date: "03-14",
-      symbol: "⛩️",
-      text: "14",
-      verticalPosition: -110,
-      size: 44,
+      date: "12-25",
+      symbol: "🎄",
+      text: "",
+      verticalPosition: -106,
+      size: 100,
     },
-    {
-      date: "03-18",
-      symbol: "🍤",
-      text: "18",
-      verticalPosition: -186,
-      size: 44,
-    },
-    {
-      date: "03-22",
-      symbol: "🌸",
-      text: "22",
-      verticalPosition: -30,
-      size: 44,
-    },
-    {
-      date: "03-29",
-      symbol: "⛩️",
-      text: "29",
-      verticalPosition: -110,
-      size: 44,
-    },
-    {
-      date: "04-01",
-      symbol: "🍤",
-      text: "01",
-      verticalPosition: -186,
-      size: 44,
-    },
-    {
-      date: "04-25",
-      symbol: "⛩️",
-      text: "25",
-      verticalPosition: -110,
-      size: 44,
-    },
-    {
-      date: "05-08",
-      symbol: "🍤",
-      text: "08",
-      verticalPosition: -110,
-      size: 44,
-    },
-    {
-      date: "06-20",
-      symbol: "💍",
-      text: "20",
-      verticalPosition: -30,
-      size: 44,
-    },
-    {
-      date: "11-15",
-      symbol: "🎂",
-      text: "15",
-      verticalPosition: -30,
-      size: 44,
-    },
-    { date: "12-25", symbol: "🎄", text: "", verticalPosition: -30, size: 100 },
   ];
 
   // Font size of the today date text
-  const todayTextSize = 46;
+  const todayTextSize = 50;
   // Size of the today symbol marker
-  const todaySymbolSize = 20;
+  const todaySymbolSize = 25;
   // Padding between today marker and text
-  const todayPadding = 4;
+  const todayPadding = 6;
+  // Size of the background of the
+  const todayBackgroundWidth = 240;
 
   // Don't change anything from here unless you know what you are doing
 
@@ -200,22 +150,22 @@ async function generateTimelineSvg() {
   const today = new Date();
 
   // Use for display
-  const todayFormatted = moment(today).format("DD-MMM");
+  const todayFormatted = moment(today).format("D-MMM");
 
   // Convert 'today' to 'MM-DD' format for calculation purposes
   const todayCalculationFormat = `${today.getMonth() + 1}-${today.getDate()}`;
 
   // Calculate xPosition using a function compatible with 'MM-DD' format
   const todayXPosition = calculateXPosition(todayCalculationFormat);
-  const todayTextXPosition =
-    todayXPosition - todaySymbolSize - todayTextSize / 3;
+  const todayTextXPosition = todayXPosition - todaySymbolSize - 36;
   const todayTextYPosition =
     quarterRowYPosition +
     quarterRowHeight +
     gapBetweenRows / 2 +
     todaySymbolSize -
     10;
-  const adjustedTodayTextYPosition = todayTextYPosition + todayTextSize / 14;
+  const todayBackgroundHeight = todayTextSize + todayPadding * 2;
+  const todayBackgroundY = todayTextYPosition - todayTextSize + todayPadding;
 
   let quarterGradients = quarterPositions
     .map((q, i) => {
@@ -229,6 +179,7 @@ async function generateTimelineSvg() {
     `;
     })
     .join("");
+
   let filterDefinition = `
 <filter id="brightness" x="0" y="0" width="100%" height="100%">
   <feColorMatrix type="matrix" values="0.4 0 0 0 0
@@ -244,17 +195,11 @@ async function generateTimelineSvg() {
     <feMergeNode in="SourceGraphic"/>
   </feMerge>
 </filter>
-<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-  <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
-  <feMerge>
-    <feMergeNode in="blur"/>
-    <feMergeNode in="SourceGraphic"/>
-  </feMerge>
-</filter>
 `;
+
   // Generate the SVG content with dynamic sizing and positioning
   let svgContent = `
-<svg viewBox="0 -100 ${currentX + 20} 400" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 -100 ${currentX} 400" xmlns="http://www.w3.org/2000/svg">
   <title>Dynamic Timeline ${year}</title>
   <defs>
       ${filterDefinition}
@@ -286,12 +231,12 @@ async function generateTimelineSvg() {
     `
       )
       .join("")}
-    <circle filter="url(#dropShadow)" cx="${todayXPosition}" cy="${gapCenterYPosition}" r="${todaySymbolSize}" stroke="white" fill="#FF00FF" stroke-width="5" />
-    <!-- I have removed the black rectangle behind today's date -->
-    <text filter="url(#dropShadow)" x="${todayTextXPosition}" y="${adjustedTodayTextYPosition}" fill="#FF00FF" font-size="${todayTextSize}" font-weight="bold" text-anchor="end">${todayFormatted}</text>
+
+    <circle filter="url(#dropShadow)" cx="${todayXPosition}" cy="${gapCenterYPosition}" r="${todaySymbolSize}" stroke="white" fill="#000" stroke-width="5" />
+    <text filter="url(#dropShadow)" x="${todayTextXPosition}" y="${todayTextYPosition}" fill="white" font-size="${todayTextSize}" text-anchor="end">${todayFormatted}</text>
   </g>
 </svg>
-`;
+  `;
 
   return svgContent;
 }

@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "8e8457d2edb5df4a",
-        "type": "tabs",
-        "dimension": 61.53846153846154,
-        "children": [
-          {
-            "id": "33de5e0342064e83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-archives/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "ba64418c454d61c1",
         "type": "tabs",
-        "dimension": 38.46153846153847,
         "children": [
           {
             "id": "5fbf4295aa3048b2",
@@ -33,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Templates/Movie Template.md",
+                "file": "Daily Notes/2024/05-May/2024-06-19.md",
                 "mode": "source",
                 "source": false
               }
@@ -162,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-archives/Untitled.md",
+                "file": "Daily Notes/2024/05-May/2024-06-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-archives/Untitled.md",
+                "file": "Daily Notes/2024/05-May/2024-06-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-archives/Untitled.md"
+                "file": "Daily Notes/2024/05-May/2024-06-19.md"
               }
             }
           },
@@ -253,10 +233,11 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "33de5e0342064e83",
+  "active": "5fbf4295aa3048b2",
   "lastOpenFiles": [
-    "Daily Notes/2024/05-May/2024-06-19.md",
+    "00-Templates/Movie Template.md",
     "0-archives/Untitled.md",
+    "Daily Notes/2024/05-May/2024-06-19.md",
     "DBs/Games/Palworld.md",
     "DBs/Games/Animal Crossing New Horizons.md",
     "DBs/Games/The Sims 4.md",
@@ -286,7 +267,6 @@
     "00-Templates/Book Template.md",
     "00-Templates/TV Show Template.md",
     "00-Templates/Game Template.md",
-    "00-Templates/Movie Template.md",
     "DBs/TV Shows/00-assets",
     "DBs/TV Shows",
     "DBs/Books/00-assets/The_Innocent.jpg",
