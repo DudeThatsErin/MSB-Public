@@ -13,46 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Templates/Daily Note Template.md",
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "361b13d368ad4c6e",
+            "id": "e867e5345ff787ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-Templates/Game Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1a1ac3be98af5c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-Templates/TV Show Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "454ace426aa4cce5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBs/Books/The Innocent.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "style-settings",
+              "state": {}
             }
           }
         ]
@@ -142,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Templates/Daily Note Template.md",
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Templates/Daily Note Template.md",
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Templates/Daily Note Template.md"
+                "file": "Daily Notes/2024/06-June/2024-06-20.md"
               }
             }
           },
@@ -215,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,7 +208,14 @@
   },
   "active": "5fbf4295aa3048b2",
   "lastOpenFiles": [
+    "Daily Notes/2024/06-June/2024-06-10.md",
+    "Daily Notes/2024/06-June/2024-06-20.md",
+    "Daily Notes/2024/05-May/2024-06-18.md",
     "Daily Notes/2024/05-May/2024-06-19.md",
+    "Daily Notes/2024/06-June",
+    "00-Templates/Daily Note Template.md",
+    "00-Templates/TV Show Template.md",
+    "DBs/Books/The Innocent.md",
     "00-Templates/Movie Template.md",
     "0-archives/Untitled.md",
     "DBs/Games/Palworld.md",
@@ -260,22 +240,15 @@
     "DBs/Books/00-assets/kiss_girls_cry.jpg",
     "DBs/Books/00-assets/kiss_girls_cry.jpg.crdownload",
     "DBs/Currents.canvas",
-    "DBs/Books/All By Myself, Alone.md",
     "DBs/Books/00-assets/all_alone.jpg",
     "DBs/Books/00-assets/all_alone.jpg.crdownload",
-    "DBs/Books/The Innocent.md",
-    "00-Templates/Book Template.md",
-    "00-Templates/TV Show Template.md",
-    "00-Templates/Game Template.md",
     "DBs/TV Shows/00-assets",
     "DBs/TV Shows",
     "DBs/Books/00-assets/The_Innocent.jpg",
-    "DBs/Currents.md",
     "DBs/Books/00-assets/The_Innocent_(Coben_novel).jpg.crdownload",
     "DBs/Movies/00-assets",
     "DBs/Games/00-assets",
     "DBs/Books/00-assets",
-    "DBs/Movies",
     "00-assets/Resident Parking - Lakeline Crossing.png",
     "00-assets/Pasted image 20230403232051.png",
     "00-assets/banners/GGRBsdNW0AAr2B_.png",

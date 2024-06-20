@@ -34,6 +34,11 @@
     "seasons": "number",
     "lastWatched": "datetime",
     "recommend": "checkbox",
-    "icon": "text"
+    "icon": "text",
+    "symptoms": "multitext",
+    "hoursSleep": "number",
+    "caloriesEaten": "number",
+    "mood": "multitext",
+    "feelings": "multitext"
   }
 }
