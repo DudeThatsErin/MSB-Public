@@ -11,11 +11,20 @@
             "id": "5fbf4295aa3048b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-20.md",
-                "mode": "source",
-                "source": false
+                "file": "VS/Untitled Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               }
             }
           },
@@ -114,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-20.md",
+                "file": "VS/Untitled Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-20.md",
+                "file": "VS/Untitled Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-20.md"
+                "file": "VS/Untitled Kanban.md"
               }
             }
           },
@@ -208,8 +217,10 @@
   },
   "active": "5fbf4295aa3048b2",
   "lastOpenFiles": [
-    "Daily Notes/2024/06-June/2024-06-10.md",
     "Daily Notes/2024/06-June/2024-06-20.md",
+    "VS/Untitled Kanban.md",
+    "VS",
+    "Daily Notes/2024/06-June/2024-06-10.md",
     "Daily Notes/2024/05-May/2024-06-18.md",
     "Daily Notes/2024/05-May/2024-06-19.md",
     "Daily Notes/2024/06-June",
@@ -236,7 +247,6 @@
     "DBs/Books/The Girl with the Dragonfruit Tattoo.md",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
-    "DBs/Books/Kiss The Girls and Make Them Cry.md",
     "DBs/Books/00-assets/kiss_girls_cry.jpg",
     "DBs/Books/00-assets/kiss_girls_cry.jpg.crdownload",
     "DBs/Currents.canvas",
@@ -248,7 +258,6 @@
     "DBs/Books/00-assets/The_Innocent_(Coben_novel).jpg.crdownload",
     "DBs/Movies/00-assets",
     "DBs/Games/00-assets",
-    "DBs/Books/00-assets",
     "00-assets/Resident Parking - Lakeline Crossing.png",
     "00-assets/Pasted image 20230403232051.png",
     "00-assets/banners/GGRBsdNW0AAr2B_.png",
