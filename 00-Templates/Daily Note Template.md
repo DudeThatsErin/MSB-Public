@@ -13,7 +13,6 @@ feelings:
 <% tp.user.Timeline() %>
 
 ---
-
 ## <% tp.date.now("h:mm a") %>
 
 <% tp.file.cursor(1) %>
