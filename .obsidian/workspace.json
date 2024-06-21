@@ -11,54 +11,27 @@
             "id": "5fbf4295aa3048b2",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "VS/Task App(s).md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "d0f6cc732e72b8d3",
+            "id": "a76db2773305b2a5",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "VS/Task App(s).md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "00-Templates/Daily Note Template.md",
+                "mode": "source",
+                "source": false
               }
-            }
-          },
-          {
-            "id": "e867e5345ff787ab",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VS/Task App(s).md",
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VS/Task App(s).md",
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VS/Task App(s).md"
+                "file": "Daily Notes/2024/06-June/2024-06-20.md"
               }
             }
           },
@@ -198,8 +171,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "ca9914c5c78b5139",
@@ -236,18 +208,18 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "d0f6cc732e72b8d3",
+  "active": "5fbf4295aa3048b2",
   "lastOpenFiles": [
+    "00-Templates/Daily Note Template.md",
     "Daily Notes/2024/06-June/2024-06-20.md",
+    "VS/Task App(s).md",
     "SCRATCHPAD.md",
     "Daily Notes/2024/05-May/2024-06-20.md",
-    "VS/Task App(s).md",
     "VS",
     "Daily Notes/2024/06-June/2024-06-10.md",
     "Daily Notes/2024/05-May/2024-06-18.md",
     "Daily Notes/2024/05-May/2024-06-19.md",
     "Daily Notes/2024/06-June",
-    "00-Templates/Daily Note Template.md",
     "00-Templates/TV Show Template.md",
     "DBs/Books/The Innocent.md",
     "00-Templates/Movie Template.md",

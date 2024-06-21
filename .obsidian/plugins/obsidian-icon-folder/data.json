@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FiSmile",
       "SiAdafruit",
       "💄",
       "LiSailboat",
@@ -29,8 +30,7 @@
       "TiTrash",
       "LiFish",
       "FasCat",
-      "TiHome",
-      "FasNoteSticky"
+      "TiHome"
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -87,5 +87,6 @@
   "DBs/Books/Kiss The Girls and Make Them Cry.md": "💄",
   "DBs/Books/The Girl with the Dragonfruit Tattoo.md": "SiAdafruit",
   "VS": "TiVs",
-  "VS/Task App(s).md": "BoBxTask"
+  "VS/Task App(s).md": "BoBxTask",
+  "Daily Notes/2024/06-June/2024-06-20.md": "FiSmile"
 }
