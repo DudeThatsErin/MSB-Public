@@ -6,7 +6,6 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FiSmile",
       "SiAdafruit",
       "💄",
       "LiSailboat",
@@ -30,7 +29,8 @@
       "TiTrash",
       "LiFish",
       "FasCat",
-      "TiHome"
+      "TiHome",
+      "FasNoteSticky"
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -86,7 +86,5 @@
   "DBs/Books/All By Myself, Alone.md": "LiSailboat",
   "DBs/Books/Kiss The Girls and Make Them Cry.md": "💄",
   "DBs/Books/The Girl with the Dragonfruit Tattoo.md": "SiAdafruit",
-  "VS": "TiVs",
-  "VS/Task App(s).md": "BoBxTask",
-  "Daily Notes/2024/06-June/2024-06-20.md": "FiSmile"
+  "VS": "TiVs"
 }

@@ -8,7 +8,7 @@
     ]
   ],
   "trigger_on_file_creation": true,
-  "auto_jump_to_cursor": true,
+  "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "00-assets/scripts",
