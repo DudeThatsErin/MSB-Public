@@ -34,9 +34,9 @@ async function generateTimelineSvg() {
   ];
 
   // Font size of the today date text
-  const todayTextSize = 50;
+  const todayTextSize = 60;
   // Size of the today symbol marker
-  const todaySymbolSize = 25;
+  const todaySymbolSize = 30;
   // Padding between today marker and text
   const todayPadding = 6;
   // Size of the background of the
@@ -232,7 +232,8 @@ async function generateTimelineSvg() {
       )
       .join("")}
 
-    <circle filter="url(#dropShadow)" cx="${todayXPosition}" cy="${gapCenterYPosition}" r="${todaySymbolSize}" stroke="white" fill="#000" stroke-width="5" />
+    <circle filter="url(#dropShadow)" cx="${todayXPosition}" cy="${gapCenterYPosition}" r="${todaySymbolSize}" stroke="white" fill="#FF00FF" stroke-width="5" />
+    <rect x="${todayTextXPosition - todayBackgroundWidth + todayPadding * 2 + 6}" y="${todayBackgroundY}" width="${todayBackgroundWidth}" height="${todayBackgroundHeight}" stroke-width="5" stroke="#FF00FF" fill="var(--background-primary)" rx="10" ry="10" />
     <text filter="url(#dropShadow)" x="${todayTextXPosition}" y="${todayTextYPosition}" fill="white" font-size="${todayTextSize}" text-anchor="end">${todayFormatted}</text>
   </g>
 </svg>
