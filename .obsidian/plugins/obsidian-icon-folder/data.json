@@ -73,18 +73,7 @@
   "Math/Math.md": "TiMath",
   "Tasks/Chores.md": "TiHome",
   "Tasks.md": "OcTasklist16",
-  "DBs": "RiDatabaseLine",
-  "DBs/Books": "TiBooks",
-  "DBs/Games": "RiGameLine",
-  "DBs/Movies": "TiMovie",
-  "DBs/Books/00-assets": "FiBox",
   "DBs/Games/00-assets": "FiBox",
   "DBs/Movies/00-assets": "FiBox",
-  "DBs/Books/The Innocent.md": "RiPoliceBadgeLine",
-  "DBs/TV Shows/00-assets": "FiBox",
-  "DBs/TV Shows": "FiTv",
-  "DBs/Books/All By Myself, Alone.md": "LiSailboat",
-  "DBs/Books/Kiss The Girls and Make Them Cry.md": "💄",
-  "DBs/Books/The Girl with the Dragonfruit Tattoo.md": "SiAdafruit",
-  "VS": "TiVs"
+  "DBs/TV Shows/00-assets": "FiBox"
 }

@@ -2,17 +2,23 @@
 tags:
   - journal
 symptoms:
-  - cramping
   - bloating
-  - tired
-hoursSleep: 8
+  - cramping
+hoursSleep: 7.5
 Exercise: 
 caloriesEaten: 
+<<<<<<< HEAD:Daily Notes/2024/06-June/2024-06-20.md
 mood: 
 feelings:
 ---
 # 📆 Journal for Thursday the 20 of Jun 2024
 
+=======
+mood:
+---
+# 📆 Journal for Friday the 21 of Jun 2024
+<< [[2024-06-20|yesterday's note]] | [[2024-06-22|tomorrow's note]] >>
+>>>>>>> master:Daily Notes/2024/06-June/2024-06-21.md
 <svg viewBox="0 -100 3780 400" xmlns="http://www.w3.org/2000/svg">
   <title>Dynamic Timeline 2024</title>
   <defs>
@@ -123,11 +129,12 @@ feelings:
       <text filter="url(#dropShadow)" x="3690" y="124" fill="white" font-size="100" text-anchor="middle">🎄</text>
     
 
-    <circle filter="url(#dropShadow)" cx="1750" cy="150" r="25" stroke="white" fill="#000" stroke-width="5" />
-    <text filter="url(#dropShadow)" x="1689" y="165" fill="white" font-size="50" text-anchor="end">20-Jun</text>
+    <circle filter="url(#dropShadow)" cx="1760" cy="150" r="25" stroke="white" fill="#000" stroke-width="5" />
+    <text filter="url(#dropShadow)" x="1699" y="165" fill="white" font-size="50" text-anchor="end">21-Jun</text>
   </g>
 </svg>
   
+<<<<<<< HEAD:Daily Notes/2024/06-June/2024-06-20.md
 10:08am: I started my new job yesterday. It is nice though I am having issues and can't seem to find my boss, Kayla. She seems to be tied up in a long conversation. I am having an issue with the map where the map keeps making itself tiny and then bigger again. I have no idea why.
 
 I'm back on Obsidian because it has more features than Apple Notes and is cross platform so I don't have to worry about how I will get tasks, images, or whatever into it. I'm still trying to decide between Reminders and Things 3 and using Obsidian for tasks but I'll leave that for later this month.
@@ -143,3 +150,13 @@ Anyway, I'm going to brb and see if Kayla is done with her convo and at least go
 11:51am: Setting up my iPhone now. About to go home.
 # Other Notes
 << [[2024-06-19|yesterday's note]] | [[2024-06-21|tomorrow's note]] >>
+=======
+
+---
+
+## 10:34 am
+
+Got my files set back up. Somehow Working Copy lost connection to my vault and I lost all of my changes to the template. They weren't on GH. So annoying but I didn't make many changes so it doesn't matter much.
+
+Learning a lot about Sage and Alpine.
+>>>>>>> master:Daily Notes/2024/06-June/2024-06-21.md
