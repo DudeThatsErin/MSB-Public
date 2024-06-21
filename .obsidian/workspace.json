@@ -4,24 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "580dd5c26e2de124",
+        "id": "ba64418c454d61c1",
         "type": "tabs",
         "children": [
-          {
-            "id": "1614261453840f09",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "DBs/Currents.canvas",
-                "viewState": {
-                  "x": 532.3579787234042,
-                  "y": 72.74893617021267,
-                  "zoom": -1.3422480792669582
-                }
-              }
-            }
-          },
           {
             "id": "a76db2773305b2a5",
             "type": "leaf",
@@ -34,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5
   },
   "right": {
     "id": "b991b121d94c5427",
@@ -122,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-assets/Resident Parking - Lakeline Crossing.png",
+                "file": "Daily Notes/2024/06-June/2024-06-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,26 +123,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-assets/Resident Parking - Lakeline Crossing.png",
+                "file": "Daily Notes/2024/06-June/2024-06-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "0e87e4d70d95c5b0",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "1ef56d7f7e9e60fd",
@@ -171,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-assets/Resident Parking - Lakeline Crossing.png"
+                "file": "Daily Notes/2024/06-June/2024-06-21.md"
               }
             }
           },
@@ -210,23 +182,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
       "obsidian42-brat:BRAT": false,
-      "obsidian-omnivore:Omnivore": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-kanban:Create new board": false,
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false
+      "obsidian-omnivore:Omnivore": false
     }
   },
   "active": "a76db2773305b2a5",
   "lastOpenFiles": [
+    "Daily Notes/2024/06-June/2024-06-18.md",
     "00-Templates/Daily Note Template.md",
     "Daily Notes/2024/06-June/2024-06-21.md",
     "Daily Notes/2024/06-June/2024-06-20.md",
@@ -255,7 +227,6 @@
     "DBs/Movies/Monster's Inc.md",
     "DBs/Movies/The Princess Diaries 2.md",
     "DBs/Movies/The Princess Diaries 1.md",
-    "DBs/Movies/The Parent Trap (2009).md",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
     "DBs/Books/00-assets/kiss_girls_cry.jpg",
@@ -270,50 +241,9 @@
     "DBs/Games/00-assets",
     "00-assets/Resident Parking - Lakeline Crossing.png",
     "00-assets/Pasted image 20230403232051.png",
-    "Tasks/Someday.md",
-    "Tasks/Finances.md",
-    "Tasks/Chores.md",
-    "Tasks.md",
-    "Daily Notes/2024/05-May/2024-05-14.md",
-    "Daily Notes/2024/05-May/2024-06-10.md",
-    "Daily Notes/2024/05-May/2024-06-09.md",
-    "SCRATCHPAD.md",
-    "0-archives/Tasks.md",
-    "Projects/02-active/Blog.md",
-    "0-archives/GitHub Student Developer Pack.md",
-    "Projects/Projects.md",
-    "0-archives/Misc Files/Test Note.md",
-    "0-archives/Misc Files/Callouts.md",
-    "Daily Notes/2023/12-Dec/2023-12-10.md",
-    "00-Templates/Daily Note Template.md",
-    "00-Templates/Journal Template.md",
-    "Daily Notes/2024/05-May",
-    "Tasks/Misc.md",
-    "Math/01-active/College Algebra/Drawing 2024-05-14 01.17.39.excalidraw.md",
-    "Math/01-active/College Algebra/Drawing.2024-05-14.01.28.14.excalidraw.md",
-    "Math/01-active/College Algebra/Drawing 2024-05-14 01.19.00.excalidraw.md",
-    "Math/Math/01-active/College Algebra/Unit 3.md",
-    "Math/01-active/College Algebra/Unconfirmed 115164.crdownload",
     "00-assets/banners/GGRBsdNW0AAr2B_.png",
-    "Games/ACNH/Animal Crossing New Horizons 86bd3a148331454e9f7bce3372f5435a.md",
-    "Math/01-active/Calc 2",
-    "Math/01-active/Calc 1",
-    "Math/01-active/Pre-Cal - Trig",
-    "Math/01-active/College Algebra/00-assets",
-    "Math/01-active/College Algebra/Unit 1.pdf",
-    "Math/01-active/College Algebra/Unit 3.md",
-    "Math/Math.md",
-    "Math/Math/01-active/College Algebra",
-    "Math/Math/01-active",
-    "Math/Math",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
     "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
-    "Math/Math/01-active/Pasted Image 20240510194643_831.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184513_494.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512184152_370.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512183448_738.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182817_705.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182629_488.jpg",
-    "Josh's School/Math/01-active/00-assets/Pasted Image 20240512182436_792.jpg"
+    "Math/Math/01-active/Pasted Image 20240510194643_831.jpg"
   ]
 }
