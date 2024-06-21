@@ -24,21 +24,6 @@
     "excalidraw-iframe-theme": "text",
     "excalidraw-open-md": "checkbox",
     "excalidraw-export-embed-scene": "checkbox",
-    "excalidraw-embeddable-theme": "text",
-    "completed": "checkbox",
-    "pages": "number",
-    "currentPage": "number",
-    "hoursPlayed": "number",
-    "lastPlayed": "datetime",
-    "lastRead": "datetime",
-    "seasons": "number",
-    "lastWatched": "datetime",
-    "recommend": "checkbox",
-    "icon": "text",
-    "symptoms": "multitext",
-    "hoursSleep": "number",
-    "caloriesEaten": "number",
-    "mood": "multitext",
-    "feelings": "multitext"
+    "excalidraw-embeddable-theme": "text"
   }
 }

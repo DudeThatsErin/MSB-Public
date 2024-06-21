@@ -30,7 +30,18 @@
       "TiTrash",
       "LiFish",
       "FasCat",
-      "TiHome"
+      "TiHome",
+      "FasNoteSticky",
+      "LiStickyNote",
+      "OcTasklist16",
+      "OcProject24",
+      "OcProject16",
+      "TiMathXy",
+      "LiKeyboard",
+      "IbCalendar",
+      "TiWriting",
+      "LiPaperclip",
+      "IbTrash"
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -48,7 +59,7 @@
     "iconIdentifier": ":",
     "iconsInLinksEnabled": true,
     "iconInTitlePosition": "above",
-    "iconInFrontmatterFieldName": "iconize",
+    "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
     "debugMode": false
   },

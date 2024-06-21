@@ -6,7 +6,7 @@
   "setCreatedDate": true,
   "setDoneDate": true,
   "setCancelledDate": true,
-  "autoSuggestInEditor": false,
+  "autoSuggestInEditor": true,
   "autoSuggestMinMatch": 0,
   "autoSuggestMaxItems": 6,
   "provideAccessKeys": true,
