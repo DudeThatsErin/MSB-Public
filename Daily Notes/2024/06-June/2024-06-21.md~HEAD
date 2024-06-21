@@ -2,11 +2,10 @@
 tags:
   - journal
 symptoms: 
-hoursSleep: 
+hoursSleep: 7.5 
 Exercise: 
 caloriesEaten: 
 mood: 
-feelings:
 ---
 # 📆 Journal for Friday the 21 of Jun 2024
 
@@ -126,12 +125,13 @@ feelings:
 </svg>
   
 
-<<<<<<< Updated upstream:Daily Notes/2024/06-June/2024-06-21.md~HEAD
-# Other Notes
+
 << [[2024-06-20|yesterday's note]] | [[2024-06-22|tomorrow's note]] >>
-=======
+
 ---
 
 ## 10:34 am
 
->>>>>>> Stashed changes:Daily Notes/2024/06-June/2024-06-21.md
+Got my files set back up. Somehow Working Copy lost connection to my vault and I lost all of my changes to the template. They weren't on GH. So annoying but I didn't make many changes so it doesn't matter much.
+
+Learning a lot about Sage and Alpine.
