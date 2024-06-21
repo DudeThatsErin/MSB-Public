@@ -13,7 +13,28 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "VS/Untitled Kanban.md",
+                "file": "VS/Task App(s).md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "d0f6cc732e72b8d3",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "VS/Task App(s).md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
@@ -36,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VS/Untitled Kanban.md",
+                "file": "VS/Task App(s).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VS/Untitled Kanban.md",
+                "file": "VS/Task App(s).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VS/Untitled Kanban.md"
+                "file": "VS/Task App(s).md"
               }
             }
           },
@@ -196,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,11 +236,12 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "5fbf4295aa3048b2",
+  "active": "d0f6cc732e72b8d3",
   "lastOpenFiles": [
-    "Daily Notes/2024/05-May/2024-06-20.md",
     "Daily Notes/2024/06-June/2024-06-20.md",
-    "VS/Untitled Kanban.md",
+    "SCRATCHPAD.md",
+    "Daily Notes/2024/05-May/2024-06-20.md",
+    "VS/Task App(s).md",
     "VS",
     "Daily Notes/2024/06-June/2024-06-10.md",
     "Daily Notes/2024/05-May/2024-06-18.md",
@@ -244,7 +266,6 @@
     "DBs/TV Shows/Family Guy.md",
     "DBs/TV Shows/The Simpsons.md",
     "DBs/TV Shows/How I Met Your Mother.md",
-    "DBs/TV Shows/Friends.md",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
     "DBs/Books/00-assets/kiss_girls_cry.jpg",
