@@ -56,12 +56,12 @@
   -webkit-box-orient: vertical;
 
   color: var(--text-muted);
-  margin-inline-start: 0.5em;
+  margin-left: 0.5em;
 }
 
 .omnisearch-result__image-container {
   flex-basis: 20%;
-  text-align: end;
+  text-align: right;
 }
 
 .omnisearch-highlight {
@@ -101,7 +101,7 @@
 
 @media only screen and (min-width: 600px) {
   .omnisearch-input-container__buttons {
-    margin-inline-end: 1em;
+    margin-right: 1em;
   }
 }
 
