@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-21.md",
+                "file": "Daily Notes/2024/06-June/2024-06-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Daily Notes/2024/06-June/2024-06-21.md",
+            "file": "Daily Notes/2024/06-June/2024-06-22.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Daily Notes/2024/06-June/2024-06-21.md",
+            "file": "Daily Notes/2024/06-June/2024-06-22.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Daily Notes/2024/06-June/2024-06-21.md"
+            "file": "Daily Notes/2024/06-June/2024-06-22.md"
           }
         }
       },
@@ -142,17 +142,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-omnivore:Omnivore": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-kanban:Create new board": false,
-      "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "151c8ad23dfbd566",
   "lastOpenFiles": [
+    "Daily Notes/2024/06-June/2024-06-21.md",
+    "Daily Notes/2024/06-June/2024-06-22.md",
     "SCRATCHPAD.md",
     "VS/Untitled Kanban.md",
     "VS",
@@ -178,8 +174,6 @@
     "0-archives/Job Applications/00-applied/Front-End Developer - Voyant Inc.md",
     "0-archives/Job Applications/00-applied/Senior Front End Engineer II - Icon.md",
     "0-archives/Job Applications/00-applied/UI Developer - Wise Equation Solution Inc.md",
-    "0-archives/Misc Files/Large Number of Tables.md",
-    "0-archives/Misc Files/Test Note.md",
     "0-archives/Job Applications/00-applied",
     "0-archives/00-assets/Birthing-Content-Journey_Prenatal_Foods-to-Eat-Guide_8.5x11_FIN.pdf",
     "0-archives/Misc Files",
