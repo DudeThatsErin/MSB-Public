@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FiSmile",
       "SiAdafruit",
       "💄",
       "LiSailboat",
@@ -29,8 +30,7 @@
       "TiTrash",
       "LiFish",
       "FasCat",
-      "TiHome",
-      "FasNoteSticky"
+      "TiHome"
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -60,10 +60,7 @@
   "KB Shortcuts": "LiKeyboard",
   "Math": "TiMathXy",
   "Projects": "OcProject24",
-  "Tasks": "OcTasklist16",
   "SCRATCHPAD.md": "FasNoteSticky",
-  "Tasks/Finances.md": "IbMoneyNote",
-  "Tasks/Someday.md": "IbCalendar",
   "Projects/Projects.md": "OcProject16",
   "Projects/02-active": "TiRun",
   "Projects/02-active/AI Chatbot.md": "LiBot",
@@ -71,9 +68,8 @@
   "Projects/02-active/Blog.md": "TiWriting",
   "Math/01-active": "TiRun",
   "Math/Math.md": "TiMath",
-  "Tasks/Chores.md": "TiHome",
-  "Tasks.md": "OcTasklist16",
   "DBs/Games/00-assets": "FiBox",
   "DBs/Movies/00-assets": "FiBox",
-  "DBs/TV Shows/00-assets": "FiBox"
+  "DBs/TV Shows/00-assets": "FiBox",
+  "VS/Task Apps.md": "BoBxTask"
 }

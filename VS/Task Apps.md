@@ -15,12 +15,12 @@ kanban-plugin: board
 - [ ] Only Tasks -> Subtask
 
 
-## Things 3 Pros
+## Things 3 Pros *CHOSEN*
 
 - [ ] 3 levels which is the most out of the 2 dedicated apps here
 
 
-## Things 3 Cons
+## Things 3 Cons *CHOSEN*
 
 - [ ] No location based reminders
 - [ ] Not cross platform

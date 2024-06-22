@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Templates/Daily Note Template.md",
+                "file": "Daily Notes/2024/06-June/2024-06-21.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "82c89aed8ad91284",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Templates/Daily Note Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Templates/Daily Note Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Templates/Daily Note Template.md"
+                "file": "Math/01-active/College Algebra/Drawing.2024-05-14.01.28.14.excalidraw.md"
               }
             }
           },
@@ -196,12 +203,20 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "a76db2773305b2a5",
+  "active": "279321981656934c",
   "lastOpenFiles": [
+    "Math/01-active/College Algebra/Drawing.2024-05-14.01.27.32.excalidraw.md",
+    "Math/01-active/College Algebra/Drawing 2024-05-14 01.19.00.excalidraw.md",
+    "Math/01-active/College Algebra/Drawing 2024-05-14 01.17.39.excalidraw.md",
+    "Math/Math.md",
+    "Math/01-active/College Algebra/Unit 8.md",
+    "Unit 6.md",
+    "How to Downgrade from Beta to Release.md",
     "Daily Notes/2024/06-June/2024-06-21.md",
-    "Daily Notes/2024/06-June/2024-06-20.md",
+    "Tasks.md",
     "00-Templates/Daily Note Template.md",
-    "VS/Untitled Kanban.md",
+    "VS/Task Apps.md",
+    "Daily Notes/2024/06-June/2024-06-20.md",
     "VS",
     "Daily Notes/2024/06-June/2024-06-21.md~master",
     "Daily Notes/2024/06-June/2024-06-21.md~HEAD",
@@ -209,7 +224,6 @@
     "DBs/Currents.canvas",
     "VS/Task App(s).md",
     "DBs/TV Shows/The Simpsons.md",
-    "Tasks.md",
     "SCRATCHPAD.md",
     "Daily Notes/2024/05-May/2024-06-20.md",
     "Daily Notes/2024/06-June/2024-06-10.md",
@@ -222,12 +236,6 @@
     "0-archives/Untitled.md",
     "DBs/Games/Palworld.md",
     "DBs/Games/Animal Crossing New Horizons.md",
-    "DBs/Games/The Sims 4.md",
-    "DBs/Games/The Sims 3.md",
-    "DBs/Games/The Legend of Zelda Tears of The Kingdom.md",
-    "DBs/Games/The Legend of Zelda Breath of the Wild.md",
-    "DBs/Movies/Monster's Inc.md",
-    "DBs/Movies/The Princess Diaries 2.md",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
     "DBs/Books/00-assets/kiss_girls_cry.jpg",
