@@ -6,6 +6,8 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiBetfair",
+      "LiBug",
       "FiSmile",
       "SiAdafruit",
       "💄",
@@ -28,9 +30,7 @@
       "RiBillFill",
       "TiMoneybag",
       "TiTrash",
-      "LiFish",
-      "FasCat",
-      "TiHome"
+      "LiFish"
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -71,5 +71,7 @@
   "DBs/Games/00-assets": "FiBox",
   "DBs/Movies/00-assets": "FiBox",
   "DBs/TV Shows/00-assets": "FiBox",
-  "VS/Task Apps.md": "BoBxTask"
+  "VS/Task Apps.md": "BoBxTask",
+  "Bug Report.md": "LiBug",
+  "How to Downgrade from Beta to Release.md": "SiBetfair"
 }

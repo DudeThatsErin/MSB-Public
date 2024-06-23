@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7677e15a77c212be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2024/06-June/2024-06-22.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +140,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,10 +158,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "151c8ad23dfbd566",
+  "active": "7677e15a77c212be",
   "lastOpenFiles": [
-    "Daily Notes/2024/06-June/2024-06-21.md",
+    "screenshot 1.png",
+    "screenshot.png",
+    "00-assets/IMG_0078.png",
+    "Bug Report.md",
+    "00-assets/ScreenRecording_06-22-2024 22-32-38_1.mp4",
     "Daily Notes/2024/06-June/2024-06-22.md",
+    "Daily Notes/2024/06-June/2024-06-21.md",
     "SCRATCHPAD.md",
     "VS/Untitled Kanban.md",
     "VS",
@@ -172,8 +190,6 @@
     "0-archives/Job Applications/00-applied/UI Developer - Q1 Technologies, Inc..md",
     "0-archives/Job Applications/00-applied/DevOps Engineer - Infosys.md",
     "0-archives/Job Applications/00-applied/Front-End Developer - Voyant Inc.md",
-    "0-archives/Job Applications/00-applied/Senior Front End Engineer II - Icon.md",
-    "0-archives/Job Applications/00-applied/UI Developer - Wise Equation Solution Inc.md",
     "0-archives/Job Applications/00-applied",
     "0-archives/00-assets/Birthing-Content-Journey_Prenatal_Foods-to-Eat-Guide_8.5x11_FIN.pdf",
     "0-archives/Misc Files",
@@ -189,9 +205,6 @@
     "Daily Notes/2024/01-Jan/00-assets/Things3Areas.png",
     "Daily Notes/2024/01-Jan/00-assets/Countdown-Deadlines.png",
     "Daily Notes/2024/01-Jan/00-assets/Reminders-Lists.png",
-    "Daily Notes/2024/01-Jan/00-assets/current-dark-with-right-sidebar.png",
-    "Daily Notes/2024/01-Jan/00-assets/convo-28-2024.png",
-    "Daily Notes/2024/03-March/Bills _ Subscriptions.pdf",
-    "Daily Notes/2024/03-March/00-assets"
+    "Daily Notes/2024/03-March/Bills _ Subscriptions.pdf"
   ]
 }
