@@ -4,34 +4,151 @@
     "type": "split",
     "children": [
       {
-        "id": "0f4f8e1f5be6736f",
+        "id": "37b07003283d03ab",
         "type": "tabs",
         "children": [
           {
-            "id": "d1a758366a61b94b",
+            "id": "e46c6c056138da88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-20.md",
+                "file": "DBs/TV Shows/Family Guy Series.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a76db2773305b2a5",
+            "id": "9667957c8770e12f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Templates/Daily Note Template.md",
+                "file": "DBs/TV Shows/Friends.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e740b3b564a9069",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBs/TV Shows/How I Met Your Mother (HIMYM).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2d5ca3d0e90766f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBs/TV Shows/South Park.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0182f4783844a97b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBs/TV Shows/The Big Bang Theory (TBBT).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6240521ebd550d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBs/TV Shows/Young Sheldon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1fae57921f3fc556",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Templates/Game Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e603e0b74b348b4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Templates/Movie Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c071c6048fe2d4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Templates/Book Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b26763aaa362f7cc",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Tasks/Chores.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "8b9d586295de600c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2024/06-June/2024-06-24.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -97,26 +214,15 @@
       {
         "id": "90e59bcb19a40a53",
         "type": "tabs",
+        "dimension": 33.33333333333333,
         "children": [
-          {
-            "id": "26fd32f1be7fe079",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
           {
             "id": "be2937af04c6958f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Daily Notes/2024/06-June/00-assets/screenshot.png",
-=======
-                "file": "Daily Notes/2024/06-June/2024-06-20.md",
->>>>>>> parent of ff776aa (LAST ONE FOR TONIGHT!)
+                "file": "Daily Notes/2024/06-June/2024-06-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-20.md",
+                "file": "Daily Notes/2024/06-June/2024-06-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,18 +251,55 @@
             "state": {
               "type": "tag",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-20.md"
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "5689fcd768c3b00b",
+        "type": "tabs",
+        "dimension": 38.91752577319588,
+        "children": [
           {
             "id": "982211d6804936c0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2024/06-June/00-assets/screenshot.png"
+                "file": "Daily Notes/2024/06-June/2024-06-24.md"
               }
+            }
+          },
+          {
+            "id": "69864e5581f58784",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SCRATCHPAD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "18cba2935a095afd",
+        "type": "tabs",
+        "dimension": 27.74914089347079,
+        "children": [
+          {
+            "id": "26fd32f1be7fe079",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -181,54 +324,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dbff0265b07d3c38",
+  "active": "8b9d586295de600c",
   "lastOpenFiles": [
     "00-Templates/Daily Note Template.md",
-    "Daily Notes/2024/06-June/2024-06-20.md",
-    "VS/Task App(s).md",
-    "SCRATCHPAD.md",
-    "Daily Notes/2024/05-May/2024-06-20.md",
-    "VS",
-    "Daily Notes/2024/06-June/2024-06-10.md",
-    "Daily Notes/2024/05-May/2024-06-18.md",
-    "Daily Notes/2024/05-May/2024-06-19.md",
-    "Daily Notes/2024/06-June",
+    "Daily Notes/2024/06-June/2024-06-24.md",
+    "Tasks/Tasks.md",
+    "Reminder Sync Inbox.md",
+    "Tasks/Chores.md",
+    "Tasks/Finances.md",
     "00-Templates/TV Show Template.md",
-    "DBs/Books/The Innocent.md",
+    "Tasks/Someday.md",
+    "Tasks",
+    "00-Templates/Book Template.md",
     "00-Templates/Movie Template.md",
-    "0-archives/Untitled.md",
-    "DBs/Games/Palworld.md",
-    "DBs/Games/Animal Crossing New Horizons.md",
-    "DBs/Games/The Sims 4.md",
-    "DBs/Games/The Sims 3.md",
-    "DBs/Games/The Legend of Zelda Tears of The Kingdom.md",
-    "DBs/Games/The Legend of Zelda Breath of the Wild.md",
-    "DBs/Movies/Monster's Inc.md",
-    "DBs/Movies/The Princess Diaries 2.md",
-    "DBs/Movies/The Princess Diaries 1.md",
-    "DBs/Movies/The Parent Trap (2009).md",
-    "DBs/TV Shows/South Park.md",
-    "DBs/TV Shows/Family Guy.md",
+    "00-Templates/Game Template.md",
     "DBs/TV Shows/The Simpsons.md",
-    "DBs/TV Shows/How I Met Your Mother.md",
-    "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
-    "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
+    "DBs/TV Shows/Young Sheldon.md",
+    "DBs/TV Shows/The Big Bang Theory (TBBT).md",
+    "DBs/TV Shows/South Park.md",
+    "DBs/TV Shows/How I Met Your Mother (HIMYM).md",
+    "DBs/TV Shows/Friends.md",
+    "DBs/TV Shows/Family Guy Series.md",
+    "DBs/Books/All By Myself, Alone.md",
+    "DBs/Movies/The Princess Diaries Series.md",
+    "DBs/Movies/The Parent Trap.md",
+    "DBs/Movies/Monster's Inc.md",
+    "DBs/Games/The Sims 4 (TS4).md",
+    "DBs/Games/The Sims 3 (TS3).md",
+    "DBs/Games/The Legend of Zelda Tears of the Kingdom (TOTK).md",
+    "DBs/Games/The Legend of Zelda Breath of the Wild (BOTW).md",
     "DBs/Books/00-assets/kiss_girls_cry.jpg",
     "DBs/Books/00-assets/kiss_girls_cry.jpg.crdownload",
-    "DBs/Currents.canvas",
+    "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
+    "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
     "DBs/Books/00-assets/all_alone.jpg",
     "DBs/Books/00-assets/all_alone.jpg.crdownload",
-    "DBs/TV Shows/00-assets",
-    "DBs/TV Shows",
     "DBs/Books/00-assets/The_Innocent.jpg",
-    "DBs/Books/00-assets/The_Innocent_(Coben_novel).jpg.crdownload",
-    "DBs/Movies/00-assets",
-    "DBs/Games/00-assets",
-    "00-assets/Resident Parking - Lakeline Crossing.png",
-    "00-assets/Pasted image 20230403232051.png",
-    "00-assets/banners/GGRBsdNW0AAr2B_.png",
-    "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
-    "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
-    "Math/Math/01-active/Pasted Image 20240510194643_831.jpg"
+    "DBs/Books/00-assets",
+    "DBs/TV Shows",
+    "DBs/Movies",
+    "DBs/Games",
+    "DBs/Books",
+    "Daily Notes/2024/06-June/00-assets/screenshot.png",
+    "Daily Notes/2024/06-June/00-assets/screenshot 1.png",
+    "Daily Notes/2024/06-June/00-assets",
+    "00-assets/IMG_0078.png",
+    "DBs/Currents.canvas"
   ]
 }
