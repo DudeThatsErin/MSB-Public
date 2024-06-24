@@ -7,12 +7,15 @@
     "iconColor": null,
     "recentlyUsedIcons": [
 <<<<<<< HEAD
+<<<<<<< HEAD
       "SiBetfair",
       "LiBug",
       "FiSmile",
 =======
 >>>>>>> parent of 943e070 (merge)
+=======
       "FiSmile",
+>>>>>>> parent of bd25c6d (Merge branch 'master' of https://github.com/DudeThatsErin/MSB)
       "SiAdafruit",
       "💄",
       "LiSailboat",
@@ -43,7 +46,9 @@
       "TiHome",
       "FasNoteSticky"
 >>>>>>> parent of 943e070 (merge)
+=======
       "TiHome"
+>>>>>>> parent of bd25c6d (Merge branch 'master' of https://github.com/DudeThatsErin/MSB)
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -93,9 +98,12 @@
   "DBs/Books/All By Myself, Alone.md": "LiSailboat",
   "DBs/Books/Kiss The Girls and Make Them Cry.md": "💄",
   "DBs/Books/The Girl with the Dragonfruit Tattoo.md": "SiAdafruit",
+<<<<<<< HEAD
   "VS": "TiVs"
 >>>>>>> parent of 943e070 (merge)
+=======
   "VS": "TiVs",
   "VS/Task App(s).md": "BoBxTask",
   "Daily Notes/2024/06-June/2024-06-20.md": "FiSmile"
+>>>>>>> parent of bd25c6d (Merge branch 'master' of https://github.com/DudeThatsErin/MSB)
 }
