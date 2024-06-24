@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "5fbf4295aa3048b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a76db2773305b2a5",
             "type": "leaf",
             "state": {
@@ -106,7 +118,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Daily Notes/2024/06-June/2024-06-23.md",
+=======
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
+>>>>>>> parent of ff776aa (LAST ONE FOR TONIGHT!)
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +139,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Daily Notes/2024/06-June/2024-06-23.md",
+=======
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
+>>>>>>> parent of ff776aa (LAST ONE FOR TONIGHT!)
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +163,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Daily Notes/2024/06-June/2024-06-23.md"
+=======
+                "file": "Daily Notes/2024/06-June/2024-06-20.md"
+>>>>>>> parent of ff776aa (LAST ONE FOR TONIGHT!)
               }
             }
           },
@@ -198,6 +222,7 @@
   },
   "active": "a76db2773305b2a5",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "DBs/Currents.canvas",
     "Daily Notes/2024/06-June/2024-06-23.md",
     "Daily Notes/2024/06-June/2024-06-21.md",
@@ -227,16 +252,43 @@
     "Daily Notes/2024/06-June/2024-06-21.md~HEAD",
     "Daily Notes/2024/06-June/2024-06-18.md",
     "DBs/TV Shows/The Simpsons.md",
+=======
+    "00-Templates/Daily Note Template.md",
+    "Daily Notes/2024/06-June/2024-06-20.md",
+    "VS/Task App(s).md",
+>>>>>>> parent of ff776aa (LAST ONE FOR TONIGHT!)
     "SCRATCHPAD.md",
     "Daily Notes/2024/05-May/2024-06-20.md",
     "Daily Notes/2024/06-June/2024-06-10.md",
     "Daily Notes/2024/05-May/2024-06-18.md",
     "Daily Notes/2024/05-May/2024-06-19.md",
     "Daily Notes/2024/06-June",
+<<<<<<< HEAD
+=======
+    "00-Templates/TV Show Template.md",
+    "DBs/Books/The Innocent.md",
+    "00-Templates/Movie Template.md",
+    "0-archives/Untitled.md",
+    "DBs/Games/Palworld.md",
+    "DBs/Games/Animal Crossing New Horizons.md",
+    "DBs/Games/The Sims 4.md",
+    "DBs/Games/The Sims 3.md",
+    "DBs/Games/The Legend of Zelda Tears of The Kingdom.md",
+    "DBs/Games/The Legend of Zelda Breath of the Wild.md",
+    "DBs/Movies/Monster's Inc.md",
+    "DBs/Movies/The Princess Diaries 2.md",
+    "DBs/Movies/The Princess Diaries 1.md",
+    "DBs/Movies/The Parent Trap (2009).md",
+    "DBs/TV Shows/South Park.md",
+    "DBs/TV Shows/Family Guy.md",
+    "DBs/TV Shows/The Simpsons.md",
+    "DBs/TV Shows/How I Met Your Mother.md",
+>>>>>>> parent of ff776aa (LAST ONE FOR TONIGHT!)
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
     "DBs/Books/00-assets/kiss_girls_cry.jpg",
     "DBs/Books/00-assets/kiss_girls_cry.jpg.crdownload",
+    "DBs/Currents.canvas",
     "DBs/Books/00-assets/all_alone.jpg",
     "DBs/Books/00-assets/all_alone.jpg.crdownload",
     "DBs/TV Shows/00-assets",
