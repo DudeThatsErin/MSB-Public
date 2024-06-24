@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-21.md",
+                "file": "Daily Notes/2024/06-June/2024-06-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-21.md",
+                "file": "Daily Notes/2024/06-June/2024-06-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-21.md",
+                "file": "Daily Notes/2024/06-June/2024-06-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-21.md"
+                "file": "Daily Notes/2024/06-June/2024-06-23.md"
               }
             }
           },
@@ -196,11 +196,13 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "065a55b242b010d5",
+  "active": "a76db2773305b2a5",
   "lastOpenFiles": [
+    "DBs/Currents.canvas",
+    "Daily Notes/2024/06-June/2024-06-23.md",
+    "Daily Notes/2024/06-June/2024-06-21.md",
     "Reminder Sync Inbox.md",
     "VS/Task App(s).md",
-    "DBs/Currents.canvas",
     "DBs",
     "screenshot.png",
     "screenshot 1.png",
@@ -208,7 +210,6 @@
     "Bug Report.md",
     "00-assets/ScreenRecording_06-22-2024 22-32-38_1.mp4",
     "00-assets/IMG_0078.png",
-    "Daily Notes/2024/06-June/2024-06-23.md",
     "00-Templates/Daily Note Template.md",
     "Math/01-active/College Algebra/Drawing.2024-05-14.01.28.14.excalidraw.md",
     "Math/01-active/College Algebra/Drawing.2024-05-14.01.27.32.excalidraw.md",
@@ -218,7 +219,6 @@
     "Math/01-active/College Algebra/Unit 8.md",
     "Unit 6.md",
     "How to Downgrade from Beta to Release.md",
-    "Daily Notes/2024/06-June/2024-06-21.md",
     "Tasks.md",
     "VS/Task Apps.md",
     "Daily Notes/2024/06-June/2024-06-20.md",
@@ -233,7 +233,6 @@
     "Daily Notes/2024/05-May/2024-06-18.md",
     "Daily Notes/2024/05-May/2024-06-19.md",
     "Daily Notes/2024/06-June",
-    "00-Templates/TV Show Template.md",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
     "DBs/Books/00-assets/kiss_girls_cry.jpg",

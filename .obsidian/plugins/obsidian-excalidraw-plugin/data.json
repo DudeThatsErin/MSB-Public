@@ -747,7 +747,5 @@
   "longPressDesktop": 500,
   "longPressMobile": 500,
   "isDebugMode": false,
-  "loadPropertySuggestions": true,
-  "zoteroCompatibility": false,
   "autosaveInterval": 15000
 }

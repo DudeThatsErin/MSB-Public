@@ -5,52 +5,8 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "SiBetfair",
-      "LiBug",
-      "FiSmile",
-=======
->>>>>>> parent of 943e070 (merge)
-=======
-      "FiSmile",
->>>>>>> parent of bd25c6d (Merge branch 'master' of https://github.com/DudeThatsErin/MSB)
-      "SiAdafruit",
-      "💄",
-      "LiSailboat",
-      "FiTv",
-      "RiPoliceBadgeLine",
-      "FiBox",
-      "TiMovie",
-      "RiGameLine",
-      "TiBooks",
-      "RiDatabaseLine",
-      "FasShower",
-      "TiMath",
-      "TiVs",
-      "LiBot",
-      "TiRun",
-      "BoBxTask",
-      "IbMoneyNote",
-      "SiNetflix",
-      "RiBillFill",
-      "TiMoneybag",
-      "TiTrash",
-<<<<<<< HEAD
-      "LiFish"
-=======
-      "LiFish",
-      "FasCat",
-<<<<<<< HEAD
-      "TiHome",
-      "FasNoteSticky"
->>>>>>> parent of 943e070 (merge)
-=======
-      "TiHome"
->>>>>>> parent of bd25c6d (Merge branch 'master' of https://github.com/DudeThatsErin/MSB)
-    ],
-    "recentlyUsedIconsSize": 25,
+    "recentlyUsedIcons": [],
+    "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
       "top": 0,
@@ -58,52 +14,16 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": true,
+    "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
-    "iconInFrontmatterEnabled": true,
-    "iconsBackgroundCheckEnabled": true,
-    "iconsInNotesEnabled": true,
-    "iconIdentifier": ":",
-    "iconsInLinksEnabled": true,
     "iconInTitlePosition": "above",
-    "iconInFrontmatterFieldName": "iconize",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
     "debugMode": false
-  },
-  "Daily Notes/2024/03-March/2024-03-24.md": "LiSmile",
-  "0-archives": "IbTrash",
-  "00-assets": "LiPaperclip",
-  "00-Templates": "TiWriting",
-  "Daily Notes": "IbCalendar",
-  "KB Shortcuts": "LiKeyboard",
-  "Math": "TiMathXy",
-  "Projects": "OcProject24",
-  "SCRATCHPAD.md": "FasNoteSticky",
-  "Projects/Projects.md": "OcProject16",
-  "Projects/02-active": "TiRun",
-  "Projects/02-active/AI Chatbot.md": "LiBot",
-  "Projects/02-active/App Seeker.md": "TiVs",
-  "Projects/02-active/Blog.md": "TiWriting",
-  "Math/01-active": "TiRun",
-  "Math/Math.md": "TiMath",
-  "DBs/Games/00-assets": "FiBox",
-  "DBs/Movies/00-assets": "FiBox",
-  "DBs/TV Shows/00-assets": "FiBox",
-<<<<<<< HEAD
-  "VS/Task Apps.md": "BoBxTask",
-  "Bug Report.md": "LiBug",
-  "How to Downgrade from Beta to Release.md": "SiBetfair"
-=======
-  "DBs/TV Shows": "FiTv",
-  "DBs/Books/All By Myself, Alone.md": "LiSailboat",
-  "DBs/Books/Kiss The Girls and Make Them Cry.md": "💄",
-  "DBs/Books/The Girl with the Dragonfruit Tattoo.md": "SiAdafruit",
-<<<<<<< HEAD
-  "VS": "TiVs"
->>>>>>> parent of 943e070 (merge)
-=======
-  "VS": "TiVs",
-  "VS/Task App(s).md": "BoBxTask",
-  "Daily Notes/2024/06-June/2024-06-20.md": "FiSmile"
->>>>>>> parent of bd25c6d (Merge branch 'master' of https://github.com/DudeThatsErin/MSB)
+  }
 }
