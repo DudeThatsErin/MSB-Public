@@ -6,9 +6,12 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+<<<<<<< HEAD
       "SiBetfair",
       "LiBug",
       "FiSmile",
+=======
+>>>>>>> parent of 943e070 (merge)
       "SiAdafruit",
       "💄",
       "LiSailboat",
@@ -30,11 +33,14 @@
       "RiBillFill",
       "TiMoneybag",
       "TiTrash",
+<<<<<<< HEAD
       "LiFish"
+=======
       "LiFish",
       "FasCat",
       "TiHome",
       "FasNoteSticky"
+>>>>>>> parent of 943e070 (merge)
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -75,12 +81,15 @@
   "DBs/Games/00-assets": "FiBox",
   "DBs/Movies/00-assets": "FiBox",
   "DBs/TV Shows/00-assets": "FiBox",
+<<<<<<< HEAD
   "VS/Task Apps.md": "BoBxTask",
   "Bug Report.md": "LiBug",
   "How to Downgrade from Beta to Release.md": "SiBetfair"
+=======
   "DBs/TV Shows": "FiTv",
   "DBs/Books/All By Myself, Alone.md": "LiSailboat",
   "DBs/Books/Kiss The Girls and Make Them Cry.md": "💄",
   "DBs/Books/The Girl with the Dragonfruit Tattoo.md": "SiAdafruit",
   "VS": "TiVs"
+>>>>>>> parent of 943e070 (merge)
 }
