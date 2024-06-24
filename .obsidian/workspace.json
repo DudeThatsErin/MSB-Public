@@ -18,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "82c89aed8ad91284",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -48,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#all",
+                "query": "currents",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily Notes/2024/06-June/2024-06-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily Notes/2024/06-June/2024-06-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/01-active/College Algebra/Drawing.2024-05-14.01.28.14.excalidraw.md"
+                "file": "Daily Notes/2024/06-June/2024-06-21.md"
               }
             }
           },
@@ -203,8 +196,21 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "279321981656934c",
+  "active": "065a55b242b010d5",
   "lastOpenFiles": [
+    "Reminder Sync Inbox.md",
+    "VS/Task App(s).md",
+    "DBs/Currents.canvas",
+    "DBs",
+    "screenshot.png",
+    "screenshot 1.png",
+    "Daily Notes/2024/06-June/2024-06-22.md",
+    "Bug Report.md",
+    "00-assets/ScreenRecording_06-22-2024 22-32-38_1.mp4",
+    "00-assets/IMG_0078.png",
+    "Daily Notes/2024/06-June/2024-06-23.md",
+    "00-Templates/Daily Note Template.md",
+    "Math/01-active/College Algebra/Drawing.2024-05-14.01.28.14.excalidraw.md",
     "Math/01-active/College Algebra/Drawing.2024-05-14.01.27.32.excalidraw.md",
     "Math/01-active/College Algebra/Drawing 2024-05-14 01.19.00.excalidraw.md",
     "Math/01-active/College Algebra/Drawing 2024-05-14 01.17.39.excalidraw.md",
@@ -214,15 +220,12 @@
     "How to Downgrade from Beta to Release.md",
     "Daily Notes/2024/06-June/2024-06-21.md",
     "Tasks.md",
-    "00-Templates/Daily Note Template.md",
     "VS/Task Apps.md",
     "Daily Notes/2024/06-June/2024-06-20.md",
     "VS",
     "Daily Notes/2024/06-June/2024-06-21.md~master",
     "Daily Notes/2024/06-June/2024-06-21.md~HEAD",
     "Daily Notes/2024/06-June/2024-06-18.md",
-    "DBs/Currents.canvas",
-    "VS/Task App(s).md",
     "DBs/TV Shows/The Simpsons.md",
     "SCRATCHPAD.md",
     "Daily Notes/2024/05-May/2024-06-20.md",
@@ -231,11 +234,6 @@
     "Daily Notes/2024/05-May/2024-06-19.md",
     "Daily Notes/2024/06-June",
     "00-Templates/TV Show Template.md",
-    "DBs/Books/The Innocent.md",
-    "00-Templates/Movie Template.md",
-    "0-archives/Untitled.md",
-    "DBs/Games/Palworld.md",
-    "DBs/Games/Animal Crossing New Horizons.md",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
     "DBs/Books/00-assets/kiss_girls_cry.jpg",
@@ -243,14 +241,9 @@
     "DBs/Books/00-assets/all_alone.jpg",
     "DBs/Books/00-assets/all_alone.jpg.crdownload",
     "DBs/TV Shows/00-assets",
-    "DBs/TV Shows",
     "DBs/Books/00-assets/The_Innocent.jpg",
-    "DBs/Books/00-assets/The_Innocent_(Coben_novel).jpg.crdownload",
     "00-assets/Resident Parking - Lakeline Crossing.png",
     "00-assets/Pasted image 20230403232051.png",
-    "00-assets/banners/GGRBsdNW0AAr2B_.png",
-    "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
-    "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
-    "Math/Math/01-active/Pasted Image 20240510194643_831.jpg"
+    "00-assets/banners/GGRBsdNW0AAr2B_.png"
   ]
 }

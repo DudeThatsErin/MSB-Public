@@ -12,6 +12,7 @@
       "FiSmile",
 =======
 >>>>>>> parent of 943e070 (merge)
+      "FiSmile",
       "SiAdafruit",
       "💄",
       "LiSailboat",
@@ -38,9 +39,11 @@
 =======
       "LiFish",
       "FasCat",
+<<<<<<< HEAD
       "TiHome",
       "FasNoteSticky"
 >>>>>>> parent of 943e070 (merge)
+      "TiHome"
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -92,4 +95,7 @@
   "DBs/Books/The Girl with the Dragonfruit Tattoo.md": "SiAdafruit",
   "VS": "TiVs"
 >>>>>>> parent of 943e070 (merge)
+  "VS": "TiVs",
+  "VS/Task App(s).md": "BoBxTask",
+  "Daily Notes/2024/06-June/2024-06-20.md": "FiSmile"
 }
