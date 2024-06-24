@@ -11,9 +11,23 @@
             "id": "d1a758366a61b94b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024/06-June/00-assets/screenshot.png"
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a76db2773305b2a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Templates/Daily Note Template.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -98,7 +112,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Daily Notes/2024/06-June/00-assets/screenshot.png",
+=======
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
+>>>>>>> parent of ff776aa (LAST ONE FOR TONIGHT!)
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2024/06-June/00-assets/screenshot.png",
+                "file": "Daily Notes/2024/06-June/2024-06-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,8 +145,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
+                "file": "Daily Notes/2024/06-June/2024-06-20.md"
               }
             }
           },
@@ -146,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,9 +183,52 @@
   },
   "active": "dbff0265b07d3c38",
   "lastOpenFiles": [
-    "Bug Report.md",
-    "Daily Notes/2024/06-June/00-assets/screenshot.png",
-    "Daily Notes/2024/06-June/00-assets",
-    "Daily Notes/2024/06-June/2024-06-23.md"
+    "00-Templates/Daily Note Template.md",
+    "Daily Notes/2024/06-June/2024-06-20.md",
+    "VS/Task App(s).md",
+    "SCRATCHPAD.md",
+    "Daily Notes/2024/05-May/2024-06-20.md",
+    "VS",
+    "Daily Notes/2024/06-June/2024-06-10.md",
+    "Daily Notes/2024/05-May/2024-06-18.md",
+    "Daily Notes/2024/05-May/2024-06-19.md",
+    "Daily Notes/2024/06-June",
+    "00-Templates/TV Show Template.md",
+    "DBs/Books/The Innocent.md",
+    "00-Templates/Movie Template.md",
+    "0-archives/Untitled.md",
+    "DBs/Games/Palworld.md",
+    "DBs/Games/Animal Crossing New Horizons.md",
+    "DBs/Games/The Sims 4.md",
+    "DBs/Games/The Sims 3.md",
+    "DBs/Games/The Legend of Zelda Tears of The Kingdom.md",
+    "DBs/Games/The Legend of Zelda Breath of the Wild.md",
+    "DBs/Movies/Monster's Inc.md",
+    "DBs/Movies/The Princess Diaries 2.md",
+    "DBs/Movies/The Princess Diaries 1.md",
+    "DBs/Movies/The Parent Trap (2009).md",
+    "DBs/TV Shows/South Park.md",
+    "DBs/TV Shows/Family Guy.md",
+    "DBs/TV Shows/The Simpsons.md",
+    "DBs/TV Shows/How I Met Your Mother.md",
+    "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
+    "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
+    "DBs/Books/00-assets/kiss_girls_cry.jpg",
+    "DBs/Books/00-assets/kiss_girls_cry.jpg.crdownload",
+    "DBs/Currents.canvas",
+    "DBs/Books/00-assets/all_alone.jpg",
+    "DBs/Books/00-assets/all_alone.jpg.crdownload",
+    "DBs/TV Shows/00-assets",
+    "DBs/TV Shows",
+    "DBs/Books/00-assets/The_Innocent.jpg",
+    "DBs/Books/00-assets/The_Innocent_(Coben_novel).jpg.crdownload",
+    "DBs/Movies/00-assets",
+    "DBs/Games/00-assets",
+    "00-assets/Resident Parking - Lakeline Crossing.png",
+    "00-assets/Pasted image 20230403232051.png",
+    "00-assets/banners/GGRBsdNW0AAr2B_.png",
+    "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194125_853.jpg",
+    "Math/01-active/College Algebra/00-assets/Pasted Image 20240510194643_831.jpg",
+    "Math/Math/01-active/Pasted Image 20240510194643_831.jpg"
   ]
 }
