@@ -31,6 +31,10 @@
       "TiMoneybag",
       "TiTrash",
       "LiFish"
+      "LiFish",
+      "FasCat",
+      "TiHome",
+      "FasNoteSticky"
     ],
     "recentlyUsedIconsSize": 25,
     "rules": [],
@@ -74,4 +78,9 @@
   "VS/Task Apps.md": "BoBxTask",
   "Bug Report.md": "LiBug",
   "How to Downgrade from Beta to Release.md": "SiBetfair"
+  "DBs/TV Shows": "FiTv",
+  "DBs/Books/All By Myself, Alone.md": "LiSailboat",
+  "DBs/Books/Kiss The Girls and Make Them Cry.md": "💄",
+  "DBs/Books/The Girl with the Dragonfruit Tattoo.md": "SiAdafruit",
+  "VS": "TiVs"
 }
