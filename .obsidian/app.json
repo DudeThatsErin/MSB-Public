@@ -1,6 +1,6 @@
 {
   "readableLineLength": false,
-  "showRibbon": true,
+  "showRibbon": false,
   "attachmentFolderPath": "./00-assets",
   "showUnsupportedFiles": true,
   "newFileLocation": "current",
