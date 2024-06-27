@@ -28,8 +28,7 @@ Please use these if you need these functions. If not, you are free to remove, bu
 - Accessibility by UserWay - ADA button is a “button” tag and has this ID: “accessibilityWidget”
 - ACF Content Analysis for Yoast SEO
 - Advanced Custom Fields PRO - may need to re-auth this on your local domain
-- License Key: `b3JkZXJfaWQ9MTY5OTAzfHR5cGU9ZGV2ZWxvcGVyfGRhdGU9MjAxOS0wOS0xMCAxNDoxMjo1NA==
-	- [ ] Ask Kayla where I enter this.
+- License Key: `b3JkZXJfaWQ9MTY5OTAzfHR5cGU9ZGV2ZWxvcGVyfGRhdGU9MjAxOS0wOS0xMCAxNDoxMjo1NA==`
 - AltText.ai - generates alt text for all images on upload based on provided keywords
 - CookieYes - cookie approval/GDPR preferred plugin
 - Disable Blog - remove this if it doesn’t have a blog section
@@ -53,12 +52,13 @@ add_image_size('XS', 640, 640);
 Wherever possible, for image areas that allow non-svgs or generally admin provided images (ex not explicitly defined by the theme) use the full srcset values (ex via `wp_get_attachment_image()`)
 
 ### Advanced Custom Fields (ACF)
-Use ACF for all complex content.
-Unless its a simple content page (Ex blog) hide the WP content area and use ACF only
-Use vertical tabbed setup for fields - 1 tab per section/panel (split topically for site options, split based on design for page/post specific options). Recommend using 1 ACF Group per tab with the same name.
+- Use ACF for all complex content.
+- Unless its a simple content page (Ex blog) hide the WP content area and use ACF only
+- Use vertical tabbed setup for fields
+	- 1 tab per section/panel (split topically for site options, split based on design for page/post specific options). Recommend using 1 ACF Group per tab with the same name.
 You can set up fields in the admin screens directly originally if you use your own setup, but please export to PHP and include directly in the theme (hide ACF dropdown) (if you use sage + ACF composer this won’t apply as all fields will be included directly in the theme)
-Ensure that field names and structures are clear and “idiot proof” as this will be directly in client hands to manage
-For Properties - use the ACF Flexible layout builder to generate sections as needed.
+- Ensure that field names and structures are clear and “idiot proof” as this will be directly in client hands to manage
+- For Properties - use the ACF Flexible layout builder to generate sections as needed.
 
 ### General WP/Theme
 These are the responsive breakpoints we use (copied from tailwindcss config in sage theme provided). You can tweak if needed for the design, but here is a starting point:
@@ -76,16 +76,18 @@ These are the responsive breakpoints we use (copied from tailwindcss config in s
 - Landscape: (orientation: landscape)
 - mdx (medium landscape): (orientation: landscape) and (min-width: 768px) and (max-width: 1023px)
 
-Include relevant DashIcons with each post type, don’t just default to the same icon
-Only include post type features that are actively used (ex featured image, page attributes).
-Disable tags on blog posts
-Move WP toolbar to bottom of screen on front end
-Set up colors, fonts, etc as variables (CSS or bootstrap/SASS/SCSS or Tailwind config classes)
-Pure JS over jQuery unless absolutely necessary
-Account for empty options/settings/fields (ex if subheader field is empty, it should be fully removed on the front end and collapse gracefully)
-Take a look at the admin menu structure on the demo and use that as a baseline. In general -
-Options above post types
-Separate “Navigation” menu item for menus
-Unlike the demo, if you don’t use the sage theme as a starting point, you don’t need to otherwise modify the themes & plugins menus. The client is taking this site over directly, so leaving the defaults there is fine.
-Please use unique page templates that match the designs (rather than a builder for all the pages).
-No visual builder/block editor/customizer screens please. Just classic WP. The sage theme blocks that already, but if you don’t use that you can use a “classic wp + widgets” plugin or include the functionality in your theme as needed.
+- [ ] Include relevant DashIcons with each post type, don’t just default to the same icon
+- [ ] Only include post type features that are actively used (ex featured image, page attributes).
+- [ ] Disable tags on blog posts
+- [ ] Move WP toolbar to bottom of screen on front end
+- [ ] Set up colors, fonts, etc as variables (CSS or bootstrap/SASS/SCSS or Tailwind config classes)
+- [ ] Pure JS over jQuery unless absolutely necessary
+- [ ] Account for empty options/settings/fields (ex if subheader field is empty, it should be fully removed on the front end and collapse gracefully)
+
+Take a look at the admin menu structure on the demo and use that as a baseline. 
+In general -
+- Options above post types
+- Separate “Navigation” menu item for menus
+- Unlike the demo, if you don’t use the sage theme as a starting point, you don’t need to otherwise modify the themes & plugins menus. The client is taking this site over directly, so leaving the defaults there is fine.
+- Please use unique page templates that match the designs (rather than a builder for all the pages).
+- No visual builder/block editor/customizer screens please. Just classic WP. The sage theme blocks that already, but if you don’t use that you can use a “classic wp + widgets” plugin or include the functionality in your theme as needed.

@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-26.md",
+                "file": "Daily Notes/2024/06-June/2024-06-21.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75998c24da2bb2ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,14 +66,7 @@
               "type": "bookmarks",
               "state": {}
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "21864d4d3f71ed68",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "f7096808fb2d486f",
             "type": "leaf",
@@ -72,7 +77,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -93,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-26.md",
+                "file": "Daily Notes/2024/06-June/2024-06-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-26.md",
+                "file": "Daily Notes/2024/06-June/2024-06-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-26.md"
+                "file": "Daily Notes/2024/06-June/2024-06-21.md"
               }
             }
           },
@@ -197,10 +203,14 @@
   },
   "active": "746cf9bffe9c5492",
   "lastOpenFiles": [
-    "Reminder Sync Inbox.md",
-    "Daily Notes/2024/06-June/2024-06-26.md",
+    "Daily Notes/2024/06-June/2024-06-20.md",
+    "Daily Notes/2024/06-June/2024-06-18.md",
     "Work/Work.md",
     "Work/Setup Notes.md",
+    "test.md",
+    "Daily Notes/2024/06-June/2024-06-27.md",
+    "Daily Notes/2024/06-June/2024-06-26.md",
+    "Reminder Sync Inbox.md",
     "SCRATCHPAD.md",
     "Work/Tasks.md",
     "DBs/TV Shows/Family Guy Series.md",
@@ -220,10 +230,6 @@
     "DBs/TV Shows/The Big Bang Theory (TBBT).md",
     "DBs/TV Shows/South Park.md",
     "DBs/TV Shows/How I Met Your Mother (HIMYM).md",
-    "DBs/TV Shows/Friends.md",
-    "DBs/Books/All By Myself, Alone.md",
-    "DBs/Movies/The Princess Diaries Series.md",
-    "DBs/Movies/The Parent Trap.md",
     "DBs/Books/00-assets/kiss_girls_cry.jpg",
     "DBs/Books/00-assets/kiss_girls_cry.jpg.crdownload",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
