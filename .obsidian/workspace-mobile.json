@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-21.md",
+                "file": "Daily Notes/2024/06-June/2024-06-22.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7677e15a77c212be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2024/06-June/2024-06-24.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Daily Notes/2024/06-June/2024-06-21.md",
+            "file": "Daily Notes/2024/06-June/2024-06-24.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Daily Notes/2024/06-June/2024-06-21.md",
+            "file": "Daily Notes/2024/06-June/2024-06-24.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -138,7 +151,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Daily Notes/2024/06-June/2024-06-21.md"
+            "file": "Daily Notes/2024/06-June/2024-06-24.md"
           }
         }
       },
@@ -151,7 +164,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,16 +173,10 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-omnivore:Omnivore": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-kanban:Create new board": false,
-      "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "151c8ad23dfbd566",
+  "active": "7677e15a77c212be",
   "lastOpenFiles": [
     "Daily Notes/2024/06-June/2024-06-27.md",
     "Excalidraw/Drawing 2024-06-23 12.34.23.excalidraw.md",
@@ -178,7 +185,45 @@
     "Daily Notes/2024/06-June/2024-06-21.md",
     "Excalidraw",
     "SCRATCHPAD.md",
-    "VS/Untitled Kanban.md",
+    "Daily Notes/2024/06-June/2024-06-24.md",
+    "00-Templates/Movie Template.md",
+    "00-Templates/TV Show Template.md",
+    "00-Templates/Game Template.md",
+    "00-Templates/Book Template.md",
+    "Tasks/Tasks.md",
+    "Tasks/Finances.md",
+    "Tasks/Chores.md",
+    "Tasks/Someday.md",
+    "Tasks",
+    "Reminder Sync Inbox.md",
+    "DBs/TV Shows/Young Sheldon.md",
+    "DBs/TV Shows/Friends.md",
+    "DBs/TV Shows/How I Met Your Mother (HIMYM).md",
+    "DBs/TV Shows/South Park.md",
+    "DBs/TV Shows/The Big Bang Theory (TBBT).md",
+    "DBs/TV Shows/The Simpsons.md",
+    "DBs/TV Shows/Family Guy Series.md",
+    "DBs/TV Shows",
+    "DBs/Games/The Legend of Zelda Breath of the Wild (BOTW).md",
+    "DBs/Games/The Legend of Zelda Tears of the Kingdom (TOTK).md",
+    "DBs/Games/Palworld.md",
+    "DBs/Games/The Sims 4 (TS4).md",
+    "DBs/Games/Animal Crossing New Horizons (ACNH).md",
+    "DBs/Games/The Sims 3 (TS3).md",
+    "DBs/Games",
+    "DBs/Movies/The Princess Diaries Series.md",
+    "DBs/Movies/Monster's Inc.md",
+    "DBs/Movies",
+    "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
+    "DBs/Books/00-assets/kiss_girls_cry.jpg",
+    "DBs/Books/00-assets/The_Innocent.jpg",
+    "DBs/Books/00-assets/all_alone.jpg",
+    "DBs/Books/00-assets",
+    "DBs/Books",
+    "screenshot 1.png",
+    "screenshot.png",
+    "00-assets/IMG_0078.png",
+    "00-assets/ScreenRecording_06-22-2024 22-32-38_1.mp4",
     "VS",
     "0-archives/Job Applications/00-applied/REACT Developer - Kestra Financial.md",
     "0-archives/Job Applications/00-applied/Software Engineer (Data Apps & Frontend), Enterprise Systems - Apple.md",
@@ -201,21 +246,8 @@
     "0-archives/Job Applications/00-applied/DevOps Engineer - Infosys.md",
     "0-archives/Job Applications/00-applied",
     "0-archives/00-assets/Birthing-Content-Journey_Prenatal_Foods-to-Eat-Guide_8.5x11_FIN.pdf",
-    "0-archives/Misc Files",
-    "0-archives/Job Applications",
-    "0-archives/00-assets",
-    "0-archives",
-    "0-archives/UI Online - Doc_20240311000000.pdf",
     "Daily Notes/2024/03-March/00-assets/2024-03-14-Thursday_1.png",
     "Daily Notes/2024/03-March/00-assets/Pasted image 20240311154346.png",
-    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311155225.png",
-    "Daily Notes/2024/03-March/00-assets/2024-03-06-got-job.png",
-    "Daily Notes/2024/01-Jan/00-assets/updated-dark-mode.png",
-    "Daily Notes/2024/01-Jan/00-assets/Things3Areas.png",
-    "Daily Notes/2024/01-Jan/00-assets/Countdown-Deadlines.png",
-    "Daily Notes/2024/01-Jan/00-assets/Reminders-Lists.png",
-    "Daily Notes/2024/01-Jan/00-assets/current-dark-with-right-sidebar.png",
-    "Daily Notes/2024/01-Jan/00-assets/convo-28-2024.png",
-    "Daily Notes/2024/03-March/Bills _ Subscriptions.pdf"
+    "Daily Notes/2024/03-March/00-assets/Pasted image 20240311155225.png"
   ]
 }

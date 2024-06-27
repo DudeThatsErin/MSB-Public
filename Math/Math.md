@@ -158,6 +158,6 @@ due date: 2025-03-01
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","new-note-folder":"Josh's School/Math/01-active/Pre-Calculus","new-note-template":"00-Templates/Math Template.md","date-trigger":"📅","show-relative-date":true,"link-date-to-daily-note":true,"archive-with-date":true,"date-picker-week-start":0,"list-collapse":[false,false,false,false,false,false,false,false]}
+{"kanban-plugin":"board","new-note-folder":"Math/01-active/College Algebra","new-note-template":"00-Templates/Math Template.md","date-trigger":"📅","show-relative-date":true,"link-date-to-daily-note":true,"archive-with-date":true,"date-picker-week-start":0,"list-collapse":[false,false,false,false,false,false,false,false],"move-tags":true}
 ```
 %%
