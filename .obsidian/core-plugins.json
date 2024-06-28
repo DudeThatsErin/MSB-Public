@@ -17,5 +17,7 @@
   "bookmarks",
   "outline",
   "word-count",
-  "file-recovery"
+  "workspaces",
+  "file-recovery",
+  "sync"
 ]

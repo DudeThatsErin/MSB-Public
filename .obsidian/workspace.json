@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-21.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75998c24da2bb2ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
+                "file": "Work/Setup Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-21.md",
+                "file": "Work/Setup Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-21.md",
+                "file": "Work/Setup Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2024/06-June/2024-06-21.md"
+                "file": "Work/Setup Notes.md"
               }
             }
           },
@@ -187,28 +175,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
-      "obsidian-omnivore:Omnivore": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-kanban:Create new board": false,
-      "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false,
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-omnivore:Omnivore": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "746cf9bffe9c5492",
   "lastOpenFiles": [
-    "Daily Notes/2024/06-June/2024-06-20.md",
-    "Daily Notes/2024/06-June/2024-06-18.md",
     "Work/Work.md",
     "Work/Setup Notes.md",
-    "test.md",
     "Daily Notes/2024/06-June/2024-06-27.md",
+    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.49.25 PM.png",
+    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.49.10 PM.png",
+    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.48.58 PM.png",
+    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.48.49 PM.png",
+    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.48.33 PM.png",
+    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.48.22 PM.png",
+    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.48.11 PM.png",
+    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.47.58 PM.png",
+    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.44.29 PM.png",
+    "Daily Notes/2024/06-June/2024-06-20.md",
+    "Daily Notes/2024/06-June/2024-06-18.md",
+    "test.md",
     "Daily Notes/2024/06-June/2024-06-26.md",
     "Reminder Sync Inbox.md",
     "SCRATCHPAD.md",
@@ -229,23 +227,16 @@
     "DBs/TV Shows/Young Sheldon.md",
     "DBs/TV Shows/The Big Bang Theory (TBBT).md",
     "DBs/TV Shows/South Park.md",
-    "DBs/TV Shows/How I Met Your Mother (HIMYM).md",
     "DBs/Books/00-assets/kiss_girls_cry.jpg",
     "DBs/Books/00-assets/kiss_girls_cry.jpg.crdownload",
-    "DBs/Books/00-assets/dragonfruit_tattoo.jpg",
     "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
-    "DBs/Books/00-assets/all_alone.jpg",
     "DBs/Books/00-assets/all_alone.jpg.crdownload",
-    "DBs/Books/00-assets/The_Innocent.jpg",
     "DBs/Books/00-assets",
     "DBs/TV Shows",
     "DBs/Movies",
     "DBs/Games",
     "DBs/Books",
-    "Daily Notes/2024/06-June/00-assets/screenshot.png",
-    "Daily Notes/2024/06-June/00-assets/screenshot 1.png",
     "Daily Notes/2024/06-June/00-assets",
-    "00-assets/IMG_0078.png",
     "DBs/Currents.canvas"
   ]
 }
