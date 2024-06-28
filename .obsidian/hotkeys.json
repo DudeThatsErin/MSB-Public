@@ -25,5 +25,23 @@
       ],
       "key": "D"
     }
+  ],
+  "taskbone-ocr-plugin:b7eb99c6": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "taskbone-ocr-plugin:b50888f3": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }

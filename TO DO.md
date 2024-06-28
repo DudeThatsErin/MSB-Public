@@ -1,1 +1,0 @@
-- [ ] `mapResult = false` is not working when I click anywhere on the map there is not a neighborhood.

@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "19a1354f00bc47e8",
+        "id": "2e3d2b63d359670d",
         "type": "tabs",
         "children": [
           {
-            "id": "746cf9bffe9c5492",
+            "id": "9c47bea4f5e7e7cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Setup Notes.md",
+                "file": "Daily Notes/2024/06-June/2024-06-28.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -54,7 +55,14 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "0f270d43cbd5d22c",
+        "type": "tabs",
+        "children": [
           {
             "id": "f7096808fb2d486f",
             "type": "leaf",
@@ -65,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,15 +86,48 @@
       {
         "id": "90e59bcb19a40a53",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 43.97031539888683,
         "children": [
           {
-            "id": "be2937af04c6958f",
+            "id": "9f8b274597a47e68",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f6ff4f0b34411e53",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "f5c434cba118ddff",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Daily Notes/2024/06-June/2024-06-28.md"
+              }
+            }
+          },
+          {
+            "id": "1c1ad3ab22ddb1a7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Setup Notes.md",
+                "file": "Daily Notes/2024/06-June/2024-06-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,25 +139,14 @@
             }
           },
           {
-            "id": "b970d5f58bc5a0e7",
+            "id": "40ab566ef331fb13",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Setup Notes.md",
+                "file": "Daily Notes/2024/06-June/2024-06-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "9f8b274597a47e68",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           }
@@ -127,18 +156,8 @@
       {
         "id": "5689fcd768c3b00b",
         "type": "tabs",
-        "dimension": 38.91752577319588,
+        "dimension": 28.293135435992582,
         "children": [
-          {
-            "id": "982211d6804936c0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Work/Setup Notes.md"
-              }
-            }
-          },
           {
             "id": "69864e5581f58784",
             "type": "leaf",
@@ -147,7 +166,18 @@
               "state": {
                 "file": "SCRATCHPAD.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "982211d6804936c0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily Notes/2024/06-June/2024-06-28.md"
               }
             }
           }
@@ -157,7 +187,7 @@
       {
         "id": "18cba2935a095afd",
         "type": "tabs",
-        "dimension": 27.74914089347079,
+        "dimension": 27.736549165120596,
         "children": [
           {
             "id": "26fd32f1be7fe079",
@@ -177,7 +207,6 @@
     "hiddenItems": {
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -190,26 +219,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "746cf9bffe9c5492",
+  "active": "f7096808fb2d486f",
   "lastOpenFiles": [
-    "Work/Work.md",
+    "00-assets/banners/320.Beach_Hero-1024w-1366h@2x~ipad_Originalbanner.jpeg",
+    "00-assets/banners/Christmas_Tree-wallpaper-11000690banner.jpg",
+    "00-assets/banners/1612.Noodles_Green_Dark-820w-1180h@2x~ipad_Originalbanner.jpeg",
+    "00-assets/banners/112.Powder_Pink-1024w-1366h@2x~ipad_Original.png",
+    "00-assets/banners/IMG_0276.jpeg",
+    "00-assets/banners/111.Flower_Red@2x~ipad_Original.png",
+    "00-assets/banners/IMG_0141banner.JPG",
+    "00-assets/banners/536.DoubleBubble_Gray-414w-896h@2x~iphone_Original.jpeg",
+    "00-assets/banners/blue_peonybanner.jpg",
+    "00-assets/banners/110.Flower_Purple@2x~ipad_Original.png",
+    "00-assets/banners/Glimmer Glarebanner.png",
+    "banners/banners",
+    "banners/README.md",
+    "banners/LICENSE",
+    "banners",
+    "Daily Notes/2024/06-June/Kaitlyn.md",
+    "Daily Notes/2024/06-June/2024-06-28.md",
+    "Contacts/Family/Kaitlyn Motyka.md",
+    "00-Templates/Contact Template.md",
+    "Contacts/Friends",
+    "Contacts/Coworkers",
+    "Contacts/Family",
+    "Contacts",
+    "DBs/Currents.canvas",
+    "Math/Math.md",
+    "SCRATCHPAD.md",
+    "Daily Notes/2024/06-June/Untitled.md",
     "Work/Setup Notes.md",
+    "Welcome.md",
+    "TO DO.md",
+    "Work/Work.md",
     "Daily Notes/2024/06-June/2024-06-27.md",
-    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.49.25 PM.png",
-    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.49.10 PM.png",
-    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.48.58 PM.png",
-    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.48.49 PM.png",
-    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.48.33 PM.png",
-    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.48.22 PM.png",
-    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.48.11 PM.png",
-    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.47.58 PM.png",
-    "Daily Notes/2024/06-June/00-assets/Screenshot 2024-06-27 at 7.44.29 PM.png",
     "Daily Notes/2024/06-June/2024-06-20.md",
     "Daily Notes/2024/06-June/2024-06-18.md",
     "test.md",
     "Daily Notes/2024/06-June/2024-06-26.md",
     "Reminder Sync Inbox.md",
-    "SCRATCHPAD.md",
     "Work/Tasks.md",
     "DBs/TV Shows/Family Guy Series.md",
     "Daily Notes/2024/06-June/2024-06-25.md",
@@ -217,26 +265,8 @@
     "00-Templates/Daily Note Template.md",
     "Work/Chores.md",
     "Work/Finances.md",
-    "00-Templates/TV Show Template.md",
-    "Work/Someday.md",
     "Work",
-    "00-Templates/Book Template.md",
-    "00-Templates/Movie Template.md",
-    "00-Templates/Game Template.md",
-    "DBs/TV Shows/The Simpsons.md",
-    "DBs/TV Shows/Young Sheldon.md",
-    "DBs/TV Shows/The Big Bang Theory (TBBT).md",
-    "DBs/TV Shows/South Park.md",
-    "DBs/Books/00-assets/kiss_girls_cry.jpg",
     "DBs/Books/00-assets/kiss_girls_cry.jpg.crdownload",
-    "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload",
-    "DBs/Books/00-assets/all_alone.jpg.crdownload",
-    "DBs/Books/00-assets",
-    "DBs/TV Shows",
-    "DBs/Movies",
-    "DBs/Games",
-    "DBs/Books",
-    "Daily Notes/2024/06-June/00-assets",
-    "DBs/Currents.canvas"
+    "DBs/Books/00-assets/dragonfruit_tattoo.jpg.crdownload"
   ]
 }

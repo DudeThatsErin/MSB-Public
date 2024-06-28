@@ -4,5 +4,6 @@
   "attachmentFolderPath": "./00-assets",
   "showUnsupportedFiles": true,
   "newFileLocation": "current",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "hidden"
 }

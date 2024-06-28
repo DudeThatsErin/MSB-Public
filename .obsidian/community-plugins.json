@@ -2,14 +2,11 @@
   "obsidian42-brat",
   "obsidian-discordrpc",
   "just-share-please",
-  "obsidian-omnivore",
   "obsidian-paste-image-rename",
   "settings-search",
   "taskbone-ocr-plugin",
-  "obsidian-tasks-plugin",
   "actions-uri",
   "obsidian-git",
-  "obsidian-task-archiver",
   "obsidian-banners",
   "calendar",
   "dataview",
@@ -19,5 +16,8 @@
   "omnisearch",
   "templater-obsidian",
   "obsidian-style-settings",
-  "text-extractor"
+  "text-extractor",
+  "obsidian-omnivore",
+  "obsidian-hider",
+  "obsidian-minimal-settings"
 ]
