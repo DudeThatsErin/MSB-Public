@@ -6,5 +6,12 @@
   "archive-with-date": true,
   "archive-date-separator": "✅ ",
   "date-picker-week-start": 0,
-  "show-checkboxes": true
+  "show-checkboxes": true,
+  "full-list-lane-width": true,
+  "move-tags": true,
+  "move-dates": true,
+  "append-archive-date": true,
+  "move-task-metadata": true,
+  "inline-metadata-position": "footer",
+  "max-archive-size": 2
 }

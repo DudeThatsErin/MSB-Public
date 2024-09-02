@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "00-Templates",
+  "templates_folder": "98-Templates",
   "templates_pairs": [
     [
       "",
@@ -11,7 +11,7 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "00-assets/scripts",
+  "user_scripts_folder": "100-Resources/Templater",
   "enable_folder_templates": true,
   "folder_templates": [
     {
@@ -19,7 +19,7 @@
       "template": ""
     }
   ],
-  "syntax_highlighting": false,
+  "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     "00-Templates/Daily Note Template.md"

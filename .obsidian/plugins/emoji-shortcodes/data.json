@@ -1,0 +1,11 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":slightly_smiling_face:",
+    ":blue_heart:",
+    ":star:"
+  ]
+}

@@ -1,8 +1,9 @@
 {
-  "useCache": true,
+  "useCache": false,
   "hideExcluded": false,
   "downrankedFoldersFilters": [],
   "ignoreDiacritics": true,
+  "ignoreArabicDiacritics": false,
   "indexedFileTypes": [
     "txt,",
     "html,",
@@ -15,9 +16,11 @@
     "html,",
     "xhtml"
   ],
+  "displayTitle": "",
   "PDFIndexing": true,
   "officeIndexing": true,
   "imagesIndexing": true,
+  "aiImageIndexing": false,
   "unsupportedFilesIndexing": "no",
   "splitCamelCase": false,
   "openInNewPane": true,
@@ -43,5 +46,6 @@
   "httpApiNotice": true,
   "welcomeMessage": "1.21.0",
   "verboseLogging": false,
-  "DANGER_httpHost": null
+  "DANGER_httpHost": null,
+  "DANGER_forceSaveCache": false
 }

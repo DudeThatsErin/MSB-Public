@@ -1,0 +1,10 @@
+{
+  "date-trigger": "🛫",
+  "show-relative-date": true,
+  "hide-date-in-title": true,
+  "link-date-to-daily-note": true,
+  "archive-with-date": true,
+  "archive-date-separator": "✅ ",
+  "date-picker-week-start": 0,
+  "show-checkboxes": true
+}

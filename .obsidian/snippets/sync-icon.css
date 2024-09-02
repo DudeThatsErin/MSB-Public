@@ -8,10 +8,16 @@
     overflow: visible;
 }
 /*-moves sync icon-*/
-:is(.is-mobile, .is-phone) .workspace:not(:has(.workspace-drawer-backdrop)) .sync-status-icon {
+.is-tablet .workspace:not(:has(.workspace-drawer-backdrop)) .sync-status-icon {
     position: absolute;
-    left: calc(-1 * 44px);
-    top: 8px;
+    left: calc(-1 * 55px);
+    top: 55px;
+}
+
+.is-phone .workspace:not(:has(.workspace-drawer-backdrop)) .sync-status-icon {
+    position: absolute;
+    left: calc(-1 * 55px);
+    top: 10px;
 }
 /*-moves three dots-*/
 :is(.is-mobile, .is-phone) .workspace:not(:has(.workspace-drawer-backdrop)) .view-actions {

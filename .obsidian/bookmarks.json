@@ -24,29 +24,150 @@
     },
     {
       "type": "file",
-      "ctime": 1717998022032,
-      "path": "SCRATCHPAD.md"
+      "ctime": 1720214937814,
+      "path": "Home.md"
     },
     {
       "type": "file",
-      "ctime": 1717998154180,
-      "path": "Math/Math.md"
+      "ctime": 1721005925690,
+      "path": "100-Resources/SCRATCHPAD.md"
     },
     {
       "type": "file",
-      "ctime": 1718000800363,
-      "path": "Tasks.md"
+      "ctime": 1721603835025,
+      "path": "DBs/Database.md"
     },
     {
-      "type": "file",
-      "ctime": 1718759290216,
-      "path": "DBs/Currents.canvas",
-      "title": "Currents"
+      "type": "group",
+      "ctime": 1722211852356,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1721005950633,
+          "path": "Projects/Projects.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1722211847872,
+          "path": "Projects/02-active/Procrastinotes.md"
+        }
+      ],
+      "title": "Projects"
     },
     {
-      "type": "file",
-      "ctime": 1719416115795,
-      "path": "Work/Work.md"
+      "type": "group",
+      "ctime": 1723439787977,
+      "items": [
+        {
+          "type": "search",
+          "ctime": 1722721201978,
+          "query": "Pregnan",
+          "title": "Pregnancy"
+        },
+        {
+          "type": "file",
+          "ctime": 1723439852376,
+          "path": "Daily Notes/2024/2024 Health.md"
+        }
+      ],
+      "title": "⚕️Health"
+    },
+    {
+      "type": "group",
+      "ctime": 1725225737968,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1725225737968,
+          "items": [],
+          "title": "Inbox"
+        },
+        {
+          "type": "file",
+          "ctime": 1725225737968,
+          "path": "Today.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1725225737968,
+          "path": "Upcoming.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1725225917682,
+          "path": "Someday.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1725225914248,
+          "path": "Anytime.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1725225737968,
+          "path": "Wishlist.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1725230889679,
+          "path": "Logbook.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "group",
+          "ctime": 1725225737968,
+          "items": [],
+          "title": "97-Attachments"
+        },
+        {
+          "type": "group",
+          "ctime": 1725225737968,
+          "items": [],
+          "title": "99-Archives"
+        },
+        {
+          "type": "group",
+          "ctime": 1725225737968,
+          "items": [],
+          "title": "100-Resources"
+        },
+        {
+          "type": "group",
+          "ctime": 1725225737968,
+          "items": [],
+          "title": "Contacts"
+        },
+        {
+          "type": "group",
+          "ctime": 1725225737968,
+          "items": [],
+          "title": "Daily Notes"
+        },
+        {
+          "type": "group",
+          "ctime": 1725225737968,
+          "items": [],
+          "title": "DBs"
+        },
+        {
+          "type": "group",
+          "ctime": 1725225737968,
+          "items": [],
+          "title": "KB Shortcuts"
+        },
+        {
+          "type": "group",
+          "ctime": 1725225737968,
+          "items": [],
+          "title": "Projects"
+        }
+      ],
+      "title": "sortspec"
     }
   ]
 }

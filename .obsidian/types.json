@@ -26,6 +26,14 @@
     "excalidraw-export-embed-scene": "checkbox",
     "excalidraw-embeddable-theme": "text",
     "relationship": "multitext",
-    "bday": "date"
+    "bday": "date",
+    "lastPlayed": "date",
+    "completed": "checkbox",
+    "recommend": "checkbox",
+    "fasting": "checkbox",
+    "closed": "datetime",
+    "deadline": "date",
+    "start": "datetime",
+    "end": "datetime"
   }
 }

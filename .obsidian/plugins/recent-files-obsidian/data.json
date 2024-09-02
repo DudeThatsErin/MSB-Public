@@ -1,0 +1,41 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Task Template",
+      "path": "100-Resources/Templates/Task Template.md"
+    },
+    {
+      "basename": "Event Template",
+      "path": "100-Resources/Templates/Event Template.md"
+    },
+    {
+      "basename": "SCRATCHPAD",
+      "path": "100-Resources/SCRATCHPAD.md"
+    },
+    {
+      "basename": "Projects",
+      "path": "Projects/Projects.md"
+    },
+    {
+      "basename": "Database",
+      "path": "DBs/Database.md"
+    },
+    {
+      "basename": "Anytime",
+      "path": "100-Resources/Anytime.md"
+    },
+    {
+      "basename": "2024-08-31",
+      "path": "Daily Notes/2024/07-July/2024-08-31.md"
+    },
+    {
+      "basename": "PHP",
+      "path": "99-Archives/PHP.md"
+    },
+    {
+      "basename": "My Custom Code Additions",
+      "path": "99-Archives/My Custom Code Additions.md"
+    }
+  ],
+  "omittedPaths": []
+}

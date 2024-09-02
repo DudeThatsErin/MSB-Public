@@ -1,0 +1,52 @@
+{
+  "logoType": "default",
+  "logo": {
+    "lucideIcon": "",
+    "imagePath": "",
+    "imageLink": ""
+  },
+  "logoScale": 1.2,
+  "iconColorType": "default",
+  "wordmark": "Hello, Erin! ♡",
+  "customFont": "interfaceFont",
+  "fontSize": "4em",
+  "fontColorType": "default",
+  "fontWeight": 600,
+  "maxResults": 5,
+  "showbookmarkedFiles": true,
+  "showRecentFiles": false,
+  "maxRecentFiles": 5,
+  "storeRecentFile": true,
+  "showPath": true,
+  "selectionHighlight": "default",
+  "showShortcuts": true,
+  "markdownOnly": false,
+  "unresolvedLinks": false,
+  "recentFilesStore": [],
+  "bookmarkedFileStore": [
+    {
+      "filepath": "100-Resources/SCRATCHPAD.md"
+    },
+    {
+      "filepath": "DBs/Database.md"
+    },
+    {
+      "filepath": "Projects/Projects.md"
+    },
+    {
+      "filepath": "Projects/02-active/Procrastinotes.md"
+    },
+    {
+      "filepath": "Daily Notes/2024/2024 Health.md"
+    },
+    {
+      "filepath": "Wishlist.md"
+    }
+  ],
+  "searchDelay": 0,
+  "replaceNewTabs": true,
+  "newTabOnStart": false,
+  "closePreviousSessionTabs": false,
+  "omnisearch": true,
+  "showOmnisearchExcerpt": true
+}

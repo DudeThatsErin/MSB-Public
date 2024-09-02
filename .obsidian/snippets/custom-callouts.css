@@ -25,6 +25,10 @@ FROM: https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets/blob/Collection
   --callout-icon: lucide-chevrons-right;
 }
 
+.callout[data-callout="note2"] {
+  --callout-icon: lucide-notebook;
+}
+
 .callout[data-callout="quote"],
 .callout[data-callout="cite"] {
   --callout-icon: lucide-quote;
@@ -56,6 +60,11 @@ FROM: https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets/blob/Collection
   --callout-icon: lucide-plus;
 }
 
+.callout[data-callout="note3"] {
+  --callout-color: 175, 142, 221;
+  --callout-icon: asterisk;
+}
+
 /* ----------------------------------------------------------------------
 Different colors on callouts
 ------------------------------------------------------------------------- */
@@ -68,7 +77,7 @@ Different colors on callouts
 }
 
 .callout[data-callout="warning"] {
-  --callout-color: 173, 61, 61;
+  --callout-color: 241, 112, 112;
 }
 
 .callout[data-callout="caution"] {
@@ -79,35 +88,53 @@ Different colors on callouts
   --callout-color: 232, 190, 60;
 }
 
-.callout[data-callout="note"],
+.callout[data-callout="note2"],
 .callout[data-callout="quote"],
 .callout[data-callout="cite"] {
-  --callout-color: 99, 149, 156;
+  --callout-color: 150, 210, 218;
 }
 
 .callout[data-callout="abstract"],
 .callout[data-callout="summary"],
-.callout[data-callout="tldr"],
-.callout[data-callout="seealso"] {
-  --callout-color: 69, 112, 118;
+.callout[data-callout="tldr"] {
+  --callout-color: 196, 231, 236;
+}
+
+.callout[data-callout="hint"] {
+  --callout-icon: lucide-square-asterisk;
+  --callout-color: 99, 193, 233;
+}
+
+.callout[data-callout="tip"] {
+  --callout-icon: plus-square;
+  --callout-color: 237, 167, 232;
+}
+
+.callout[data-callout="important"] {
+  --callout-icon: alert-triangle;
+  --callout-color: 243, 123, 93;
 }
 
 .callout[data-callout="info"],
-.callout[data-callout="todo"],
-.callout[data-callout="tip"],
-.callout[data-callout="hint"],
-.callout[data-callout="important"] {
+.callout[data-callout="todo"] {
   --callout-color: 189, 174, 147;
 }
 
 .callout[data-callout="success"],
 .callout[data-callout="check"],
-.callout[data-callout="done"],
-.callout[data-callout="question"],
+.callout[data-callout="done"] {
+  --callout-color: 68, 223, 101;
+}
+
+.callout[data-callout="question"] {
+  --callout-color: 43, 205, 226;
+}
+
 .callout[data-callout="help"],
 .callout[data-callout="faq"] {
-  --callout-color: 168, 195, 115;
+  --callout-color: 186, 179, 245;
 }
+
 
 .callout[data-callout="failure"],
 .callout[data-callout="fail"],

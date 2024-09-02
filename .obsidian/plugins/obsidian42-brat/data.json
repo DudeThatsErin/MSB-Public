@@ -1,7 +1,6 @@
 {
   "pluginList": [
-    "mgmeyers/obsidian-kanban",
-    "noatpad/obsidian-banners"
+    "blacksmithgu/datacore"
   ],
   "pluginSubListFrozenVersion": [],
   "themesList": [],
@@ -12,5 +11,6 @@
   "loggingPath": "BRAT-log",
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
-  "notificationsEnabled": true
+  "notificationsEnabled": true,
+  "personalAccessToken": ""
 }

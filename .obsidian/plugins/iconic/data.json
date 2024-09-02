@@ -1,0 +1,127 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "rememberDeletedItems": false,
+  "appIcons": {},
+  "tabIcons": {
+    "file-explorer": {
+      "icon": "lucide-file-stack",
+      "color": "blue"
+    }
+  },
+  "fileIcons": {
+    "100-Resources": {
+      "icon": "lucide-sparkles",
+      "color": "pink"
+    },
+    "100-Resources/256 Color Codes Cheat Sheet.md": {
+      "icon": "lucide-paint-bucket",
+      "color": "cyan"
+    },
+    "100-Resources/Datacore": {
+      "icon": "lucide-database",
+      "color": "green"
+    },
+    "100-Resources/Important": {
+      "icon": "lucide-drafting-compass",
+      "color": "blue"
+    },
+    "100-Resources/SCRATCHPAD.md": {
+      "icon": "lucide-sticky-note",
+      "color": "blue"
+    },
+    "100-Resources/Templater": {
+      "icon": "templater-icon",
+      "color": "yellow"
+    },
+    "100-Resources/Templates": {
+      "icon": "lucide-book-template",
+      "color": "purple"
+    },
+    "100-Resources/Templates/Task Template.md": {
+      "icon": "lucide-circle"
+    },
+    "97-Attachments": {
+      "icon": "lucide-paperclip",
+      "color": "yellow"
+    },
+    "97-Attachments/Books": {
+      "icon": "lucide-book-text",
+      "color": "blue"
+    },
+    "97-Attachments/images": {
+      "icon": "lucide-image",
+      "color": "pink"
+    },
+    "99-Archives": {
+      "icon": "lucide-inbox",
+      "color": "cyan"
+    },
+    "99-Archives/How to Downgrade from Beta to Release.md": {
+      "icon": "lucide-smartphone"
+    },
+    "99-Archives/Lakeline Parking.md": {
+      "icon": "lucide-car",
+      "color": "green"
+    },
+    "Contacts": {
+      "icon": "lucide-person-standing",
+      "color": "green"
+    },
+    "DBs": {
+      "icon": "lucide-database",
+      "color": "purple"
+    },
+    "DBs/Database.md": {
+      "icon": "lucide-tv",
+      "color": "purple"
+    },
+    "Daily Notes": {
+      "icon": "lucide-book-open",
+      "color": "pink"
+    },
+    "Inbox": {
+      "icon": "lucide-inbox",
+      "color": "green"
+    },
+    "KB Shortcuts": {
+      "icon": "lucide-keyboard",
+      "color": "orange"
+    },
+    "Projects": {
+      "icon": "lucide-square-kanban",
+      "color": "blue"
+    },
+    "Projects/01-Task Management": {
+      "icon": "lucide-list-todo",
+      "color": "green"
+    }
+  },
+  "bookmarkIcons": {
+    "1722211852356": {
+      "icon": "lucide-table-properties",
+      "color": "blue"
+    },
+    "1723439787977": {
+      "icon": "lucide-heart-pulse",
+      "color": "red"
+    },
+    "1725225737968": {
+      "icon": "lucide-sort-desc",
+      "color": "green"
+    }
+  },
+  "propertyIcons": {},
+  "ribbonIcons": {}
+}

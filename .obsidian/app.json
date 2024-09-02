@@ -1,9 +1,12 @@
 {
   "readableLineLength": false,
-  "showRibbon": false,
-  "attachmentFolderPath": "./00-assets",
+  "showRibbon": true,
+  "attachmentFolderPath": "./00-attachments",
   "showUnsupportedFiles": true,
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "showInlineTitle": true,
+  "promptDelete": false,
+  "trashOption": "local"
 }

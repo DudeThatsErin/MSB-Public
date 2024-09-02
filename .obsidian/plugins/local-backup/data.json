@@ -1,0 +1,19 @@
+{
+  "versionValue": "0.1.7",
+  "startupBackupStatus": true,
+  "lifecycleValue": "7",
+  "backupsPerDayValue": "3",
+  "maxRetriesValue": "1",
+  "retryIntervalValue": "100",
+  "winSavePathValue": "/Users/erinskidds/Dev",
+  "unixSavePathValue": "/Users/erinskidds/Documents/Obsidian Backups",
+  "fileNameFormatValue": "MSB-Backup-%Y_%m_%d-%H_%M_%S",
+  "intervalBackupStatus": true,
+  "backupFrequencyValue": "240",
+  "callingArchiverStatus": false,
+  "archiverTypeValue": "sevenZip",
+  "archiveFileTypeValue": "zip",
+  "archiverWinPathValue": "",
+  "archiverUnixPathValue": "",
+  "showRibbonIcon": true
+}
