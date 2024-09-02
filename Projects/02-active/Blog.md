@@ -46,6 +46,9 @@ kanban-plugin: board
 ## In Progress
 
 - [ ] REWRITE: My Obsidian Setup
+- [ ] REWRITE: My Apps, Finally.
+	
+	Update to Trello, Apple Notes, Apple Calendar, Apple Mail, Chrome, Things 3 OR Apple Reminders.
 
 
 ## Written/Published
@@ -57,7 +60,11 @@ kanban-plugin: board
 - [x] Job Application Process parts 1 & 2
 
 
+***
 
+## Archive
+
+- [ ] 2024-07-14 7:54 pm ✅  Write up how I have my Notion Site set up on my Notion Blog
 
 %% kanban:settings
 ```

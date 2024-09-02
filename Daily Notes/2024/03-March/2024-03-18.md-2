@@ -1,0 +1,167 @@
+---
+tags:
+  - journal
+banner: "[[IMG_0422.PNG]]"
+banner_icon: 😣
+---
+# 📆 Journal for Monday the 18 of Mar 2024
+
+<svg viewBox="0 -100 3780 400" xmlns="http://www.w3.org/2000/svg">
+  <title>Dynamic Timeline 2024</title>
+  <defs>
+      
+<filter id="brightness" x="0" y="0" width="100%" height="100%">
+  <feColorMatrix type="matrix" values="0.4 0 0 0 0
+                                       0 0.4 0 0 0
+                                       0 0 0.4 0 0
+                                       0 0 0 1 0" />
+</filter>
+<filter id="dropShadow" height="130%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+  <feOffset dx="2" dy="2" result="offsetblur"/>
+  <feMerge>
+    <feMergeNode in="offsetblur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+      
+<linearGradient id="Q1Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#6AA9FF" />
+    <stop offset="50%" style="stop-color:#3F85FF" />
+    <stop offset="100%" style="stop-color:#6AB04A" />
+</linearGradient>
+    
+<linearGradient id="Q2Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#B4E051" />
+    <stop offset="50%" style="stop-color:#F8E352" />
+    <stop offset="100%" style="stop-color:#FFC30F" />
+</linearGradient>
+    
+<linearGradient id="Q3Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF7F27" />
+    <stop offset="50%" style="stop-color:#FF4C3B" />
+    <stop offset="100%" style="stop-color:#DAA520" />
+</linearGradient>
+    
+<linearGradient id="Q4Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#6A5ACD" />
+    <stop offset="50%" style="stop-color:#483D8B" />
+    <stop offset="100%" style="stop-color:#5F9EA0" />
+</linearGradient>
+    
+  </defs>
+  <g filter="url(#brightness)">
+    
+      <rect x="0" y="60" width="930" height="85" fill="url(#Q1Gradient)" rx="12" ry="12" />
+      <text x="465" y="20" fill="white" font-size="60" text-anchor="middle">Q1</text>
+    
+      <rect x="940" y="60" width="930" height="85" fill="url(#Q2Gradient)" rx="12" ry="12" />
+      <text x="1405" y="20" fill="white" font-size="60" text-anchor="middle">Q2</text>
+    
+      <rect x="1880" y="60" width="940" height="85" fill="url(#Q3Gradient)" rx="12" ry="12" />
+      <text x="2350" y="20" fill="white" font-size="60" text-anchor="middle">Q3</text>
+    
+      <rect x="2830" y="60" width="940" height="85" fill="url(#Q4Gradient)" rx="12" ry="12" />
+      <text x="3300" y="20" fill="white" font-size="60" text-anchor="middle">Q4</text>
+    
+    
+      <rect x="0" y="155" width="310" height="65" fill="#6AA9FF" rx="12" ry="12" />
+      <text x="155" y="290" fill="white" font-size="60" text-anchor="middle">Jan</text>
+    
+      <rect x="320" y="155" width="290" height="65" fill="#3F85FF" rx="12" ry="12" />
+      <text x="465" y="290" fill="white" font-size="60" text-anchor="middle">Feb</text>
+    
+      <rect x="620" y="155" width="310" height="65" fill="#6AB04A" rx="12" ry="12" />
+      <text x="775" y="290" fill="white" font-size="60" text-anchor="middle">Mar</text>
+    
+      <rect x="940" y="155" width="300" height="65" fill="#B4E051" rx="12" ry="12" />
+      <text x="1090" y="290" fill="white" font-size="60" text-anchor="middle">Apr</text>
+    
+      <rect x="1250" y="155" width="310" height="65" fill="#F8E352" rx="12" ry="12" />
+      <text x="1405" y="290" fill="white" font-size="60" text-anchor="middle">May</text>
+    
+      <rect x="1570" y="155" width="300" height="65" fill="#FFC30F" rx="12" ry="12" />
+      <text x="1720" y="290" fill="white" font-size="60" text-anchor="middle">Jun</text>
+    
+      <rect x="1880" y="155" width="310" height="65" fill="#FF7F27" rx="12" ry="12" />
+      <text x="2035" y="290" fill="white" font-size="60" text-anchor="middle">Jul</text>
+    
+      <rect x="2200" y="155" width="310" height="65" fill="#FF4C3B" rx="12" ry="12" />
+      <text x="2355" y="290" fill="white" font-size="60" text-anchor="middle">Aug</text>
+    
+      <rect x="2520" y="155" width="300" height="65" fill="#DAA520" rx="12" ry="12" />
+      <text x="2670" y="290" fill="white" font-size="60" text-anchor="middle">Sep</text>
+    
+      <rect x="2830" y="155" width="310" height="65" fill="#6A5ACD" rx="12" ry="12" />
+      <text x="2985" y="290" fill="white" font-size="60" text-anchor="middle">Oct</text>
+    
+      <rect x="3150" y="155" width="300" height="65" fill="#483D8B" rx="12" ry="12" />
+      <text x="3300" y="290" fill="white" font-size="60" text-anchor="middle">Nov</text>
+    
+      <rect x="3460" y="155" width="310" height="65" fill="#5F9EA0" rx="12" ry="12" />
+      <text x="3615" y="290" fill="white" font-size="60" text-anchor="middle">Dec</text>
+    
+  </g>
+  <g>
+    
+      <text filter="url(#dropShadow)" x="320" y="124" fill="white" font-size="80" text-anchor="middle">🎂</text>
+    
+      <text filter="url(#dropShadow)" x="820" y="124" fill="white" font-size="80" text-anchor="middle">🌸</text>
+    
+      <text filter="url(#dropShadow)" x="890" y="124" fill="white" font-size="80" text-anchor="middle">💍</text>
+    
+      <text filter="url(#dropShadow)" x="1630" y="124" fill="white" font-size="80" text-anchor="middle">🎂</text>
+    
+      <text filter="url(#dropShadow)" x="3690" y="124" fill="white" font-size="100" text-anchor="middle">🎄</text>
+    
+
+    <circle filter="url(#dropShadow)" cx="780" cy="150" r="30" stroke="white" fill="#FF00FF" stroke-width="5" />
+    <rect x="492" y="116" width="240" height="72" stroke-width="5" stroke="#FF00FF" fill="var(--background-primary)" rx="10" ry="10" />
+    <text filter="url(#dropShadow)" x="714" y="170" fill="white" font-size="60" text-anchor="end">18-Mar</text>
+  </g>
+</svg>
+  
+
+## How have you felt today?
+> [!info]- Use this chart
+> ![[Emotion-Wheel-1.jpg|800]]
+
+9:37AM CDT: I asked Megan and Crystal if I can keep personal files on my work mac. They said they didn't care. Of course CEOs or whomever should be able to get access in a moment's notice but they don't care. I figured it was the case when Crystal told me she was using her personal Mac's to work from home.
+So, I set up my personal iCloud.
+
+I also started to learn Math. Learned something new about fractions. So, that was interesting.
+
+I am still reeling from yesterday. Omg. I don't know what to do. I need to talk it out. I'm going to create yesterday's daily note so I can journal about it. I'm trying to keep everything in their own notes that way it is easy to include it in future notes. Check out yesterday's note for what happened. It was bad.
+
+2:01pm: I asked online for advice and people told me to take classes to help and to practice dry firing. So that's what I am going to do. You need to take classes to get certified to carry in TX anyway so that's what I am going to do.
+I just ate lunch. We got our stove installed and that woke Josh up. He apologized and said I don't have to learn how to handle a gun. I told him I'm going to and that I will take classes. He said I should get certified then so that's what I am doing. Until we can afford all that I am going to be dry firing the gun daily for 10+ minutes a day.
+
+4:07pm: Woah this day went by quick. I haven't even done anything today. Tomorrow I'm going to start making the app. They haven't told me what they want to use so I think I am in charge of that? So I'm going to use Electron. Simply because it works cross platform easily and I don't have to worry about all that jazz.
+I figured out which Task management & Note taking app I'll use. I was able to sign up on [[2024-03-15|Friday]] for Obsidian Sync. I had to email to get my education discount renewed. When I did Sig-blah blah from discord (lol) aka Rebbecca emailed me back and got me set up with it and when I signed up she put me on the legacy plan from the beginning of the year. WOO! So, I have 50GB of storage for 10 notebooks with 200mb per file for $60/year. I added $14 to my account from apple pay and so it was like $30 for this year.
+
+I plan to consistently add $5 to my account once a month cause 5x12=60. So, later this month, I will add $5 and then in May, June, etc. By next year I should only have $5 left to pay to renew which isn't bad.
+
+My task management app is Things 3 so it is "free"... well already paid for. Woo! Only part I will need to worry about is the mac app but if I need to purchase it because I get taken out of the beta program for some reason, that's fine. It is a one-time purchase which I can justify cause it is one and done.
+If they change whenever they decide to release Things 4 (if they do), then I will switch to Apple Reminders. Until then Things 3 is the app cause it keeps up the trust with my husband (mostly that reason) and it is free. Apple Reminders is free so it keeps up that trust. I just don't want to use it because the filters it has are a pain. I don't feel like I need filters in Things 3 though cause it looks so nice.
+
+Definitely walking on the treadmill today. I feel blah right now. I feel like I need to.
+
+We got a used Oven to replace our oven that Josh broke on the 4th. Idk why they didn't suggest a used oven until then. Like wtf. Makes no sense. Either way, it is fine, and we can use our stove now. yay! We are still getting the brand new one whenever it does come in but the maintenance manager said he would keep in touch with us about the status of that new oven.
+
+Just glad we have a working one in the time being. Our luck, the oven will come in tomorrow or Wednesday. LOL
+
+Anyway, I think I am done journaling for now. I am tired and I am ready to go home. I probably won't journal tonight cause it'll be 6-ish by the time I am done walking and then I will shower and get ready for bed so that's all for today. :) Lots of exciting things happening in my life.
+
+P.S. I tried the magic mouse for 3 hours today and couldn't do it. It cut into my hands and you can't grip it. It is nice that you can switch desktops with it but I will figure out how to do that with my mouse.
+Glad I have a reliable job for once and I'm glad that no one cares what I put on my MBP. Honestly, probably going to leave it at work today cause I have no use for it tonight. My iPad is charged and I won't even really use it. So, Just leaving my bookbag here today. I'll bring home my keyboard tomorrow and my mouse is only coming home on the weekends or days I am working from home.
+
+Anyway, now I'm done.
+TTYL! <3
+Erin Skidds
+4:22pm CDT
+Monday - is it friday yet?! ugh.
+## Unit 1
+![[Unit 1.pdf]]
+# Other Notes
+<< [[2024-03-17|yesterday's note]] | [[2024-03-19|tomorrow's note]] >>
