@@ -1,0 +1,86 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1725732074330,
+      "path": "DBs/Database.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1725732291265,
+      "path": "Projects/Projects.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1725732215338,
+      "path": "Inbox/SCRATCHPAD.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1725727512131,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1725732144015,
+          "path": "KB Shortcuts.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "file",
+          "ctime": 1725727512131,
+          "path": "Readme.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "group",
+          "ctime": 1725727512131,
+          "items": [],
+          "title": "Inbox"
+        },
+        {
+          "type": "group",
+          "ctime": 1725727512131,
+          "items": [],
+          "title": "97-Attachments"
+        },
+        {
+          "type": "group",
+          "ctime": 1725727512131,
+          "items": [],
+          "title": "99-Archives"
+        },
+        {
+          "type": "group",
+          "ctime": 1725727512131,
+          "items": [],
+          "title": "100-Resources"
+        },
+        {
+          "type": "group",
+          "ctime": 1725727512131,
+          "items": [],
+          "title": "Contacts"
+        },
+        {
+          "type": "group",
+          "ctime": 1725727512131,
+          "items": [],
+          "title": "Daily Notes"
+        },
+        {
+          "type": "group",
+          "ctime": 1725728406071,
+          "items": [],
+          "title": "DBs"
+        },
+        {
+          "type": "group",
+          "ctime": 1725727512131,
+          "items": [],
+          "title": "Projects"
+        }
+      ],
+      "title": "sortspec"
+    }
+  ]
+}

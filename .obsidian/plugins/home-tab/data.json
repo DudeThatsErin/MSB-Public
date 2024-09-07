@@ -1,0 +1,66 @@
+{
+  "logoType": "default",
+  "logo": {
+    "lucideIcon": "",
+    "imagePath": "",
+    "imageLink": ""
+  },
+  "logoScale": 1.2,
+  "iconColorType": "default",
+  "wordmark": "Hello, User! ♡",
+  "customFont": "interfaceFont",
+  "fontSize": "4em",
+  "fontColorType": "default",
+  "fontWeight": 600,
+  "maxResults": 5,
+  "showbookmarkedFiles": true,
+  "showRecentFiles": true,
+  "maxRecentFiles": 5,
+  "storeRecentFile": true,
+  "showPath": true,
+  "selectionHighlight": "default",
+  "showShortcuts": true,
+  "markdownOnly": false,
+  "unresolvedLinks": false,
+  "recentFilesStore": [
+    {
+      "filepath": "KB Shortcuts.md",
+      "timestamp": 1725752747050
+    },
+    {
+      "filepath": "Readme.md",
+      "timestamp": 1725752695174
+    },
+    {
+      "filepath": "99-Archives/My Custom Code Additions.md",
+      "timestamp": 1725748800218
+    },
+    {
+      "filepath": "Daily Notes/2024/2024 Health.md",
+      "timestamp": 1725748193211
+    }
+  ],
+  "bookmarkedFileStore": [
+    {
+      "filepath": "DBs/Database.md"
+    },
+    {
+      "filepath": "Projects/Projects.md"
+    },
+    {
+      "filepath": "Inbox/SCRATCHPAD.md"
+    },
+    {
+      "filepath": "KB Shortcuts.md"
+    },
+    {
+      "filepath": "Readme.md"
+    }
+  ],
+  "searchDelay": 0,
+  "replaceNewTabs": true,
+  "newTabOnStart": false,
+  "closePreviousSessionTabs": false,
+  "omnisearch": true,
+  "showOmnisearchExcerpt": true
+}

@@ -1,0 +1,13 @@
+{
+  "show-checkboxes": true,
+  "max-archive-size": 2,
+  "full-list-lane-width": true,
+  "move-tags": true,
+  "move-dates": true,
+  "link-date-to-daily-note": true,
+  "append-archive-date": true,
+  "archive-date-separator": "✅ ",
+  "date-picker-week-start": 0,
+  "inline-metadata-position": "footer",
+  "move-task-metadata": true
+}

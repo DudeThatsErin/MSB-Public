@@ -1,0 +1,238 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "rememberDeletedItems": true,
+  "appIcons": {},
+  "tabIcons": {
+    "file-explorer": {
+      "icon": "lucide-file-stack",
+      "color": "blue"
+    }
+  },
+  "fileIcons": {
+    "100-Resources": {
+      "icon": "lucide-stars",
+      "color": "pink",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "100-Resources/Templater": {
+      "icon": "lucide-code-2",
+      "color": "green",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "100-Resources/Templates": {
+      "icon": "lucide-repeat",
+      "color": "blue",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "100-Resources/Templates/Contact Template.md": {
+      "icon": "lucide-person-standing",
+      "color": "yellow"
+    },
+    "100-Resources/Templates/Daily Note Template.md": {
+      "icon": "lucide-calendar-days",
+      "color": "purple"
+    },
+    "100-Resources/Templates/Math Template.md": {
+      "icon": "lucide-calculator",
+      "color": "red"
+    },
+    "100-Resources/Templates/Person Template": {
+      "icon": "lucide-heart",
+      "color": "red",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "100-Resources/Templates/Person Template.md": {
+      "icon": "lucide-person-standing",
+      "color": "orange"
+    },
+    "100-Resources/Templates/Projects Template.md": {
+      "icon": "lucide-sprout",
+      "color": "green"
+    },
+    "100-Resources/Templates/Yearly Health Template.md": {
+      "icon": "lucide-heart-pulse",
+      "color": "pink"
+    },
+    "97-Attachments": {
+      "icon": "lucide-paperclip",
+      "color": "yellow",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "99-Archives": {
+      "icon": "lucide-inbox",
+      "color": "cyan",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "99-Archives/My Custom Code Additions.md": {
+      "icon": "lucide-square-code",
+      "color": "orange"
+    },
+    "Contacts": {
+      "icon": "lucide-person-standing",
+      "color": "green",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "Contacts/Person Name": {
+      "icon": "lucide-heart-handshake",
+      "color": "yellow",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "Contacts/Person Name/Person Name.md": {
+      "icon": "lucide-person-standing",
+      "color": "cyan"
+    },
+    "DBs": {
+      "icon": "lucide-database",
+      "color": "purple",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "DBs/Books": {
+      "icon": "lucide-bookmark",
+      "color": "cyan",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "DBs/Database.md": {
+      "icon": "lucide-tv",
+      "color": "purple"
+    },
+    "DBs/Games": {
+      "icon": "lucide-gamepad-2",
+      "color": "yellow",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "DBs/Movies": {
+      "icon": "lucide-film",
+      "color": "orange",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "DBs/TV Shows": {
+      "icon": "lucide-tv-2",
+      "color": "blue",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "Daily Notes": {
+      "icon": "lucide-book-open",
+      "color": "pink",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "Daily Notes/2024": {
+      "icon": "lucide-calendar-heart",
+      "color": "blue",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "Daily Notes/2024/01-Jan/00-assets": {
+      "icon": "lucide-folder",
+      "color": "green",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "Daily Notes/2024/2024 Health.md": {
+      "icon": "lucide-heart-pulse",
+      "color": "cyan"
+    },
+    "Inbox": {
+      "icon": "lucide-inbox",
+      "color": "green",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "Inbox/SCRATCHPAD.md": {
+      "icon": "lucide-sticky-note",
+      "color": "orange"
+    },
+    "KB Shortcuts.md": {
+      "icon": "lucide-keyboard",
+      "color": "cyan"
+    },
+    "Projects": {
+      "icon": "lucide-kanban-square",
+      "color": "blue",
+      "unsynced": [
+        "76a01f0dc3fed58d"
+      ]
+    },
+    "Projects/Projects.md": {
+      "icon": "lucide-kanban",
+      "color": "green"
+    },
+    "Readme.md": {
+      "icon": "lucide-square-dashed-bottom-code",
+      "color": "purple"
+    }
+  },
+  "bookmarkIcons": {
+    "1725727512131": {
+      "icon": "lucide-sort-desc",
+      "color": "green"
+    }
+  },
+  "propertyIcons": {
+    "address": {
+      "icon": "lucide-building",
+      "color": "green"
+    },
+    "anniversary": {
+      "icon": "💍"
+    },
+    "birthday": {
+      "icon": "🎂"
+    },
+    "cssclasses": {
+      "icon": "lucide-code-2",
+      "color": "purple"
+    },
+    "phone": {
+      "icon": "lucide-phone",
+      "color": "pink"
+    },
+    "relationship": {
+      "icon": "lucide-recycle",
+      "color": "cyan"
+    }
+  },
+  "ribbonIcons": {}
+}

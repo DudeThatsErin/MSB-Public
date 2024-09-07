@@ -1,0 +1,19 @@
+{
+  "cssTheme": "Border",
+  "enabledCssSnippets": [
+    "custom-callouts",
+    "custom-checkboxes",
+    "custom-film-callouts",
+    "kanban-library",
+    "MCL Gallery Cards",
+    "MCL Multi Column",
+    "MCL Wide Views",
+    "minimal-cards",
+    "theme-fixes",
+    "CSS.Banners"
+  ],
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono",
+  "theme": "moonstone"
+}
