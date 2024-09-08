@@ -22,24 +22,7 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
-  "recentFilesStore": [
-    {
-      "filepath": "KB Shortcuts.md",
-      "timestamp": 1725752747050
-    },
-    {
-      "filepath": "Readme.md",
-      "timestamp": 1725752695174
-    },
-    {
-      "filepath": "99-Archives/My Custom Code Additions.md",
-      "timestamp": 1725748800218
-    },
-    {
-      "filepath": "Daily Notes/2024/2024 Health.md",
-      "timestamp": 1725748193211
-    }
-  ],
+  "recentFilesStore": [],
   "bookmarkedFileStore": [
     {
       "filepath": "DBs/Database.md"

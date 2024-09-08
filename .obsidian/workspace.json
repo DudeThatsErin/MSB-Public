@@ -105,7 +105,7 @@
                 "kanbanViewState": {
                   "kanban-plugin": "list",
                   "list-collapse": [
-                    true,
+                    false,
                     false
                   ]
                 }
@@ -252,26 +252,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c0edc9ee1001dfb2",
+  "active": "91aa3e4d3cac08b4",
   "lastOpenFiles": [
+    "97-Attachments/images/Screenshot 2024-09-07 at 6.32.33 PM.png",
+    "97-Attachments/images/Screenshot 2024-09-07 at 6.32.11 PM.png",
+    "97-Attachments/images/Screenshot 2024-09-07 at 5.06.55 PM.png",
+    "97-Attachments/images/Screenshot 2024-09-07 at 4.48.38 PM.png",
+    "97-Attachments/images/Screenshot 2024-09-07 at 4.48.23 PM.png",
+    "97-Attachments/images/Screenshot 2024-09-07 at 4.42.14 PM.png",
+    "97-Attachments/images/Screenshot 2024-09-07 at 4.42.06 PM.png",
+    "97-Attachments/images/Screenshot 2024-09-07 at 4.41.55 PM.png",
+    "97-Attachments/images/Screenshot 2024-09-07 at 4.41.45 PM.png",
+    "97-Attachments/images/Screenshot 2024-09-07 at 4.41.30 PM.png",
+    "97-Attachments/images/Screenshot 2024-09-07 at 4.41.19 PM.png",
     "LICENSE",
     "Readme.md",
     "KB Shortcuts.md",
-    "97-Attachments/Screenshot 2024-09-07 at 6.32.33 PM.png",
-    "97-Attachments/Screenshot 2024-09-07 at 6.32.11 PM.png",
-    "97-Attachments/Pasted image 20240907183144.png",
-    "97-Attachments/Pasted image 20240907181814.png",
-    "97-Attachments/Pasted image 20240907175533.png",
     "99-Archives/My Custom Code Additions.md",
     "Daily Notes/2024/2024 Health.md",
     "Projects/Projects.md",
     "DBs/Database.md",
-    "97-Attachments/Screenshot 2024-09-07 at 5.06.55 PM.png",
-    "97-Attachments/Pasted image 20240907170507.png",
     "100-Resources/style-settings.json",
-    "97-Attachments/Pasted image 20240907165611.png",
-    "97-Attachments/Screenshot 2024-09-07 at 4.48.38 PM.png",
-    "97-Attachments/Screenshot 2024-09-07 at 4.48.23 PM.png",
     "100-Resources/Templates/Yearly Health Template.md",
     "100-Resources/Templates/Daily Note Template.md",
     "100-Resources/Templates/Projects Template.md",
@@ -295,7 +296,6 @@
     "Contacts/Person Name",
     "Daily Notes/2024/12-December/00-assets",
     "Daily Notes/2024/11-November/00-assets",
-    "Daily Notes/2024/10-October/00-assets",
     "Daily Notes/2024/07-July/2024-07-09.md",
     "Daily Notes/2024/07-July/2024-07-05 Friday.md",
     "Daily Notes/2024/07-July/2024-07-03.md",
