@@ -1,3 +1,4 @@
+# My Public Vault
 This is my demo Obsidian vault. This demo vault contains all of my templates, plugins, theme(s), and snippets she uses as well as the exact folder structure I use on my Obsidian Vault.
 
 This Readme will be very long as it will include **lots** of pictures so I decided to keep a Table of Contents below so you can easily click through and find what you are looking for. Also as a quick list of different things I am using.
@@ -7,46 +8,49 @@ I decided to switch from my Obsidian Gist to a full vault so I can keep records 
 ---
 ## Table of Contents
 - Readme
-	- Table of Contents
-	- Syncing between devices
-		- Obsidian Sync
-		- Obsidian Git/GitHub/GitLab
-		- iCloud
-		- Syncthing
-		- Manual File Sync
-	- Theme & CSS Snippets
-		- Theme
-		- CSS Snippets
-			- Obsidian Cards
-			- Kanban Library by reaty on Obsidian Discord Server
-			- My Snippets
-				- Custom Callouts
-				- Custom Checkboxes
-				- Theme Fixes
-			- Multi-Column CSS by Efemkay
-			- Obsidian Banners Snippet
-	- Plugins
-		- Obsidan Kanban
-		- Templater
-		- Dataview
-		- Calendar
-		- Local Backup
-		- Iconic
-		- Home Tab
-		- Omnisearch + Text Extractor
-		- Obsidian Custom Sort
-		- Paste Link + Auto Card Link
-		- Custom Frames
-		- Excalidraw
-	- Folder Structure
-	- Templates
-		- Contact Template
-		- Daily Note Template
-		- Projects Template
-		- Yearly Health Template
-			- iOS Shortcut
-	- Other iOS Shortcuts I use
-	- Credits
+	- [Table of Contents](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#table-of-contents)
+	- [Syncing between devices](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#syncing-between-devices)
+		- [Obsidian Sync](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#obsidian-sync)
+		- [Obsidian Git/GitHub/GitLab](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#obsidian-gitgithubgitlab)
+		- [iCloud](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#icloud)
+		- [Syncthing](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#syncthing)
+		- [Manual File Sync](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#manual-file-sync)
+	- [Theme & CSS Snippets](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#theme--css-snippets)
+		- [Theme](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#theme)
+		- [CSS Snippets](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#css-snippets)
+			- [Obsidian Cards View Snippet](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#obsidian-cards-view-snippet)
+			- [Kanban Library by reaty on Obsidian Discord Server](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#kanban-library-by-reaty-on-obsidian-discord-server)
+			- [My Snippets](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#my-snippets)
+				- [Custom Callouts](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#custom-callouts)
+				- [Custom Checkboxes](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#custom-checkboxes)
+				- [Theme Fixes](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#theme-fixes)
+			- [Multi-Column CSS by Efemkay](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#multi-column-css-by-efemkay)
+			- [Obsidian Banners Snippet](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#obsidian-banners-snippet)
+	- [Plugins](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#plugins)
+		- [Obsidan Kanban](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#obsidian-kanban)
+		- [Style Settings](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#style-settings)
+		- [Templater](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#templater)
+		- [Dataview](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#dataview)
+		- [Calendar](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#calendar)
+		- [Local Backup](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#local-backup)
+		- [Iconic](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#iconic)
+		- [Home Tab](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#home-tab)
+		- [Omnisearch + Text Extractor](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#omnisearch--text-extractor)
+		- [Obsidian Custom Sort](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#obsidian-custom-sort)
+		- [Paste Link + Auto Card Link](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#paste-link--auto-card-link)
+		- [Custom Frames](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#custom-frames)
+		- [Excalidraw](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#excalidraw)
+	- [Folder Structure](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#folder-structure)
+	- [Templates](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#templates)
+		- [Contact Template](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#contact-template)
+		- [Daily Note Template](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#daily-note-template)
+		- [Projects Template](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#projects-template)
+		- [Yearly Health Template](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#yearly-health-template)
+			- [iOS Shortcut](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#ios-shortcut)
+	- [Other iOS Shortcuts I use](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#other-ios-shortcuts-i-use)
+		- [Obsidian Sync](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#obsidian-sync-1)
+    		- [CaptureCut Obsidian](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#capturecut-obsidian)
+	- [Credits](https://github.com/DudeThatsErin/MSB-Public?tab=readme-ov-file#credits)
 
 ---
 ## Syncing between devices
@@ -85,13 +89,16 @@ Most of those tweaks came from [Christopher Lawley's Obsidian Setup Video](https
 
 I mostly use dark theme though I swap to light theme when I am in a very bright area and I can't see my screen with dark mode enabled. So, you will see some screenshots here in light mode and dark mode.
 
-![[Pasted image 20240907165611.png]]
+![Theme Image](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Pasted%20image%2020240907165611.png)
+
 ### CSS Snippets
 I will talk more about how I use some of these snippets later but I have quite a few CSS Snippets that do different things and extend Obsidian in unique ways.
 
 ### [Obsidian Cards View Snippet](https://github.com/DeusEx01/Cards-View-snippet/tree/main?tab=readme-ov-file)
 In my `databases` kanban file I currently use a different snippet that makes the images smaller though I forgot I had this one installed. So, I am still deciding between this and the next snippet.
-![[Pasted image 20240907170507.png]]
+
+![Cards View Snippet](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Pasted%20image%2020240907170507.png)
+
 ### Kanban Library by reaty on Obsidian Discord Server
 This is what I currently use and it works well I like the way it functions though I haven't tested the former snippet so we will see what I think when I do.
 ### My Snippets
@@ -103,7 +110,9 @@ These allow me to have a multitude of different callouts. You can see them all i
 I have several checkboxes I have added (you can check the same file as above to see them) which give me additional features. My checkboxes also implement [Rushikesh's Checkbox Priorities](https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets/blob/Collection/Snippets/Checkboxes%20-%20Priority%20checkboxes.md) to give me different colored checkboxes.
 
 I will be honest, I don't use these checkboxes much but I still want to keep them in case I ever want/need them.
-![[Pasted image 20240907175533.png]]
+
+![Custom Checkboxes](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Pasted%20image%2020240907175533.png)
+
 #### Theme Fixes
 This is where I store all of my updates to the border theme. Like the dividers in my file explorer and having the kanban columns wider than normal. Those are the only 2 things for now but as I want/need something changed in the vault, I will use this file to update the theme. This ensures that if the developer of Border updates their theme, it doesn't overwrite any changes I have made and I can fix anything that breaks because of Obsidian changes easier this way.
 ### [Multi-Column CSS by Efemkay](https://github.com/efemkay/obsidian-modular-css-layout)
@@ -117,7 +126,8 @@ I use this for A LOT of my projects as I find it the easiest to read (as far as 
 Also, similar to my `Databases` Kanban I have a `Misc` column that stores the excalidraw drawing (again, I handwrite A LOT), any pictures I need to save as well as quick links to important information for the project I am working on at work.
 
 The fact that I can view this as a list, kanban, table, or markdown is very useful. Plus the fact that the files are local and I don't have to worry about my employer caring about a 3rd party seeing the notes is also useful (not that mine does but never know if that may change).
-![[Screenshot 2024-09-07 at 5.06.55 PM.png]]
+
+![Kanban](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%205.06.55%20PM.png)
 
 ### [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
 I use this to update the look of the Border theme more than usual. Read the theme section to see more about the theme.
@@ -146,7 +156,9 @@ This allows me to sort the file explorer however I like. I can get as granular a
 
 ### [Paste Link](https://github.com/jose-elias-alvarez/obsidian-paste-link) + [Auto Card Link](https://github.com/nekoshita/obsidian-auto-card-link)
 I use these in combination to paste pretty links into my vault like this:
-![[Pasted image 20240907181814.png]]
+
+![Auto Card Link](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Pasted%20image%2020240907181814.png)
+
 That is just a screenshot so I can show you how it would look in your vault. Paste link can interfere and cause issues with Auto Card Link but I don't mind it cause Paste Link allows me to copy a link from Arc (my browser of choice) and Paste it into obsidian and it automatically gives me the `[](https://google.com)` markdown format for that link and puts my cursor in the brackets `[]` so I can start typing the name. It is extremely useful.
 You can stop this interference by turning off the "override Obsidian Paste Handler" in the Past Link settings (then restarting Obsidian) and then manually right clicking and pasting links with Paste Link.
 ### [Custom Frames](https://github.com/Ellpeck/ObsidianCustomFrames)
@@ -158,7 +170,7 @@ I decided to set my folders up this way because it made sense to me and as you w
 
 In order to have this structure, I am using the [Obsidian Custom Sort Plugin](https://github.com/SebastianMC/obsidian-custom-sort). It is annoying that I have to have an extra folder in my bookmarks pane for this *but* I keep it shut/toggled so the sorting isn't visible unless I need it.
 
-![[Screenshot 2024-09-07 at 1.05.49 PM.png]]
+![Folder Structure](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%201.05.49%20PM.png)
 
 This is a picture of my Bookmarks Explorer and File Explorer from Obsidian. You can see first I have my KB Shortcuts file which is a Kanban that I keep in list view in my left sidebar of common KB Shortcuts I want to remember for my terminal or VSCode among others. It is something I just started in early September (when this demo vault was originally released) and already find useful.
 
@@ -179,10 +191,10 @@ This is where I store all information I want to remember on a person. I keep pho
 
 I keep them in a folder in case there is anything else about this particular person I want to keep save like photos or other detailed meetings that will make this note extremely long if I kept them here.
 I use properties to keep most of the information since it is quick information that I can hide away if I need to.
-![[Screenshot 2024-09-07 at 2.25.34 PM.png]]
+![Contact Template](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%202.25.34%20PM.png)
 ### Daily Note Template
 This is how I have each of my daily notes set up.
-![[Screenshot 2024-09-07 at 2.44.37 PM.png]]
+![Daily Note Template](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%202.44.37%20PM.png)
 
 I have my [banners repo](https://github.com/dudethatserin/images) that has all of the banners I use in my vault. I have a templater script that chooses 1 of the banners I have at random and sets it as the image using the [Banners CSS Snippet](https://github.com/HandaArchitect/obsidian-banner-snippet) there is also [this alternative](https://github.com/Bluemoondragon07/Obsidian-amazing-snippets/blob/main/Fun%20Mini%20Snippets/CSS%20banners%2C%20icons%2C%20%26%20More.md) that works well. I use the former currently but found the latter when I was looking for the former link. I choose to use CSS Snippets because the [Obsidian Banners](https://github.com/noatpad/obsidian-banners) plugin is in beta and has been for over a year. Latest release was [2.0.5 from October 14, 2023](https://github.com/noatpad/obsidian-banners/tree/2.0.5-beta). There are A LOT of changes that happen within Obsidian in a year and while (last I checked) the banners plugin works, you have to use [Obsidian BRAT](https://github.com/TfTHacker/obsidian42-brat) which is another plugin and developer you have to rely on. I try to limit the number of developers I rely on. As a developer myself a CSS Snippet is A LOT easier for me to update and maintain than a whole plugin if the developer happens to abandon their project (which happens all the time).
 
@@ -200,23 +212,28 @@ Excalidraw Drawing shows the "other side" of this note so that I can see anythin
 After this, templater just inserts the time I created the note and puts my curser under that time (which is a header) so I can start typing immediately. It is a very simple template which you can check out in 100-Resources/Templates.
 
 ### Projects Template
-![[Screenshot 2024-09-07 at 4.39.33 PM.png]]
+![Projects Template](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%204.39.33%20PM.png)
 You can see I am doing something similar here as with my daily notes where I have these set up as Excalidraw drawings as well. I handwrite MOST things in life and Excalidraw allows me to do that so I make heavy use of it.
 
 I don't really use this template much for my projects but when I need this information, it is very useful. So I keep this anyway.
 
 ### Yearly Health Template
-![[Screenshot 2024-09-07 at 4.39.50 PM.png]]
+![Yearly Health 1](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%204.39.50%20PM.png)
 This one is definitely my most simple one. I use [this iOS Shortcut](https://www.icloud.com/shortcuts/8c2efdc73db6401d9c0d0d7b1b58bc46) (which can be replicated in Tasker for Android) to easily keep a lot each year about how I feel. I run the shortcut and it asks me *several* questions about my health and saves it to my template.
 
 This is an example showing how the file looks after it is created (uses the same banner & emoji templater functions as my daily notes) and I have run the shortcut. First screenshot is my personal vault where I have ran the shortcut 3x to add it to.
-![[Screenshot 2024-09-07 at 4.48.38 PM.png]]
+![Yearly Health 2](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%204.48.38%20PM.png)
 This screenshot is from my demo vault where I ran it once. You can see how it looks with everything entered there.
-![[Screenshot 2024-09-07 at 4.48.23 PM.png]]
+![Yearly Health 3](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%204.48.23%20PM.png)
 #### iOS Shortcut
 If you would like to copy the shortcut, I have it here.
-![[Screenshot 2024-09-07 at 4.41.19 PM.png]]
-![[Screenshot 2024-09-07 at 4.41.30 PM.png]]![[Screenshot 2024-09-07 at 4.41.45 PM.png]]![[Screenshot 2024-09-07 at 4.41.55 PM.png]]![[Screenshot 2024-09-07 at 4.42.06 PM.png]]![[Screenshot 2024-09-07 at 4.42.14 PM.png]]
+![Shortcut 1](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%204.41.19%20PM.png?raw=true)
+![Shortcut 2](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%204.41.30%20PM.png)
+![Shortcut 3](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%204.41.45%20PM.png)
+![Shortcut 4](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%204.41.55%20PM.png)
+![Shortcut 5](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%204.42.06%20PM.png)
+![Shortcut 6](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%204.42.14%20PM.png)
+
 ## Other iOS Shortcuts I use
 ### [Obsidian Sync](https://www.icloud.com/shortcuts/50d267a19db74323b5ede149fced40bf)
 This automatically opens Obsidian for 900 seconds (long enough to sync all changes I have made to obsidian on another device) and then goes to the home screen. This works with the automations tab (only on iOS & iPadOS) to automatically open Obsidian. Your device has to be unlocked otherwise this will not run.
@@ -226,7 +243,12 @@ I found this on the Obsidian Discord Server by Rebbecca originally.
 Since I switch back and forth between Obsidian & Apple Notes, I have this called `Capture Cut Obsidian` as I have a similar version for Apple Notes.
 
 What this does, is gets anything on the screen or that I share to it and adds it to my `SCRATCHPAD.md` note in my `Inbox` folder with the current date as a header so I know when I added something cause sometimes I can remember when I added something but not the specifics and other times I remember the specifics but not when I added it.
-![[Pasted image 20240907183144.png]]![[Screenshot 2024-09-07 at 6.32.11 PM.png]]![[Screenshot 2024-09-07 at 6.32.33 PM.png]]
+![CaptureCut 1](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Pasted%20image%2020240907183144.png)
+
+![CaptureCut 2](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%206.32.11%20PM.png)
+
+![CaptureCut 3](https://github.com/DudeThatsErin/MSB-Public/blob/main/97-Attachments/images/Screenshot%202024-09-07%20at%206.32.33%20PM.png)
+
 ## Credits
 I made this myself. I have credits for all of the CSS Snippets above and in the `.css` files themselves. Hiro Mike was very helpful when it comes to the creation of my vault same with sailKite. I met both of them in the [Obsidian Discord Server](https://discord.gg/obsidianmd).
 
