@@ -5,6 +5,8 @@ This Readme will be very long as it will include **lots** of pictures so I decid
 
 I decided to switch from my Obsidian Gist to a full vault so I can keep records of how my vault changes over time and I plan to use the `Releases` feature on Github so I can see every time I made a major change and it is easy for anyone to go back and get some feature that *may be working* still.
 
+Check the releases tab to download this vault for yourself!
+
 ---
 ## Table of Contents
 - Readme
