@@ -1,0 +1,1 @@
+I have this just for the online repo. I use the official Obsidian Clipper to add things to my vault. I do not use it frequently but this folder is where they all go to be dealt with later.

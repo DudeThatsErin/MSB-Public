@@ -1,44 +1,25 @@
 {
   "main": {
-    "id": "ebbd51fc8ac012b4",
+    "id": "f0786791c5a8e664",
     "type": "split",
     "children": [
       {
-        "id": "39c0bde965fc97e3",
+        "id": "ded6ddba8a03a020",
         "type": "tabs",
         "children": [
           {
-            "id": "16a886050299b49f",
+            "id": "9c6f71a2a1131ed1",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "SCRATCHPAD.md",
                 "mode": "source",
-                "source": false
+                "backlinks": false,
+                "source": true
               },
-              "pinned": true
-            }
-          },
-          {
-            "id": "7a182bcd9477f0ef",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
-          },
-          {
-            "id": "3145666a032f3aec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99-Archives/My Custom Code Additions.md",
-                "mode": "source",
-                "source": false
-              }
+              "icon": "lucide-file",
+              "title": "SCRATCHPAD"
             }
           }
         ]
@@ -47,56 +28,97 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bde403be193af0a1",
+    "id": "535f8f9752b419c6",
     "type": "split",
     "children": [
       {
-        "id": "43a2f4a7c8b0b038",
+        "id": "56dc40d979e03a52",
         "type": "tabs",
-        "dimension": 47.27577535624476,
+        "dimension": 44.742063492063494,
         "children": [
           {
-            "id": "91aa3e4d3cac08b4",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "32beae2eb5c48a5e",
+            "id": "b85d7a9e5c4795e0",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "insert",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
-            "id": "07f403215e7d7426",
+            "id": "6f230b512911ea28",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "187605198d186e1b",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
+            "id": "8b3c6e51cfc14d67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
-        "id": "72304e0b447358cb",
+        "id": "615cf008c3d854a0",
         "type": "tabs",
-        "dimension": 52.724224643755235,
+        "dimension": 55.25793650793651,
         "children": [
           {
-            "id": "c0edc9ee1001dfb2",
+            "id": "ca84cccba28626b4",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Custom Styles.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "list",
+                  "list-collapse": [
+                    true,
+                    true,
+                    true,
+                    true,
+                    true,
+                    true,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Custom Styles"
+            }
+          },
+          {
+            "id": "52bc16d638bf0fb8",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -105,11 +127,15 @@
                 "kanbanViewState": {
                   "kanban-plugin": "list",
                   "list-collapse": [
-                    false,
-                    false
+                    true,
+                    true,
+                    true,
+                    true
                   ]
                 }
-              }
+              },
+              "icon": "lucide-trello",
+              "title": "KB Shortcuts"
             }
           }
         ]
@@ -119,56 +145,27 @@
     "width": 300
   },
   "right": {
-    "id": "2a097544b964441b",
+    "id": "06f801f72f4a8ae5",
     "type": "split",
     "children": [
       {
-        "id": "f110bf6e82098979",
+        "id": "ae9c7bb5e1fbd503",
         "type": "tabs",
-        "dimension": 16.764459346186086,
         "children": [
           {
-            "id": "1a37cf0bd3050457",
+            "id": "b59e13a47ab4f938",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "outline",
               "state": {
-                "file": "KB Shortcuts.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+                "file": "Daily Notes/2024/11-Nov/2024-11-17.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2024-11-17"
             }
           },
           {
-            "id": "b5ec8f22d50e83c0",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "bd813d884ae9a203",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "KB Shortcuts.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "6da885dd6969b2d4",
+            "id": "5458d1d33e2e930e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -176,129 +173,176 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
-            "id": "bb26839ca3f2b20b",
+            "id": "78abeed6f68f7b2d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Custom Styles.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Custom Styles"
+            }
+          },
+          {
+            "id": "0b7ddfb4c234b149",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "KB Shortcuts.md"
-              }
+                "file": "SCRATCHPAD.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for SCRATCHPAD"
+            }
+          },
+          {
+            "id": "a638dd6fc2f240f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SCRATCHPAD.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for SCRATCHPAD"
+            }
+          },
+          {
+            "id": "23c0e190b3f33540",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ce2f628b63b7f3e5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
         "currentTab": 3
       },
       {
-        "id": "d60e34e30cb43d65",
+        "id": "d35095a6c710df02",
         "type": "tabs",
-        "dimension": 58.4241408214585,
         "children": [
           {
-            "id": "26f53e6d602e3279",
+            "id": "1a2c42ee900d60b5",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "markdown",
               "state": {
-                "file": "KB Shortcuts.md"
-              }
-            }
-          },
-          {
-            "id": "dd7f5cdbaa95ac0b",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "d8fabc2939bb51d0",
-        "type": "tabs",
-        "dimension": 24.811399832355406,
-        "children": [
-          {
-            "id": "709766752c646df7",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
+                "file": "SCRATCHPAD.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SCRATCHPAD"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 285.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false,
       "obsidian-kanban:Create new board": false,
-      "custom-sort:Toggle custom sorting": false,
+      "omnisearch:Omnisearch": false,
       "obsidian-trash-explorer:Open trash explorer": false,
-      "omnisearch:Omnisearch": false
+      "attachment-manager:Toggle visibility of attachment folder": false,
+      "callout-manager:Insert Callout": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91aa3e4d3cac08b4",
+  "active": "9c6f71a2a1131ed1",
   "lastOpenFiles": [
-    "97-Attachments/images/Screenshot 2024-09-07 at 6.32.33 PM.png",
-    "97-Attachments/images/Screenshot 2024-09-07 at 6.32.11 PM.png",
-    "97-Attachments/images/Screenshot 2024-09-07 at 5.06.55 PM.png",
-    "97-Attachments/images/Screenshot 2024-09-07 at 4.48.38 PM.png",
-    "97-Attachments/images/Screenshot 2024-09-07 at 4.48.23 PM.png",
-    "97-Attachments/images/Screenshot 2024-09-07 at 4.42.14 PM.png",
-    "97-Attachments/images/Screenshot 2024-09-07 at 4.42.06 PM.png",
-    "97-Attachments/images/Screenshot 2024-09-07 at 4.41.55 PM.png",
-    "97-Attachments/images/Screenshot 2024-09-07 at 4.41.45 PM.png",
-    "97-Attachments/images/Screenshot 2024-09-07 at 4.41.30 PM.png",
-    "97-Attachments/images/Screenshot 2024-09-07 at 4.41.19 PM.png",
-    "LICENSE",
-    "Readme.md",
-    "KB Shortcuts.md",
-    "99-Archives/My Custom Code Additions.md",
-    "Daily Notes/2024/2024 Health.md",
-    "Projects/Projects.md",
-    "DBs/Database.md",
-    "100-Resources/style-settings.json",
-    "100-Resources/Templates/Yearly Health Template.md",
+    "Tasks/Home.md",
+    "Tasks/Finances.md",
+    "100-Resources/Templates/Span.md",
+    "Custom Styles.md",
     "100-Resources/Templates/Daily Note Template.md",
-    "100-Resources/Templates/Projects Template.md",
-    "Daily Notes/2024/09-September/2024-09-07.md",
-    "97-Attachments/images/banners",
-    "97-Attachments/images/untitled folder",
-    "97-Attachments/images",
-    "97-Attachments/untitled folder",
-    "2024-09-07.md",
-    "100-Resources/Templates/Contact Template.md",
-    "Contacts/Person Name/Person Name.md",
+    "Daily Notes/2024/11-Nov/21st - Thursday.md",
+    "SCRATCHPAD.md",
+    "Daily Notes/2024/11-Nov/~syncthing~21st - Thursday.md.tmp",
+    "Daily Notes/2024/11-Nov/~syncthing~21st - Thursday.svg.tmp",
+    "Daily Notes/2024/11-Nov/21st - Thursday.sync-conflict-20241122-015832-JTK3EZN.md",
+    "Daily Notes/2024/11-Nov/~syncthing~21st - Thursday.sync-conflict-20241122-015832-JTK3EZN.md.tmp",
+    "Daily Notes/2024/11-Nov/21st - Thursday.sync-conflict-20241122-015800-JTK3EZN.md",
+    "Daily Notes/2024/11-Nov/~syncthing~21st - Thursday.sync-conflict-20241122-015800-JTK3EZN.md.tmp",
+    "Daily Notes/2024/11-Nov/21st - Thursday.sync-conflict-20241122-015742-JTK3EZN.md",
+    "Daily Notes/2024/11-Nov/~syncthing~21st - Thursday.sync-conflict-20241122-015742-JTK3EZN.md.tmp",
+    "Daily Notes/2024/11-Nov/21st - Thursday.svg",
+    "KB Shortcuts.md",
+    "~syncthing~SCRATCHPAD.md.tmp",
+    "SCRATCHPAD.sync-conflict-20241121-185927-OSGUUKC.md",
+    "Tasks/Home.sync-conflict-20241121-183000-OSGUUKC.md",
+    "Tasks/~syncthing~Home.md.tmp",
+    "~syncthing~SCRATCHPAD.MD.tmp",
+    "Daily Notes/2024/11-Nov/20th - Wednesday.md",
+    "Tasks",
+    "Daily Notes/2024/11-Nov/20th - Wednesday.svg",
+    "Daily Notes/2024/11-Nov/2024-11-20 13.12.18.md",
+    "Daily Notes/2024/11-Nov/2024-11-20 13.12.18.svg",
     "100-Resources/Templates/Math Template.md",
-    "100-Resources/Templates/Toggle Todo.md",
-    "100-Resources/Templates/Task Template.md",
-    "100-Resources/Templates/Reschedule.md",
-    "100-Resources/Templates/Event Template.md",
-    "100-Resources/Templates/Create new event.md",
-    "100-Resources/Templates/Person Template.md",
-    "Inbox/SCRATCHPAD.md",
-    "100-Resources/Templates/Person Template",
-    "Contacts/Person Name",
-    "Daily Notes/2024/12-December/00-assets",
-    "Daily Notes/2024/11-November/00-assets",
-    "Daily Notes/2024/07-July/2024-07-09.md",
-    "Daily Notes/2024/07-July/2024-07-05 Friday.md",
-    "Daily Notes/2024/07-July/2024-07-03.md",
-    "DBs/TV Shows/Family Guy Series.md"
+    "Math/Unit 5.md",
+    "Math/Unit 5.svg",
+    "Math",
+    "Artificial Intelligence.md",
+    "98-Snippets/256 Colors.md",
+    "98-Snippets/My Callouts.md",
+    "Daily Notes/2024/11-Nov/2024-11-17.md",
+    "100-Resources/Templates/Mark.md",
+    "Clippings/Today View for Things 3.md",
+    "Projects/Blog.md",
+    "Contacts/Family/Kaitlyn Motyka.md",
+    "DBs/Currents.canvas",
+    "Projects/02-active/00-assets/New Blog Theme.svg",
+    "Projects/02-active/00-assets/IMG_0226.jpeg",
+    "Projects/02-active/00-assets/IMG_0225.jpeg",
+    "DBs/Movies/00-assets/Princess Diaries.webp",
+    "DBs/Movies/00-assets/Parent Trap.jpeg",
+    "DBs/Movies/00-assets/Monsters Inc Mobile.jpeg"
   ]
 }

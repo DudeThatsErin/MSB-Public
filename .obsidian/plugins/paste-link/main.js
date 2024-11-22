@@ -27,7 +27,109 @@ __export(main_exports, {
   default: () => PasteLinkPlugin
 });
 module.exports = __toCommonJS(main_exports);
+var import_obsidian3 = require("obsidian");
+
+// src/settings/defaults.ts
+var DEFAULT_SETTINGS = {
+  overridePasteHandler: true,
+  fetchPageTitle: false,
+  fetchPageTitleTimeout: 5e3,
+  pageTitleRegex: ""
+};
+
+// src/settings/setting-tab.ts
 var import_obsidian = require("obsidian");
+var PasteLinkPluginSettingTab = class extends import_obsidian.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    new import_obsidian.Setting(containerEl).setName("Override paste handler").setDesc(
+      "Override Obsidian's default paste handler so that links are automatically inserted on system paste"
+    ).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.overridePasteHandler).onChange(async (value) => {
+        this.plugin.settings.overridePasteHandler = value;
+        await this.plugin.saveSettings();
+        new import_obsidian.Notice(
+          "Paste handler settings changed. Restart Obsidian."
+        );
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Fetch page titles on paste").setDesc(
+      "Attempt to fetch page titles from HTTP URLs on paste when paste handler is overridden"
+    ).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.fetchPageTitle).onChange(async (value) => {
+        this.plugin.settings.fetchPageTitle = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Fetch page timeout").setDesc(
+      "How many milliseconds to wait to fetch page titles before timing out"
+    ).addText(
+      (cb) => cb.setValue(
+        this.plugin.settings.fetchPageTitleTimeout.toString()
+      ).onChange(async (value) => {
+        const asNumber = Number(value);
+        if (isNaN(asNumber) || asNumber < 0)
+          return;
+        this.plugin.settings.fetchPageTitleTimeout = asNumber;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Page title regex").setDesc(
+      "Regular expression used to clean page titles before pasting (see documentation)"
+    ).addText(
+      (text) => text.setValue(this.plugin.settings.pageTitleRegex).onChange(
+        (0, import_obsidian.debounce)(
+          async (value) => {
+            try {
+              this.plugin.settings.pageTitleRegex = value ? new RegExp(value).source : value;
+            } catch (_) {
+              new import_obsidian.Notice(`Failed to parse regex: ${value}`);
+              return;
+            }
+            await this.plugin.saveSettings();
+          },
+          200,
+          true
+        )
+      )
+    );
+  }
+};
+
+// src/try-fetch-title.ts
+var import_obsidian2 = require("obsidian");
+
+// src/utils/clean-title.ts
+var cleanTitle = (rawTitle, regex) => {
+  var _a, _b;
+  return ((_b = (_a = rawTitle.match(new RegExp(regex))) == null ? void 0 : _a[1]) == null ? void 0 : _b.trim()) || rawTitle.trim();
+};
+var clean_title_default = cleanTitle;
+
+// src/try-fetch-title.ts
+var tryFetchTitle = async (url, regex) => {
+  if (!["http:", "https:"].includes(url.protocol))
+    return;
+  new import_obsidian2.Notice(`Attempting to fetch title from ${url.href}`);
+  const response = await (0, import_obsidian2.requestUrl)({
+    url: url.href,
+    headers: {
+      Accept: "text/html",
+      // assume title is in first 8kb
+      Range: "bytes=0-8000"
+    }
+  });
+  return clean_title_default(
+    new DOMParser().parseFromString(response.text, "text/html").title,
+    regex
+  );
+};
+var try_fetch_title_default = tryFetchTitle;
 
 // src/utils/is-cursor-in-link.ts
 var isCursorInLink = (cursor, line) => {
@@ -41,19 +143,6 @@ var isCursorInLink = (cursor, line) => {
   return false;
 };
 var is_cursor_in_link_default = isCursorInLink;
-
-// src/utils/is-url.ts
-var isUrl = (str) => {
-  if (str.includes("\n"))
-    return false;
-  try {
-    new URL(str);
-    return true;
-  } catch (e) {
-    return false;
-  }
-};
-var is_url_default = isUrl;
 
 // src/utils/make-link.ts
 var makeLink = (title, content) => {
@@ -69,26 +158,21 @@ var makeLink = (title, content) => {
 };
 var make_link_default = makeLink;
 
-// src/main.ts
-var DEFAULT_SETTINGS = {
-  overridePasteHandler: true
+// src/utils/to-url.ts
+var toUrl = (str) => {
+  if (str.includes("\n"))
+    return null;
+  try {
+    return new URL(str);
+  } catch (e) {
+    return null;
+  }
 };
-var PasteLinkPlugin = class extends import_obsidian.Plugin {
-  constructor() {
-    super(...arguments);
-    this.isShiftDown = false;
-  }
-  onKeyDown(e) {
-    if (e.key === "Shift")
-      this.isShiftDown = true;
-  }
-  onKeyUp(e) {
-    if (e.key === "Shift")
-      this.isShiftDown = false;
-  }
-  insertIntoSelection(editor, content) {
-    const selection = editor.getSelection();
-    const link = make_link_default(selection, content);
+var to_url_default = toUrl;
+
+// src/main.ts
+var PasteLinkPlugin = class extends import_obsidian3.Plugin {
+  insertIntoSelection(editor, link) {
     editor.replaceSelection(link);
     if (link.startsWith("[]")) {
       const cursor = editor.getCursor();
@@ -96,40 +180,69 @@ var PasteLinkPlugin = class extends import_obsidian.Plugin {
       editor.setCursor(cursor);
     }
   }
+  async handleUrl(editor, url, content, fetchPageTitle = this.settings.fetchPageTitle) {
+    let title;
+    if (fetchPageTitle && !editor.getSelection()) {
+      try {
+        title = await Promise.race([
+          try_fetch_title_default(url, this.settings.pageTitleRegex),
+          new Promise(
+            (_, reject) => setTimeout(reject, this.settings.fetchPageTitleTimeout)
+          )
+        ]);
+      } catch (error) {
+        console.error(
+          `Failed to fetch page title for ${url.href}: ${error}`
+        );
+      }
+    }
+    title != null ? title : title = editor.getSelection();
+    this.insertIntoSelection(editor, make_link_default(title, content));
+  }
   onPaste(e, editor) {
     var _a, _b;
     if (e.defaultPrevented)
       return;
-    if (this.isShiftDown)
-      return;
-    const clipboardContent = (_b = (_a = e.clipboardData) == null ? void 0 : _a.getData("text/plain")) != null ? _b : "";
-    if (!is_url_default(clipboardContent))
+    const content = (_b = (_a = e.clipboardData) == null ? void 0 : _a.getData("text/plain")) != null ? _b : "";
+    const url = to_url_default(content);
+    if (!url)
       return;
     const cursor = editor.getCursor();
     const line = editor.getLine(cursor.line);
     if (is_cursor_in_link_default(cursor, line))
       return;
     e.preventDefault();
-    this.insertIntoSelection(editor, clipboardContent);
+    this.handleUrl(editor, url, content);
   }
-  async onCommand(editor) {
+  // commands
+  async pasteLink(editor) {
     const content = await navigator.clipboard.readText();
-    if (!is_url_default(content)) {
+    const url = to_url_default(content);
+    if (!url) {
       this.app.commands.executeCommandById("editor:insert-link");
       return;
     }
-    this.insertIntoSelection(editor, content);
+    await this.handleUrl(editor, url, content, false);
+  }
+  async pasteLinkAndFetchTitle(editor) {
+    const content = await navigator.clipboard.readText();
+    const url = to_url_default(content);
+    if (!url) {
+      new import_obsidian3.Notice(
+        `Failed to convert clipboard content to URL: ${content}`
+      );
+      return;
+    }
+    await this.handleUrl(editor, url, content, true);
+  }
+  async pasteAsPlainText(editor) {
+    const content = await navigator.clipboard.readText();
+    editor.replaceSelection(content);
   }
   async onload() {
     await this.loadSettings();
-    this.addSettingTab(new SettingTab(this.app, this));
+    this.addSettingTab(new PasteLinkPluginSettingTab(this.app, this));
     if (this.settings.overridePasteHandler) {
-      this.registerDomEvent(document, "keyup", this.onKeyUp.bind(this));
-      this.registerDomEvent(
-        document,
-        "keydown",
-        this.onKeyDown.bind(this)
-      );
       this.registerEvent(
         this.app.workspace.on("editor-paste", this.onPaste.bind(this))
       );
@@ -137,7 +250,27 @@ var PasteLinkPlugin = class extends import_obsidian.Plugin {
     this.addCommand({
       id: "paste-link",
       name: "Paste Markdown link",
-      editorCallback: this.onCommand.bind(this)
+      editorCallback: this.pasteLink.bind(this)
+    });
+    this.addCommand({
+      id: "paste-as-plain-text",
+      name: "Paste URL as plain text",
+      editorCallback: this.pasteAsPlainText.bind(this),
+      // set default hotkey for backwards compatibility w/ v1
+      hotkeys: [
+        {
+          key: "v",
+          modifiers: [
+            "Shift",
+            import_obsidian3.Platform.isMacOS || import_obsidian3.Platform.isIosApp ? "Meta" : "Ctrl"
+          ]
+        }
+      ]
+    });
+    this.addCommand({
+      id: "paste-link-and-fetch-title",
+      name: "Paste link and fetch page title",
+      editorCallback: this.pasteLinkAndFetchTitle.bind(this)
     });
   }
   async loadSettings() {
@@ -151,24 +284,5 @@ var PasteLinkPlugin = class extends import_obsidian.Plugin {
     await this.saveData(this.settings);
   }
 };
-var SettingTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
-    this.plugin = plugin;
-  }
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    new import_obsidian.Setting(containerEl).setName("Override paste handler").setDesc(
-      "Overrides Obsidian's default paste handler so that links are automatically inserted on system paste"
-    ).addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.overridePasteHandler).onChange(async (value) => {
-        this.plugin.settings.overridePasteHandler = value;
-        await this.plugin.saveSettings();
-        new import_obsidian.Notice(
-          "Paste handler settings changed. Restart Obsidian."
-        );
-      })
-    );
-  }
-};
+
+/* nosourcemap */

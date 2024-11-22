@@ -1,4 +1,4 @@
-/*
+ /*
 MIT License
 
 Copyright (c) 2024 HandaArchitect
@@ -27,16 +27,11 @@ Obsidian Banner Snippet
 https://github.com/HandaArchitect/obsidian-banner-snippet
 
 Message:
-A suitable image size is when it is near the shape of a square as the banner is restricted to the configured banner height.
-Hence, when the image is super wide, most of the sides of the image will become trimmed in a window/screen size that has a smaller width.
+Please always add the banner image and banner icon to the top of the content as Obsidian may remove the loaded content if the images are far too down the note.
 
-v1.3.1
-- Fixed issue with Golden Topaz theme, max-width not 100%.
-- FIxed issue with Blue Topaz theme, banner-icon showing callout background.
-- Fixed issue with width changing to 100% on markdown preview.
-- Fixed issue for internal-embedded notes not showing issue.
-- Made change so that banner-height reduces by 80% when screen/window size is below 1000px.
-- Padding for frontmatter properties now only applies if the banner image is present.
+v1.3.2
+- Fixed banner-icon not positioning correctly when banner adjusts height for smaller screen size.
+- Minor code changes to prevent banner from disappearing.
 */
 
 /* === Banners === */
@@ -62,12 +57,16 @@ body:has(*.banner) {
     --banner-gradient-mask: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.3) 10%, black 40%);
 }
 
-/* Margin above inline title and frontmatter. */
-.workspace-leaf.mod-active .banner.is-live-preview .cm-sizer:has(div[alt="banner"] img[alt="banner"]),
-.view-content > .markdown-reading-view > .markdown-preview-view:has(> .markdown-preview-sizer > div > p > span[alt="banner"] > img[alt="banner"]) > .markdown-preview-sizer > .markdown-preview-pusher,
-.view-content .markdown-source-view .markdown-preview-view:has(div > p > span[alt="banner"] > img[alt="banner"]) .markdown-preview-sizer > .markdown-preview-pusher,
-.view-content .markdown-reading-view .markdown-preview-view .markdown-preview-view:has(div > p > span[alt="banner"] > img[alt="banner"]) .markdown-preview-sizer > .markdown-preview-pusher
- {
+/* --- Margin above inline title and frontmatter --- */
+
+/* Markdown Preview View */
+.view-content > .banner.banner.is-live-preview > .cm-editor > .cm-scroller > .cm-sizer:has(div[alt="banner"] img[alt="banner"]),
+
+/* Reading View */
+.view-content > .markdown-reading-view > .banner.markdown-preview-view > .markdown-preview-section > .markdown-preview-pusher,
+
+/* Embedded Note */
+.markdown-embed > .markdown-embed-content > .banner.markdown-preview-view > .markdown-preview-section > .markdown-preview-pusher {
     padding-top: calc( var(--banner-height) + var(--banner-icon-size) / 1.5 );
 }
 
@@ -79,18 +78,29 @@ body:has(*.banner) {
     display: contents;
 }
 
+/* Fixes banner image and banner-icon not positioning to the top in certain themes. */
+
+.view-content > .markdown-reading-view > .markdown-preview-view > .markdown-preview-section > div:has(p > span[alt="banner"] > img[alt="banner"]),
+.view-content > .markdown-reading-view > .markdown-preview-view > .markdown-preview-section > div:has([data-callout="banner-icon"].callout),
+.view-content > .markdown-reading-view > .markdown-preview-view > .markdown-preview-section > div:has(p > span[alt="banner-icon"] > img[alt="banner-icon"]) {
+    position: static;
+}
+
 /* Positions banner image fix to the top. */
+/* Markdown Preview View */
 .banner.is-live-preview .image-embed img[alt="banner"],
-.banner.markdown-preview-view img[alt="banner"] {
+/* Reading View */
+.markdown-reading-view .banner.markdown-preview-view img[alt="banner"]
+ {
     box-shadow: none;
     position: absolute;
     top: 0;
     left: 0;
 	height: var(--banner-height);
+	max-width: 100% !important; /* Fix for certain themes that limit max-width */
+	width: 100%;
     object-fit: cover;
     object-position: 50% 50%;
-	max-width: 100% !important;
-	width: 100%;
 }
 
 /* --- Banner Fade --- */
@@ -105,21 +115,17 @@ body:has(*.banner) {
 
 /* Inline title enabled on max screen size only. */
 @media screen and (min-width: 1000px) {
-    .callout[data-callout="banner-icon"] {
-        border: none !important;
-    }
+
+    /* Adapting Banner Inline Title by Min-Width */
     .banner.banner-inline-title.markdown-preview-view .inline-title,
     .banner.banner-inline-title.is-live-preview .inline-title {
-        /*background-color: var(--banner-title-background-color);*/
-        /*border-radius: var(--banner-title-border-radius);*/
-        /*--inline-title-color: var(--banner-title-color);*/
-        --inline-title-color: var(--accent-color);
+        background-color: var(--banner-title-background-color);
+        border-radius: var(--banner-title-border-radius);
+        --inline-title-color: var(--banner-title-color);
         padding: var(--banner-title-padding);
         position: absolute;
-        top: 180px;
-        left: 100px;
-        /*top: calc( var(--banner-title-top) / 100 * var(--banner-height));*/
-        /*left: calc( ( var(--banner-title-left) ) / 100 * ( 100% - var(--banner-title-max-width) / 1 ) );*/
+        top: calc( var(--banner-title-top) / 100 * var(--banner-height));
+        left: calc( ( var(--banner-title-left) ) / 100 * ( 100% - var(--banner-title-max-width) / 1 ) );
         z-index: 1;
         max-width: var(--banner-title-max-width);
 		width: auto !important;
@@ -195,9 +201,9 @@ body:has(*.banner) {
 }
 
 .banner.markdown-preview-view [data-callout="banner-icon"].callout .callout-title-inner {
-    font-size: var(--banner-icon-size);
+    font-size: var(--banner-icon-size) !important;
     position: absolute;
-    top: calc( var(--banner-icon-top) / 100 * ( var(--banner-height) - var(--banner-icon-size) * 0.7 ) );
+    top: calc( var(--banner-icon-top) / 100 * ( var(--banner-height) - var(--banner-icon-size) * 0.7 ) ) !important;
     left: calc( var(--banner-icon-left) / 100 * ( 100% - var(--banner-icon-size) * 1.5 ) );
 }
 
@@ -233,18 +239,18 @@ body:has(*.banner) {
 
 /* --- Banner Image Icons --- */
 
-.banner.is-live-preview .image-embed:has(img[alt="banner-icon"]:first-child),
-.banner.markdown-preview-view span[alt="banner-icon"]:first-child,
-.banner.is-live-preview .HyperMD-quote:has(img[alt="banner-icon"]:first-child) {
+.banner.is-live-preview .image-embed:has(img[alt="banner-icon"]:first-of-type),
+.banner.markdown-preview-view span[alt="banner-icon"]:first-of-type,
+.banner.is-live-preview .HyperMD-quote:has(img[alt="banner-icon"]:first-of-type) {
     display: contents;
-	z-index: 1;
+	z-index: 1 !important;
 }
 
-.banner.is-live-preview .image-embed img[alt="banner-icon"]:first-child,
-.banner.markdown-preview-view img[alt="banner-icon"]:first-child {
+.banner.is-live-preview .image-embed img[alt="banner-icon"]:first-of-type,
+.banner.markdown-preview-view img[alt="banner-icon"]:first-of-type {
     display: block;
     position: absolute;
-    top: calc( var(--banner-icon-top) / 100 * ( var(--banner-height) - var(--banner-icon-size) * 0.7 ) );
+    top: calc( var(--banner-icon-top) / 100 * ( var(--banner-height) - var(--banner-icon-size) * 0.5 ) );
     left: calc( var(--banner-icon-left) / 100 * ( 100% - var(--banner-icon-size) * 1.5 ) );
     object-fit: cover;
     height: var(--banner-height);
@@ -256,24 +262,43 @@ body:has(*.banner) {
 
 /* Small Width Sreen - reduced by 30% */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
+
+    /* Positions banner image fix to the top. */
+    /* Markdown Preview View */
+    .banner.is-live-preview .image-embed img[alt="banner"],
+    /* Reading View */
+    .markdown-reading-view .banner.markdown-preview-view img[alt="banner"] {
+        height: calc(var(--banner-height) * 0.8);
+    }
+
+
+    /* Banner Icon */
+    /* Markdown Preview View */
+    .banner.markdown-preview-view [data-callout="banner-icon"].callout .callout-title-inner,
+	.banner.is-live-preview > .cm-editor > .cm-scroller > .cm-contentContainer > .cm-content > .cm-callout > .markdown-rendered:has([data-callout="banner-icon"].callout) {
+		top: calc( var(--banner-icon-top) / 100 * ( var(--banner-height) * 0.8 - var(--banner-icon-size) * 0.7 ) ) !important;
+	}
+
+    .banner.is-live-preview .image-embed img[alt="banner-icon"]:first-child,
+    .banner.markdown-preview-view img[alt="banner-icon"]:first-child {
+        top: calc( var(--banner-icon-top) / 100 * ( var(--banner-height) * 0.8 - var(--banner-icon-size) * 0.5 ) );
+    }
 	
-	.banner.is-live-preview .image-embed img[alt="banner"],
+	/* .banner.is-live-preview .image-embed img[alt="banner"],
 	.banner.markdown-preview-view img[alt="banner"] {
 		height: calc(var(--banner-height) * 0.8);
-	}
+	} */
+
+    /* --- Margin above inline title and frontmatter --- */
 	
-	.banner.markdown-preview-view [data-callout="banner-icon"].callout .callout-title-inner,
-	.banner.is-live-preview .markdown-rendered:has([data-callout="banner-icon"].callout) {
-		top: calc( var(--banner-icon-top) / 100 * ( var(--banner-height) * 0.8 - var(--banner-icon-size) * 0.7 ) );
-	}
-	
-    .workspace-leaf.mod-active .banner.is-live-preview .cm-sizer:has(div[alt="banner"] img[alt="banner"]),
-    .view-content > .markdown-reading-view > .markdown-preview-view:has(> .markdown-preview-sizer > div > p > span[alt="banner"] > img[alt="banner"]) > .markdown-preview-sizer > .markdown-preview-pusher,
-    .view-content .markdown-source-view .markdown-preview-view:has(div > p > span[alt="banner"] > img[alt="banner"]) .markdown-preview-sizer > .markdown-preview-pusher,
-    .view-content .markdown-reading-view .markdown-preview-view .markdown-preview-view:has(div > p > span[alt="banner"] > img[alt="banner"]) .markdown-preview-sizer > .markdown-preview-pusher {
-		padding-top: calc( var(--banner-height) * 0.70 + var(--banner-icon-size) / 1.5 );
-	}
+    /* Markdown Preview View */
+    .view-content > .banner.banner.is-live-preview > .cm-editor > .cm-scroller > .cm-sizer:has(div[alt="banner"] img[alt="banner"]),
+
+    /* Reading View */
+    .view-content > .markdown-reading-view > .banner.markdown-preview-view > .markdown-preview-section > .markdown-preview-pusher {
+        padding-top: calc( var(--banner-height) * 0.7 + var(--banner-icon-size) / 1.5 );
+    }
 	
 }
 

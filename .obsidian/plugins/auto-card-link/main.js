@@ -630,3 +630,5 @@ var ObsidianAutoCardLink = class extends import_obsidian4.Plugin {
     });
   }
 };
+
+/* nosourcemap */

@@ -9,5 +9,9 @@
   "archive-date-separator": "✅ ",
   "date-picker-week-start": 0,
   "inline-metadata-position": "footer",
-  "move-task-metadata": true
+  "move-task-metadata": true,
+  "date-trigger": "🛫",
+  "show-relative-date": true,
+  "hide-date-in-title": true,
+  "archive-with-date": true
 }

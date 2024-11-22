@@ -1,0 +1,590 @@
+/* FONT STYLES */
+.deg-left, .rotate-left {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  height: auto;
+  max-height: 300px;
+  width: fit-content;
+  white-space: pre-wrap;
+  float: left;
+  margin: 0 10px;
+}
+
+.deg-right, .rotate-right {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  height: auto;
+  max-height: 300px;
+  width: fit-content;
+  white-space: pre-wrap;
+  float: right;
+  margin: 0 10px;
+}
+
+.italic, .font-italic, .em, .text-italic, .text-em, .font-em {
+  font-style: italic;
+}
+
+.lightest, .thinnest, .weakest, .font-thinnest, .font-weakest, .font-lightest {
+  font-weight: 200;
+}
+
+.light, .thin, .weak, .font-weak, .font-thin, .font-light {
+  font-weight: 300;
+}
+
+.slight-bold, .barely-bold, .almost-bold, .strongest, .less-weak {
+  font-weight: 500;
+}
+
+.bold, .font-bold, .strong, .font-strong {
+  font-weight: 600;
+}
+
+.bolder, .font-bolder, .stronger, .font-stronger {
+  font-weight: 800;
+}
+
+.boldest, .biggest-bold, .strongest {
+  font-weight: 900;
+}
+
+.strike, .font-strike, .s, .font-s, .text-s, .text-strike {
+  text-decoration: line-through;
+}
+
+.center, .text-center, .c, .font-center, .font-c, .text-c {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.right, .text-right, .r, .font-r, .text-r, .font-right {
+  text-align: right;
+  width: 100%;
+  display: block;
+}
+
+.underline, .font-underline, .u, .font-u, .text-u {
+  text-decoration: underline;
+}
+
+/* FONT FAMILIES */
+.font-Agency-FB, .font-agency {
+  font-family: 'Agency FB';
+}
+.font-Algerian, .font-algerian {
+  font-family: 'Algerian Regular';
+}
+
+.font-Arial, .font-arial {
+  font-family: Arial;
+}
+
+.font-Arial-Rounded, .font-arial-rounded {
+  font-family: 'Arial Rounded MT Bold';
+}
+
+.font-Bahnschrift, .font-bahnschrift {
+  font-family: 'Bahnschrift';
+}
+
+.font-Baskerville, .font-baskerville  {
+  font-family: 'Baskerville Old Face Regular';
+}
+
+.font-Bauhaus, .font-bauhaus {
+  font-family: 'Bauhaus 93 Regular';
+}
+
+.font-Bell, .font-bell {
+  font-family: 'Bell MT';
+}
+
+.font-Berlin-Sans, .font-berlin-sans {
+  font-family: 'Berlin Sans FB';
+}
+
+.font-Bernard, .font-bernard {
+  font-family: 'Bernard MT Condensed';
+}
+
+.font-Blackadder, .font-blackadder {
+  font-family: 'Blackadder ITC Regular';
+}
+
+.font-Book-Antiqua, .font-book-antiqua {
+  font-family: 'Book Antiqua';
+}
+
+.font-Bookman-Old, .font-bookman-old {
+  font-family: 'Bookman Old Style';
+}
+
+.font-Bradley-Hand, .font-bradley-hand {
+  font-family: 'Brandly Hand ITC Regular';
+}
+
+.font-Britannic, .font-britannic, .font-brittannic, .font-Brittannic {
+  font-family: 'Britannic Bold';
+}
+
+.font-Broadway, .font-broadway {
+  font-family: 'Broadway Regular';
+}
+
+.font-Brush-Script, .font-brush-script {
+  font-family: 'Brush Script MT Italic';
+}
+
+.font-Calibri, .font-calibri {
+  font-family: 'Calibri';
+}
+
+.font-Californian, .font-californian {
+  font-family: 'Californian FB';
+}
+
+.font-Calisto, .font-calisto {
+  font-family: 'Calisto';
+}
+
+.font-Cambria, .font-cambria {
+  font-family: 'Cambria Regular';
+  font-weight: normal;
+}
+
+.font-Cambria, .font-cambria {
+  font-family: 'Cambria Italic';
+  font-style: italic;
+  font-weight: normal;
+}
+
+.font-Cambria, .font-cambria {
+  font-family: 'Cambria Bold';
+  font-weight: 600;
+}
+
+.font-Cambria, .font-cambria {
+  font-family: 'Cambria Bold Italic';
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font-Cambria-Math, .font-cambria-math {
+  font-family: 'Cambria Math Regular';
+}
+
+.font-Candara, .font-candara {
+  font-family: 'Candara Regular';
+  font-weight: normal;
+}
+
+.font-Candara, .font-candara {
+  font-family: 'Candara Light';
+  font-weight: 300;
+}
+
+.font-Candara, .font-candara {
+  font-family: 'Candara Italic';
+  font-weight: normal;
+  font-style: italic;
+}
+
+.font-Candara, .font-candara {
+  font-family: 'Candara Light Italic';
+  font-weight: 300;
+  font-style: italic;
+}
+
+.font-Candara, .font-candara {
+  font-family: 'Candara Bold';
+  font-weight: 600;
+}
+
+.font-Candara, .font-candara {
+  font-family: 'Candara Bold Italic';
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font-Cascadia-Code, .font-cascadia-code {
+  font-family: 'Cascadia Code Regular';
+  font-weight: normal;
+}
+
+.font-Cascadia-Code, .font-cascadia-code {
+  font-family: 'Cascadia Code Bold';
+  font-weight: 600;
+}
+
+.font-Cascadia-Code, .font-cascadia-code {
+  font-family: 'Cascadia Code Light';
+  font-weight: 300;
+}
+
+.font-Cascadia-Code, .font-cascadia-code {
+  font-family: 'Cascadia Code SemiBold';
+  font-weight: 500;
+}
+
+.font-Cascadia-Mono, .font-cascadia-mono {
+  font-family: 'Cascadia Mono Regular';
+  font-weight: normal;
+}
+
+.font-Cascadia-Mono, .font-cascadia-mono {
+  font-family: 'Cascadia Mono Light';
+  font-weight: 300;
+}
+
+.font-Cascadia-Mono, .font-cascadia-mono {
+  font-family: 'Cascadia Mono SemiBold';
+  font-weight: 500;
+}
+
+.font-Cascadia-Mono, .font-cascadia-mono {
+  font-family: 'Cascadia Mono ExtraLight';
+  font-weight: 200;
+}
+
+.font-Cascadia-Mono, .font-cascadia-mono {
+  font-family: 'Cascadia Mono Bold';
+  font-weight: 600;
+}
+
+.font-Castellar, .font-castellar {
+  font-family: 'Castellar Regular';
+}
+
+.font-Centaur, .font-centaur {
+  font-family: 'Centaur Regular';
+}
+
+.font-Century-Gothic, .font-century-gothic {
+  font-family: 'Century Gothic Regular';
+  font-weight: normal;
+}
+
+.font-Century-Gothic, .font-century-gothic {
+  font-family: 'Century Gothic Italic';
+  font-weight: normal;
+  font-style: italic;
+}
+
+.font-Century-Gothic, .font-century-gothic {
+  font-family: 'Century Gothic Bold';
+  font-weight: 600;
+}
+
+.font-Century-Gothic, .font-century-gothic {
+  font-family: 'Century Gothic Bold Italic';
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font-Century-Regular, .font-century-regular {
+  font-family: 'Century Regular';
+}
+
+.font-Century-Schoolbook, .font-century-schoolbook {
+  font-family: 'Century Schoolbook Regular';
+  font-weight: normal;
+}
+
+.font-Century-Schoolbook, .font-century-schoolbook {
+  font-family: 'Century Schoolbook Italic';
+  font-weight: normal;
+  font-style: italic;
+}
+
+.font-Century-Schoolbook, .font-century-schoolbook {
+  font-family: 'Century Schoolbook Bold';
+  font-weight: 600;
+}
+
+.font-Century-Schoolbook, .font-century-schoolbook {
+  font-family: 'Century Schoolbook Bold Italic';
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font-Chiller, .font-chiller {
+  font-family: 'Chiller Regular';
+}
+
+.font-Colonna, .font-colonna {
+  font-family: 'Colonna MT Regular';
+}
+
+.font-Comic-Sans, .font-comic-sans {
+  font-family: 'Comic Sans MS Regular';
+  font-style: normal;
+}
+
+.font-Comic-Sans, .font-comic-sans {
+  font-family: 'Comic Sans MS Bold';
+  font-style: 600;
+}
+
+.font-Comic-Sans, .font-comic-sans {
+  font-family: 'Comic Sans MS Bold Italic';
+  font-style: 600;
+  font-style: italic;
+}
+
+.font-Comic-Sans, .font-comic-sans {
+  font-family: 'Comic Sans MS Italic';
+  font-style: normal;
+  font-style: italic;
+}
+
+.font-Consolas, .font-consolas {
+  font-family: 'Consolas Regular';
+  font-weight: normal;
+}
+
+.font-Consolas, .font-consolas {
+  font-family: 'Consolas Italic';
+  font-weight: normal;
+  font-style: italic;
+}
+
+.font-Consolas, .font-consolas {
+  font-family: 'Consolas Bold Italic';
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font-Consolas, .font-consolas {
+  font-family: 'Consolas Bold';
+  font-weight: 600;
+}
+
+.font-Constantia, .font-constantia {
+  font-family: 'Constantia Regular';
+}
+
+.font-Cooper, .font-cooper {
+  font-family: 'Cooper Black';
+}
+
+.font-Copperplate-Gothic, .font-copperplate-gothic {
+  font-family: 'Copperplate Gothic';
+}
+
+.font-Corbel, .font-corbel {
+  font-family: 'Corbel Regular';
+}
+
+.font-Corbel, .font-corbel {
+  font-family: 'Corbel Bold';
+  font-weight: 600;
+}
+
+.font-Courier-New, .font-courier, .font-courier-new {
+  font-family: 'Courier New Regular';
+  font-weight: normal;
+}
+
+.font-Courier-Regular, .font-courier-regular {
+  font-family: 'Courier Regular';
+}
+
+.font-Curlz, .font-curlz {
+  font-family: 'Curlz MT Regular';
+}
+
+.font-Ebrima, .font-ebrima {
+  font-family: 'Ebrima Regular';
+  font-weight: normal;
+}
+
+.font-Edwardian-Script, .font-edwardian-script {
+  font-family: 'Edwardian Script ITC Regular';
+}
+
+.font-Elephant, .font-elephant {
+  font-family: 'Elephant';
+}
+
+.font-Engravers, .font-engravers {
+  font-family: 'Engravers MT Expanded Medium';
+}
+
+.font-Eras, .font-eras {
+  font-family: 'Eras ITC Medium';
+}
+
+.font-Excalifont, .font-excalifont {
+  font-family: 'Excalifont Regular';
+}
+
+.font-Felix, .font-felix {
+  font-family: 'Felix Titling Regular';
+}
+
+.font-Fixedsys, .font-fixedsys {
+  font-family: 'Fixedsys Regular';
+}
+
+.font-Footlight, .font-footlight {
+  font-family: 'Footlight MT Light';
+}
+
+.font-Forte, .font-forte {
+  font-family: 'Forte Regular';
+}
+
+.font-Franklin-Gothic, .font-franklin-gothic {
+  font-family: 'Franklin Gothic Medium';
+}
+
+.font-Franklin-Gothic-Book, .font-franklin-gothic-book {
+  font-family: 'Franklin Gothic Book Regular';
+}
+
+.font-Franklin-Gothic-Book, .font-franklin-gothic-book {
+  font-family: 'Franklin Gothic Book Italic';
+}
+
+.font-Freestyle-Script, .font-freestyle-script {
+  font-family: 'Freestyle Script Regular';
+}
+
+.font-French-Script, .font-french-script {
+  font-family: 'French Script MT Regular';
+}
+
+.font-Gabriola, .font-gabriola {
+  font-family: 'Gabriola Regular';
+}
+
+.font-Garamond, .font-garamond {
+  font-family: 'Garamond';
+}
+
+.font-Georgia, .font-georgia {
+  font-family: 'Georgia';
+}
+
+.font-Gigi, .font-gigi {
+  font-family: 'Gigi Regular';
+}
+
+.font-Gill-Bold, .font-gill-bold {
+  font-family: 'Gill Sans Ultra Bold';
+  font-weight: 600;
+}
+
+.font-Gill-Condensed, .font-gill-condensed {
+  font-family: 'Gill Sans Condensed Ultra Bold';
+  font-weight: 800;
+}
+
+.font-Gill, .font-gill {
+  font-family: 'Gill Sans MT Regular';
+}
+
+.font-Gloucester, .font-gloucester {
+  font-family: 'Gloucester MT Extra Condensed';
+}
+
+.font-Goudy-Regular, .font-goudy-regular {
+  font-family: 'Goudy Old Style Regular';
+}
+
+.font-Goudy-Stout, .font-goudy-stout {
+  font-family: 'Goudy Stout Regular';
+}
+
+.font-Haettenschweiler, .font-haettenschweiler {
+  font-family: 'Haettenschweiler Regular';
+}
+
+.font-Harlow, .font-harlow {
+  font-family: 'Harlow Solid Semi Expanded Italic';
+}
+
+.font-Harington, .font-harington, .font-Harrington, .font-harrington {
+  font-family: 'Harrington Regular';
+}
+
+.font-High-Tower, .font-high-tower {
+  font-family: 'High Tower Text';
+}
+
+.font-Impact, .font-impact {
+  font-family: 'Impact Regular';
+}
+
+
+/* STOPPED HERE IN OBSIDIAN */
+.font-imprint, .font-Imprint {
+  font-family: 'Imprint MT Shadow Regular';
+}
+
+.font-informal-roman, .font-Informal-Roman {
+  font-family: 'Informal Roman Regular';
+}
+
+.font-Ink-Free, .font-ink-free {
+  font-family: 'Ink Free Regular';
+}
+
+.font-Javanese, .font-javanese {
+  font-family: 'Javanese Text Regular';
+}
+
+.font-JetBrains-Mono, .font-jetbrains-mono {
+  font-family: 'JetBrains Mono Regular';
+}
+
+.font-JetBrains-Mono-NL, .font-jetbrains-mono-nl {
+  font-family: 'JetBrains Mono NL Regular';
+}
+
+.font-Jokeman, .font.jokeman {
+  font-family: 'Jokeman Regular';
+}
+
+.font-Juice, .font-juice {
+  font-family: 'Juice ITC Regular';
+}
+
+.font-Kristen, .font-kristen {
+  font-family: 'Kristen ITC Regular';
+}
+
+.font-Kunstler-Script, .font-kunstler-script {
+  font-family: 'Kunstler Script Regular';
+}
+
+.font-Latin-Wide, .font-latin-wide {
+  font-family: 'Latin Wide';
+}
+
+.font-Lucida-Bright, .font-lucida-bright {
+  font-family: 'Lucida Bright Regular';
+}
+
+.font-Lucida-Script, .font-lucida-script {
+  font-family: 'Lucida Calligraphy Italic';
+  font-style: italic;
+}
+
+.font-Segoe-UI, .font-segoe, .font-segoe-ui {
+  font-family: 'Segoe UI';
+}
+
+.font-Tahoma, .font-tahoma {
+  font-family: Tahoma;
+}
+
+.font-Times-New-Roman, .font-times, .font-times-new-roman {
+  font-family: 'Times New Roman';
+}
+
+.font-Verdana, .font-verdana {
+  font-family: Verdana;
+}

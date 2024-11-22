@@ -10480,43 +10480,60 @@ function create_if_block_43(ctx) {
   let radialGradient0;
   let stop0;
   let stop1;
+  let radialGradient0_id_value;
   let radialGradient1;
   let stop2;
   let stop3;
+  let radialGradient1_id_value;
   let radialGradient2;
   let stop4;
   let stop5;
+  let radialGradient2_id_value;
   let radialGradient3;
   let stop6;
   let stop7;
+  let radialGradient3_id_value;
   let radialGradient4;
   let stop8;
   let stop9;
+  let radialGradient4_id_value;
   let radialGradient5;
   let stop10;
   let stop11;
+  let radialGradient5_id_value;
   let radialGradient6;
   let stop12;
   let stop13;
+  let radialGradient6_id_value;
   let radialGradient7;
   let stop14;
   let stop15;
   let stop16;
+  let radialGradient7_id_value;
   let filter;
   let feFlood;
   let feBlend;
   let feGaussianBlur;
+  let filter_id_value;
   let g;
   let path0;
+  let g_filter_value;
   let path1;
   let path2;
   let path3;
+  let path3_fill_value;
   let path4;
+  let path4_fill_value;
   let path5;
+  let path5_fill_value;
   let path6;
+  let path6_fill_value;
   let path7;
+  let path7_fill_value;
   let path8;
+  let path8_fill_value;
   let path9;
+  let path9_fill_value;
   let svg_width_value;
   let svg_height_value;
   return {
@@ -10567,7 +10584,7 @@ function create_if_block_43(ctx) {
       attr(stop0, "stop-opacity", ".4");
       attr(stop1, "offset", "1");
       attr(stop1, "stop-opacity", ".1");
-      attr(radialGradient0, "id", "b");
+      attr(radialGradient0, "id", radialGradient0_id_value = ctx[8].toString() + "-b");
       attr(radialGradient0, "cx", "0");
       attr(radialGradient0, "cy", "0");
       attr(radialGradient0, "r", "1");
@@ -10578,7 +10595,7 @@ function create_if_block_43(ctx) {
       attr(stop3, "offset", "1");
       attr(stop3, "stop-color", "#fff");
       attr(stop3, "stop-opacity", ".1");
-      attr(radialGradient1, "id", "c");
+      attr(radialGradient1, "id", radialGradient1_id_value = ctx[8].toString() + "-c");
       attr(radialGradient1, "cx", "0");
       attr(radialGradient1, "cy", "0");
       attr(radialGradient1, "r", "1");
@@ -10589,7 +10606,7 @@ function create_if_block_43(ctx) {
       attr(stop5, "offset", "1");
       attr(stop5, "stop-color", "#fff");
       attr(stop5, "stop-opacity", ".4");
-      attr(radialGradient2, "id", "d");
+      attr(radialGradient2, "id", radialGradient2_id_value = ctx[8].toString() + "-d");
       attr(radialGradient2, "cx", "0");
       attr(radialGradient2, "cy", "0");
       attr(radialGradient2, "r", "1");
@@ -10599,7 +10616,7 @@ function create_if_block_43(ctx) {
       attr(stop6, "stop-opacity", ".3");
       attr(stop7, "offset", "1");
       attr(stop7, "stop-opacity", ".3");
-      attr(radialGradient3, "id", "e");
+      attr(radialGradient3, "id", radialGradient3_id_value = ctx[8].toString() + "-e");
       attr(radialGradient3, "cx", "0");
       attr(radialGradient3, "cy", "0");
       attr(radialGradient3, "r", "1");
@@ -10610,7 +10627,7 @@ function create_if_block_43(ctx) {
       attr(stop9, "offset", "1");
       attr(stop9, "stop-color", "#fff");
       attr(stop9, "stop-opacity", ".2");
-      attr(radialGradient4, "id", "f");
+      attr(radialGradient4, "id", radialGradient4_id_value = ctx[8].toString() + "-f");
       attr(radialGradient4, "cx", "0");
       attr(radialGradient4, "cy", "0");
       attr(radialGradient4, "r", "1");
@@ -10621,7 +10638,7 @@ function create_if_block_43(ctx) {
       attr(stop11, "offset", "1");
       attr(stop11, "stop-color", "#fff");
       attr(stop11, "stop-opacity", ".4");
-      attr(radialGradient5, "id", "g");
+      attr(radialGradient5, "id", radialGradient5_id_value = ctx[8].toString() + "-g");
       attr(radialGradient5, "cx", "0");
       attr(radialGradient5, "cy", "0");
       attr(radialGradient5, "r", "1");
@@ -10632,7 +10649,7 @@ function create_if_block_43(ctx) {
       attr(stop13, "offset", "1");
       attr(stop13, "stop-color", "#fff");
       attr(stop13, "stop-opacity", ".3");
-      attr(radialGradient6, "id", "h");
+      attr(radialGradient6, "id", radialGradient6_id_value = ctx[8].toString() + "-h");
       attr(radialGradient6, "cx", "0");
       attr(radialGradient6, "cy", "0");
       attr(radialGradient6, "r", "1");
@@ -10646,7 +10663,7 @@ function create_if_block_43(ctx) {
       attr(stop16, "offset", "1");
       attr(stop16, "stop-color", "#fff");
       attr(stop16, "stop-opacity", ".3");
-      attr(radialGradient7, "id", "i");
+      attr(radialGradient7, "id", radialGradient7_id_value = ctx[8].toString() + "-i");
       attr(radialGradient7, "cx", "0");
       attr(radialGradient7, "cy", "0");
       attr(radialGradient7, "r", "1");
@@ -10659,7 +10676,7 @@ function create_if_block_43(ctx) {
       attr(feBlend, "result", "shape");
       attr(feGaussianBlur, "stdDeviation", "6.5");
       attr(feGaussianBlur, "result", "effect1_foregroundBlur_744_9191");
-      attr(filter, "id", "a");
+      attr(filter, "id", filter_id_value = ctx[8].toString() + "-a");
       attr(filter, "x", "80.1");
       attr(filter, "y", "37");
       attr(filter, "width", "351.1");
@@ -10669,34 +10686,34 @@ function create_if_block_43(ctx) {
       attr(path0, "d", "M359.2 437.5c-2.6 19-21.3 33.9-40 28.7-26.5-7.2-57.2-18.6-84.8-20.7l-42.4-3.2a28 28 0 0 1-18-8.3l-73-74.8a27.7 27.7 0 0 1-5.4-30.7s45-98.6 46.8-103.7c1.6-5.1 7.8-49.9 11.4-73.9a28 28 0 0 1 9-16.5L249 57.2a28 28 0 0 1 40.6 3.4l72.6 91.6a29.5 29.5 0 0 1 6.2 18.3c0 17.3 1.5 53 11.2 76a301.3 301.3 0 0 0 35.6 58.2 14 14 0 0 1 1 15.6c-6.3 10.7-18.9 31.3-36.6 57.6a142.2 142.2 0 0 0-20.5 59.6Z");
       attr(path0, "fill", "#000");
       attr(path0, "fill-opacity", ".3");
-      attr(g, "filter", "url(#a)");
+      attr(g, "filter", g_filter_value = "url(#" + ctx[8].toString() + "-a)");
       attr(path1, "id", "arrow");
       attr(path1, "d", "M359.9 434.3c-2.6 19.1-21.3 34-40 28.9-26.4-7.3-57-18.7-84.7-20.8l-42.3-3.2a27.9 27.9 0 0 1-18-8.4l-73-75a27.9 27.9 0 0 1-5.4-31s45.1-99 46.8-104.2c1.7-5.1 7.8-50 11.4-74.2a28 28 0 0 1 9-16.6l86.2-77.5a28 28 0 0 1 40.6 3.5l72.5 92a29.7 29.7 0 0 1 6.2 18.3c0 17.4 1.5 53.2 11.1 76.3a303 303 0 0 0 35.6 58.5 14 14 0 0 1 1.1 15.7c-6.4 10.8-18.9 31.4-36.7 57.9a143.3 143.3 0 0 0-20.4 59.8Z");
       attr(path1, "fill", "#6C31E3");
       attr(path2, "d", "M182.7 436.4c33.9-68.7 33-118 18.5-153-13.2-32.4-37.9-52.8-57.3-65.5-.4 1.9-1 3.7-1.8 5.4L96.5 324.8a27.9 27.9 0 0 0 5.5 31l72.9 75c2.3 2.3 5 4.2 7.8 5.6Z");
       attr(path2, "fill", "url(#b)");
       attr(path3, "d", "M274.9 297c9.1.9 18 2.9 26.8 6.1 27.8 10.4 53.1 33.8 74 78.9 1.5-2.6 3-5.1 4.6-7.5a1222 1222 0 0 0 36.7-57.9 14 14 0 0 0-1-15.7 303 303 0 0 1-35.7-58.5c-9.6-23-11-58.9-11.1-76.3 0-6.6-2.1-13.1-6.2-18.3l-72.5-92-1.2-1.5c5.3 17.5 5 31.5 1.7 44.2-3 11.8-8.6 22.5-14.5 33.8-2 3.8-4 7.7-5.9 11.7a140 140 0 0 0-15.8 58c-1 24.2 3.9 54.5 20 95Z");
-      attr(path3, "fill", "url(#c)");
+      attr(path3, "fill", path3_fill_value = "url(#" + ctx[8].toString() + "-c)");
       attr(path4, "d", "M274.8 297c-16.1-40.5-21-70.8-20-95 1-24 8-42 15.8-58l6-11.7c5.8-11.3 11.3-22 14.4-33.8a78.5 78.5 0 0 0-1.7-44.2 28 28 0 0 0-39.4-2l-86.2 77.5a28 28 0 0 0-9 16.6L144.2 216c0 .7-.2 1.3-.3 2 19.4 12.6 44 33 57.3 65.3 2.6 6.4 4.8 13.1 6.4 20.4a200 200 0 0 1 67.2-6.8Z");
-      attr(path4, "fill", "url(#d)");
+      attr(path4, "fill", path4_fill_value = "url(#" + ctx[8].toString() + "-d)");
       attr(path5, "d", "M320 463.2c18.6 5.1 37.3-9.8 39.9-29a153 153 0 0 1 15.9-52.2c-21-45.1-46.3-68.5-74-78.9-29.5-11-61.6-7.3-94.2.6 7.3 33.1 3 76.4-24.8 132.7 3.1 1.6 6.6 2.5 10.1 2.8l43.9 3.3c23.8 1.7 59.3 14 83.2 20.7Z");
-      attr(path5, "fill", "url(#e)");
+      attr(path5, "fill", path5_fill_value = "url(#" + ctx[8].toString() + "-e)");
       attr(path6, "fill-rule", "evenodd");
       attr(path6, "clip-rule", "evenodd");
       attr(path6, "d", "M255 200.5c-1.1 24 1.9 51.4 18 91.8l-5-.5c-14.5-42.1-17.7-63.7-16.6-88 1-24.3 8.9-43 16.7-59 2-4 6.6-11.5 8.6-15.3 5.8-11.3 9.7-17.2 13-27.5 4.8-14.4 3.8-21.2 3.2-28 3.7 24.5-10.4 45.8-21 67.5a145 145 0 0 0-17 59Z");
-      attr(path6, "fill", "url(#f)");
+      attr(path6, "fill", path6_fill_value = "url(#" + ctx[8].toString() + "-f)");
       attr(path7, "fill-rule", "evenodd");
       attr(path7, "clip-rule", "evenodd");
       attr(path7, "d", "M206 285.1c2 4.4 3.7 8 4.9 13.5l-4.3 1c-1.7-6.4-3-11-5.5-16.5-14.6-34.3-38-52-57-65 23 12.4 46.7 31.9 61.9 67Z");
-      attr(path7, "fill", "url(#g)");
+      attr(path7, "fill", path7_fill_value = "url(#" + ctx[8].toString() + "-g)");
       attr(path8, "fill-rule", "evenodd");
       attr(path8, "clip-rule", "evenodd");
       attr(path8, "d", "M211.1 303c8 37.5-1 85.2-27.5 131.6 22.2-46 33-90.1 24-131l3.5-.7Z");
-      attr(path8, "fill", "url(#h)");
+      attr(path8, "fill", path8_fill_value = "url(#" + ctx[8].toString() + "-h)");
       attr(path9, "fill-rule", "evenodd");
       attr(path9, "clip-rule", "evenodd");
       attr(path9, "d", "M302.7 299.5c43.5 16.3 60.3 52 72.8 81.9-15.5-31.2-37-65.7-74.4-78.5-28.4-9.8-52.4-8.6-93.5.7l-.9-4c43.6-10 66.4-11.2 96 0Z");
-      attr(path9, "fill", "url(#i)");
+      attr(path9, "fill", path9_fill_value = "url(#" + ctx[8].toString() + "-i)");
       attr(svg, "width", svg_width_value = "calc(" + ctx[5].fontSize + "*" + ctx[5].logoScale + ")");
       attr(svg, "height", svg_height_value = "calc(" + ctx[5].fontSize + "*" + ctx[5].logoScale + ")");
       attr(svg, "viewBox", "0 0 512 512");
@@ -11008,7 +11025,7 @@ function instance24($$self, $$props, $$invalidate) {
     }
   });
   const vaultAdapter = app.vault.adapter;
-  const gradientUniqueId = Math.random();
+  const gradientUniqueId = Math.floor(Math.random() * 1e7);
   const isbookmarkedPluginEnabled = app.internalPlugins.getPluginById("bookmarks") ? true : false;
   const renderRecentFiles = embeddedView ? embeddedView.recentFiles : pluginSettings.showRecentFiles;
   const renderbookmarkedFiles = embeddedView ? embeddedView.bookmarkedFiles : pluginSettings.showbookmarkedFiles;
@@ -12060,3 +12077,5 @@ LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 ***************************************************************************** */
+
+/* nosourcemap */

@@ -1,3 +1,4 @@
 {
-  "folder": "100-Resources/Templates"
+  "folder": "100-Resources/Templates",
+  "timeFormat": "h:mm a"
 }

@@ -7,7 +7,7 @@
   },
   "logoScale": 1.2,
   "iconColorType": "default",
-  "wordmark": "Hello, User! ♡",
+  "wordmark": "Obsidian",
   "customFont": "interfaceFont",
   "fontSize": "4em",
   "fontColorType": "default",
@@ -15,35 +15,36 @@
   "maxResults": 5,
   "showbookmarkedFiles": true,
   "showRecentFiles": true,
-  "maxRecentFiles": 5,
+  "maxRecentFiles": 15,
   "storeRecentFile": true,
   "showPath": true,
   "selectionHighlight": "default",
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
-  "recentFilesStore": [],
-  "bookmarkedFileStore": [
+  "recentFilesStore": [
     {
-      "filepath": "DBs/Database.md"
+      "filepath": "SCRATCHPAD.md",
+      "timestamp": 1732253131733
     },
     {
-      "filepath": "Projects/Projects.md"
+      "filepath": "Tasks/Home.md",
+      "timestamp": 1732252913271
     },
     {
-      "filepath": "Inbox/SCRATCHPAD.md"
+      "filepath": "Tasks/Finances.md",
+      "timestamp": 1732252894573
     },
     {
-      "filepath": "KB Shortcuts.md"
-    },
-    {
-      "filepath": "Readme.md"
+      "filepath": "100-Resources/Templates/Span.md",
+      "timestamp": 1732252696446
     }
   ],
+  "bookmarkedFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
-  "newTabOnStart": false,
-  "closePreviousSessionTabs": false,
+  "newTabOnStart": true,
+  "closePreviousSessionTabs": true,
   "omnisearch": true,
   "showOmnisearchExcerpt": true
 }

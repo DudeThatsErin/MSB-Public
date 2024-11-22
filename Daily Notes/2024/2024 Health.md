@@ -9,30 +9,30 @@ cssclasses:
 ---
 ![[97-Attachments/images/banners/109.Flower_White@2x~ipad_Original 2.png|banner]]
 > [!banner-icon] ⚕️
+> 
+^^ Those are randomly chosen when the file is created. I add items to this with this shortcut: https://www.icloud.com/shortcuts/777ca70ea83d4a1381cb9cca82b58c89
 
 # 2024
-## Health Log Sep 7, 2024 at 4:46 PM
+## Health Log Month Day, Year Hour:Minute AM/PM
 
-Weight: I did not weigh myself today.
+Weight: XXX
 
-Workout: No
+Workout: Yes Or No
 
-Pills/Supplements: Pre-Natals
-Zyrtec
+Pills/Supplements: What pills did I take?
 
-Symptoms: Acne
-General Itchiness
+Symptoms: Any issues today?
 
-Hunger: Mixed
+Hunger: XX
 
-Sleep: 4
+Sleep: 1 - 5; 1 being the lowest, 5 the highest.
 
-Emotions: 4
+Emotions: 1 - 5; 1 being the lowest, 5 the highest.
 
-Energy Level: 4
+Energy Level: 1 - 5; 1 being the lowest, 5 the highest.
 
-Symptom Severity: 2
+Symptom Severity: 1 - 5; 1 being the lowest, 5 the highest.
 
-Mental Clarity: 3
+Mental Clarity: 1 - 5; 1 being the lowest, 5 the highest.
 
-Other notes: I am very focused and productive today. The day is going by very fast.
+Other notes: Any Other Notes.

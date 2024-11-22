@@ -1,0 +1,1 @@
+This is how I store my Journals/Daily Notes.

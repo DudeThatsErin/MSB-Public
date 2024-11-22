@@ -2,7 +2,7 @@
   "trashOption": "local",
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "97-Attachments",
-  "propertiesInDocument": "visible",
-  "readableLineLength": false
+  "attachmentFolderPath": "./90-Attachments/",
+  "readableLineLength": false,
+  "propertiesInDocument": "hidden"
 }

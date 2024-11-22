@@ -1,0 +1,60 @@
+/* File Explorer Dividers  */
+.nav-folder:has(> :is(
+        [data-path="90-Attachments"],
+        [data-path="Daily Notes"],
+    )), .nav-file:has(> :is([data-path="Artificial Intelligence"])) {
+	position: relative;
+
+	&::before {
+		content: "";
+		--padding-x: 10px;
+		margin-inline-start: calc(24px - var(--padding-x));
+		padding: 0 var(--padding-x);
+		background-color: var(--background-secondary);
+		/*background-color: #262626;*/
+	}
+
+	&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: calc(0.5em * var(--line-height-tight));
+		width: 100%; /* change for something smaller if you don't want the divider to span full length */
+		height: 0;
+		border-top: 1px solid currentColor;
+		z-index: -1;
+	}
+}
+
+.nav-folder:has(> [data-path="90-Attachments"])::before { content: "📦 Storage 📦"; }
+.nav-folder:has(> [data-path="Daily Notes"])::before { content: "♡ Life ♡"; }
+.nav-file:has(> [data-path="Artificial Intelligence"])::before { content: "☆ Misc ☆"; }
+
+/* files */
+.nav-file:has(> :is(
+        [data-path="Today.md"]
+    )) {
+	position: relative;
+
+	&::before {
+		content: "";
+		--padding-x: 10px;
+		margin-inline-start: calc(24px - var(--padding-x));
+		padding: 0 var(--padding-x);
+		background-color: var(--background-secondary);
+		/*background-color: #262626;*/
+	}
+
+	&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: calc(0.5em * var(--line-height-tight));
+		width: 100%; /* change for something smaller if you don't want the divider to span full length */
+		height: 0;
+		border-top: 1px solid currentColor;
+		z-index: -1;
+	}
+}
+
+.nav-file:has(> [data-path="Today.md"])::before { content: "✓ Tasks ✓"; }
