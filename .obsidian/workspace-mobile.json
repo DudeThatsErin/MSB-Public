@@ -1,18 +1,20 @@
 {
   "main": {
-    "id": "55485f3cfe5869bf",
+    "id": "7991874830114beb",
     "type": "split",
     "children": [
       {
-        "id": "3bc8cbadcf65ed04",
+        "id": "6c2a3a4b133d7227",
         "type": "tabs",
         "children": [
           {
-            "id": "d7a355b80cb3b917",
+            "id": "ee42e9d1b21be9d2",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
-              "state": {}
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
             }
           }
         ]
@@ -21,21 +23,23 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5a956b5d0ff54225",
+    "id": "c528c9b5a0fefad9",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "94e468dacb059e83",
+        "id": "dac9db9b3ea43b96",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
         }
       },
       {
-        "id": "a30d02dfb494fd5a",
+        "id": "5c85039d543fbc31",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -46,30 +50,36 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-search",
+          "title": "Search"
         }
       },
       {
-        "id": "f70cf62bd66dddc9",
+        "id": "a3c1b2d46158627e",
         "type": "leaf",
         "state": {
           "type": "tag",
           "state": {
             "sortOrder": "frequency",
             "useHierarchy": true
-          }
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
         }
       },
       {
-        "id": "b1220ad2a1a13d4d",
+        "id": "4f5fbdec85df20f5",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {}
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
         }
       },
       {
-        "id": "b1122aaed7cf3bd7",
+        "id": "e377644d7d791522",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -77,27 +87,20 @@
             "sortOrder": "frequency",
             "showSearch": false,
             "searchQuery": ""
-          }
-        }
-      },
-      {
-        "id": "cfbab1aba90b169b",
-        "type": "leaf",
-        "state": {
-          "type": "recent-files",
-          "state": {}
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
         }
       }
     ],
-    "currentTab": 0,
-    "pinned": true
+    "currentTab": 0
   },
   "right": {
-    "id": "9e74d101aa2c0bc9",
+    "id": "49fac5ebd6842f1d",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "d2944bcd6f9d111c",
+        "id": "cfb7013dda814211",
         "type": "leaf",
         "state": {
           "type": "backlink",
@@ -109,107 +112,56 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
         }
       },
       {
-        "id": "7addbe5b1096bd68",
+        "id": "2781efeacb87a5b1",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
             "linksCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
         }
       },
       {
-        "id": "53b2b93c9749ff0a",
+        "id": "77fd72dc66a39431",
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
-        }
-      },
-      {
-        "id": "cc405098bdb693e7",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
+          "state": {},
+          "icon": "lucide-list",
+          "title": "Outline"
         }
       }
     ],
-    "currentTab": 3,
-    "pinned": true
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
-      "handwritten-notes:Create empty handwritten note": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "obsidian42-brat:BRAT": false,
-      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
-      "obsidian-custom-frames:Open TOTK Armor": false,
-      "obsidian-custom-frames:Open TOTK 100%": false,
-      "obsidian-custom-frames:Open TOTK Map": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "d7a355b80cb3b917",
+  "active": "ee42e9d1b21be9d2",
   "lastOpenFiles": [
-    "Daily Notes/2024/07-July/2024-08-31.md",
-    "100-Resources/Templates/Task Template.md",
-    "100-Resources/Templates/Event Template.md",
-    "100-Resources/Datacore/Upcoming.jsx",
-    "100-Resources/Datacore/Task.jsx",
-    "100-Resources/Datacore/Someday.jsx",
-    "100-Resources/Datacore/Row.jsx",
-    "100-Resources/Datacore/Logbook.jsx",
-    "100-Resources/Datacore/Event.jsx",
-    "100-Resources/Datacore/Anytime.jsx",
-    "100-Resources/Datacore/Today.jsx",
-    "Projects/01-Task Management",
-    "100-Resources/Templates/Daily Note Template.md",
-    "100-Resources/Templates/Toggle Todo.md",
-    "100-Resources/Templates/Math Template.md",
-    "100-Resources/Templates/Projects Template.md",
-    "100-Resources/Templates/Reschedule.md",
-    "100-Resources/Templates/Create new event.md",
-    "100-Resources/Templates/Yearly Health Template.md",
-    "100-Resources/Templates/Contact Template.md",
-    "100-Resources/Templates",
-    "100-Resources/Anytime.md",
-    "100-Resources/SCRATCHPAD.md",
-    "100-Resources/256 Color Codes Cheat Sheet.md",
-    "100-Resources/Important/Important Docs/Dental Records/Skidds Ledger 001.jpg",
-    "100-Resources/Important/Important Docs/Dental Records/Skidds Pano.jpg",
-    "100-Resources/Important/Important Docs/(null).JPEG",
-    "100-Resources/Important/Screenshot_20170412-050524.png",
-    "100-Resources/Important/Important Docs/Dental Records/Oral Images 20 Skidds.JPG",
-    "100-Resources/Important/Important Docs/Dental Records/Skidds FMX.jpg",
-    "97-Attachments/Debug/console-log.iPad.2024-09-01.md",
-    "97-Attachments/Debug/console-log.Mac.attlocal.net.2024-09-01.md",
-    "98-Templates/Task Template.md",
-    "97-Attachments/images/banners/201.Eric_Cahan_BI_RI_Sunset-1024w-1366h@2x~ipad_Original 2.png",
-    "97-Attachments/Pasted image 20230403232051.png",
-    "97-Attachments/Pasted image 20230403231829.png",
-    "97-Attachments/images/banners/1222.WWDC_2019_Dark-1024w-1366h@2x~ipad_Original 2.png",
-    "97-Attachments/images/README.md",
-    "98-Templates/Daily Note Template.md",
-    "98-Templates/Math Template.md",
-    "98-Templates/Projects Template.md",
-    "98-Templates/Yearly Health Template.md",
-    "98-Templates/Contact Template.md",
-    "99-Archives/My Custom Code Additions.md",
-    "99-Archives/Pregnancy Notes 1.md",
-    "99-Archives/PHP.md"
+    "Programming/Object-Relational Mapping.md",
+    "Programming"
   ]
 }

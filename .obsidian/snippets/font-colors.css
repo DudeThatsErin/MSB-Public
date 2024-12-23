@@ -1,0 +1,302 @@
+/* FONT COLORS */
+.text-red {
+  color: #ba2929 !important;
+}
+
+.text-orange {
+  color: #ffa500 !important;
+}
+
+.text-yellow {
+  color: #ffff00db !important;
+}
+
+.text-darkyellow {
+  color: #ffb601 !important;
+}
+
+.text-green {
+  color: #008000 !important;
+}
+
+.text-blue {
+  color: #6481d9 !important;
+}
+
+.text-purple {
+  color: #9a5cc7 !important;
+}
+
+.text-violet {
+  color: #ee82ee !important;
+}
+
+.text-teal {
+  color: #008080 !important;
+}
+
+.text-pink {
+  color: #cfa7ae !important;
+}
+
+.text-cyan {
+  color: #00D1D1 !important;
+}
+
+.text-darkblue {
+  color: #004281 !important;
+}
+
+.text-lightblue {
+  color: #08aaea !important;
+}
+
+.text-lightgreen {
+  color: #5dff5d99 !important;
+}
+
+.text-darkgreen {
+  color: #026902 !important;
+}
+
+.text-lightred {
+  color: #f09999 !important;
+}
+
+.text-darkred {
+  color: #730e0e !important;
+}
+
+.text-lightorange {
+  color: #e4c07d !important;
+}
+
+.text-darkorange {
+  color: #9a5d14 !important;
+}
+
+.text-darkpurple {
+  color: #73068e !important;
+}
+
+.text-lightpurple {
+  color: #c25cc2 !important;
+}
+
+.text-lightteal {
+  color: #6a8b8b !important;
+}
+
+.text-darkteal {
+  color: #034949 !important;
+}
+
+.text-lightpink {
+  color: #fcbfc8 !important;
+}
+
+.text-darkpink {
+  color: #644d51 !important;
+}
+
+.text-lightcyan {
+  color: #BCECE0 !important;
+}
+
+.text-darkcyan {
+  color: #008b8b !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-black {
+  color: #000000 !important;
+}
+
+.text-grey, .text-gray {
+  color: #636262 !important;
+}
+
+/* Highlight Colors */
+.markdown-rendered .hl-red, .markdown-rendered mark.hl-red {
+    /* color: var(--text-normal, inherit); */
+    color: rgba(247, 243, 243, 0.692);
+    background-color: rgba(107, 28, 28, 0.699);
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-pink, .markdown-rendered mark.hl-pink {
+    /* color: var(--text-normal, inherit); */
+    color: rgb(12, 9, 9);
+    background-color: rgba(219, 103, 167, 0.884);
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-purple, .markdown-rendered mark.hl-purple {
+    /* color: var(--text-normal, inherit); */
+    color: rgba(218, 201, 201, 0.877);
+    background-color: rgba(119, 15, 119, 0.699);
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-violet, .markdown-rendered mark.hl-violet {
+    /* color: var(--text-normal, inherit); */
+    color: rgba(218, 201, 201, 0.877);
+    background-color: rgba(93, 32, 173, 0.699);
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-blue, .markdown-rendered mark.hl-blue {
+    /* color: var(--text-normal, inherit); */
+    color: rgba(218, 201, 201, 0.877);
+    background-color: rgba(58, 56, 165, 0.699);
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-lightblue, .markdown-rendered mark.hl-lightblue {
+    /* color: var(--text-normal, inherit); */
+    color: rgb(29, 26, 26);
+    background-color: rgba(175, 189, 255, 0.918);
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-cyan, .markdown-rendered mark.hl-cyan {
+    /* color: var(--text-normal, inherit); */
+    color: rgb(0, 0, 0);
+    background-color: #00ffffa4;
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-teal, .markdown-rendered mark.hl-teal {
+    /* color: var(--text-normal, inherit); */
+    color: rgba(218, 201, 201, 0.877);
+    background-color: #008080;
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-lightteal, .markdown-rendered mark.hl-lightteal {
+    /* color: var(--text-normal, inherit); */
+    color: rgb(10, 5, 5);
+    background-color: rgb(5, 199, 199);
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-yellow, .markdown-rendered mark.hl-yellow {
+    /* color: var(--text-normal, inherit); */
+    color: rgb(10, 5, 5);
+    background-color: #ffff00b7;
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-orange, .markdown-rendered mark.hl-orange {
+    /* color: var(--text-normal, inherit); */
+    color: rgb(10, 5, 5);
+    background-color: #ffa500;
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-green, .markdown-rendered mark.hl-green {
+    /* color: var(--text-normal, inherit); */
+    color: rgb(252, 252, 252);
+    background-color: #008000;
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em; */
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-white, .markdown-rendered mark.hl-white {
+    /* color: var(--text-normal, inherit); */
+    color: rgb(10, 5, 5);
+    background-color: #eeeeeed4;
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-black, .markdown-rendered mark.hl-black {
+    /* color: var(--text-normal, inherit); */
+    color: rgb(254, 254, 254);
+    background-color: #151515;
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}
+
+.markdown-rendered .hl-grey, .markdown-rendered mark.hl-grey,
+.markdown-rendered .hl-gray, .markdown-rendered mark.hl-gray {
+    /* color: var(--text-normal, inherit); */
+    color: rgb(10, 5, 5);
+    background-color: rgb(145, 145, 145);
+    margin: 0 -0.05em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: 0 0 0.75em var(--background-primary-alt);
+}

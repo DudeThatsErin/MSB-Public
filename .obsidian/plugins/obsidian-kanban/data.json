@@ -1,17 +1,17 @@
 {
-  "date-trigger": "🛫",
-  "show-relative-date": true,
-  "hide-date-in-title": true,
-  "link-date-to-daily-note": true,
-  "archive-with-date": true,
-  "archive-date-separator": "✅ ",
-  "date-picker-week-start": 0,
   "show-checkboxes": true,
+  "max-archive-size": 2,
   "full-list-lane-width": true,
   "move-tags": true,
   "move-dates": true,
+  "link-date-to-daily-note": true,
   "append-archive-date": true,
-  "move-task-metadata": true,
+  "archive-date-separator": "✅ ",
+  "date-picker-week-start": 0,
   "inline-metadata-position": "footer",
-  "max-archive-size": 2
+  "move-task-metadata": true,
+  "date-trigger": "🛫",
+  "show-relative-date": true,
+  "hide-date-in-title": true,
+  "archive-with-date": true
 }

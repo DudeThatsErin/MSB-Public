@@ -1,12 +1,9 @@
 {
   "readableLineLength": false,
-  "showRibbon": true,
-  "attachmentFolderPath": "./00-attachments",
   "showUnsupportedFiles": true,
-  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "uriCallbacks": true,
   "alwaysUpdateLinks": true,
-  "propertiesInDocument": "hidden",
-  "showInlineTitle": true,
-  "promptDelete": false,
-  "trashOption": "local"
+  "trashOption": "local",
+  "propertiesInDocument": "hidden"
 }

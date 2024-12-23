@@ -1,0 +1,16 @@
+{
+  "cssTheme": "Border",
+  "enabledCssSnippets": [
+    "MCL Wide Views",
+    "MCL Multi Column",
+    "MCL Gallery Cards",
+    "font-styles",
+    "font-colors",
+    "file-explorer-dividers",
+    "erin-checkboxes",
+    "custom-callouts",
+    "CSS.Banners"
+  ],
+  "interfaceFontFamily": "Bahnschrift",
+  "textFontFamily": "Bahnschrift"
+}

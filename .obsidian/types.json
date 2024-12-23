@@ -34,6 +34,16 @@
     "closed": "datetime",
     "deadline": "date",
     "start": "datetime",
-    "end": "datetime"
+    "end": "datetime",
+    "symptomSeverity": "number",
+    "mentalClarity": "number",
+    "currentWeight": "number",
+    "pillsTaken": "multitext",
+    "energyLevel": "number",
+    "timeOff": "number",
+    "wfh": "number",
+    "sickTime": "number",
+    "created": "date",
+    "updated": "datetime"
   }
 }

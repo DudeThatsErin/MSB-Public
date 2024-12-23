@@ -65,6 +65,11 @@ FROM: https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets/blob/Collection
   --callout-icon: asterisk;
 }
 
+.callout[data-callout="event"] {
+  --callout-color: 81, 188, 167;
+  --callout-icon: calendar;
+}
+
 /* ----------------------------------------------------------------------
 Different colors on callouts
 ------------------------------------------------------------------------- */

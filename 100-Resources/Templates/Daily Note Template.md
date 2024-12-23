@@ -1,136 +1,35 @@
 ---
+date:
+title:
+cssclasses: []
 tags:
-  - excalidraw
   - journal
-hoursSleep: 
-Exercise: 
-fasting: 
-caloriesEaten: 
-mood: 
-cssclasses:
-  - banner
-  - banner-inline-title
-  - banner-fade
+  - forevernotes
 excalidraw-plugin: parsed
 excalidraw-open-md: true
-taskbone-ocr: 
 ---
-<% await tp.user.BannerOnCreation() %>
-<% await tp.user.EmojiTitle(tp) %>
-# 📆 Journal for <% moment(tp.file.title, "YYYY-MM-DD").format("dddd") %> the <% tp.date.now("DD") %> of <% tp.date.now("MMM YYYY") %>
-<% tp.user.Timeline() %>
 
-> [!multi-column|center]
-> 
->> [!blank-container]
->>>[!bookmark]+ Today's Tasks
->>> ```tasks
->>> shortmode
->>> due before tomorrow
->>> not done
->>> group by function (task.heading + '.md' === task.file.filename) ? '' : task.heading
->>> group by function \
->>>     const date = task.due.moment; \
->>>     return \
->>>         (!date)                           ? '%%4%% Undated' :      \
->>>         !date.isValid()                   ? '%%0%% Invalid date' : \
->>>         date.isBefore(moment(), 'day')    ? '%%1%% Overdue' :      \
->>>         date.isSame(moment(), 'day')      ? '%%2%% Today'   :      \
->>>         '%%3%% Future';
->>> sort by priority
->>> sort by due date
->>> sort by start date
->>> hide due date
->>> hide start date
->>> hide scheduled date
->>> hide created date
->>> hide recurrence rule
->>> hide cancelled date
->>> ```
->
->> [!blank-container]
->>> [!info-lighto]+ Recently Accessed Files
->>>```dataview
->>>LIST 
->>>FROM ""
->>>SORT file.mtime
->>>DESC LIMIT 5
->>>```
->
->
->> [!blank-container]
->>>[!award]+ Today's Affirmations
->>>1. 
->>>2. 
->>>3.  
->
->
->> [!blank-container]
->>>[!draw]- Excalidraw Drawing
->>>![[<%tp.file.title%>.svg]]
----
-## <% tp.date.now("h:mm a") %>
+## Tasks
+### For Today
+```tasks
+due before tomorrow
+sort by priority
+not done
+show tree
+short mode
+show priority
+hide backlink
+hide recurrence rule
+hide due date
+hide id
+```
+### New Tasks
+- [ ] 
+
+## <% tp.date.now("hh:mm A") %>
 <% tp.file.cursor(1) %>
 
-
-# Tasks
-## New Tasks
-- [ ] 
-## Today
-```tasks
-shortmode
-due before tomorrow
-not done
-group by function (task.heading + '.md' === task.file.filename) ? '' : task.heading
-group by function \
-    const date = task.due.moment; \
-    return \
-        (!date)                           ? '%%4%% Undated' :      \
-        !date.isValid()                   ? '%%0%% Invalid date' : \
-        date.isBefore(moment(), 'day')    ? '%%1%% Overdue' :      \
-        date.isSame(moment(), 'day')      ? '%%2%% Today'   :      \
-        '%%3%% Future';
-sort by priority
-sort by due date
-sort by start date
-hide due date
-hide start date
-hide scheduled date
-hide created date
-hide recurrence rule
-hide cancelled date
-```
-
-## Tomorrow
-```tasks
-shortmode
-due tomorrow
-not done
-group by function (task.heading + '.md' === task.file.filename) ? '' : task.heading
-group by function \
-    const date = task.due.moment; \
-    return \
-        (!date)                           ? '%%4%% Undated' :      \
-        !date.isValid()                   ? '%%0%% Invalid date' : \
-        date.isBefore(moment(), 'day')    ? '%%1%% Overdue' :      \
-        '%%3%% Future';
-sort by priority
-sort by due date
-sort by start date
-hide due date
-hide start date
-hide scheduled date
-hide created date
-hide recurrence rule
-hide cancelled date
-```
-
-# Excalidraw
 ---
-
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
-
-
 # Excalidraw Data
 ## Text Elements
 %%
@@ -139,10 +38,10 @@ hide cancelled date
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.2.9",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.7.1",
 	"elements": [],
 	"appState": {
-		"theme": "light",
+		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
@@ -156,26 +55,34 @@ hide cancelled date
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 386,
-		"scrollY": 570.140625,
+		"currentItemArrowType": "round",
+		"scrollX": 757.9642944335938,
+		"scrollY": 539.7142944335938,
 		"zoom": {
 			"value": 1
 		},
 		"currentItemRoundness": "round",
-		"gridSize": null,
+		"gridSize": 20,
+		"gridStep": 5,
+		"gridModeEnabled": false,
 		"gridColor": {
-			"Bold": "#C9C9C9FF",
-			"Regular": "#EDEDEDFF"
+			"Bold": "rgba(217, 217, 217, 0.5)",
+			"Regular": "rgba(230, 230, 230, 0.5)"
 		},
 		"currentStrokeOptions": null,
-		"previousGridSize": null,
 		"frameRendering": {
 			"enabled": true,
 			"clip": true,
 			"name": true,
 			"outline": true
 		},
-		"objectsSnapModeEnabled": false
+		"objectsSnapModeEnabled": false,
+		"activeTool": {
+			"type": "selection",
+			"customType": null,
+			"locked": false,
+			"lastActiveTool": null
+		}
 	},
 	"files": {}
 }

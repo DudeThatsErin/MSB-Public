@@ -1,0 +1,447 @@
+[data-task]:is(S, O, G, B, C, I, W, F) > input[type=checkbox]:checked, [data-task]:is(S, O, G, B, C, I, W, F) > p > input[type=checkbox]:checked, [data-task]:is(S, O, G, B, C, I, W, F)[type=checkbox]:checked {
+  pointer-events: auto;
+  border: none;
+  background: none;
+}
+[data-task]:is(S, O, G, B, C, I, W, F) > input[type=checkbox]:checked:after, [data-task]:is(S, O, G, B, C, I, W, F) > p > input[type=checkbox]:checked:after, [data-task]:is(S, O, G, B, C, I, W, F)[type=checkbox]:checked:after {
+  background-color: var(--checkbox-icon-color, transparent);
+  -webkit-mask-image: var(--checkbox-icon-mask-image, none);
+  -webkit-mask-size: var(--checkbox-icon-mask-size, 100%);
+}
+
+[data-task=S] {
+  --checkbox-icon-color: var(--color-pink, #fa99cd);
+  --checkbox-icon-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXBhaW50YnJ1c2giPjxwYXRoIGQ9Im0xNC42MjIgMTcuODk3LTEwLjY4LTIuOTEzIi8+PHBhdGggZD0iTTE4LjM3NiAyLjYyMmExIDEgMCAxIDEgMy4wMDIgMy4wMDJMMTcuMzYgOS42NDNhLjUuNSAwIDAgMCAwIC43MDdsLjk0NC45NDRhMi40MSAyLjQxIDAgMCAxIDAgMy40MDhsLS45NDQuOTQ0YS41LjUgMCAwIDEtLjcwNyAwTDguMzU0IDcuMzQ4YS41LjUgMCAwIDEgMC0uNzA3bC45NDQtLjk0NGEyLjQxIDIuNDEgMCAwIDEgMy40MDggMGwuOTQ0Ljk0NGEuNS41IDAgMCAwIC43MDcgMHoiLz48cGF0aCBkPSJNOSA4Yy0xLjgwNCAyLjcxLTMuOTcgMy40Ni02LjU4MyAzLjk0OGEuNTA3LjUwNyAwIDAgMC0uMzAyLjgxOWw3LjMyIDguODgzYTEgMSAwIDAgMCAxLjE4NS4yMDRDMTIuNzM1IDIwLjQwNSAxNiAxNi43OTIgMTYgMTUiLz48L3N2Zz4=");
+}
+[data-task=S] > input[type=checkbox]:checked, [data-task=S] > p > input[type=checkbox]:checked, [data-task=S][type=checkbox]:checked {
+  pointer-events: auto;
+  border: none;
+  background: none;
+}
+[data-task=S] > input[type=checkbox]:checked:after, [data-task=S] > p > input[type=checkbox]:checked:after, [data-task=S][type=checkbox]:checked:after {
+  background-color: var(--checkbox-icon-color, transparent);
+  -webkit-mask-image: var(--checkbox-icon-mask-image, none);
+  -webkit-mask-size: var(--checkbox-icon-mask-size, 100%);
+}
+
+[data-task=O] {
+  --checkbox-icon-color: var(--color-purple, rgb(167, 139, 250));
+  --checkbox-icon-mask-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iY3VzdG9tLWxvZ28iIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImhlaWdodDoxMDAlO3dpZHRoOjEwMCU7Ij4KICA8ZGVmcz4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iYiIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtNDggLTE4NSAxMjMgLTMyIDE3OSA0MjkuNykiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9Ii40Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iYyIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCg0MSAtMzEwIDIyOSAzMCAzNDEuNiAzNTEuMykiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9Ii42Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuMSIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iZCIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCg1NyAtMjYxIDE3OCAzOSAxOTAuNSAyOTYuMykiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9Ii44Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuNCIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iZSIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtNzkgLTEzMyAxNTMgLTkwIDMyMS40IDQ2NC4yKSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iLjMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4zIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJmIiBjeD0iMCIgY3k9IjAiIHI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC0yOSAxMzYgLTkyIC0yMCAzMDAuNyAxNDkuOSkiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9Ii4yIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJnIiBjeD0iMCIgY3k9IjAiIHI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDcyIDczIC0xNTUgMTUzIDEzNy44IDIyNS4yKSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iLjIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9Ii40Ii8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJoIiBjeD0iMCIgY3k9IjAiIHI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDIwIDExOCAtMjUxIDQzIDIxNS4xIDI3My43KSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iLjEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9Ii4zIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJpIiBjeD0iMCIgY3k9IjAiIHI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC0xNjIgLTg1IDI2OCAtNTEwIDM3NC40IDM3MS43KSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iLjIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuMiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iLjMiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgICA8ZmlsdGVyIGlkPSJhIiB4PSI4MC4xIiB5PSIzNyIgd2lkdGg9IjM1MS4xIiBoZWlnaHQ9IjQ0My4yIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CiAgICAgIDxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CiAgICAgIDxmZUJsZW5kIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgogICAgICA8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI2LjUiIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl83NDRfOTE5MSIvPgogICAgPC9maWx0ZXI+CiAgPC9kZWZzPgogIDxnIGZpbHRlcj0idXJsKCNhKSI+CiAgPC9nPgogIDxwYXRoIGlkPSJhcnJvdyIgZD0iTTM1OS45IDQzNC4zYy0yLjYgMTkuMS0yMS4zIDM0LTQwIDI4LjktMjYuNC03LjMtNTctMTguNy04NC43LTIwLjhsLTQyLjMtMy4yYTI3LjkgMjcuOSAwIDAgMS0xOC04LjRsLTczLTc1YTI3LjkgMjcuOSAwIDAgMS01LjQtMzFzNDUuMS05OSA0Ni44LTEwNC4yYzEuNy01LjEgNy44LTUwIDExLjQtNzQuMmEyOCAyOCAwIDAgMSA5LTE2LjZsODYuMi03Ny41YTI4IDI4IDAgMCAxIDQwLjYgMy41bDcyLjUgOTJhMjkuNyAyOS43IDAgMCAxIDYuMiAxOC4zYzAgMTcuNCAxLjUgNTMuMiAxMS4xIDc2LjNhMzAzIDMwMyAwIDAgMCAzNS42IDU4LjUgMTQgMTQgMCAwIDEgMS4xIDE1LjdjLTYuNCAxMC44LTE4LjkgMzEuNC0zNi43IDU3LjlhMTQzLjMgMTQzLjMgMCAwIDAtMjAuNCA1OS44WiIgZmlsbD0iIzZDMzFFMyIvPgogIDxwYXRoIGQ9Ik0xODIuNyA0MzYuNGMzMy45LTY4LjcgMzMtMTE4IDE4LjUtMTUzLTEzLjItMzIuNC0zNy45LTUyLjgtNTcuMy02NS41LS40IDEuOS0xIDMuNy0xLjggNS40TDk2LjUgMzI0LjhhMjcuOSAyNy45IDAgMCAwIDUuNSAzMWw3Mi45IDc1YzIuMyAyLjMgNSA0LjIgNy44IDUuNloiIGZpbGw9InVybCgjYikiLz4KICA8cGF0aCBkPSJNMjc0LjkgMjk3YzkuMS45IDE4IDIuOSAyNi44IDYuMSAyNy44IDEwLjQgNTMuMSAzMy44IDc0IDc4LjkgMS41LTIuNiAzLTUuMSA0LjYtNy41YTEyMjIgMTIyMiAwIDAgMCAzNi43LTU3LjkgMTQgMTQgMCAwIDAtMS0xNS43IDMwMyAzMDMgMCAwIDEtMzUuNy01OC41Yy05LjYtMjMtMTEtNTguOS0xMS4xLTc2LjMgMC02LjYtMi4xLTEzLjEtNi4yLTE4LjNsLTcyLjUtOTItMS4yLTEuNWM1LjMgMTcuNSA1IDMxLjUgMS43IDQ0LjItMyAxMS44LTguNiAyMi41LTE0LjUgMzMuOC0yIDMuOC00IDcuNy01LjkgMTEuN2ExNDAgMTQwIDAgMCAwLTE1LjggNThjLTEgMjQuMiAzLjkgNTQuNSAyMCA5NVoiIGZpbGw9InVybCgjYykiLz4KICA8cGF0aCBkPSJNMjc0LjggMjk3Yy0xNi4xLTQwLjUtMjEtNzAuOC0yMC05NSAxLTI0IDgtNDIgMTUuOC01OGw2LTExLjdjNS44LTExLjMgMTEuMy0yMiAxNC40LTMzLjhhNzguNSA3OC41IDAgMCAwLTEuNy00NC4yIDI4IDI4IDAgMCAwLTM5LjQtMmwtODYuMiA3Ny41YTI4IDI4IDAgMCAwLTkgMTYuNkwxNDQuMiAyMTZjMCAuNy0uMiAxLjMtLjMgMiAxOS40IDEyLjYgNDQgMzMgNTcuMyA2NS4zIDIuNiA2LjQgNC44IDEzLjEgNi40IDIwLjRhMjAwIDIwMCAwIDAgMSA2Ny4yLTYuOFoiIGZpbGw9InVybCgjZCkiLz4KICA8cGF0aCBkPSJNMzIwIDQ2My4yYzE4LjYgNS4xIDM3LjMtOS44IDM5LjktMjlhMTUzIDE1MyAwIDAgMSAxNS45LTUyLjJjLTIxLTQ1LjEtNDYuMy02OC41LTc0LTc4LjktMjkuNS0xMS02MS42LTcuMy05NC4yLjYgNy4zIDMzLjEgMyA3Ni40LTI0LjggMTMyLjcgMy4xIDEuNiA2LjYgMi41IDEwLjEgMi44bDQzLjkgMy4zYzIzLjggMS43IDU5LjMgMTQgODMuMiAyMC43WiIgZmlsbD0idXJsKCNlKSIvPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMjU1IDIwMC41Yy0xLjEgMjQgMS45IDUxLjQgMTggOTEuOGwtNS0uNWMtMTQuNS00Mi4xLTE3LjctNjMuNy0xNi42LTg4IDEtMjQuMyA4LjktNDMgMTYuNy01OSAyLTQgNi42LTExLjUgOC42LTE1LjMgNS44LTExLjMgOS43LTE3LjIgMTMtMjcuNSA0LjgtMTQuNCAzLjgtMjEuMiAzLjItMjggMy43IDI0LjUtMTAuNCA0NS44LTIxIDY3LjVhMTQ1IDE0NSAwIDAgMC0xNyA1OVoiIGZpbGw9InVybCgjZikiLz4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIwNiAyODUuMWMyIDQuNCAzLjcgOCA0LjkgMTMuNWwtNC4zIDFjLTEuNy02LjQtMy0xMS01LjUtMTYuNS0xNC42LTM0LjMtMzgtNTItNTctNjUgMjMgMTIuNCA0Ni43IDMxLjkgNjEuOSA2N1oiIGZpbGw9InVybCgjZykiLz4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIxMS4xIDMwM2M4IDM3LjUtMSA4NS4yLTI3LjUgMTMxLjYgMjIuMi00NiAzMy05MC4xIDI0LTEzMWwzLjUtLjdaIiBmaWxsPSJ1cmwoI2gpIi8+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zMDIuNyAyOTkuNWM0My41IDE2LjMgNjAuMyA1MiA3Mi44IDgxLjktMTUuNS0zMS4yLTM3LTY1LjctNzQuNC03OC41LTI4LjQtOS44LTUyLjQtOC42LTkzLjUuN2wtLjktNGM0My42LTEwIDY2LjQtMTEuMiA5NiAwWiIgZmlsbD0idXJsKCNpKSIvPgo8L3N2Zz4K");
+}
+[data-task=O] > input[type=checkbox]:checked, [data-task=O] > p > input[type=checkbox]:checked, [data-task=O][type=checkbox]:checked {
+  pointer-events: auto;
+  border: none;
+  background: none;
+}
+[data-task=O] > input[type=checkbox]:checked:after, [data-task=O] > p > input[type=checkbox]:checked:after, [data-task=O][type=checkbox]:checked:after {
+  background-color: var(--checkbox-icon-color, transparent);
+  -webkit-mask-image: var(--checkbox-icon-mask-image, none);
+  -webkit-mask-size: var(--checkbox-icon-mask-size, 100%);
+}
+
+[data-task=G] {
+  --checkbox-icon-color: var(--color-cyan, #53dfdd);
+  --checkbox-icon-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWRpY2VzIj48cmVjdCB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHg9IjIiIHk9IjEwIiByeD0iMiIgcnk9IjIiLz48cGF0aCBkPSJtMTcuOTIgMTQgMy41LTMuNWEyLjI0IDIuMjQgMCAwIDAgMC0zbC01LTQuOTJhMi4yNCAyLjI0IDAgMCAwLTMgMEwxMCA2Ii8+PHBhdGggZD0iTTYgMThoLjAxIi8+PHBhdGggZD0iTTEwIDE0aC4wMSIvPjxwYXRoIGQ9Ik0xNSA2aC4wMSIvPjxwYXRoIGQ9Ik0xOCA5aC4wMSIvPjwvc3ZnPg==");
+}
+[data-task=G] > input[type=checkbox]:checked, [data-task=G] > p > input[type=checkbox]:checked, [data-task=G][type=checkbox]:checked {
+  pointer-events: auto;
+  border: none;
+  background: none;
+}
+[data-task=G] > input[type=checkbox]:checked:after, [data-task=G] > p > input[type=checkbox]:checked:after, [data-task=G][type=checkbox]:checked:after {
+  background-color: var(--checkbox-icon-color, transparent);
+  -webkit-mask-image: var(--checkbox-icon-mask-image, none);
+  -webkit-mask-size: var(--checkbox-icon-mask-size, 100%);
+}
+
+[data-task=B] {
+  --checkbox-icon-color: var(--color-orange, #e9973f);
+  --checkbox-icon-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJ1Zy1vZmYiPjxwYXRoIGQ9Ik0xNSA3LjEzVjZhMyAzIDAgMCAwLTUuMTQtMi4xTDggMiIvPjxwYXRoIGQ9Ik0xNC4xMiAzLjg4IDE2IDIiLz48cGF0aCBkPSJNMjIgMTNoLTR2LTJhNCA0IDAgMCAwLTQtNGgtMS4zIi8+PHBhdGggZD0iTTIwLjk3IDVjMCAyLjEtMS42IDMuOC0zLjUgNCIvPjxwYXRoIGQ9Im0yIDIgMjAgMjAiLz48cGF0aCBkPSJNNy43IDcuN0E0IDQgMCAwIDAgNiAxMXYzYTYgNiAwIDAgMCAxMS4xMyAzLjEzIi8+PHBhdGggZD0iTTEyIDIwdi04Ii8+PHBhdGggZD0iTTYgMTNIMiIvPjxwYXRoIGQ9Ik0zIDIxYzAtMi4xIDEuNy0zLjkgMy44LTQiLz48L3N2Zz4=");
+}
+[data-task=B] > input[type=checkbox]:checked, [data-task=B] > p > input[type=checkbox]:checked, [data-task=B][type=checkbox]:checked {
+  pointer-events: auto;
+  border: none;
+  background: none;
+}
+[data-task=B] > input[type=checkbox]:checked:after, [data-task=B] > p > input[type=checkbox]:checked:after, [data-task=B][type=checkbox]:checked:after {
+  background-color: var(--checkbox-icon-color, transparent);
+  -webkit-mask-image: var(--checkbox-icon-mask-image, none);
+  -webkit-mask-size: var(--checkbox-icon-mask-size, 100%);
+}
+
+[data-task=C] {
+  --checkbox-icon-color: #94bcea;
+  --checkbox-icon-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWF0LXNpZ24tc3F1YXJlIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHg9IjIiIHk9IjIiIHJ4PSIyIi8+PHBhdGggZD0iTTE0IDE3LjdhNiA2IDAgMSAxIDQtNS43IDIgMiAwIDAgMS00IDAiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIyIi8+PC9zdmc+");
+}
+[data-task=C] > input[type=checkbox]:checked, [data-task=C] > p > input[type=checkbox]:checked, [data-task=C][type=checkbox]:checked {
+  pointer-events: auto;
+  border: none;
+  background: none;
+}
+[data-task=C] > input[type=checkbox]:checked:after, [data-task=C] > p > input[type=checkbox]:checked:after, [data-task=C][type=checkbox]:checked:after {
+  background-color: var(--checkbox-icon-color, transparent);
+  -webkit-mask-image: var(--checkbox-icon-mask-image, none);
+  -webkit-mask-size: var(--checkbox-icon-mask-size, 100%);
+}
+
+[data-task=I] {
+  --checkbox-icon-color: var(--color-red, #fb464c);
+  --checkbox-icon-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJpY2Vwcy1mbGV4ZWQiPjxwYXRoIGQ9Ik0xMi40MDkgMTMuMDE3QTUgNSAwIDAgMSAyMiAxNWMwIDMuODY2LTQgNy05IDctNC4wNzcgMC04LjE1My0uODItMTAuMzcxLTIuNDYyLS40MjYtLjMxNi0uNjMxLS44MzItLjYyLTEuMzYyQzIuMTE4IDEyLjcyMyAyLjYyNyAyIDEwIDJhMyAzIDAgMCAxIDMgMyAyIDIgMCAwIDEtMiAyYy0xLjEwNSAwLTEuNjQtLjQ0NC0yLTEiLz48cGF0aCBkPSJNMTUgMTRhNSA1IDAgMCAwLTcuNTg0IDIiLz48cGF0aCBkPSJNOS45NjQgNi44MjVDOC4wMTkgNy45NzcgOS41IDEzIDggMTUiLz48L3N2Zz4=");
+}
+[data-task=I] > input[type=checkbox]:checked, [data-task=I] > p > input[type=checkbox]:checked, [data-task=I][type=checkbox]:checked {
+  pointer-events: auto;
+  border: none;
+  background: none;
+}
+[data-task=I] > input[type=checkbox]:checked:after, [data-task=I] > p > input[type=checkbox]:checked:after, [data-task=I][type=checkbox]:checked:after {
+  background-color: var(--checkbox-icon-color, transparent);
+  -webkit-mask-image: var(--checkbox-icon-mask-image, none);
+  -webkit-mask-size: var(--checkbox-icon-mask-size, 100%);
+}
+
+[data-task=W] {
+  --checkbox-icon-color: var(--color-yellow, #e0de71);
+  --checkbox-icon-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXNjcm9sbC10ZXh0Ij48cGF0aCBkPSJNMTUgMTJoLTUiLz48cGF0aCBkPSJNMTUgOGgtNSIvPjxwYXRoIGQ9Ik0xOSAxN1Y1YTIgMiAwIDAgMC0yLTJINCIvPjxwYXRoIGQ9Ik04IDIxaDEyYTIgMiAwIDAgMCAyLTJ2LTFhMSAxIDAgMCAwLTEtMUgxMWExIDEgMCAwIDAtMSAxdjFhMiAyIDAgMSAxLTQgMFY1YTIgMiAwIDEgMC00IDB2MmExIDEgMCAwIDAgMSAxaDMiLz48L3N2Zz4=");
+}
+[data-task=W] > input[type=checkbox]:checked, [data-task=W] > p > input[type=checkbox]:checked, [data-task=W][type=checkbox]:checked {
+  pointer-events: auto;
+  border: none;
+  background: none;
+}
+[data-task=W] > input[type=checkbox]:checked:after, [data-task=W] > p > input[type=checkbox]:checked:after, [data-task=W][type=checkbox]:checked:after {
+  background-color: var(--checkbox-icon-color, transparent);
+  -webkit-mask-image: var(--checkbox-icon-mask-image, none);
+  -webkit-mask-size: var(--checkbox-icon-mask-size, 100%);
+}
+
+[data-task=F] {
+  --checkbox-icon-color: var(--color-green, #44cf6e);
+  --checkbox-icon-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNha2UiPjxwYXRoIGQ9Ik0yMCAyMXYtOGEyIDIgMCAwIDAtMi0ySDZhMiAyIDAgMCAwLTIgMnY4Ii8+PHBhdGggZD0iTTQgMTZzLjUtMSAyLTEgMi41IDIgNCAyIDIuNS0yIDQtMiAyLjUgMiA0IDIgMi0xIDItMSIvPjxwYXRoIGQ9Ik0yIDIxaDIwIi8+PHBhdGggZD0iTTcgOHYzIi8+PHBhdGggZD0iTTEyIDh2MyIvPjxwYXRoIGQ9Ik0xNyA4djMiLz48cGF0aCBkPSJNNyA0aC4wMSIvPjxwYXRoIGQ9Ik0xMiA0aC4wMSIvPjxwYXRoIGQ9Ik0xNyA0aC4wMSIvPjwvc3ZnPg==");
+}
+[data-task=F] > input[type=checkbox]:checked, [data-task=F] > p > input[type=checkbox]:checked, [data-task=F][type=checkbox]:checked {
+  pointer-events: auto;
+  border: none;
+  background: none;
+}
+[data-task=F] > input[type=checkbox]:checked:after, [data-task=F] > p > input[type=checkbox]:checked:after, [data-task=F][type=checkbox]:checked:after {
+  background-color: var(--checkbox-icon-color, transparent);
+  -webkit-mask-image: var(--checkbox-icon-mask-image, none);
+  -webkit-mask-size: var(--checkbox-icon-mask-size, 100%);
+}
+
+/*# sourceMappingURL=tenebrous-checkboxes.css.map */
+
+/* My Additions */
+/* ======checkboxes ====== */
+body {
+    /* Checkboxes */
+    --checkbox-radius: 6px;
+    --checkbox-size: var(--font-text-size);
+    --checkbox-marker-color: var(--background-primary);
+    --checkbox-color: var(--color-green);
+    --checkbox-color-hover: var(--color-green);
+    --checkbox-border-color: var(--text-faint);
+    --checkbox-border-color-hover: var(--text-faint);
+    --checklist-done-decoration: line-through;
+    --checklist-done-color: var(--text-faint);
+}
+
+@media (hover: hover) {
+    input[type=checkbox]:checked:hover {
+        filter: brightness(1.075);
+    }
+
+
+    input[type=checkbox]:hover {
+        outline-offset: 2px;
+        outline: 2px solid var(--background-modifier-border-hover);
+    }
+}
+
+input[data-task="<"]:checked,
+li[data-task="<"]>input:checked,
+li[data-task="<"]>p>input:checked,
+input[data-task=">"]:checked,
+li[data-task=">"]>input:checked,
+li[data-task=">"]>p>input:checked,
+input[data-task="S"]:checked,
+li[data-task="S"]>input:checked,
+li[data-task="S"]>p>input:checked,
+input[data-task="“"]:checked,
+li[data-task="“"]>input:checked,
+li[data-task="“"]>p>input:checked,
+input[data-task="\""]:checked,
+li[data-task="\""]>input:checked,
+li[data-task="\""]>p>input:checked,
+input[data-task="-"]:checked,
+li[data-task="-"]>input:checked,
+li[data-task="-"]>p>input:checked,
+input[data-task="l"]:checked,
+li[data-task="l"]>input:checked,
+li[data-task="l"]>p>input:checked,
+input[data-task="I"]:checked,
+li[data-task="I"]>input:checked,
+li[data-task="I"]>p>input:checked,
+input[data-task="*"]:checked,
+li[data-task="*"]>input:checked,
+li[data-task="*"]>p>input:checked,
+input[data-task="c"]:checked,
+li[data-task="c"]>input:checked,
+li[data-task="c"]>p>input:checked,
+input[data-task="p"]:checked,
+li[data-task="p"]>input:checked,
+li[data-task="p"]>p>input:checked {
+    --checkbox-marker-color: transparent;
+    border: none;
+    border-radius: 0;
+    background-image: none;
+    background-color: currentColor;
+    -webkit-mask-size: var(--checkbox-icon);
+    -webkit-mask-position: 50% 50%
+}
+
+/* Checkbox Star * */
+input[data-task="*"]:checked,
+li[data-task="*"]>input:checked,
+li[data-task="*"]>p>input:checked {
+    --checkbox-color-hover: var(--color-yellow);
+    color: var(--color-yellow);
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="svg0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}</style></defs><rect class="cls-1" width="16" height="16"/><path d="M8.91,.58c-.08-.17-.21-.32-.37-.42C8.38,.05,8.19,0,8,0s-.38,.05-.54,.16c-.16,.1-.29,.25-.37,.42l-1.93,4.12L.85,5.36c-.18,.03-.35,.1-.49,.22-.14,.12-.25,.27-.3,.45-.06,.17-.07,.36-.03,.54,.04,.18,.13,.34,.26,.48l3.15,3.23-.75,4.57c-.03,.19,0,.38,.06,.55,.07,.17,.19,.32,.35,.43,.15,.11,.33,.17,.52,.18,.19,0,.37-.03,.54-.12l3.84-2.13,3.84,2.13c.16,.09,.35,.13,.54,.12,.19-.01,.37-.07,.52-.18,.15-.11,.27-.26,.35-.43,.07-.17,.09-.36,.06-.55l-.75-4.57,3.15-3.23c.13-.13,.22-.3,.26-.48,.04-.18,.03-.37-.03-.54-.06-.17-.16-.33-.31-.45-.14-.12-.31-.2-.49-.22l-4.31-.66L8.91,.58Z"/></svg>');
+}
+
+/* Checkbox bookmark b */
+input[data-task="b"]:checked,
+li[data-task="b"] > input:checked,
+li[data-task="b"] > p > input:checked {
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  border-width: 0;
+}
+
+input[data-task="b"]:checked::after,
+li[data-task="b"] > input:checked::after,
+li[data-task="b"] > p > input:checked::after {
+  -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJvb2ttYXJrIj48cGF0aCBkPSJtMTkgMjEtNy00LTcgNFY1YTIgMiAwIDAgMSAyLTJoMTBhMiAyIDAgMCAxIDIgMnYxNnoiLz48L3N2Zz4=");
+  -webkit-mask-size: contain;
+  background-color: var(--color-red);
+  left: 0;
+}
+
+/* Checkbox In Progress / */
+input[data-task="/"]:checked,
+li[data-task="/"] > input:checked,
+li[data-task="/"] > p > input:checked {
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  border-width: 0;
+}
+
+input[data-task="/"]:checked::after,
+li[data-task="/"] > input:checked::after,
+li[data-task="/"] > p > input:checked::after {
+  -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWxvYWRlci1jaXJjbGUiPjxwYXRoIGQ9Ik0yMSAxMmE5IDkgMCAxIDEtNi4yMTktOC41NiIvPjwvc3ZnPg==");
+  -webkit-mask-size: contain;
+  background-color: var(--color-purple);
+  left: 0;
+}
+
+/* Checkbox Done x */
+input[data-task="x"]:checked,
+li[data-task="x"] > input:checked,
+li[data-task="x"] > p > input:checked {
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  border-width: 0;
+}
+
+input[data-task="x"]:checked::after,
+li[data-task="x"] > input:checked::after,
+li[data-task="x"] > p > input:checked::after {
+  -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZWNrIj48cGF0aCBkPSJNMjAgNiA5IDE3bC01LTUiLz48L3N2Zz4=");
+  -webkit-mask-size: contain;
+  background-color: var(--color-orange);
+  left: 0;
+}
+
+/* Checkbox Down Arrow d */
+input[data-task="d"]:checked,
+li[data-task="d"] > input:checked,
+li[data-task="d"] > p > input:checked {
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  border-width: 0;
+}
+
+input[data-task="d"]:checked::after,
+li[data-task="d"] > input:checked::after,
+li[data-task="d"] > p > input:checked::after {
+  -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXRyZW5kaW5nLWRvd24iPjxwb2x5bGluZSBwb2ludHM9IjIyIDE3IDEzLjUgOC41IDguNSAxMy41IDIgNyIvPjxwb2x5bGluZSBwb2ludHM9IjE2IDE3IDIyIDE3IDIyIDExIi8+PC9zdmc+");
+  -webkit-mask-size: contain;
+  background-color: var(--color-red);
+  left: 0;
+}
+
+/* Checkbox Up Arrow u */
+input[data-task="u"]:checked,
+li[data-task="u"] > input:checked,
+li[data-task="u"] > p > input:checked {
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  border-width: 0;
+}
+
+input[data-task="u"]:checked::after,
+li[data-task="u"] > input:checked::after,
+li[data-task="u"] > p > input:checked::after {
+  -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXRyZW5kaW5nLXVwIj48cG9seWxpbmUgcG9pbnRzPSIyMiA3IDEzLjUgMTUuNSA4LjUgMTAuNSAyIDE3Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTYgNyAyMiA3IDIyIDEzIi8+PC9zdmc+");
+  -webkit-mask-size: contain;
+  background-color: var(--color-green);
+  left: 0;
+}
+
+/* Checkbox Note/Pin n */
+input[data-task="n"]:checked,
+li[data-task="n"] > input:checked,
+li[data-task="n"] > p > input:checked {
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  border-width: 0;
+}
+
+input[data-task="n"]:checked::after,
+li[data-task="n"] > input:checked::after,
+li[data-task="n"] > p > input:checked::after {
+  -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXBpbiI+PHBhdGggZD0iTTEyIDE3djUiLz48cGF0aCBkPSJNOSAxMC43NmEyIDIgMCAwIDEtMS4xMSAxLjc5bC0xLjc4LjlBMiAyIDAgMCAwIDUgMTUuMjRWMTZhMSAxIDAgMCAwIDEgMWgxMmExIDEgMCAwIDAgMS0xdi0uNzZhMiAyIDAgMCAwLTEuMTEtMS43OWwtMS43OC0uOUEyIDIgMCAwIDEgMTUgMTAuNzZWN2ExIDEgMCAwIDEgMS0xIDIgMiAwIDAgMCAwLTRIOGEyIDIgMCAwIDAgMCA0IDEgMSAwIDAgMSAxIDF6Ii8+PC9zdmc+");
+  -webkit-mask-size: contain;
+  background-color: var(--color-pink);
+  left: 0;
+}
+
+/* Checkbox Weather w */
+input[data-task="w"]:checked,
+li[data-task="w"] > input:checked,
+li[data-task="w"] > p > input:checked {
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  border-width: 0;
+}
+
+input[data-task="w"]:checked::after,
+li[data-task="w"] > input:checked::after,
+li[data-task="w"] > p > input:checked::after {
+  -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNsb3VkLXN1bi1yYWluIj48cGF0aCBkPSJNMTIgMnYyIi8+PHBhdGggZD0ibTQuOTMgNC45MyAxLjQxIDEuNDEiLz48cGF0aCBkPSJNMjAgMTJoMiIvPjxwYXRoIGQ9Im0xOS4wNyA0LjkzLTEuNDEgMS40MSIvPjxwYXRoIGQ9Ik0xNS45NDcgMTIuNjVhNCA0IDAgMCAwLTUuOTI1LTQuMTI4Ii8+PHBhdGggZD0iTTMgMjBhNSA1IDAgMSAxIDguOS00SDEzYTMgMyAwIDAgMSAyIDUuMjQiLz48cGF0aCBkPSJNMTEgMjB2MiIvPjxwYXRoIGQ9Ik03IDE5djIiLz48L3N2Zz4=");
+  -webkit-mask-size: contain;
+  background-color: var(--color-yellow);
+  left: 0;
+}
+
+/* Checkbox Pro p */
+input[data-task="p"]:checked,
+li[data-task="p"]>input:checked,
+li[data-task="p"]>p>input:checked {
+    --checkbox-color-hover: var(--color-green);
+    color: var(--color-green);
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="svg0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}</style></defs><path class="cls-1" d="M0,16H16V0H0V16Z"/><g><path d="M3.33,15h-.72c-.33,0-.66-.13-.9-.35-.25-.23-.4-.54-.43-.87L.73,7.11c-.02-.18,0-.37,.07-.54,.06-.18,.16-.34,.28-.47,.13-.14,.28-.25,.45-.32,.17-.07,.35-.11,.54-.11h1.27c.36,0,.69,.14,.94,.39,.25,.25,.39,.59,.39,.94v6.67c0,.35-.14,.7-.39,.94-.25,.25-.59,.39-.94,.39Z"/><path d="M15.4,7.69l-1.79,6.34c-.08,.28-.25,.53-.48,.7-.23,.17-.52,.27-.81,.27H6.67c-.36,0-.69-.14-.94-.39-.25-.25-.39-.59-.39-.94V7.13c0-.53,.32-1.02,.81-1.25,.79-.37,1.38-.82,1.62-1.22,.36-.6,.53-1.78,.57-2.65,0-.06,0-.12,.01-.18,.06-.41,.34-.72,.73-.8,.07-.01,.14-.02,.21-.02,.8,0,1.73,.83,2.12,1.48,.29,.48,.41,1.09,.36,1.84-.03,.55-.18,1.05-.33,1.55l-.04,.12h2.72c.21,0,.41,.05,.6,.14,.18,.09,.34,.23,.47,.39,.12,.17,.21,.35,.24,.55,.04,.2,.03,.41-.03,.61ZM9,1.94h0Z"/></g></svg>');
+}
+
+/* Checkbox Con c */
+input[data-task="c"]:checked,
+li[data-task="c"]>input:checked,
+li[data-task="c"]>p>input:checked {
+    --checkbox-color-hover: var(--color-red);
+    color: var(--color-red);
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="svg0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}</style></defs><path class="cls-1" d="M0,0H16V16H0V0Z"/><g><path d="M3.33,1h-.72c-.33,0-.66,.13-.9,.35-.25,.23-.4,.54-.43,.87l-.56,6.67c-.02,.18,0,.37,.07,.54,.06,.18,.16,.34,.28,.47,.13,.14,.28,.25,.45,.32,.17,.07,.35,.11,.54,.11h1.27c.36,0,.69-.14,.94-.39,.25-.25,.39-.59,.39-.94V2.33c0-.35-.14-.7-.39-.94-.25-.25-.59-.39-.94-.39Z"/><path d="M15.4,8.31l-1.79-6.34c-.08-.28-.25-.53-.48-.7-.23-.17-.52-.27-.81-.27H6.67c-.36,0-.69,.14-.94,.39-.25,.25-.39,.59-.39,.94v6.54c0,.53,.32,1.02,.81,1.25,.79,.37,1.38,.82,1.62,1.22,.36,.6,.53,1.78,.57,2.65,0,.06,0,.12,.01,.18,.06,.41,.34,.72,.73,.8,.07,.01,.14,.02,.21,.02,.8,0,1.73-.83,2.12-1.48,.29-.48,.41-1.09,.36-1.84-.03-.55-.18-1.05-.33-1.55l-.04-.12h2.72c.21,0,.41-.05,.6-.14,.18-.09,.34-.23,.47-.39,.12-.17,.21-.35,.24-.55,.04-.2,.03-.41-.03-.61Zm-6.4,5.75h0Z"/></g></svg>');
+}
+
+/* Checkbox i */
+input[data-task="i"]:checked,
+li[data-task="i"]>input:checked,
+li[data-task="i"]>p>input:checked {
+    --checkbox-color: var(--color-cyan);
+    --checkbox-color-hover: var(--color-cyan);
+}
+
+input[data-task="i"]:checked:after,
+li[data-task="i"]>input:checked:after,
+li[data-task="i"]>p>input:checked:after {
+    -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 16 16'%3e%3cpath fill='black' d='M10.34 14.025c-.007.002-.56.186-1.04.186-.265 0-.372-.055-.406-.08-.168-.116-.48-.335.054-1.4l1-1.993c.593-1.184.681-2.33.245-3.226-.356-.733-1.039-1.236-1.92-1.416A5 5 0 0 0 7.315 6C5.466 6 4.221 7.08 4.17 7.125a.5.5 0 0 0 .493.848c.005-.002.559-.187 1.04-.187.262 0 .368.055.401.078.17.119.482.34-.05 1.403l-1.001 1.995c-.594 1.185-.681 2.33-.245 3.225.356.733 1.038 1.236 1.921 1.416.314.063.636.097.954.097 1.85 0 3.096-1.08 3.148-1.126a.5.5 0 0 0-.49-.85ZM9.5 5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z'/%3e%3c/svg%3e");
+}
+
+/* Checkbox Important ! */
+input[data-task="!"]:checked,
+li[data-task="!"]>input:checked,
+li[data-task="!"]>p>input:checked {
+    --checkbox-color: var(--color-orange);
+    --checkbox-color-hover: var(--color-orange);
+}
+
+input[data-task="!"]:checked:after,
+li[data-task="!"]>input:checked:after,
+li[data-task="!"]>p>input:checked:after {
+    -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 16 16'%3e%3cpath fill='black' fill-rule='evenodd' d='M8 0a2.463 2.463 0 0 0-2.43 2.864v.002L6.686 9.55a1.334 1.334 0 0 0 2.63 0l1.114-6.685v-.002A2.463 2.463 0 0 0 8 0Zm0 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+/* Checkbox Question ? */
+input[data-task="?"]:checked,
+li[data-task="?"]>input:checked,
+li[data-task="?"]>p>input:checked {
+    --checkbox-color: var(--color-pink);
+    --checkbox-color-hover: var(--color-pink);
+}
+
+input[data-task="?"]:checked:after,
+li[data-task="?"]>input:checked:after,
+li[data-task="?"]>p>input:checked:after {
+    -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 16 16'%3e%3cpath fill='black' d='M12.871 3.692c0 3.56-3.956 3.319-3.956 5.78v.014c0 .284-.23.514-.514.514H6.243a.514.514 0 0 1-.515-.514V9.34c0-3.803 3.473-3.56 3.473-5.341 0-.77-.571-1.23-1.517-1.23-.768 0-1.554.335-2.268 1.022a.512.512 0 0 1-.67.031l-1.419-1.11a.513.513 0 0 1-.056-.76C4.457.731 5.997 0 8.036 0c3.23 0 4.835 1.736 4.835 3.692ZM9.355 14c0 1.099-.88 2-2 2-1.1 0-2-.901-2-2s.9-2 2-2c1.12 0 2 .901 2 2Z'/%3e%3c/svg%3e");
+}
+
+/* Checkbox Quote " or ' or styled quotes from iOS */
+input[data-task="“"]:checked,
+li[data-task="“"]>input:checked,
+li[data-task="“"]>p>input:checked,
+input[data-task="\""]:checked,
+li[data-task="\""]>input:checked,
+li[data-task="\""]>p>input:checked,
+input[data-task="'"]:checked,
+li[data-task="'"]>input:checked,
+li[data-task="'"]>p>input:checked  {
+    --checkbox-color-hover: var(--color-purple);
+    color: var(--color-purple);
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="svg0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}</style></defs><rect class="cls-1" width="16" height="16"/><path d="M2.46,4.19c.94-1.01,2.35-1.53,4.21-1.53h.67v1.88l-.54,.11c-.91,.18-1.55,.54-1.89,1.07-.18,.28-.28,.61-.29,.94h2.05c.18,0,.35,.07,.47,.2,.13,.13,.2,.29,.2,.47v4.67c0,.74-.6,1.33-1.33,1.33H2c-.18,0-.35-.07-.47-.2-.13-.12-.2-.29-.2-.47V7.39c0-.07-.13-1.83,1.13-3.19ZM13.33,13.33h-4c-.18,0-.35-.07-.47-.2-.13-.12-.2-.29-.2-.47V7.39c0-.07-.13-1.83,1.13-3.19,.94-1.01,2.35-1.53,4.21-1.53h.67v1.88l-.54,.11c-.91,.18-1.55,.54-1.89,1.07-.18,.28-.28,.61-.29,.94h2.05c.18,0,.35,.07,.47,.2,.12,.13,.2,.29,.2,.47v4.67c0,.74-.6,1.33-1.33,1.33Z"/></svg>');
+}
+
+/* Checkbox Rescheduled > */
+input[data-task=">"]:checked,
+li[data-task=">"]>input:checked,
+li[data-task=">"]>p>input:checked {
+    --checkbox-color-hover: var(--color-pink);
+    color: var(--color-pink);
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="svg0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}</style></defs><rect class="cls-1" width="16" height="16"/><path d="M1.72,1.05c-.08-.04-.18-.06-.27-.05-.09,0-.18,.04-.26,.1-.07,.06-.13,.13-.16,.22-.03,.09-.04,.18-.02,.27l1.4,4.85c.03,.09,.08,.17,.15,.23,.07,.06,.16,.1,.25,.12l5.69,.95c.27,.05,.27,.44,0,.49l-5.69,.95c-.09,.02-.18,.06-.25,.12s-.12,.14-.15,.23l-1.4,4.85c-.02,.09-.01,.19,.02,.27,.03,.09,.09,.16,.16,.22,.07,.06,.16,.09,.26,.1,.09,0,.19,0,.27-.05l13-6.5c.08-.04,.15-.11,.2-.18,.05-.08,.07-.17,.07-.26s-.03-.18-.07-.26c-.05-.08-.12-.14-.2-.18L1.72,1.05Z"/></svg>');
+}
+
+/* Checkbox Scheduled < */
+input[data-task="<"]:checked,
+li[data-task="<"]>input:checked,
+li[data-task="<"]>p>input:checked {
+    --checkbox-color-hover: var(--color-blue);
+    color: var(--color-blue);
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="svg0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}</style></defs><rect class="cls-1" width="16" height="16"/><path d="M2.75,15.5H13.25c.83,0,1.5-.67,1.5-1.5V3.5c0-.83-.67-1.5-1.5-1.5h-1.5V.5h-1.5v1.5H5.75V.5h-1.5v1.5h-1.5c-.83,0-1.5,.67-1.5,1.5V14c0,.83,.67,1.5,1.5,1.5Zm0-11.25H13.25v1.5H2.75v-1.5Z"/></svg>');
+}
+
+/* Checkbox Canceled - */
+input[data-task="-"]:checked,
+li[data-task="-"]>input:checked,
+li[data-task="-"]>p>input:checked {
+      --checkbox-color-hover: var(--color-orange);
+    color: var(--color-orange);
+    -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXgiPjxwYXRoIGQ9Ik0xOCA2IDYgMTgiLz48cGF0aCBkPSJtNiA2IDEyIDEyIi8+PC9zdmc+");
+}
+
+/* Checkbox Location l */
+input[data-task="l"]:checked,
+li[data-task="l"]>input:checked,
+li[data-task="l"]>p>input:checked {
+    --checkbox-color-hover: var(--color-orange);
+    color: var(--color-orange);
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="svg0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}</style></defs><rect class="cls-1" width="16" height="16"/><path d="M8,.12c-1.64,0-3.21,.65-4.37,1.81-1.16,1.16-1.81,2.73-1.81,4.37,0,1.34,.44,2.64,1.25,3.71,0,0,.17,.22,.2,.25l4.74,5.6,4.75-5.6s.19-.25,.19-.25h0c.81-1.07,1.25-2.37,1.25-3.71,0-1.64-.65-3.21-1.81-4.37C11.21,.78,9.64,.13,8,.12Zm0,8.44c-.45,0-.88-.13-1.25-.38-.37-.25-.66-.6-.83-1.01-.17-.41-.21-.86-.13-1.3,.09-.44,.3-.84,.62-1.15,.31-.31,.72-.53,1.15-.62,.44-.09,.89-.04,1.3,.13,.41,.17,.76,.46,1.01,.83,.25,.37,.38,.81,.38,1.25,0,.6-.24,1.17-.66,1.59-.42,.42-.99,.66-1.59,.66Z"/></svg>');
+}

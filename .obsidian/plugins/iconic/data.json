@@ -12,18 +12,19 @@
   "uncolorHover": false,
   "uncolorDrag": false,
   "uncolorSelect": false,
-  "rememberDeletedItems": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": true,
   "appIcons": {},
-  "tabIcons": {
-    "file-explorer": {
-      "icon": "lucide-file-stack",
-      "color": "blue"
-    }
-  },
+  "tabIcons": {},
   "fileIcons": {
     "100-Resources": {
       "icon": "lucide-sparkles",
-      "color": "pink"
+      "color": "pink",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
     "100-Resources/256 Color Codes Cheat Sheet.md": {
       "icon": "lucide-paint-bucket",
@@ -31,42 +32,154 @@
     },
     "100-Resources/Datacore": {
       "icon": "lucide-database",
-      "color": "green"
+      "color": "green",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
     "100-Resources/Important": {
       "icon": "lucide-drafting-compass",
-      "color": "blue"
+      "color": "blue",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
-    "100-Resources/SCRATCHPAD.md": {
-      "icon": "lucide-sticky-note",
-      "color": "blue"
+    "100-Resources/KB Shortcuts": {
+      "icon": "lucide-keyboard",
+      "color": "orange",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "100-Resources/Snippet Examples": {
+      "icon": "lucide-code-2",
+      "color": "purple",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
     "100-Resources/Templater": {
       "icon": "templater-icon",
-      "color": "yellow"
+      "color": "yellow",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
     "100-Resources/Templates": {
       "icon": "lucide-book-template",
-      "color": "purple"
+      "color": "purple",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
     "100-Resources/Templates/Task Template.md": {
       "icon": "lucide-circle"
     },
+    "90-Attachments": {
+      "icon": "lucide-paperclip",
+      "color": "orange",
+      "unsynced": [
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "90-Attachments/90-Banners": {
+      "icon": "lucide-image",
+      "color": "green",
+      "unsynced": [
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "90-Attachments/91-Scripts": {
+      "icon": "lucide-code-xml",
+      "color": "purple",
+      "unsynced": [
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "90-Attachments/92-Templates": {
+      "icon": "lucide-newspaper",
+      "color": "pink",
+      "unsynced": [
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "90-Attachments/93-Drawings": {
+      "icon": "lucide-drafting-compass",
+      "color": "cyan",
+      "unsynced": [
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
     "97-Attachments": {
       "icon": "lucide-paperclip",
-      "color": "yellow"
+      "color": "yellow",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "97-Attachments/Books 1": {
+      "icon": "lucide-book-text",
+      "color": "blue",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
     "97-Attachments/Books": {
       "icon": "lucide-book-text",
-      "color": "blue"
+      "color": "blue",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
     "97-Attachments/images": {
       "icon": "lucide-image",
-      "color": "pink"
+      "color": "pink",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "98-Snippets": {
+      "icon": "lucide-file-code-2",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ],
+      "color": "orange"
     },
     "99-Archives": {
       "icon": "lucide-inbox",
-      "color": "cyan"
+      "color": "cyan",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
     "99-Archives/How to Downgrade from Beta to Release.md": {
       "icon": "lucide-smartphone"
@@ -75,13 +188,39 @@
       "icon": "lucide-car",
       "color": "green"
     },
+    "Artificial Intelligence.md": {
+      "icon": "lucide-bot-message-square",
+      "color": "green"
+    },
+    "Clippings": {
+      "icon": "lucide-clipboard-list",
+      "color": "purple",
+      "unsynced": [
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
     "Contacts": {
       "icon": "lucide-person-standing",
-      "color": "green"
+      "color": "green",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "Custom Styles.md": {
+      "icon": "lucide-paintbrush",
+      "color": "yellow"
     },
     "DBs": {
       "icon": "lucide-database",
-      "color": "purple"
+      "color": "purple",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
     "DBs/Database.md": {
       "icon": "lucide-tv",
@@ -89,23 +228,115 @@
     },
     "Daily Notes": {
       "icon": "lucide-book-open",
-      "color": "pink"
+      "color": "pink",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "Daily Notes/2024/11-Nov/20th - Wednesday.md": {
+      "icon": "🐸"
+    },
+    "Daily Notes/2024/11-Nov/21st - Thursday.md": {
+      "icon": "🐸"
     },
     "Inbox": {
       "icon": "lucide-inbox",
-      "color": "green"
+      "color": "green",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
-    "KB Shortcuts": {
+    "Inbox/SCRATCHPAD.md": {
+      "icon": "lucide-sticky-note",
+      "color": "blue"
+    },
+    "Journals": {
+      "icon": "lucide-bookmark-plus",
+      "color": "orange",
+      "unsynced": [
+        "c2b5f2efa2a4b066"
+      ]
+    },
+    "Journals/2nd - Monday.md": {
+      "icon": "🤔"
+    },
+    "KB Shortcuts.md": {
       "icon": "lucide-keyboard",
-      "color": "orange"
+      "color": "cyan"
+    },
+    "Math": {
+      "icon": "lucide-x",
+      "color": "purple",
+      "unsynced": [
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
     },
     "Projects": {
       "icon": "lucide-square-kanban",
+      "color": "blue",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "Projects/Blog Drafts": {
+      "icon": "lucide-pen-tool",
+      "color": "purple",
+      "unsynced": [
+        "2c6b86f96ae02de2",
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "Projects/Blog Drafts/Excalidraw Review.md": {
+      "icon": "excalidraw-icon",
+      "color": "pink"
+    },
+    "Projects/Blog Drafts/Obsidian Sync Review.md": {
+      "icon": "sync-small",
       "color": "blue"
     },
-    "Projects/01-Task Management": {
-      "icon": "lucide-list-todo",
+    "Projects/Blog.md": {
+      "icon": "lucide-computer",
       "color": "green"
+    },
+    "Projects/Projects.md": {
+      "icon": "lucide-kanban",
+      "color": "cyan"
+    },
+    "SCRATCHPAD.md": {
+      "icon": "lucide-panel-top-inactive",
+      "color": "green"
+    },
+    "Snippets.canvas": {
+      "icon": "lucide-square-dashed-bottom-code",
+      "color": "red"
+    },
+    "Tasks": {
+      "icon": "lucide-list-todo",
+      "color": "cyan",
+      "unsynced": [
+        "c2b5f2efa2a4b066",
+        "documents/My Vault"
+      ]
+    },
+    "Tasks/Finances.md": {
+      "icon": "lucide-circle-dollar-sign",
+      "color": "green"
+    },
+    "Tasks/Home.md": {
+      "icon": "lucide-home",
+      "color": "purple"
+    },
+    "Untitled.canvas": {
+      "icon": "lucide-square-dashed-bottom-code",
+      "color": "purple"
     }
   },
   "bookmarkIcons": {

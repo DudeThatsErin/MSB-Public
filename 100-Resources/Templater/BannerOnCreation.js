@@ -23,7 +23,7 @@ async function getRandomImageFromFolder(folderPath) {
 
 module.exports = async (tp) => {
     try {
-        const folderPath = `97-Attachments/images/banners`;
+        const folderPath = `90-Attachments/90-Banners`;
         const randomImagePath = await getRandomImageFromFolder(folderPath);
 
         return  `![[${randomImagePath}|banner]]`;

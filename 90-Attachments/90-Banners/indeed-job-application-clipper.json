@@ -1,0 +1,48 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Indeed Job Application",
+	"behavior": "create",
+	"noteContentFormat": "## Job Details\n**Pay:** {{selector:div.js-match-insights-provider-1m98ica.e1xnxm2i0|first}}\n**Benefits:**\n{{selector:li.css-kyg8or.eu4oa1w0|list}}\n\n## Full Job Description\n{{content}}",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{title|safe_name}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{selector:span.css-1saizt3.e1wnkr790}}",
+			"type": "multitext"
+		},
+		{
+			"name": "authorURL",
+			"value": "{{selector:a.css-1ioi40n.e19afand0?href}}",
+			"type": "multitext"
+		},
+		{
+			"name": "applied",
+			"value": "{{date}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "applied, to-follow-up",
+			"type": "multitext"
+		},
+		{
+			"name": "image",
+			"value": "{{image}}",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://indeed.com"
+	],
+	"noteNameFormat": "{{title|safe_name}}",
+	"path": "{{date|date:\"MM-DD\"}}"
+}

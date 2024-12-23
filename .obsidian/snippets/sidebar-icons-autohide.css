@@ -1,0 +1,46 @@
+/* Auto-Hide sidebar tabs */
+.workspace-tabs:not(.mod-top) .workspace-tab-header-container,
+.workspace-tabs:not(.mod-top) .workspace-tab-header-container * {
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+.workspace-tabs:not(.mod-top) .workspace-tab-header-container * {
+	background-color: transparent !important;  /* Ensures all children have transparent background */
+}
+
+.workspace-tabs:not(.mod-top) .workspace-tab-header-container .workspace-tab-header-inner-icon,
+.workspace-tabs:not(.mod-top) .workspace-tab-header.is-active .workspace-tab-header-inner,
+.workspace-tabs:not(.mod-top) .workspace-tab-header-container .workspace-tab-header-inner::before {
+	opacity: 0;
+	transform: translateY(-10px);
+	transition: opacity 200ms ease-in, transform 200ms ease-in;
+}
+
+.workspace-tabs:not(.mod-top) .workspace-tab-header-container:hover .workspace-tab-header-inner-icon,
+.workspace-tabs:not(.mod-top) .workspace-tab-header.is-active .workspace-tab-header-inner,
+.workspace-tabs:not(.mod-top) .workspace-tab-header-container:hover .workspace-tab-header-inner::before {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+	height: 10px;
+	transition: height 200ms ease-in;
+	position: relative;
+}
+
+.workspace-tabs:not(.mod-top) .workspace-tab-header-container:hover {
+	height: var(--header-height);
+	background-color: var(--background) !important;
+}
+
+.workspace-tabs:not(.mod-top) .workspace-tab-header-container::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 100%;
+	position: absolute;
+	z-index: 1;
+}

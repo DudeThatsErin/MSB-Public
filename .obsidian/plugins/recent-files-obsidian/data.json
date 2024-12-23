@@ -1,41 +1,143 @@
 {
   "recentFiles": [
     {
-      "basename": "Task Template",
-      "path": "100-Resources/Templates/Task Template.md"
+      "basename": "23 -  December",
+      "path": "12 - December/23 -  December.md"
     },
     {
-      "basename": "Event Template",
-      "path": "100-Resources/Templates/Event Template.md"
+      "basename": "Artificial Intelligence",
+      "path": "Artificial Intelligence.md"
+    },
+    {
+      "basename": "Daily Note Template",
+      "path": "100-Resources/Templates/Daily Note Template.md"
+    },
+    {
+      "basename": "Insert Excalidraw",
+      "path": "100-Resources/Templates/Insert Excalidraw.md"
+    },
+    {
+      "basename": "Object-Relational Mapping",
+      "path": "Programming/Object-Relational Mapping.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Programming/Untitled.md"
     },
     {
       "basename": "SCRATCHPAD",
-      "path": "100-Resources/SCRATCHPAD.md"
+      "path": "SCRATCHPAD.md"
     },
     {
-      "basename": "Projects",
-      "path": "Projects/Projects.md"
+      "basename": "21st - Thursday",
+      "path": "Daily Notes/2024/11-Nov/21st - Thursday.md"
     },
     {
-      "basename": "Database",
-      "path": "DBs/Database.md"
+      "basename": "Custom Styles",
+      "path": "Custom Styles.md"
     },
     {
-      "basename": "Anytime",
-      "path": "100-Resources/Anytime.md"
+      "basename": "KB Shortcuts",
+      "path": "KB Shortcuts.md"
     },
     {
-      "basename": "2024-08-31",
-      "path": "Daily Notes/2024/07-July/2024-08-31.md"
+      "basename": "Home",
+      "path": "Tasks/Home.md"
+    },
+    {
+      "basename": "Finances",
+      "path": "Tasks/Finances.md"
+    },
+    {
+      "basename": "Span",
+      "path": "100-Resources/Templates/Span.md"
+    },
+    {
+      "basename": "20th - Wednesday",
+      "path": "Daily Notes/2024/11-Nov/20th - Wednesday.md"
+    },
+    {
+      "basename": "2024-11-17",
+      "path": "Daily Notes/2024/11-Nov/2024-11-17.md"
+    },
+    {
+      "basename": "Ai Drawing",
+      "path": "90-Attachments/93-Drawings/Ai Drawing.md"
+    },
+    {
+      "basename": "2024-10-25",
+      "path": "2024-10-25.md"
+    },
+    {
+      "basename": "Snippets",
+      "path": "Snippets.canvas"
+    },
+    {
+      "basename": "Yearly Health Template",
+      "path": "100-Resources/Templates/Yearly Health Template.md"
+    },
+    {
+      "basename": "Backup Codes for 2FA",
+      "path": "99-Archives/Backup Codes for 2FA.md"
+    },
+    {
+      "basename": "doc14020720210630165915",
+      "path": "99-Archives/doc14020720210630165915.pdf"
+    },
+    {
+      "basename": "LifeX Bulb Codes & FAQs 1",
+      "path": "99-Archives/LifeX Bulb Codes & FAQs 1.md"
+    },
+    {
+      "basename": "Pasted image 20230403231829",
+      "path": "99-Archives/Pasted image 20230403231829.png"
+    },
+    {
+      "basename": "Pasted image 20230403232051",
+      "path": "99-Archives/Pasted image 20230403232051.png"
+    },
+    {
+      "basename": "Josh Medical Records Everything from TOL",
+      "path": "99-Archives/Josh Medical Records Everything from TOL.pdf"
+    },
+    {
+      "basename": "Email Aliases",
+      "path": "99-Archives/Email Aliases.md"
+    },
+    {
+      "basename": "tricare",
+      "path": "99-Archives/Important/Important Docs/tricare.pdf"
+    },
+    {
+      "basename": "Morgan Adoption Papers",
+      "path": "99-Archives/Important/Important Docs/Morgan Adoption Papers.jpeg"
+    },
+    {
+      "basename": "Screenshot_20170412-050524",
+      "path": "99-Archives/Important/Screenshot_20170412-050524.png"
+    },
+    {
+      "basename": "Passwords",
+      "path": "99-Archives/Passwords.md"
+    },
+    {
+      "basename": "NDA",
+      "path": "99-Archives/NDA.pdf"
+    },
+    {
+      "basename": "ErinSkiddsResume",
+      "path": "99-Archives/ErinSkiddsResume.pdf"
+    },
+    {
+      "basename": "Pregnancy Notes",
+      "path": "99-Archives/Pregnancy Notes.md"
     },
     {
       "basename": "PHP",
       "path": "99-Archives/PHP.md"
-    },
-    {
-      "basename": "My Custom Code Additions",
-      "path": "99-Archives/My Custom Code Additions.md"
     }
   ],
-  "omittedPaths": []
+  "omittedPaths": [],
+  "omittedTags": [],
+  "omitBookmarks": false
 }

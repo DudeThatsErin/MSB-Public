@@ -1,5 +1,6 @@
 {
-  "folder": "Daily Notes/2024/07-July",
-  "template": "98-Templates/Daily Note Template",
-  "autorun": false
+  "folder": "12 - December",
+  "template": "100-Resources/Templates/Daily Note Template",
+  "autorun": false,
+  "format": "D -  MMMM"
 }

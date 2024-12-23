@@ -1,0 +1,161 @@
+{
+  "apiProvider": "unsplash",
+  "pexelsApiKey": "",
+  "pixabayApiKey": "",
+  "flickrApiKey": "",
+  "unsplashApiKey": "K0vAmqOdD9ah3TeBAnzwp9KkLSkQOABerj5r7h1cWwU",
+  "imageSize": "large",
+  "imageOrientation": "landscape",
+  "numberOfImages": 10,
+  "defaultKeywords": "nature, abstract, landscape, technology, art, cityscape, wildlife, ocean, mountains, forest, space, architecture, food, travel, science, music, sports, fashion, business, education, health, culture, history, weather, transportation, industry, people, animals, plants, patterns",
+  "yPosition": 50,
+  "customBannerField": [
+    "banner"
+  ],
+  "customYPositionField": [
+    "banner-y"
+  ],
+  "customContentStartField": [
+    "content-start"
+  ],
+  "customImageDisplayField": [
+    "banner-display"
+  ],
+  "customImageRepeatField": [
+    "banner-repeat"
+  ],
+  "customBannerHeightField": [
+    "banner-height"
+  ],
+  "customFadeField": [
+    "banner-fade"
+  ],
+  "customBorderRadiusField": [
+    "banner-radius"
+  ],
+  "customTitleColorField": [
+    "banner-inline-title-color"
+  ],
+  "customBannerShuffleField": [
+    "banner-shuffle"
+  ],
+  "folderImages": [
+    {
+      "folder": "01 - January",
+      "image": "Winter",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "imageRepeat": false
+    },
+    {
+      "folder": "02 - February",
+      "image": "Winter",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners"
+    },
+    {
+      "folder": "03 - March",
+      "image": "Spring",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners"
+    },
+    {
+      "folder": "04 - April",
+      "image": "Spring",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners"
+    },
+    {
+      "folder": "05 - May",
+      "image": "Summer",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners"
+    },
+    {
+      "folder": "06 - June",
+      "image": "Beach",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners"
+    },
+    {
+      "folder": "07 - July",
+      "image": "Summer",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners"
+    },
+    {
+      "folder": "08 - August",
+      "image": "School",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners"
+    },
+    {
+      "folder": "09 - September",
+      "image": "Fall",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners"
+    },
+    {
+      "folder": "10 - October",
+      "image": "Halloween",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners"
+    },
+    {
+      "folder": "11 - November",
+      "image": "Thanksgiving",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners"
+    },
+    {
+      "folder": "12 - December",
+      "image": "christmas",
+      "yPosition": 50,
+      "contentStartPosition": 150,
+      "enableImageShuffle": false,
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "fade": -310,
+      "imageRepeat": false,
+      "titleColor": "#abdeb4"
+    }
+  ],
+  "contentStartPosition": 150,
+  "imageDisplay": "cover",
+  "imageRepeat": false,
+  "bannerHeight": 350,
+  "fade": -75,
+  "borderRadius": 17,
+  "showPinIcon": true,
+  "pinnedImageFolder": "90-Attachments/90-Banners",
+  "showReleaseNotes": true,
+  "lastVersion": "2.14.0",
+  "showRefreshIcon": true,
+  "showViewImageIcon": true,
+  "hidePixelBannerFields": false,
+  "hidePropertiesSectionIfOnlyBanner": false,
+  "titleColor": "var(--inline-title-color)",
+  "enableImageShuffle": false,
+  "hideEmbeddedNoteTitles": true
+}

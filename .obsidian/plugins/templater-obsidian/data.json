@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "98-Templates",
+  "templates_folder": "100-Resources/Templates",
   "templates_pairs": [
     [
       "",
@@ -15,14 +15,21 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
+      "folder": "Journals",
+      "template": "100-Resources/Templates/Daily Note Template.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
       "template": ""
     }
   ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "00-Templates/Daily Note Template.md"
+    "100-Resources/Templates/Daily Note Template.md"
   ],
   "startup_templates": [
     ""

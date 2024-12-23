@@ -2,38 +2,61 @@
   "workspaces": {
     "main": {
       "main": {
-        "id": "14a3656685833601",
+        "id": "fc50c7810dd289b0",
         "type": "split",
         "children": [
           {
-            "id": "c9992befb16fa538",
+            "id": "769b903126fd718a",
             "type": "tabs",
             "children": [
               {
-                "id": "08a3198e1a93830c",
+                "id": "0dd7b154d03d15d9",
                 "type": "leaf",
                 "state": {
-                  "type": "kanban",
+                  "type": "style-settings",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6f70bf883dbd7b73",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
                   "state": {
-                    "file": "VS/Task Managers.md"
+                    "file": "SCRATCHPAD.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
       },
       "left": {
-        "id": "57baffc32d503211",
+        "id": "dcba19c323393d3b",
         "type": "split",
         "children": [
           {
-            "id": "01332453020ae70f",
+            "id": "3e4cd597f6b32f88",
             "type": "tabs",
+            "dimension": 66.78004535147393,
             "children": [
               {
-                "id": "9c5e42ddf0ff2a98",
+                "id": "608f65f6ab97e7d7",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "fe8d05dd59a19632",
                 "type": "leaf",
                 "state": {
                   "type": "search",
@@ -48,55 +71,94 @@
                 }
               },
               {
-                "id": "69fe4f8d2e9a9307",
+                "id": "5073df236de9023a",
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
                   "state": {}
                 }
-              },
-              {
-                "id": "1ebc9c86dd0b739c",
-                "type": "leaf",
-                "state": {
-                  "type": "todo",
-                  "state": {}
-                }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
-            "id": "ecd7f4aa8c88b9fd",
+            "id": "ad3d4ed487d83b80",
             "type": "tabs",
+            "dimension": 33.21995464852608,
             "children": [
               {
-                "id": "8366cce4602759d6",
+                "id": "0681c1fc91390064",
                 "type": "leaf",
                 "state": {
-                  "type": "file-explorer",
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d9e7813750b7d9c3",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "file": "KB Shortcuts.md",
+                    "kanbanViewState": {
+                      "kanban-plugin": "list",
+                      "list-collapse": [
+                        true,
+                        true,
+                        true,
+                        true
+                      ]
+                    }
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
         "width": 300
       },
       "right": {
-        "id": "284f41804ec6bf23",
+        "id": "f06abea8cfff7ead",
         "type": "split",
         "children": [
           {
-            "id": "f9ac30f254ff58f1",
+            "id": "3c92bffd0631ee03",
             "type": "tabs",
-            "dimension": 37.98611111111111,
+            "dimension": 38.66374589266155,
             "children": [
               {
-                "id": "7caf9e5a7a9caece",
+                "id": "be3b397cdff452e7",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "SCRATCHPAD.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "f2e2bfc990123aa5",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "SCRATCHPAD.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "93b7f70da4f9a3a9",
                 "type": "leaf",
                 "state": {
                   "type": "tag",
@@ -107,7 +169,7 @@
                 }
               },
               {
-                "id": "7d19e7b939bfb195",
+                "id": "e040b2993b66017e",
                 "type": "leaf",
                 "state": {
                   "type": "all-properties",
@@ -119,42 +181,42 @@
                 }
               },
               {
-                "id": "994b8521e7e933a9",
+                "id": "0988227cfcecefe4",
                 "type": "leaf",
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "VS/Task Managers.md"
+                    "file": "SCRATCHPAD.md"
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 4
           },
           {
-            "id": "240b527968bb8006",
+            "id": "56c74a9f5b1d7a24",
             "type": "tabs",
-            "dimension": 37.98611111111111,
+            "dimension": 44.46878422782037,
             "children": [
               {
-                "id": "d3d21e47b16cf1ca",
+                "id": "7cb3a522a16e4d3c",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "VS/Task Managers.md"
+                    "file": "SCRATCHPAD.md"
                   }
                 }
               }
             ]
           },
           {
-            "id": "88e1ce71ca8a9cdd",
+            "id": "dda2f8b8cb875f4a",
             "type": "tabs",
-            "dimension": 24.02777777777778,
+            "dimension": 16.867469879518072,
             "children": [
               {
-                "id": "125a515144f7e96b",
+                "id": "73d6458643dbbecc",
                 "type": "leaf",
                 "state": {
                   "type": "calendar",
@@ -169,23 +231,28 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian42-brat:BRAT": false,
-          "notion-like-tables:Create loom": false,
-          "obsidian-omnivore:Omnivore": false,
-          "templater-obsidian:Templater": false,
-          "obsidian-projects:Open projects": false,
-          "omnisearch:Omnisearch": false,
+          "obsidian-custom-frames:Open TOTK Armor": false,
+          "obsidian-custom-frames:Open TOTK 100%": false,
+          "obsidian-custom-frames:Open TOTK Map": false,
+          "local-backup:Run local backup": false,
+          "handwritten-notes:Create empty handwritten note": false,
           "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
+          "workspaces:Manage workspace layouts": false,
+          "custom-sort:Toggle custom sorting": false,
+          "obsidian-trash-explorer:Open trash explorer": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-kanban:Create new board": false,
+          "templater-obsidian:Templater": false,
+          "omnisearch:Omnisearch": false,
+          "canvas:Create new canvas": false,
           "daily-notes:Open today's daily note": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
-          "workspaces:Manage workspace layouts": false,
-          "card-board:CardBoard": false,
-          "handwritten-notes:Create empty handwritten note": false
+          "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
         }
       },
-      "active": "994b8521e7e933a9"
+      "active": "6f70bf883dbd7b73",
+      "mtime": "2024-09-13T16:45:37-05:00"
     }
   },
   "active": "main"

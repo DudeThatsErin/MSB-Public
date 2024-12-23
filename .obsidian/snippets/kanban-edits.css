@@ -1,0 +1,12 @@
+/* Kanban left aligned and wider */
+body .kanban-plugin__board>div {
+	margin-inline-start: 0;
+}
+
+.kanban-plugin {
+	--lane-width: 400px;
+}
+
+body .kanban-plugin__item-wrapper {
+	margin-top: 10px;
+}

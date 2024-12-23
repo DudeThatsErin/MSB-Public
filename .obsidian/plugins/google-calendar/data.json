@@ -1,0 +1,92 @@
+{
+  "googleClientId": "284059866620-4adnapbeprvg0h4nlo3eft4e7i811ftc.apps.googleusercontent.com",
+  "googleClientSecret": "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",
+  "googleRefreshToken": "",
+  "useCustomClient": true,
+  "googleOAuthServer": "https://obsidian-google-calendar.vercel.app",
+  "refreshInterval": 10,
+  "useNotification": true,
+  "showNotice": true,
+  "autoCreateEventNotes": true,
+  "autoCreateEventNotesMarker": "obsidian",
+  "ignorePatternList": [],
+  "autoCreateEventKeepOpen": false,
+  "importStartOffset": 1,
+  "importEndOffset": 1,
+  "optionalNotePrefix": "",
+  "eventNoteNameFormat": "{{prefix}}{{event-title}}",
+  "defaultCalendar": "erin.skidds@gmail.com",
+  "calendarBlackList": [],
+  "insertTemplates": [],
+  "useDefaultTemplate": false,
+  "defaultTemplate": "",
+  "activateDailyNoteAddon": false,
+  "dailyNoteDotColor": "#6aa1d8",
+  "useWeeklyNotes": true,
+  "debugMode": false,
+  "timelineHourFormat": 0,
+  "atAnnotationEnabled": true,
+  "usDateFormat": true,
+  "viewSettings": {
+    "day": {
+      "type": "day",
+      "exclude": [],
+      "include": [],
+      "hourRange": [
+        0,
+        24
+      ],
+      "offset": 0,
+      "timespan": 1,
+      "showAllDay": true,
+      "navigation": true
+    },
+    "week": {
+      "type": "week",
+      "exclude": [],
+      "include": [],
+      "hourRange": [
+        0,
+        24
+      ],
+      "offset": 0,
+      "timespan": 7,
+      "showAllDay": true,
+      "navigation": true
+    },
+    "schedule": {
+      "type": "schedule",
+      "exclude": [],
+      "include": [],
+      "hourRange": [
+        0,
+        24
+      ],
+      "offset": 0,
+      "timespan": 7,
+      "showAllDay": true,
+      "navigation": true
+    },
+    "month": {
+      "type": "month",
+      "exclude": [],
+      "include": [],
+      "offset": 0
+    },
+    "year": {
+      "type": "year",
+      "exclude": [],
+      "include": [],
+      "offset": 0,
+      "size": 15
+    },
+    "web": {
+      "type": "web",
+      "theme": "auto",
+      "view": "day",
+      "offset": 0,
+      "width": -1,
+      "height": 500
+    }
+  }
+}
