@@ -12,5 +12,6 @@
     "CSS.Banners"
   ],
   "interfaceFontFamily": "Bahnschrift",
-  "textFontFamily": "Bahnschrift"
+  "textFontFamily": "Bahnschrift",
+  "theme": "system"
 }

@@ -1,24 +1,20 @@
 [
   "dataview",
-  "obsidian-excalidraw-plugin",
   "omnisearch",
   "settings-search",
   "obsidian-style-settings",
   "text-extractor",
-  "local-backup",
   "iconic",
   "auto-card-link",
-  "home-tab",
   "paste-link",
   "obsidian-trash-explorer",
   "recent-files-obsidian",
   "obsidian-local-images-plus",
   "obsidian-kanban",
   "css-class-manager",
-  "templater-obsidian",
-  "painter",
-  "obsidian-tasks-plugin",
   "google-calendar",
-  "obsidian42-brat",
-  "pexels-banner"
+  "pexels-banner",
+  "emoji-shortcodes",
+  "handwritten-notes",
+  "templater-obsidian"
 ]

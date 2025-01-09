@@ -3,7 +3,7 @@
         [data-path="90-Attachments"],
         [data-path="01 - January"],
 				[data-path="Clipper"],
-    )), .nav-file:has(> :is([data-path="Artificial Intelligence.md"])) {
+    )), .nav-file:has(> :is([data-path="1 - Custom Styles.md"])) {
 	position: relative;
 
 	&::before {
@@ -30,11 +30,11 @@
 .nav-folder:has(> [data-path="90-Attachments"])::before { content: "📦 Storage 📦"; }
 .nav-folder:has(> [data-path="01 - January"])::before { content: "♡ Journals ♡"; }
 .nav-folder:has(> [data-path="Clipper"])::before { content: "🌿 Learning 🌿"; }
-.nav-file:has(> [data-path="Artificial Intelligence.md"])::before { content: "☆ Misc ☆"; }
+.nav-file:has(> [data-path="1 - Custom Styles.md"])::before { content: "☆ Misc ☆"; }
 
 /* files */
 .nav-file:has(> :is(
-        [data-path="Today.md"]
+        [data-path="LICENSE"]
     )) {
 	position: relative;
 
@@ -59,4 +59,4 @@
 	}
 }
 
-.nav-file:has(> [data-path="Today.md"])::before { content: "✓ Tasks ✓"; }
+.nav-file:has(> [data-path="LICENSE"])::before { content: "✓ GH REPO ✓"; }

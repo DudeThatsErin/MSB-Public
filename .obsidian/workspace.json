@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5aa25872bd253512",
+        "id": "da24aa8f3f28e14c",
         "type": "tabs",
         "children": [
           {
-            "id": "fddbc7387918b435",
+            "id": "7e679096fd82354d",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
+              "type": "empty",
               "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -29,7 +29,7 @@
       {
         "id": "56dc40d979e03a52",
         "type": "tabs",
-        "dimension": 63.05841924398626,
+        "dimension": 69.25619834710743,
         "children": [
           {
             "id": "b85d7a9e5c4795e0",
@@ -69,26 +69,6 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
-          },
-          {
-            "id": "28e59a65483f7a92",
-            "type": "leaf",
-            "state": {
-              "type": "trash-explorer",
-              "state": {},
-              "icon": "trash",
-              "title": "Trash explorer"
-            }
-          },
-          {
-            "id": "158af66501848564",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
           }
         ],
         "currentTab": 2
@@ -96,18 +76,8 @@
       {
         "id": "3b9d6dd55bd7c182",
         "type": "tabs",
-        "dimension": 36.94158075601375,
+        "dimension": 30.74380165289256,
         "children": [
-          {
-            "id": "366700df1e3d10ba",
-            "type": "leaf",
-            "state": {
-              "type": "google-calendar-view-day",
-              "state": {},
-              "icon": "layout-template",
-              "title": "GCal Timeline View"
-            }
-          },
           {
             "id": "c3339e5c2f5262ee",
             "type": "leaf",
@@ -118,12 +88,11 @@
               "title": "GCal Month View"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 337.49999618530273
   },
   "right": {
     "id": "06f801f72f4a8ae5",
@@ -134,20 +103,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "78abeed6f68f7b2d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Custom Styles.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Custom Styles"
-            }
-          },
-          {
             "id": "0b7ddfb4c234b149",
             "type": "leaf",
             "state": {
@@ -155,37 +110,6 @@
               "state": {},
               "icon": "lucide-info",
               "title": "File properties"
-            }
-          },
-          {
-            "id": "a638dd6fc2f240f6",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "23c0e190b3f33540",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
             }
           },
           {
@@ -214,12 +138,27 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "366700df1e3d10ba",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-day",
+              "state": {},
+              "icon": "layout-template",
+              "title": "GCal Timeline View"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -227,67 +166,70 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false,
+      "local-backup:Run local backup": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian42-brat:BRAT": false,
+      "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "fddbc7387918b435",
+  "active": "8b3c6e51cfc14d67",
   "lastOpenFiles": [
-    "12 - December/23 -  December.md",
-    "90-Attachments/90-Banners/Christmas Red Green Wreath.png",
-    "12 - December/23 -  December.svg",
-    "Artificial Intelligence.md",
-    "100-Resources/Templates/Daily Note Template.md",
-    "10 - October/30 - October.md",
-    "10 - October/31 - October.md",
-    "10 - October/29 - October.md",
-    "10 - October/28 - October.md",
-    "10 - October/27 - October.md",
-    "10 - October/26 - October.md",
-    "10 - October/25 - October.md",
-    "10 - October/24 - October.md",
-    "10 - October/23 - October.md",
-    "10 - October/22 - October.md",
-    "10 - October/21 - October.md",
-    "10 - October/19 - October.md",
-    "10 - October/20 - October.md",
-    "10 - October/18 - October.md",
-    "10 - October/17 - October.md",
-    "10 - October/16 - October.md",
-    "10 - October/14 - October.md",
-    "10 - October/15 - October.md",
-    "10 - October/13 - October.md",
-    "10 - October/12 - October.md",
-    "10 - October/11 - October.md",
-    "10 - October/10 - October.md",
-    "10 - October",
-    "09 - September",
-    "08 - August",
-    "07 - July",
+    "01 - January/9 January.md",
+    "11 - November/9 November.md",
+    "11 - November/8 November.md",
+    "11 - November/7 November.md",
+    "11 - November/6 November.md",
+    "11 - November/5 November.md",
+    "11 - November/4 November.md",
+    "11 - November/30 November.md",
+    "11 - November/3 November.md",
+    "11 - November/29 November.md",
+    "11 - November/28 November.md",
+    "11 - November/27 November.md",
+    "11 - November/26 November.md",
+    "11 - November/24 November.md",
+    "11 - November/25 November.md",
+    "11 - November/23 November.md",
+    "11 - November/22 November.md",
+    "11 - November/21 November.md",
+    "11 - November/20 November.md",
+    "11 - November/2 November.md",
+    "11 - November/19 November.md",
+    "11 - November/18 November.md",
+    "11 - November/17 November.md",
+    "11 - November/16 November.md",
+    "11 - November/15 November.md",
+    "11 - November/14 November.md",
+    "11 - November",
     "06 - June",
     "05 - May",
     "04 - April",
     "03 - March",
     "02 - February",
     "01 - January",
+    "100-Resources/Templates/Daily Note Template 2.svg",
     "100-Resources/Templates/Daily Note Template.svg",
-    "Journals/90-Attachments/Finances.md_Attachments/Pasted Image 20241202191826_926.png",
-    "Journals/2nd - Monday.svg",
-    "Daily Notes/2024/11-Nov/90-Attachments/Finances.md_Attachments/Pasted Image 20241124164436_929.png",
-    "Daily Notes/2024/11-Nov/24th - Sunday.svg",
-    "Daily Notes/2024/11-Nov/90-Attachments/Finances.md_Attachments/Pasted Image 20241123180659_833.png",
-    "Daily Notes/2024/11-Nov/23rd - Saturday.sync-conflict-20241124-000020-JTK3EZN.svg",
-    "Daily Notes/2024/11-Nov/23rd - Saturday.svg",
+    "100-Resources/Templater/classquestion.js",
+    "100-Resources/Templater/Timeline.js",
+    "100-Resources/Templater/EmojiTitle.js",
+    "90-Attachments/93-Drawings/Ai Drawing.light.svg",
+    "90-Attachments/93-Drawings/Ai Drawing.dark.svg",
+    "90-Attachments/90-Banners/teal_waves.PNG",
+    "90-Attachments/90-Banners/sunset_boat.jpeg",
+    "90-Attachments/90-Banners/red_mountains_sunset_drawing.PNG",
+    "90-Attachments/90-Banners/purple_snow_reindeer.PNG",
+    "90-Attachments/90-Banners/purple_blue_savannah.JPEG",
+    "90-Attachments/90-Banners/purple_abstract_waves.JPEG",
     "DBs/Currents.canvas"
   ]
 }
