@@ -9,11 +9,15 @@
   "numberOfImages": 10,
   "defaultKeywords": "nature, abstract, landscape, technology, art, cityscape, wildlife, ocean, mountains, forest, space, architecture, food, travel, science, music, sports, fashion, business, education, health, culture, history, weather, transportation, industry, people, animals, plants, patterns",
   "yPosition": 50,
+  "xPosition": 50,
   "customBannerField": [
     "banner"
   ],
   "customYPositionField": [
     "banner-y"
+  ],
+  "customXPositionField": [
+    "banner-x"
   ],
   "customContentStartField": [
     "content-start"
@@ -47,7 +51,9 @@
       "contentStartPosition": 150,
       "enableImageShuffle": false,
       "shuffleFolder": "90-Attachments/90-Banners",
-      "imageRepeat": false
+      "imageRepeat": false,
+      "imageDisplay": "cover",
+      "directChildrenOnly": false
     },
     {
       "folder": "02 - February",
@@ -55,7 +61,10 @@
       "yPosition": 50,
       "contentStartPosition": 150,
       "enableImageShuffle": false,
-      "shuffleFolder": "90-Attachments/90-Banners"
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "imageDisplay": "cover",
+      "imageRepeat": false,
+      "directChildrenOnly": false
     },
     {
       "folder": "03 - March",
@@ -63,7 +72,10 @@
       "yPosition": 50,
       "contentStartPosition": 150,
       "enableImageShuffle": false,
-      "shuffleFolder": "90-Attachments/90-Banners"
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "imageDisplay": "cover",
+      "imageRepeat": false,
+      "directChildrenOnly": false
     },
     {
       "folder": "04 - April",
@@ -71,7 +83,10 @@
       "yPosition": 50,
       "contentStartPosition": 150,
       "enableImageShuffle": false,
-      "shuffleFolder": "90-Attachments/90-Banners"
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "imageDisplay": "cover",
+      "imageRepeat": false,
+      "directChildrenOnly": false
     },
     {
       "folder": "05 - May",
@@ -79,7 +94,10 @@
       "yPosition": 50,
       "contentStartPosition": 150,
       "enableImageShuffle": false,
-      "shuffleFolder": "90-Attachments/90-Banners"
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "imageDisplay": "cover",
+      "imageRepeat": false,
+      "directChildrenOnly": false
     },
     {
       "folder": "06 - June",
@@ -87,7 +105,10 @@
       "yPosition": 50,
       "contentStartPosition": 150,
       "enableImageShuffle": false,
-      "shuffleFolder": "90-Attachments/90-Banners"
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "imageDisplay": "cover",
+      "imageRepeat": false,
+      "directChildrenOnly": false
     },
     {
       "folder": "07 - July",
@@ -95,7 +116,10 @@
       "yPosition": 50,
       "contentStartPosition": 150,
       "enableImageShuffle": false,
-      "shuffleFolder": "90-Attachments/90-Banners"
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "imageDisplay": "cover",
+      "imageRepeat": false,
+      "directChildrenOnly": false
     },
     {
       "folder": "08 - August",
@@ -103,7 +127,10 @@
       "yPosition": 50,
       "contentStartPosition": 150,
       "enableImageShuffle": false,
-      "shuffleFolder": "90-Attachments/90-Banners"
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "imageDisplay": "cover",
+      "imageRepeat": false,
+      "directChildrenOnly": false
     },
     {
       "folder": "09 - September",
@@ -111,7 +138,10 @@
       "yPosition": 50,
       "contentStartPosition": 150,
       "enableImageShuffle": false,
-      "shuffleFolder": "90-Attachments/90-Banners"
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "imageDisplay": "cover",
+      "imageRepeat": false,
+      "directChildrenOnly": false
     },
     {
       "folder": "10 - October",
@@ -119,7 +149,10 @@
       "yPosition": 50,
       "contentStartPosition": 150,
       "enableImageShuffle": false,
-      "shuffleFolder": "90-Attachments/90-Banners"
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "imageDisplay": "cover",
+      "imageRepeat": false,
+      "directChildrenOnly": false
     },
     {
       "folder": "11 - November",
@@ -127,7 +160,10 @@
       "yPosition": 50,
       "contentStartPosition": 150,
       "enableImageShuffle": false,
-      "shuffleFolder": "90-Attachments/90-Banners"
+      "shuffleFolder": "90-Attachments/90-Banners",
+      "imageDisplay": "cover",
+      "imageRepeat": false,
+      "directChildrenOnly": false
     },
     {
       "folder": "12 - December",
@@ -138,7 +174,9 @@
       "shuffleFolder": "90-Attachments/90-Banners",
       "fade": -310,
       "imageRepeat": false,
-      "titleColor": "#abdeb4"
+      "titleColor": "#abdeb4",
+      "imageDisplay": "cover",
+      "directChildrenOnly": false
     }
   ],
   "contentStartPosition": 150,
@@ -150,12 +188,17 @@
   "showPinIcon": true,
   "pinnedImageFolder": "90-Attachments/90-Banners",
   "showReleaseNotes": true,
-  "lastVersion": "2.14.0",
+  "lastVersion": "2.19.2",
   "showRefreshIcon": true,
   "showViewImageIcon": true,
   "hidePixelBannerFields": false,
   "hidePropertiesSectionIfOnlyBanner": false,
   "titleColor": "var(--inline-title-color)",
   "enableImageShuffle": false,
-  "hideEmbeddedNoteTitles": true
+  "hideEmbeddedNoteTitles": true,
+  "hideEmbeddedNoteBanners": false,
+  "showSelectImageIcon": true,
+  "defaultSelectImagePath": "",
+  "useShortPath": true,
+  "bannerGap": 12
 }

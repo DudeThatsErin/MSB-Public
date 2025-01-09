@@ -2,7 +2,7 @@
   "googleClientId": "XXX",
   "googleClientSecret": "XXXX",
   "googleRefreshToken": "",
-  "useCustomClient": true,
+  "useCustomClient": false,
   "googleOAuthServer": "https://obsidian-google-calendar.vercel.app",
   "refreshInterval": 10,
   "useNotification": true,

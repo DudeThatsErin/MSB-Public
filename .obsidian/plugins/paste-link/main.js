@@ -278,7 +278,7 @@ var toUrl = (str) => {
 var to_url_default = toUrl;
 
 // src/main.ts
-var PasteLinkPlugin = class extends import_obsidian5.Plugin {
+var _PasteLinkPlugin = class extends import_obsidian5.Plugin {
   insertIntoSelection(editor, link) {
     editor.replaceSelection(link);
     if (link.startsWith("[]")) {
@@ -384,7 +384,8 @@ var PasteLinkPlugin = class extends import_obsidian5.Plugin {
     this.addCommand({
       id: "paste-link",
       name: "Paste Markdown link",
-      editorCallback: this.pasteLink.bind(this)
+      editorCallback: this.pasteLink.bind(this),
+      icon: _PasteLinkPlugin.icon
     });
     this.addCommand({
       id: "paste-as-plain-text",
@@ -399,17 +400,20 @@ var PasteLinkPlugin = class extends import_obsidian5.Plugin {
             import_obsidian5.Platform.isMacOS || import_obsidian5.Platform.isIosApp ? "Meta" : "Ctrl"
           ]
         }
-      ]
+      ],
+      icon: _PasteLinkPlugin.icon
     });
     this.addCommand({
       id: "paste-link-and-fetch-title",
       name: "Paste link and fetch page title",
-      editorCallback: this.pasteLinkAndFetchTitle.bind(this)
+      editorCallback: this.pasteLinkAndFetchTitle.bind(this),
+      icon: _PasteLinkPlugin.icon
     });
     this.addCommand({
       id: "paste-link-and-fetch-full-title",
       name: "Paste link and fetch full page title",
-      editorCallback: this.pasteLinkAndFetchFullTitle.bind(this)
+      editorCallback: this.pasteLinkAndFetchFullTitle.bind(this),
+      icon: _PasteLinkPlugin.icon
     });
   }
   async loadSettings() {
@@ -423,5 +427,7 @@ var PasteLinkPlugin = class extends import_obsidian5.Plugin {
     await this.saveData(this.settings);
   }
 };
+var PasteLinkPlugin = _PasteLinkPlugin;
+PasteLinkPlugin.icon = "clipboard-paste";
 
 /* nosourcemap */
